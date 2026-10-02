@@ -47,12 +47,14 @@
     background: transparent;
   }
   .swipe-icon {
-    font-size: 140px;
-    font-weight: 900;
-    line-height: 1;
+    width: 180px;
+    height: 180px;
+    color: #ffffff;
     opacity: 0;
-    user-select: none;
+    filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.35));
+    will-change: opacity;
   }
+  .swipe-icon svg { width: 100%; height: 100%; display: block; }
   .front { text-align: center; position: relative; z-index: 1; }
   .word { font-size: 40px; font-weight: 700; color: #f8fafc; letter-spacing: -0.5px; line-height: 1.2; }
   .hint { font-size: 13px; color: #64748b; margin-top: 20px; }
@@ -149,7 +151,7 @@
     .word { font-size: 30px; }
     .card { padding: 20px 16px; min-height: 340px; }
     button { font-size: 13px; padding: 9px 12px; }
-    .swipe-icon { font-size: 100px; }
+    .swipe-icon { width: 130px; height: 130px; }
   }
 </style>
 </head>
@@ -166,7 +168,17 @@
 
   <div class="card" id="card">
     <div class="swipe-overlay" id="swipeOverlay">
-      <div class="swipe-icon" id="swipeIcon">✓</div>
+      <div class="swipe-icon" id="swipeIcon">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <path id="swipeIconPath"
+                d=""
+                stroke="currentColor"
+                stroke-width="12"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"/>
+        </svg>
+      </div>
     </div>
     <div id="cardContent"><div class="front"><div class="word">Loading…</div></div></div>
   </div>
@@ -595,16 +607,26 @@ function setFilter(f) {
 }
 
 // --- Swipe visual feedback ---
-const TOUCH_THRESHOLD = 70;    // px on touchscreens
-const TOUCH_MAX = 150;         // px for full color on touch
+const TOUCH_THRESHOLD = 60;    // px on touchscreens
+const TOUCH_MAX = 110;         // px for full color on touch — smaller = faster
 
 const WHEEL_THRESHOLD = 90;    // accumulated deltaX from trackpad
 const WHEEL_MAX = 220;         // accumulated deltaX for full color
 
-const COMMIT_FLASH_MS = 180;   // how long to hold full color before advancing
+const COMMIT_FLASH_MS = 260;   // hold full color long enough to be seen
 const WHEEL_LOCK_MS = 260;     // silence required to unlock after a commit
 
+const ICON_PATHS = {
+  known: 'M 22 52 L 44 74 L 80 26',
+  unknown: 'M 26 26 L 74 74 M 74 26 L 26 74'
+};
+
 let swipeCommitting = false;
+
+function setSwipeIcon(direction) {
+  const path = document.getElementById('swipeIconPath');
+  if (path) path.setAttribute('d', ICON_PATHS[direction] || '');
+}
 
 function updateSwipeVisual(dx, max) {
   const overlay = document.getElementById('swipeOverlay');
@@ -613,30 +635,28 @@ function updateSwipeVisual(dx, max) {
 
   const absDx = Math.abs(dx);
 
-  if (absDx < 8) {
+  if (absDx < 6) {
     overlay.style.background = 'transparent';
     icon.style.opacity = '0';
     return;
   }
 
-  const intensity = Math.min(1, absDx / max);
+  // Saturate faster so short flicks still show real color.
+  const raw = Math.min(1, absDx / max);
+  const intensity = Math.pow(raw, 0.7);
 
-  // Fills from transparent to fully solid as you swipe.
+  // Background goes fully opaque at max intensity.
   const bgAlpha = intensity;
 
-  // Icon appears early so you get feedback before the card fills.
-  const iconAlpha = Math.max(0, (intensity - 0.10) / 0.90);
+  // Icon fades in almost immediately so it's visible even on flicks.
+  const iconAlpha = Math.min(1, intensity * 1.5);
 
   if (dx > 0) {
-    // Right = Known = green ✓
     overlay.style.background = `rgba(16, 185, 129, ${bgAlpha})`;
-    icon.textContent = '✓';
-    icon.style.color = '#ffffff';
+    setSwipeIcon('known');
   } else {
-    // Left = Unknown = red ✗
     overlay.style.background = `rgba(220, 38, 38, ${bgAlpha})`;
-    icon.textContent = '✗';
-    icon.style.color = '#ffffff';
+    setSwipeIcon('unknown');
   }
 
   icon.style.opacity = String(iconAlpha);
@@ -656,22 +676,30 @@ function commitSwipe(direction) {
   const overlay = document.getElementById('swipeOverlay');
   const icon = document.getElementById('swipeIcon');
 
-  // Paint full solid color and freeze for a beat.
   if (direction === 'known') {
     overlay.style.background = 'rgb(16, 185, 129)';
-    icon.textContent = '✓';
+    setSwipeIcon('known');
   } else {
     overlay.style.background = 'rgb(220, 38, 38)';
-    icon.textContent = '✗';
+    setSwipeIcon('unknown');
   }
-  icon.style.color = '#ffffff';
   icon.style.opacity = '1';
 
-  setTimeout(() => {
-    mark(direction);
-    resetSwipeVisual();
-    swipeCommitting = false;
-  }, COMMIT_FLASH_MS);
+  // Force a repaint so the flash is actually visible before we advance.
+  // Reading layout properties flushes pending style + paint on all engines.
+  void overlay.offsetHeight;
+  void icon.offsetHeight;
+
+  // Double rAF: guarantees at least one full paint frame with the flash.
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        mark(direction);
+        resetSwipeVisual();
+        swipeCommitting = false;
+      }, COMMIT_FLASH_MS);
+    });
+  });
 }
 
 const cardElement = document.getElementById('card');
@@ -731,8 +759,8 @@ cardElement.addEventListener('touchend', event => {
 
   const isHorizontalSwipe =
     horizontalDistance >= TOUCH_THRESHOLD &&
-    horizontalDistance > verticalDistance * 1.25 &&
-    duration <= 800;
+    horizontalDistance > verticalDistance * 1.15 &&
+    duration <= 900;
 
   if (isHorizontalSwipe) {
     if (dx > 0) commitSwipe('known');
@@ -748,9 +776,6 @@ cardElement.addEventListener('touchend', event => {
 }, { passive: true });
 
 // --- Wheel / trackpad (macOS two-finger swipe) ---
-// One physical gesture fires dozens of wheel events. We lock the gesture
-// after the first commit and stay locked until the trackpad goes quiet,
-// so a single swipe can only ever produce one mark.
 let wheelAccum = 0;
 let wheelQuietTimer = null;
 let wheelLocked = false;
@@ -768,8 +793,6 @@ function armWheelLock() {
 cardElement.addEventListener('wheel', event => {
   const { deltaX, deltaY, momentumPhase } = event;
 
-  // While locked, swallow every event and keep resetting the quiet timer.
-  // The gesture stays locked until events stop arriving for WHEEL_LOCK_MS.
   if (wheelLocked) {
     clearTimeout(wheelQuietTimer);
     wheelQuietTimer = setTimeout(() => {
@@ -781,10 +804,8 @@ cardElement.addEventListener('wheel', event => {
 
   if (swipeCommitting) return;
 
-  // Ignore the momentum tail entirely.
   if (momentumPhase && momentumPhase !== 'none') return;
 
-  // Not horizontal enough. Reset any partial accumulation.
   if (Math.abs(deltaX) <= Math.abs(deltaY) * 1.15) {
     if (wheelAccum !== 0) {
       wheelAccum = 0;
@@ -794,17 +815,12 @@ cardElement.addEventListener('wheel', event => {
     return;
   }
 
-  // Prevent macOS back/forward navigation on horizontal swipes.
   event.preventDefault();
 
-  // Invert deltaX so physical swipe direction matches the touch path.
-  //   physical swipe right → +accum  → Known
-  //   physical swipe left  → -accum  → Unknown
   wheelAccum -= deltaX;
 
   updateSwipeVisual(wheelAccum, WHEEL_MAX);
 
-  // Commit on threshold crossing, then lock until the gesture ends.
   if (Math.abs(wheelAccum) >= WHEEL_THRESHOLD) {
     const dir = wheelAccum > 0 ? 'known' : 'unknown';
     armWheelLock();
@@ -812,7 +828,6 @@ cardElement.addEventListener('wheel', event => {
     return;
   }
 
-  // If the user pauses without reaching threshold, clear the partial swipe.
   clearTimeout(wheelQuietTimer);
   wheelQuietTimer = setTimeout(() => {
     wheelAccum = 0;
@@ -820,8 +835,6 @@ cardElement.addEventListener('wheel', event => {
   }, 220);
 }, { passive: false });
 
-// Desktop mouse click-to-flip. Touch taps are handled by the touch handler,
-// so suppress the synthetic click generated after a touch.
 cardElement.addEventListener('click', () => {
   if (touchInteraction) {
     touchInteraction = false;
