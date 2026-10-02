@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0f172a">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="manifest" href="manifest.json">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="theme-color" content="#0f172a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>GRE 1000 Flashcards</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -28,6 +28,7 @@
     min-height: 400px; display: flex; flex-direction: column; justify-content: center;
     cursor: pointer; box-shadow: 0 4px 24px rgba(0,0,0,0.3);
     transition: transform 0.15s ease; user-select: none; overflow-y: auto;
+    touch-action: pan-y;
   }
   .card:active { transform: scale(0.99); }
   .front { text-align: center; }
@@ -77,97 +78,56 @@
     border: 1px solid #334155;
   }
   .settings-btn:hover { background: #334155; color: #e2e8f0; }
-
   .modal-backdrop {
-    display: none;
-    position: fixed;
-    inset: 0;
-    z-index: 1000;
-    background: rgba(2, 6, 23, 0.72);
-    backdrop-filter: blur(3px);
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
+    display: none; position: fixed; inset: 0; z-index: 1000;
+    background: rgba(2, 6, 23, 0.72); backdrop-filter: blur(3px);
+    align-items: center; justify-content: center; padding: 16px;
   }
   .modal-backdrop.open { display: flex; }
-
   .settings-modal {
-    width: min(420px, 100%);
-    background: #1e293b;
-    border: 1px solid #334155;
-    border-radius: 14px;
-    padding: 18px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    width: min(420px, 100%); background: #1e293b; border: 1px solid #334155;
+    border-radius: 14px; padding: 18px; box-shadow: 0 20px 60px rgba(0,0,0,0.45);
   }
   .modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 18px;
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 12px; margin-bottom: 18px;
   }
   .modal-title { font-size: 16px; font-weight: 650; color: #f8fafc; }
   .modal-subtitle { margin-top: 4px; font-size: 12px; color: #64748b; }
   .modal-close {
-    flex: 0 0 auto;
-    min-width: 32px;
-    width: 32px;
-    height: 32px;
-    padding: 0;
-    font-size: 22px;
-    line-height: 1;
-    background: #334155;
+    flex: 0 0 auto; min-width: 32px; width: 32px; height: 32px;
+    padding: 0; font-size: 22px; line-height: 1; background: #334155;
   }
   .modal-field { margin-bottom: 14px; }
   .modal-field label {
-    display: block;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #94a3b8;
-    margin-bottom: 6px;
-    font-weight: 600;
+    display: block; font-size: 11px; text-transform: uppercase;
+    letter-spacing: 1px; color: #94a3b8; margin-bottom: 6px; font-weight: 600;
   }
   .modal-field input {
-    width: 100%;
-    padding: 10px 11px;
-    border-radius: 8px;
-    border: 1px solid #475569;
-    background: #0f172a;
-    color: #e2e8f0;
-    outline: none;
-    font-size: 13px;
+    width: 100%; padding: 10px 11px; border-radius: 8px;
+    border: 1px solid #475569; background: #0f172a; color: #e2e8f0;
+    outline: none; font-size: 13px;
   }
   .modal-field input:focus { border-color: #6366f1; }
   .field-note { margin-top: 5px; font-size: 11px; color: #64748b; }
   .modal-actions { display: flex; gap: 8px; margin-top: 4px; }
   .modal-actions button { flex: 1; }
   .sync-status {
-    min-height: 18px;
-    margin-top: 10px;
-    font-size: 12px;
-    line-height: 1.4;
-    color: #94a3b8;
+    min-height: 18px; margin-top: 10px; font-size: 12px;
+    line-height: 1.4; color: #94a3b8;
   }
   .sync-status.ok { color: #86efac; }
   .sync-status.err { color: #fca5a5; }
   .clear-btn {
-    width: auto;
-    min-width: 0;
-    padding: 6px 9px;
-    margin-top: 4px;
-    background: transparent;
-    color: #64748b;
-    font-size: 11px;
+    width: auto; min-width: 0; padding: 6px 9px; margin-top: 4px;
+    background: transparent; color: #64748b; font-size: 11px;
   }
   .clear-btn:hover { background: #334155; color: #cbd5e1; }
-
   @media (max-width: 480px) {
     .word { font-size: 30px; }
     .card { padding: 20px 16px; min-height: 340px; }
     button { font-size: 13px; padding: 9px 12px; }
   }
-
   .sync-panel {
     margin-top: 12px; padding: 12px; background: #111827;
     border: 1px solid #334155; border-radius: 10px;
@@ -178,11 +138,7 @@
     border: 1px solid #334155; border-radius: 7px; padding: 8px 10px; font-size: 13px;
   }
   .sync-title { font-size: 12px; font-weight: 600; color: #cbd5e1; }
-  .sync-status { margin-top: 8px; font-size: 12px; color: #94a3b8; min-height: 16px; }
-  .sync-status.ok { color: #86efac; }
-  .sync-status.err { color: #fca5a5; }
   .sync-note { margin-top: 7px; font-size: 11px; color: #64748b; line-height: 1.4; }
-
 </style>
 </head>
 <body>
@@ -193,7 +149,7 @@
   </header>
   <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
 
-  <div class="card" id="card" onclick="flip()">
+  <div class="card" id="card">
     <div id="cardContent"><div class="front"><div class="word">Loading…</div></div></div>
   </div>
 
@@ -248,12 +204,10 @@
       <button class="clear-btn" onclick="clearSyncSettings()">Clear Gist URL</button>
     </div>
   </div>
-
 </div>
 
 <script src="data.js"></script>
 <script>
-// --- Declarations first ---
 let queue = [];
 let current = 0;
 let flipped = false;
@@ -263,15 +217,71 @@ let syncTimer = null;
 let syncBusy = false;
 
 const GIST_FILE = 'gre-status.json';
+const SESSION_VERSION = 1;
 
-// ============================================================
-// GITHUB SYNC CONFIG
-// Put your Gist URL here before deploying.
-// The PAT is entered by the user in the Settings popup.
-// ============================================================
+let session = loadSessionState();
 const BAKED_GIST_URL = 'PASTE_YOUR_GIST_URL_HERE';
 
-// --- GitHub Gist Sync ---
+function defaultSessionState() {
+  return {
+    version: SESSION_VERSION,
+    current: 0,
+    filter: 'all',
+    flipped: false,
+    queue: []
+  };
+}
+
+function loadSessionState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('gre-session') || 'null');
+    if (!saved || saved.version !== SESSION_VERSION) return defaultSessionState();
+    return {
+      ...defaultSessionState(),
+      ...saved,
+      queue: Array.isArray(saved.queue) ? saved.queue : []
+    };
+  } catch {
+    return defaultSessionState();
+  }
+}
+
+function saveSessionState() {
+  session = {
+    version: SESSION_VERSION,
+    current,
+    filter,
+    flipped,
+    queue: queue.map(e => e.word)
+  };
+  localStorage.setItem('gre-session', JSON.stringify(session));
+}
+
+function applySessionState(saved) {
+  if (!saved || saved.version !== SESSION_VERSION) return false;
+
+  const byWord = new Map(GRE_WORDS.map(e => [e.word, e]));
+  const restoredQueue = Array.isArray(saved.queue)
+    ? saved.queue.map(word => byWord.get(word)).filter(Boolean)
+    : [];
+
+  if (restoredQueue.length > 0) {
+    queue = restoredQueue;
+    filter = ['all', 'known', 'unknown'].includes(saved.filter) ? saved.filter : 'all';
+    current = Math.min(Math.max(Number(saved.current) || 0, 0), queue.length - 1);
+    flipped = Boolean(saved.flipped);
+
+    document.querySelectorAll('.filters button').forEach(b =>
+      b.classList.toggle('active', b.dataset.filter === filter)
+    );
+
+    render();
+    return true;
+  }
+
+  return false;
+}
+
 function setSyncStatus(message, type = '') {
   const el = document.getElementById('syncStatus');
   if (!el) return;
@@ -334,7 +344,7 @@ async function loadFromGist(silent = false) {
       gist.files[GIST_FILE] ||
       Object.values(gist.files).find(f => f.filename.endsWith('.json'));
 
-    if (!file) throw new Error(`No JSON status file found in this Gist.`);
+    if (!file) throw new Error('No JSON status file found in this Gist.');
 
     const remote = JSON.parse(file.content);
     if (!remote || typeof remote.status !== 'object') {
@@ -343,10 +353,17 @@ async function loadFromGist(silent = false) {
 
     status = remote.status;
     saveLocalStatus();
-    buildQueue();
 
-    const when = remote.updatedAt ? new Date(remote.updatedAt).toLocaleString() : 'unknown time';
-    setSyncStatus(`Loaded ${Object.keys(status).length} statuses from Gist (${when}).`, 'ok');
+    if (remote.session) {
+      const restored = applySessionState(remote.session);
+      if (restored) {
+        setSyncStatus(`Loaded ${Object.keys(status).length} statuses and session from Gist.`, 'ok');
+        return true;
+      }
+    }
+
+    buildQueue();
+    setSyncStatus(`Loaded ${Object.keys(status).length} statuses from Gist.`, 'ok');
     return true;
   } catch (error) {
     console.error(error);
@@ -371,17 +388,20 @@ async function saveToGist(silent = false) {
   }
 
   saveSyncUrl();
+  saveSessionState();
+
   syncBusy = true;
-  setSyncStatus('Saving to Gist…');
+  if (!silent) setSyncStatus('Saving to Gist…');
 
   try {
     const payload = {
       files: {
         [GIST_FILE]: {
           content: JSON.stringify({
-            version: 1,
+            version: 2,
             updatedAt: new Date().toISOString(),
-            status
+            status,
+            session
           }, null, 2)
         }
       }
@@ -395,7 +415,7 @@ async function saveToGist(silent = false) {
 
     if (!response.ok) throw new Error(`GitHub API ${response.status}: ${await response.text()}`);
 
-    setSyncStatus(`Saved ${Object.keys(status).length} statuses to Gist.`, 'ok');
+    setSyncStatus(`Saved ${Object.keys(status).length} statuses and session to Gist.`, 'ok');
     return true;
   } catch (error) {
     console.error(error);
@@ -414,6 +434,11 @@ function queueGistSave() {
   }, 1200);
 }
 
+function persistState() {
+  saveSessionState();
+  queueGistSave();
+}
+
 function clearSyncSettings() {
   if (!confirm('Clear the saved Gist URL override from this browser?')) return;
   gistUrlInput.value = BAKED_GIST_URL !== 'PASTE_YOUR_GIST_URL_HERE'
@@ -423,27 +448,30 @@ function clearSyncSettings() {
   setSyncStatus('Gist URL reset.');
 }
 
-// --- Functions ---
 function saveStatus() {
   saveLocalStatus();
-  queueGistSave();
+  persistState();
 }
 
 function buildQueue() {
   if (filter === 'known') queue = GRE_WORDS.filter(e => status[e.word] === 'known');
   else if (filter === 'unknown') queue = GRE_WORDS.filter(e => status[e.word] === 'unknown');
   else queue = GRE_WORDS.slice();
-  current = 0;
+
+  current = Math.min(current, Math.max(queue.length - 1, 0));
   flipped = false;
   render();
+  persistState();
 }
 
 function render() {
   const card = document.getElementById('cardContent');
   const knownCount = Object.values(status).filter(v => v === 'known').length;
   const unknownCount = Object.values(status).filter(v => v === 'unknown').length;
+
   document.getElementById('stats').textContent =
     `${queue.length ? current + 1 : 0} / ${queue.length}  •  ✓${knownCount}  ✗${unknownCount}`;
+
   document.getElementById('progress').style.width =
     queue.length ? ((current + 1) / queue.length * 100) + '%' : '0%';
 
@@ -453,15 +481,18 @@ function render() {
   }
 
   const e = queue[current];
+
   if (!flipped) {
-    card.innerHTML = `<div class="front"><div class="word">${e.word}</div><div class="hint">click or press Space to flip</div></div>`;
+    card.innerHTML = `<div class="front"><div class="word">${e.word}</div><div class="hint">tap to flip • swipe left/right to navigate</div></div>`;
   } else {
     const syns = e.synonyms.map(s =>
       `<div class="rel-item"><div class="rel-word syn">${s.word}</div><div class="rel-sentence">${s.sentence}</div></div>`
     ).join('');
+
     const ants = e.antonyms.map(a =>
       `<div class="rel-item"><div class="rel-word ant">${a.word}</div><div class="rel-sentence">${a.sentence}</div></div>`
     ).join('');
+
     card.innerHTML = `
       <div class="back">
         <div class="word-sm">${e.word}</div>
@@ -476,15 +507,36 @@ function render() {
   document.getElementById('unknownBtn').classList.toggle('active', status[e.word] === 'unknown');
 }
 
-function flip() { if (!queue.length) return; flipped = !flipped; render(); }
-function next() { if (!queue.length) return; current = (current + 1) % queue.length; flipped = false; render(); }
-function prev() { if (!queue.length) return; current = (current - 1 + queue.length) % queue.length; flipped = false; render(); }
+function flip() {
+  if (!queue.length) return;
+  flipped = !flipped;
+  persistState();
+  render();
+}
+
+function next() {
+  if (!queue.length) return;
+  current = (current + 1) % queue.length;
+  flipped = false;
+  persistState();
+  render();
+}
+
+function prev() {
+  if (!queue.length) return;
+  current = (current - 1 + queue.length) % queue.length;
+  flipped = false;
+  persistState();
+  render();
+}
 
 function mark(s) {
   if (!queue.length) return;
   const e = queue[current];
+
   if (status[e.word] === s) delete status[e.word];
   else status[e.word] = s;
+
   saveStatus();
   next();
 }
@@ -494,31 +546,133 @@ function shuffle() {
     const j = Math.floor(Math.random() * (i + 1));
     [queue[i], queue[j]] = [queue[j], queue[i]];
   }
-  current = 0; flipped = false; render();
+
+  current = 0;
+  flipped = false;
+  persistState();
+  render();
 }
 
 function reset() {
   if (!confirm('Reset all progress?')) return;
+
   status = {};
   saveStatus();
-  buildQueue();
+
+  filter = 'all';
+  queue = GRE_WORDS.slice();
+  current = 0;
+  flipped = false;
+
+  persistState();
+  render();
 }
 
 function setFilter(f) {
   filter = f;
+
   document.querySelectorAll('.filters button').forEach(b =>
-    b.classList.toggle('active', b.dataset.filter === f));
+    b.classList.toggle('active', b.dataset.filter === f)
+  );
+
   buildQueue();
 }
+    // Desktop mouse click-to-flip. Touch taps are handled by the touch
+    // handler, so suppress the synthetic click generated after a touch.
+    let touchInteraction = false;
+
+    card.addEventListener('touchstart', () => {
+      touchInteraction = true;
+    }, { passive: true });
+
+    card.addEventListener('click', () => {
+      if (touchInteraction) {
+        touchInteraction = false;
+        return;
+      }
+      flip();
+    });
+
 
 document.addEventListener('keydown', e => {
   if (e.target.tagName === 'INPUT') return;
-  if (e.code === 'Space') { e.preventDefault(); flip(); }
-  else if (e.key === 'ArrowRight') next();
-  else if (e.key === 'ArrowLeft') prev();
-  else if (e.key === '1') mark('known');
-  else if (e.key === '2') mark('unknown');
+
+  if (e.code === 'Space') {
+    e.preventDefault();
+    flip();
+  } else if (e.key === 'ArrowRight') {
+    next();
+  } else if (e.key === 'ArrowLeft') {
+    prev();
+  } else if (e.key === '1') {
+    mark('known');
+  } else if (e.key === '2') {
+    mark('unknown');
+  }
 });
+
+// Swipe handling.
+// Horizontal swipes navigate; taps still flip the card.
+// Vertical movement is ignored so the back of a card remains scrollable.
+const cardElement = document.getElementById('card');
+let touchStartX = 0;
+let touchStartY = 0;
+let touchStartTime = 0;
+let touchMoved = false;
+
+cardElement.addEventListener('touchstart', event => {
+  if (!event.touches.length) return;
+
+  const touch = event.touches[0];
+  touchStartX = touch.clientX;
+  touchStartY = touch.clientY;
+  touchStartTime = Date.now();
+  touchMoved = false;
+}, { passive: true });
+
+cardElement.addEventListener('touchmove', event => {
+  if (!event.touches.length) return;
+
+  const touch = event.touches[0];
+  const dx = touch.clientX - touchStartX;
+  const dy = touch.clientY - touchStartY;
+
+  if (Math.abs(dx) > 10 || Math.abs(dy) > 10) {
+    touchMoved = true;
+  }
+}, { passive: true });
+
+cardElement.addEventListener('touchend', event => {
+  if (!touchStartTime) return;
+
+  const touch = event.changedTouches[0];
+  const dx = touch.clientX - touchStartX;
+  const dy = touch.clientY - touchStartY;
+  const duration = Date.now() - touchStartTime;
+
+  const horizontalDistance = Math.abs(dx);
+  const verticalDistance = Math.abs(dy);
+
+  touchStartTime = 0;
+
+  // Treat a sufficiently large horizontal gesture as a swipe.
+  // The velocity condition makes short, deliberate flicks work too.
+  const isHorizontalSwipe =
+    horizontalDistance >= 60 &&
+    horizontalDistance > verticalDistance * 1.25 &&
+    duration <= 800;
+
+  if (isHorizontalSwipe) {
+    if (dx < 0) next();
+    else prev();
+    return;
+  }
+
+  // A normal tap/click should flip the card.
+  if (!touchMoved && duration <= 500) {
+    flip();
+  }
+}, { passive: true });
 
 // --- Sync settings ---
 const gistUrlInput = document.getElementById('gistUrl');
@@ -558,7 +712,11 @@ if (typeof GRE_WORDS === 'undefined' || !Array.isArray(GRE_WORDS)) {
     '<div class="error">Could not load data.js. Make sure data.js is in the same folder and defines <code>GRE_WORDS</code>.</div>';
   document.getElementById('stats').textContent = 'error';
 } else {
-  buildQueue();
+  const localSession = loadSessionState();
+
+  if (!applySessionState(localSession)) {
+    buildQueue();
+  }
 
   // If this browser already has Gist settings, use the Gist as the shared source of truth.
   if (document.getElementById('gistUrl').value && document.getElementById('gistToken').value) {
@@ -566,14 +724,14 @@ if (typeof GRE_WORDS === 'undefined' || !Array.isArray(GRE_WORDS)) {
   }
 }
 </script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./sw.js").catch(err => {
-          console.warn("Service worker registration failed:", err);
-        });
-      });
-    }
-  </script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js").catch(err => {
+      console.warn("Service worker registration failed:", err);
+    });
+  });
+}
+</script>
 </body>
 </html>
