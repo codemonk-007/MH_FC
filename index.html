@@ -3,6 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>GRE 1000 Flashcards</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -263,7 +269,7 @@ const GIST_FILE = 'gre-status.json';
 // Put your Gist URL here before deploying.
 // The PAT is entered by the user in the Settings popup.
 // ============================================================
-const BAKED_GIST_URL = 'https://gist.github.com/codemonk-007/4e13175925ac7528754fac58d2a506b4';
+const BAKED_GIST_URL = 'PASTE_YOUR_GIST_URL_HERE';
 
 // --- GitHub Gist Sync ---
 function setSyncStatus(message, type = '') {
@@ -560,5 +566,14 @@ if (typeof GRE_WORDS === 'undefined' || !Array.isArray(GRE_WORDS)) {
   }
 }
 </script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch(err => {
+          console.warn("Service worker registration failed:", err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>
