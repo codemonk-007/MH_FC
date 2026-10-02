@@ -12,6 +12,7 @@
 <title>GRE 1000 Flashcards</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { overscroll-behavior-x: none; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: #0f172a; color: #e2e8f0; min-height: 100vh;
@@ -20,21 +21,42 @@
   .app { width: 100%; max-width: 760px; }
   header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px; }
   h1 { font-size: 18px; font-weight: 600; color: #f1f5f9; }
+  .header-right { display: flex; align-items: center; gap: 10px; }
   .stats { font-size: 13px; color: #94a3b8; }
   .progress-bar { width: 100%; height: 6px; background: #1e293b; border-radius: 3px; overflow: hidden; margin-bottom: 16px; }
   .progress-fill { height: 100%; background: linear-gradient(90deg, #6366f1, #8b5cf6); width: 0%; transition: width 0.3s ease; }
   .card {
+    position: relative;
     background: #1e293b; border-radius: 16px; padding: 28px 24px;
     min-height: 400px; display: flex; flex-direction: column; justify-content: center;
     cursor: pointer; box-shadow: 0 4px 24px rgba(0,0,0,0.3);
     transition: transform 0.15s ease; user-select: none; overflow-y: auto;
     touch-action: pan-y;
+    overscroll-behavior-x: none;
   }
   .card:active { transform: scale(0.99); }
-  .front { text-align: center; }
+  .swipe-overlay {
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 5;
+    background: transparent;
+  }
+  .swipe-icon {
+    font-size: 140px;
+    font-weight: 900;
+    line-height: 1;
+    opacity: 0;
+    user-select: none;
+  }
+  .front { text-align: center; position: relative; z-index: 1; }
   .word { font-size: 40px; font-weight: 700; color: #f8fafc; letter-spacing: -0.5px; line-height: 1.2; }
   .hint { font-size: 13px; color: #64748b; margin-top: 20px; }
-  .back { text-align: left; width: 100%; }
+  .back { text-align: left; width: 100%; position: relative; z-index: 1; }
   .back .word-sm { font-size: 26px; font-weight: 700; color: #a5b4fc; margin-bottom: 18px; text-align: center; }
   .section { margin-bottom: 16px; }
   .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px; color: #64748b; margin-bottom: 6px; font-weight: 600; }
@@ -68,14 +90,14 @@
   .filters button.active { background: #6366f1; }
   .error { color: #fca5a5; text-align: center; font-size: 14px; padding: 20px; }
   .settings-btn {
-    margin-top: 14px;
     width: auto;
     min-width: 0;
-    padding: 7px 11px;
-    font-size: 12px;
+    padding: 6px 10px;
+    font-size: 13px;
     background: #1e293b;
     color: #94a3b8;
     border: 1px solid #334155;
+    flex: 0 0 auto;
   }
   .settings-btn:hover { background: #334155; color: #e2e8f0; }
   .modal-backdrop {
@@ -127,29 +149,25 @@
     .word { font-size: 30px; }
     .card { padding: 20px 16px; min-height: 340px; }
     button { font-size: 13px; padding: 9px 12px; }
+    .swipe-icon { font-size: 100px; }
   }
-  .sync-panel {
-    margin-top: 12px; padding: 12px; background: #111827;
-    border: 1px solid #334155; border-radius: 10px;
-  }
-  .sync-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
-  .sync-row input {
-    flex: 1; min-width: 180px; background: #0f172a; color: #e2e8f0;
-    border: 1px solid #334155; border-radius: 7px; padding: 8px 10px; font-size: 13px;
-  }
-  .sync-title { font-size: 12px; font-weight: 600; color: #cbd5e1; }
-  .sync-note { margin-top: 7px; font-size: 11px; color: #64748b; line-height: 1.4; }
 </style>
 </head>
 <body>
 <div class="app">
   <header>
     <h1>GRE 1000</h1>
-    <div class="stats" id="stats">loading…</div>
+    <div class="header-right">
+      <div class="stats" id="stats">loading…</div>
+      <button class="settings-btn" onclick="openSettings()" title="GitHub sync settings">⚙ Sync</button>
+    </div>
   </header>
   <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
 
   <div class="card" id="card">
+    <div class="swipe-overlay" id="swipeOverlay">
+      <div class="swipe-icon" id="swipeIcon">✓</div>
+    </div>
     <div id="cardContent"><div class="front"><div class="word">Loading…</div></div></div>
   </div>
 
@@ -171,8 +189,6 @@
     <button onclick="shuffle()">🔀 Shuffle</button>
     <button onclick="reset()">↺ Reset</button>
   </div>
-
-  <button class="settings-btn" onclick="openSettings()" title="GitHub sync settings">⚙ Sync</button>
 
   <div class="modal-backdrop" id="settingsModal" onclick="closeSettingsOnBackdrop(event)">
     <div class="settings-modal">
@@ -465,7 +481,7 @@ function buildQueue() {
 }
 
 function render() {
-  const card = document.getElementById('cardContent');
+  const cardContent = document.getElementById('cardContent');
   const knownCount = Object.values(status).filter(v => v === 'known').length;
   const unknownCount = Object.values(status).filter(v => v === 'unknown').length;
 
@@ -476,14 +492,14 @@ function render() {
     queue.length ? ((current + 1) / queue.length * 100) + '%' : '0%';
 
   if (!queue.length) {
-    card.innerHTML = '<div class="front"><div class="word">No cards</div><div class="hint">Change filter or reset</div></div>';
+    cardContent.innerHTML = '<div class="front"><div class="word">No cards</div><div class="hint">Change filter or reset</div></div>';
     return;
   }
 
   const e = queue[current];
 
   if (!flipped) {
-    card.innerHTML = `<div class="front"><div class="word">${e.word}</div><div class="hint">tap to flip • swipe left/right to navigate</div></div>`;
+    cardContent.innerHTML = `<div class="front"><div class="word">${e.word}</div><div class="hint">tap to flip • swipe right = known • swipe left = unknown</div></div>`;
   } else {
     const syns = e.synonyms.map(s =>
       `<div class="rel-item"><div class="rel-word syn">${s.word}</div><div class="rel-sentence">${s.sentence}</div></div>`
@@ -493,7 +509,7 @@ function render() {
       `<div class="rel-item"><div class="rel-word ant">${a.word}</div><div class="rel-sentence">${a.sentence}</div></div>`
     ).join('');
 
-    card.innerHTML = `
+    cardContent.innerHTML = `
       <div class="back">
         <div class="word-sm">${e.word}</div>
         <div class="section"><div class="label">Meaning</div><div class="value meaning">${e.meaning}</div></div>
@@ -508,7 +524,7 @@ function render() {
 }
 
 function flip() {
-  if (!queue.length) return;
+  if (!queue.length || swipeCommitting) return;
   flipped = !flipped;
   persistState();
   render();
@@ -577,23 +593,244 @@ function setFilter(f) {
 
   buildQueue();
 }
-    // Desktop mouse click-to-flip. Touch taps are handled by the touch
-    // handler, so suppress the synthetic click generated after a touch.
-    let touchInteraction = false;
 
-    card.addEventListener('touchstart', () => {
-      touchInteraction = true;
-    }, { passive: true });
+// --- Swipe visual feedback ---
+const TOUCH_THRESHOLD = 70;    // px on touchscreens
+const TOUCH_MAX = 150;         // px for full color on touch
 
-    card.addEventListener('click', () => {
-      if (touchInteraction) {
-        touchInteraction = false;
-        return;
-      }
-      flip();
-    });
+const WHEEL_THRESHOLD = 90;    // accumulated deltaX from trackpad
+const WHEEL_MAX = 220;         // accumulated deltaX for full color
 
+const COMMIT_FLASH_MS = 180;   // how long to hold full color before advancing
+const WHEEL_LOCK_MS = 260;     // silence required to unlock after a commit
 
+let swipeCommitting = false;
+
+function updateSwipeVisual(dx, max) {
+  const overlay = document.getElementById('swipeOverlay');
+  const icon = document.getElementById('swipeIcon');
+  if (!overlay || !icon) return;
+
+  const absDx = Math.abs(dx);
+
+  if (absDx < 8) {
+    overlay.style.background = 'transparent';
+    icon.style.opacity = '0';
+    return;
+  }
+
+  const intensity = Math.min(1, absDx / max);
+
+  // Fills from transparent to fully solid as you swipe.
+  const bgAlpha = intensity;
+
+  // Icon appears early so you get feedback before the card fills.
+  const iconAlpha = Math.max(0, (intensity - 0.10) / 0.90);
+
+  if (dx > 0) {
+    // Right = Known = green ✓
+    overlay.style.background = `rgba(16, 185, 129, ${bgAlpha})`;
+    icon.textContent = '✓';
+    icon.style.color = '#ffffff';
+  } else {
+    // Left = Unknown = red ✗
+    overlay.style.background = `rgba(220, 38, 38, ${bgAlpha})`;
+    icon.textContent = '✗';
+    icon.style.color = '#ffffff';
+  }
+
+  icon.style.opacity = String(iconAlpha);
+}
+
+function resetSwipeVisual() {
+  const overlay = document.getElementById('swipeOverlay');
+  const icon = document.getElementById('swipeIcon');
+  if (overlay) overlay.style.background = 'transparent';
+  if (icon) icon.style.opacity = '0';
+}
+
+function commitSwipe(direction) {
+  if (swipeCommitting) return;
+  swipeCommitting = true;
+
+  const overlay = document.getElementById('swipeOverlay');
+  const icon = document.getElementById('swipeIcon');
+
+  // Paint full solid color and freeze for a beat.
+  if (direction === 'known') {
+    overlay.style.background = 'rgb(16, 185, 129)';
+    icon.textContent = '✓';
+  } else {
+    overlay.style.background = 'rgb(220, 38, 38)';
+    icon.textContent = '✗';
+  }
+  icon.style.color = '#ffffff';
+  icon.style.opacity = '1';
+
+  setTimeout(() => {
+    mark(direction);
+    resetSwipeVisual();
+    swipeCommitting = false;
+  }, COMMIT_FLASH_MS);
+}
+
+const cardElement = document.getElementById('card');
+
+// --- Touch (mobile) ---
+let touchStartX = 0;
+let touchStartY = 0;
+let touchStartTime = 0;
+let touchMoved = false;
+let touchInteraction = false;
+
+cardElement.addEventListener('touchstart', event => {
+  if (!event.touches.length) return;
+  if (swipeCommitting) return;
+
+  touchInteraction = true;
+
+  const touch = event.touches[0];
+  touchStartX = touch.clientX;
+  touchStartY = touch.clientY;
+  touchStartTime = Date.now();
+  touchMoved = false;
+}, { passive: true });
+
+cardElement.addEventListener('touchmove', event => {
+  if (!event.touches.length) return;
+  if (swipeCommitting) return;
+
+  const touch = event.touches[0];
+  const dx = touch.clientX - touchStartX;
+  const dy = touch.clientY - touchStartY;
+
+  if (Math.abs(dx) > 10 || Math.abs(dy) > 10) {
+    touchMoved = true;
+  }
+
+  if (Math.abs(dx) > Math.abs(dy)) {
+    updateSwipeVisual(dx, TOUCH_MAX);
+  } else if (Math.abs(dy) > 10) {
+    resetSwipeVisual();
+  }
+}, { passive: true });
+
+cardElement.addEventListener('touchend', event => {
+  if (!touchStartTime) return;
+  if (swipeCommitting) return;
+
+  const touch = event.changedTouches[0];
+  const dx = touch.clientX - touchStartX;
+  const dy = touch.clientY - touchStartY;
+  const duration = Date.now() - touchStartTime;
+
+  touchStartTime = 0;
+
+  const horizontalDistance = Math.abs(dx);
+  const verticalDistance = Math.abs(dy);
+
+  const isHorizontalSwipe =
+    horizontalDistance >= TOUCH_THRESHOLD &&
+    horizontalDistance > verticalDistance * 1.25 &&
+    duration <= 800;
+
+  if (isHorizontalSwipe) {
+    if (dx > 0) commitSwipe('known');
+    else commitSwipe('unknown');
+    return;
+  }
+
+  resetSwipeVisual();
+
+  if (!touchMoved && duration <= 500) {
+    flip();
+  }
+}, { passive: true });
+
+// --- Wheel / trackpad (macOS two-finger swipe) ---
+// One physical gesture fires dozens of wheel events. We lock the gesture
+// after the first commit and stay locked until the trackpad goes quiet,
+// so a single swipe can only ever produce one mark.
+let wheelAccum = 0;
+let wheelQuietTimer = null;
+let wheelLocked = false;
+
+function armWheelLock() {
+  wheelLocked = true;
+  wheelAccum = 0;
+  clearTimeout(wheelQuietTimer);
+  wheelQuietTimer = setTimeout(() => {
+    wheelLocked = false;
+    resetSwipeVisual();
+  }, WHEEL_LOCK_MS);
+}
+
+cardElement.addEventListener('wheel', event => {
+  const { deltaX, deltaY, momentumPhase } = event;
+
+  // While locked, swallow every event and keep resetting the quiet timer.
+  // The gesture stays locked until events stop arriving for WHEEL_LOCK_MS.
+  if (wheelLocked) {
+    clearTimeout(wheelQuietTimer);
+    wheelQuietTimer = setTimeout(() => {
+      wheelLocked = false;
+      resetSwipeVisual();
+    }, WHEEL_LOCK_MS);
+    return;
+  }
+
+  if (swipeCommitting) return;
+
+  // Ignore the momentum tail entirely.
+  if (momentumPhase && momentumPhase !== 'none') return;
+
+  // Not horizontal enough. Reset any partial accumulation.
+  if (Math.abs(deltaX) <= Math.abs(deltaY) * 1.15) {
+    if (wheelAccum !== 0) {
+      wheelAccum = 0;
+      clearTimeout(wheelQuietTimer);
+      resetSwipeVisual();
+    }
+    return;
+  }
+
+  // Prevent macOS back/forward navigation on horizontal swipes.
+  event.preventDefault();
+
+  // Invert deltaX so physical swipe direction matches the touch path.
+  //   physical swipe right → +accum  → Known
+  //   physical swipe left  → -accum  → Unknown
+  wheelAccum -= deltaX;
+
+  updateSwipeVisual(wheelAccum, WHEEL_MAX);
+
+  // Commit on threshold crossing, then lock until the gesture ends.
+  if (Math.abs(wheelAccum) >= WHEEL_THRESHOLD) {
+    const dir = wheelAccum > 0 ? 'known' : 'unknown';
+    armWheelLock();
+    commitSwipe(dir);
+    return;
+  }
+
+  // If the user pauses without reaching threshold, clear the partial swipe.
+  clearTimeout(wheelQuietTimer);
+  wheelQuietTimer = setTimeout(() => {
+    wheelAccum = 0;
+    resetSwipeVisual();
+  }, 220);
+}, { passive: false });
+
+// Desktop mouse click-to-flip. Touch taps are handled by the touch handler,
+// so suppress the synthetic click generated after a touch.
+cardElement.addEventListener('click', () => {
+  if (touchInteraction) {
+    touchInteraction = false;
+    return;
+  }
+  flip();
+});
+
+// --- Keyboard ---
 document.addEventListener('keydown', e => {
   if (e.target.tagName === 'INPUT') return;
 
@@ -608,71 +845,10 @@ document.addEventListener('keydown', e => {
     mark('known');
   } else if (e.key === '2') {
     mark('unknown');
+  } else if (e.key === 'Escape') {
+    closeSettings();
   }
 });
-
-// Swipe handling.
-// Horizontal swipes navigate; taps still flip the card.
-// Vertical movement is ignored so the back of a card remains scrollable.
-const cardElement = document.getElementById('card');
-let touchStartX = 0;
-let touchStartY = 0;
-let touchStartTime = 0;
-let touchMoved = false;
-
-cardElement.addEventListener('touchstart', event => {
-  if (!event.touches.length) return;
-
-  const touch = event.touches[0];
-  touchStartX = touch.clientX;
-  touchStartY = touch.clientY;
-  touchStartTime = Date.now();
-  touchMoved = false;
-}, { passive: true });
-
-cardElement.addEventListener('touchmove', event => {
-  if (!event.touches.length) return;
-
-  const touch = event.touches[0];
-  const dx = touch.clientX - touchStartX;
-  const dy = touch.clientY - touchStartY;
-
-  if (Math.abs(dx) > 10 || Math.abs(dy) > 10) {
-    touchMoved = true;
-  }
-}, { passive: true });
-
-cardElement.addEventListener('touchend', event => {
-  if (!touchStartTime) return;
-
-  const touch = event.changedTouches[0];
-  const dx = touch.clientX - touchStartX;
-  const dy = touch.clientY - touchStartY;
-  const duration = Date.now() - touchStartTime;
-
-  const horizontalDistance = Math.abs(dx);
-  const verticalDistance = Math.abs(dy);
-
-  touchStartTime = 0;
-
-  // Treat a sufficiently large horizontal gesture as a swipe.
-  // The velocity condition makes short, deliberate flicks work too.
-  const isHorizontalSwipe =
-    horizontalDistance >= 60 &&
-    horizontalDistance > verticalDistance * 1.25 &&
-    duration <= 800;
-
-  if (isHorizontalSwipe) {
-    if (dx < 0) next();
-    else prev();
-    return;
-  }
-
-  // A normal tap/click should flip the card.
-  if (!touchMoved && duration <= 500) {
-    flip();
-  }
-}, { passive: true });
 
 // --- Sync settings ---
 const gistUrlInput = document.getElementById('gistUrl');
@@ -702,11 +878,7 @@ function closeSettingsOnBackdrop(event) {
   if (event.target.id === 'settingsModal') closeSettings();
 }
 
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeSettings();
-});
-
-// --- Initialization LAST, after everything is declared ---
+// --- Initialization LAST ---
 if (typeof GRE_WORDS === 'undefined' || !Array.isArray(GRE_WORDS)) {
   document.getElementById('cardContent').innerHTML =
     '<div class="error">Could not load data.js. Make sure data.js is in the same folder and defines <code>GRE_WORDS</code>.</div>';
@@ -718,7 +890,6 @@ if (typeof GRE_WORDS === 'undefined' || !Array.isArray(GRE_WORDS)) {
     buildQueue();
   }
 
-  // If this browser already has Gist settings, use the Gist as the shared source of truth.
   if (document.getElementById('gistUrl').value && document.getElementById('gistToken').value) {
     loadFromGist(true);
   }
