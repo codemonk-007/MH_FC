@@ -1,5 +1,4 @@
-const GRE_WORDS =
-[
+const GRE_WORDS =[
   {
     "word": "abase",
     "pronunciation": "/əbˈeɪs/",
