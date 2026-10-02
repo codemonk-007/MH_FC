@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<title>GRE 1000 Flashcards v3</title>
+<title>GRE 1000 Flashcards v4</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { overscroll-behavior-x: none; }
@@ -52,14 +52,12 @@
   }
   .swipe-icon svg { width: 100%; height: 100%; display: block; }
 
-  /* ---------- CARD CONTENT ---------- */
   .card-body {
     position: relative; z-index: 1;
     display: flex; flex-direction: column;
     flex: 1; justify-content: center;
   }
 
-  /* FRONT */
   .front {
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
@@ -80,7 +78,6 @@
     font-size: 12px; color: #64748b; margin-top: 24px;
   }
 
-  /* BACK */
   .back {
     display: flex; flex-direction: column;
     align-items: flex-start; text-align: left;
@@ -145,7 +142,6 @@
     border: 1px solid rgba(220, 38, 38, 0.25);
   }
 
-  /* controls */
   nav { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
   button {
     background: #334155; color: #e2e8f0; border: none; padding: 10px 16px;
@@ -240,7 +236,7 @@
 <body>
 <div class="app">
   <header>
-    <h1>GRE 1000 <span class="version-badge">v3</span></h1>
+    <h1>GRE 1000 <span class="version-badge">v4</span></h1>
     <div class="header-right">
       <div class="stats" id="stats">loading…</div>
       <button class="settings-btn" onclick="openSettings()" title="GitHub sync settings">⚙ Sync</button>
@@ -318,11 +314,11 @@
   </div>
 </div>
 
-<div class="debug-badge" id="debugBadge">v3 · loading</div>
+<div class="debug-badge" id="debugBadge">v4 · loading</div>
 
 <script src="data.js"></script>
 <script>
-const CODE_VERSION = 3;
+const CODE_VERSION = 4;
 
 let queue = [];
 let current = 0;
@@ -331,6 +327,13 @@ let filter = 'all';
 let status = JSON.parse(localStorage.getItem('gre-status') || '{}');
 let syncTimer = null;
 let syncBusy = false;
+
+// Race-condition guards:
+// - remoteLoadConfigured: true when the app has a Gist URL + token to load from.
+// - initialRemoteLoadSettled: true once the initial remote load has finished
+//   (or determined not to be needed). No save is allowed until this is true.
+let remoteLoadConfigured = false;
+let initialRemoteLoadSettled = false;
 
 let allWordsOrder = [];
 let currentByFilter = { all: 0, known: 0, unknown: 0 };
@@ -469,7 +472,8 @@ function applySessionState(saved) {
 function updateDebugBadge() {
   const el = document.getElementById('debugBadge');
   if (!el) return;
-  el.textContent = `v${CODE_VERSION} · ${filter[0]}${currentByFilter[filter]} · a${currentByFilter.all}/k${currentByFilter.known}/u${currentByFilter.unknown}`;
+  const syncTag = initialRemoteLoadSettled ? '✓' : '…';
+  el.textContent = `v${CODE_VERSION} ${syncTag} · ${filter[0]}${currentByFilter[filter]} · a${currentByFilter.all}/k${currentByFilter.known}/u${currentByFilter.unknown}`;
 }
 
 function setSyncStatus(message, type = '') {
@@ -572,6 +576,15 @@ async function loadFromGist(silent = false) {
       throw new Error('Gist JSON does not contain a valid "status" object.');
     }
 
+    // Safety check: if remote is empty but we have local data, refuse to
+    // overwrite. This protects against a corrupted remote wiping local state.
+    const remoteCount = Object.keys(remote.status || {}).length;
+    const localCount = Object.keys(status || {}).length;
+    if (remoteCount === 0 && localCount > 0) {
+      setSyncStatus(`Remote is empty (${localCount} local kept). Not overwriting local state.`, 'ok');
+      return false;
+    }
+
     status = remote.status;
     saveLocalStatus();
 
@@ -651,6 +664,12 @@ async function saveToGist(silent = false) {
 function queueGistSave() {
   clearTimeout(syncTimer);
   syncTimer = setTimeout(() => {
+    // Block any save until the initial remote load finishes (or is skipped).
+    // This is the fix for the race condition that wiped the Gist.
+    if (remoteLoadConfigured && !initialRemoteLoadSettled) {
+      queueGistSave();  // re-check after another debounce window
+      return;
+    }
     const { url, token } = getSyncConfig();
     if (url && token) saveToGist(true);
   }, SYNC_DEBOUNCE_MS);
@@ -696,9 +715,6 @@ function buildQueue() {
   persistState();
 }
 
-// ---------- Rendering ----------
-
-// Escape HTML in user-supplied strings (meaning, usage, etc.)
 function esc(str) {
   if (str == null) return '';
   return String(str)
@@ -708,8 +724,6 @@ function esc(str) {
     .replace(/"/g, '&quot;');
 }
 
-// Normalize synonym/antonym entries: accept either plain strings
-// or { word, sentence } objects. We only render the word.
 function relWords(list) {
   if (!Array.isArray(list)) return [];
   return list
@@ -814,8 +828,6 @@ function render() {
   updateDebugBadge();
 }
 
-// ---------- Navigation ----------
-
 function flip() {
   if (!queue.length || swipeCommitting) return;
   flipped = !flipped;
@@ -905,7 +917,7 @@ function setFilter(f) {
   buildQueue();
 }
 
-// ---------- Swipe visual feedback ----------
+// --- Swipe visual feedback ---
 const TOUCH_THRESHOLD = 60;
 const TOUCH_MAX = 110;
 const WHEEL_THRESHOLD = 90;
@@ -1190,8 +1202,20 @@ if (typeof GRE_WORDS === 'undefined' || !Array.isArray(GRE_WORDS)) {
     buildQueue();
   }
 
-  if (document.getElementById('gistUrl').value && document.getElementById('gistToken').value) {
-    loadFromGist(true);
+  const url = document.getElementById('gistUrl').value;
+  const token = document.getElementById('gistToken').value;
+
+  if (url && token) {
+    // Mark that a remote load is pending so no save fires until it settles.
+    remoteLoadConfigured = true;
+    loadFromGist(true).finally(() => {
+      initialRemoteLoadSettled = true;
+      updateDebugBadge();
+    });
+  } else {
+    // No remote configured — no need to wait for anything.
+    initialRemoteLoadSettled = true;
+    updateDebugBadge();
   }
 }
 </script>
