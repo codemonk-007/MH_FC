@@ -1,4 +1,4 @@
-const GRE_WORDS =[
+const GRE_WORDS =
 [
   {
     "word": "abase",
@@ -17684,6 +17684,4 @@ const GRE_WORDS =[
       "listless"
     ]
   }
-]
-  
 ]
