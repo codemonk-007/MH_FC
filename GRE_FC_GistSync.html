@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GRE 1000 Flashcards</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0f172a; color: #e2e8f0; min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center; padding: 16px;
+  }
+  .app { width: 100%; max-width: 760px; }
+  header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px; }
+  h1 { font-size: 18px; font-weight: 600; color: #f1f5f9; }
+  .stats { font-size: 13px; color: #94a3b8; }
+  .progress-bar { width: 100%; height: 6px; background: #1e293b; border-radius: 3px; overflow: hidden; margin-bottom: 16px; }
+  .progress-fill { height: 100%; background: linear-gradient(90deg, #6366f1, #8b5cf6); width: 0%; transition: width 0.3s ease; }
+  .card {
+    background: #1e293b; border-radius: 16px; padding: 28px 24px;
+    min-height: 400px; display: flex; flex-direction: column; justify-content: center;
+    cursor: pointer; box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+    transition: transform 0.15s ease; user-select: none; overflow-y: auto;
+  }
+  .card:active { transform: scale(0.99); }
+  .front { text-align: center; }
+  .word { font-size: 40px; font-weight: 700; color: #f8fafc; letter-spacing: -0.5px; line-height: 1.2; }
+  .hint { font-size: 13px; color: #64748b; margin-top: 20px; }
+  .back { text-align: left; width: 100%; }
+  .back .word-sm { font-size: 26px; font-weight: 700; color: #a5b4fc; margin-bottom: 18px; text-align: center; }
+  .section { margin-bottom: 16px; }
+  .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px; color: #64748b; margin-bottom: 6px; font-weight: 600; }
+  .value { font-size: 15px; line-height: 1.55; color: #e2e8f0; }
+  .value.meaning { font-size: 16px; color: #f1f5f9; }
+  .value.usage { font-style: italic; color: #cbd5e1; padding-left: 8px; border-left: 2px solid #475569; }
+  .rel-item { margin-bottom: 8px; padding-left: 10px; border-left: 2px solid #334155; }
+  .rel-word { font-weight: 600; font-size: 14px; }
+  .rel-word.syn { color: #86efac; }
+  .rel-word.ant { color: #fca5a5; }
+  .rel-sentence { font-size: 13px; color: #94a3b8; font-style: italic; margin-top: 2px; line-height: 1.45; }
+  nav { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+  button {
+    background: #334155; color: #e2e8f0; border: none; padding: 10px 16px;
+    border-radius: 8px; font-size: 14px; cursor: pointer; font-weight: 500;
+    transition: background 0.15s; flex: 1; min-width: 100px;
+  }
+  button:hover { background: #475569; }
+  button:active { background: #64748b; }
+  button.primary { background: #6366f1; }
+  button.primary:hover { background: #4f46e5; }
+  button.known { background: #059669; }
+  button.known:hover { background: #047857; }
+  button.known.active { background: #10b981; }
+  button.unknown { background: #dc2626; }
+  button.unknown:hover { background: #b91c1c; }
+  .controls { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+  .controls button { flex: 1; min-width: 90px; font-size: 13px; padding: 8px 12px; }
+  .filters { display: flex; gap: 6px; margin-top: 8px; justify-content: center; }
+  .filters button { flex: 0; padding: 6px 12px; font-size: 12px; min-width: auto; }
+  .filters button.active { background: #6366f1; }
+  .error { color: #fca5a5; text-align: center; font-size: 14px; padding: 20px; }
+  @media (max-width: 480px) {
+    .word { font-size: 30px; }
+    .card { padding: 20px 16px; min-height: 340px; }
+    button { font-size: 13px; padding: 9px 12px; }
+  }
+
+  .sync-panel {
+    margin-top: 12px; padding: 12px; background: #111827;
+    border: 1px solid #334155; border-radius: 10px;
+  }
+  .sync-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+  .sync-row input {
+    flex: 1; min-width: 180px; background: #0f172a; color: #e2e8f0;
+    border: 1px solid #334155; border-radius: 7px; padding: 8px 10px; font-size: 13px;
+  }
+  .sync-title { font-size: 12px; font-weight: 600; color: #cbd5e1; }
+  .sync-status { margin-top: 8px; font-size: 12px; color: #94a3b8; min-height: 16px; }
+  .sync-status.ok { color: #86efac; }
+  .sync-status.err { color: #fca5a5; }
+  .sync-note { margin-top: 7px; font-size: 11px; color: #64748b; line-height: 1.4; }
+
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>GRE 1000</h1>
+    <div class="stats" id="stats">loading…</div>
+  </header>
+  <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
+
+  <div class="card" id="card" onclick="flip()">
+    <div id="cardContent"><div class="front"><div class="word">Loading…</div></div></div>
+  </div>
+
+  <div class="filters">
+    <button data-filter="all" class="active" onclick="setFilter('all')">All</button>
+    <button data-filter="unknown" onclick="setFilter('unknown')">Unknown</button>
+    <button data-filter="known" onclick="setFilter('known')">Known</button>
+  </div>
+
+  <nav>
+    <button onclick="prev()">← Prev</button>
+    <button class="primary" onclick="flip()">Flip</button>
+    <button onclick="next()">Next →</button>
+  </nav>
+
+  <div class="controls">
+    <button class="known" id="knownBtn" onclick="mark('known')">✓ Known</button>
+    <button class="unknown" id="unknownBtn" onclick="mark('unknown')">✗ Unknown</button>
+    <button onclick="shuffle()">🔀 Shuffle</button>
+    <button onclick="reset()">↺ Reset</button>
+  </div>
+
+  <div class="sync-panel">
+    <div class="sync-title">☁ GitHub Gist Sync</div>
+    <div class="sync-row">
+      <input id="gistUrl" type="url" placeholder="Gist URL">
+      <input id="gistToken" type="password" placeholder="GitHub PAT (gist read/write)">
+    </div>
+    <div class="sync-row">
+      <button onclick="loadFromGist()">↓ Load from Gist</button>
+      <button onclick="saveToGist()">↑ Save to Gist</button>
+      <button onclick="clearSyncSettings()">Clear Settings</button>
+    </div>
+    <div class="sync-status" id="syncStatus"></div>
+    <div class="sync-note">
+      Your PAT is never written into this HTML. It is kept only in this browser session.
+      For a fine-grained PAT, grant Gists read/write permission; for a classic PAT, use the <code>gist</code> scope.
+    </div>
+  </div>
+
+</div>
+
+<script src="data.js"></script>
+<script>
+// --- Declarations first ---
+let queue = [];
+let current = 0;
+let flipped = false;
+let filter = 'all';
+let status = JSON.parse(localStorage.getItem('gre-status') || '{}');
+let syncTimer = null;
+let syncBusy = false;
+
+const GIST_FILE = 'gre-status.json';
+
+// --- GitHub Gist Sync ---
+function setSyncStatus(message, type = '') {
+  const el = document.getElementById('syncStatus');
+  if (!el) return;
+  el.textContent = message;
+  el.className = 'sync-status' + (type ? ' ' + type : '');
+}
+
+function getSyncConfig() {
+  return {
+    url: document.getElementById('gistUrl').value.trim(),
+    token: document.getElementById('gistToken').value.trim()
+  };
+}
+
+function gistIdFromUrl(url) {
+  const match = url.match(/gist\.github\.com\/(?:[^/]+\/)?([a-f0-9]+)(?:[/?#]|$)/i);
+  return match ? match[1] : null;
+}
+
+function saveLocalStatus() {
+  localStorage.setItem('gre-status', JSON.stringify(status));
+}
+
+function saveSyncUrl() {
+  localStorage.setItem('gre-gist-url', document.getElementById('gistUrl').value.trim());
+}
+
+async function githubRequest(url, options = {}) {
+  const { token } = getSyncConfig();
+  const headers = {
+    'Accept': 'application/vnd.github+json',
+    ...options.headers
+  };
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+  return fetch(url, { ...options, headers });
+}
+
+async function loadFromGist(silent = false) {
+  const { url, token } = getSyncConfig();
+  const id = gistIdFromUrl(url);
+
+  if (!id) {
+    setSyncStatus('Enter a valid gist.github.com URL.', 'err');
+    return false;
+  }
+  if (!token) {
+    setSyncStatus('Enter your GitHub PAT to read a private gist or save changes.', 'err');
+    return false;
+  }
+
+  saveSyncUrl();
+  setSyncStatus('Loading from Gist…');
+
+  try {
+    const response = await githubRequest(`https://api.github.com/gists/${id}`);
+    if (!response.ok) throw new Error(`GitHub API ${response.status}: ${await response.text()}`);
+
+    const gist = await response.json();
+    const file =
+      gist.files[GIST_FILE] ||
+      Object.values(gist.files).find(f => f.filename.endsWith('.json'));
+
+    if (!file) throw new Error(`No JSON status file found in this Gist.`);
+
+    const remote = JSON.parse(file.content);
+    if (!remote || typeof remote.status !== 'object') {
+      throw new Error('Gist JSON does not contain a valid "status" object.');
+    }
+
+    status = remote.status;
+    saveLocalStatus();
+    buildQueue();
+
+    const when = remote.updatedAt ? new Date(remote.updatedAt).toLocaleString() : 'unknown time';
+    setSyncStatus(`Loaded ${Object.keys(status).length} statuses from Gist (${when}).`, 'ok');
+    return true;
+  } catch (error) {
+    console.error(error);
+    setSyncStatus(`Load failed: ${error.message}`, 'err');
+    return false;
+  }
+}
+
+async function saveToGist(silent = false) {
+  if (syncBusy) return false;
+
+  const { url, token } = getSyncConfig();
+  const id = gistIdFromUrl(url);
+
+  if (!id) {
+    setSyncStatus('Enter a valid gist.github.com URL.', 'err');
+    return false;
+  }
+  if (!token) {
+    setSyncStatus('Enter your GitHub PAT before saving.', 'err');
+    return false;
+  }
+
+  saveSyncUrl();
+  syncBusy = true;
+  setSyncStatus('Saving to Gist…');
+
+  try {
+    const payload = {
+      files: {
+        [GIST_FILE]: {
+          content: JSON.stringify({
+            version: 1,
+            updatedAt: new Date().toISOString(),
+            status
+          }, null, 2)
+        }
+      }
+    };
+
+    const response = await githubRequest(`https://api.github.com/gists/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    if (!response.ok) throw new Error(`GitHub API ${response.status}: ${await response.text()}`);
+
+    setSyncStatus(`Saved ${Object.keys(status).length} statuses to Gist.`, 'ok');
+    return true;
+  } catch (error) {
+    console.error(error);
+    setSyncStatus(`Save failed: ${error.message}`, 'err');
+    return false;
+  } finally {
+    syncBusy = false;
+  }
+}
+
+function queueGistSave() {
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(() => {
+    const { url, token } = getSyncConfig();
+    if (url && token) saveToGist(true);
+  }, 1200);
+}
+
+function clearSyncSettings() {
+  if (!confirm('Clear the saved Gist URL and PAT from this browser?')) return;
+  document.getElementById('gistUrl').value = '';
+  document.getElementById('gistToken').value = '';
+  localStorage.removeItem('gre-gist-url');
+  setSyncStatus('Sync settings cleared.');
+}
+
+// --- Functions ---
+function saveStatus() {
+  saveLocalStatus();
+  queueGistSave();
+}
+
+function buildQueue() {
+  if (filter === 'known') queue = GRE_WORDS.filter(e => status[e.word] === 'known');
+  else if (filter === 'unknown') queue = GRE_WORDS.filter(e => status[e.word] === 'unknown');
+  else queue = GRE_WORDS.slice();
+  current = 0;
+  flipped = false;
+  render();
+}
+
+function render() {
+  const card = document.getElementById('cardContent');
+  const knownCount = Object.values(status).filter(v => v === 'known').length;
+  const unknownCount = Object.values(status).filter(v => v === 'unknown').length;
+  document.getElementById('stats').textContent =
+    `${queue.length ? current + 1 : 0} / ${queue.length}  •  ✓${knownCount}  ✗${unknownCount}`;
+  document.getElementById('progress').style.width =
+    queue.length ? ((current + 1) / queue.length * 100) + '%' : '0%';
+
+  if (!queue.length) {
+    card.innerHTML = '<div class="front"><div class="word">No cards</div><div class="hint">Change filter or reset</div></div>';
+    return;
+  }
+
+  const e = queue[current];
+  if (!flipped) {
+    card.innerHTML = `<div class="front"><div class="word">${e.word}</div><div class="hint">click or press Space to flip</div></div>`;
+  } else {
+    const syns = e.synonyms.map(s =>
+      `<div class="rel-item"><div class="rel-word syn">${s.word}</div><div class="rel-sentence">${s.sentence}</div></div>`
+    ).join('');
+    const ants = e.antonyms.map(a =>
+      `<div class="rel-item"><div class="rel-word ant">${a.word}</div><div class="rel-sentence">${a.sentence}</div></div>`
+    ).join('');
+    card.innerHTML = `
+      <div class="back">
+        <div class="word-sm">${e.word}</div>
+        <div class="section"><div class="label">Meaning</div><div class="value meaning">${e.meaning}</div></div>
+        <div class="section"><div class="label">Usage</div><div class="value usage">"${e.usage}"</div></div>
+        <div class="section"><div class="label">Synonyms</div>${syns}</div>
+        <div class="section"><div class="label">Antonyms</div>${ants}</div>
+      </div>`;
+  }
+
+  document.getElementById('knownBtn').classList.toggle('active', status[e.word] === 'known');
+  document.getElementById('unknownBtn').classList.toggle('active', status[e.word] === 'unknown');
+}
+
+function flip() { if (!queue.length) return; flipped = !flipped; render(); }
+function next() { if (!queue.length) return; current = (current + 1) % queue.length; flipped = false; render(); }
+function prev() { if (!queue.length) return; current = (current - 1 + queue.length) % queue.length; flipped = false; render(); }
+
+function mark(s) {
+  if (!queue.length) return;
+  const e = queue[current];
+  if (status[e.word] === s) delete status[e.word];
+  else status[e.word] = s;
+  saveStatus();
+  next();
+}
+
+function shuffle() {
+  for (let i = queue.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [queue[i], queue[j]] = [queue[j], queue[i]];
+  }
+  current = 0; flipped = false; render();
+}
+
+function reset() {
+  if (!confirm('Reset all progress?')) return;
+  status = {};
+  saveStatus();
+  buildQueue();
+}
+
+function setFilter(f) {
+  filter = f;
+  document.querySelectorAll('.filters button').forEach(b =>
+    b.classList.toggle('active', b.dataset.filter === f));
+  buildQueue();
+}
+
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT') return;
+  if (e.code === 'Space') { e.preventDefault(); flip(); }
+  else if (e.key === 'ArrowRight') next();
+  else if (e.key === 'ArrowLeft') prev();
+  else if (e.key === '1') mark('known');
+  else if (e.key === '2') mark('unknown');
+});
+
+// --- Sync settings ---
+document.getElementById('gistUrl').value = localStorage.getItem('gre-gist-url') || '';
+document.getElementById('gistToken').value = sessionStorage.getItem('gre-gist-token') || '';
+
+document.getElementById('gistUrl').addEventListener('change', saveSyncUrl);
+document.getElementById('gistToken').addEventListener('change', e => {
+  // Token is deliberately session-only and is never persisted to the repository.
+  sessionStorage.setItem('gre-gist-token', e.target.value.trim());
+});
+
+// --- Initialization LAST, after everything is declared ---
+if (typeof GRE_WORDS === 'undefined' || !Array.isArray(GRE_WORDS)) {
+  document.getElementById('cardContent').innerHTML =
+    '<div class="error">Could not load data.js. Make sure data.js is in the same folder and defines <code>GRE_WORDS</code>.</div>';
+  document.getElementById('stats').textContent = 'error';
+} else {
+  buildQueue();
+
+  // If this browser already has Gist settings, use the Gist as the shared source of truth.
+  if (document.getElementById('gistUrl').value && document.getElementById('gistToken').value) {
+    loadFromGist(true);
+  }
+}
+</script>
+</body>
+</html>
