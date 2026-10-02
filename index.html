@@ -60,6 +60,102 @@
   .filters button { flex: 0; padding: 6px 12px; font-size: 12px; min-width: auto; }
   .filters button.active { background: #6366f1; }
   .error { color: #fca5a5; text-align: center; font-size: 14px; padding: 20px; }
+  .settings-btn {
+    margin-top: 14px;
+    width: auto;
+    min-width: 0;
+    padding: 7px 11px;
+    font-size: 12px;
+    background: #1e293b;
+    color: #94a3b8;
+    border: 1px solid #334155;
+  }
+  .settings-btn:hover { background: #334155; color: #e2e8f0; }
+
+  .modal-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(2, 6, 23, 0.72);
+    backdrop-filter: blur(3px);
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+  }
+  .modal-backdrop.open { display: flex; }
+
+  .settings-modal {
+    width: min(420px, 100%);
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .modal-title { font-size: 16px; font-weight: 650; color: #f8fafc; }
+  .modal-subtitle { margin-top: 4px; font-size: 12px; color: #64748b; }
+  .modal-close {
+    flex: 0 0 auto;
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    font-size: 22px;
+    line-height: 1;
+    background: #334155;
+  }
+  .modal-field { margin-bottom: 14px; }
+  .modal-field label {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #94a3b8;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .modal-field input {
+    width: 100%;
+    padding: 10px 11px;
+    border-radius: 8px;
+    border: 1px solid #475569;
+    background: #0f172a;
+    color: #e2e8f0;
+    outline: none;
+    font-size: 13px;
+  }
+  .modal-field input:focus { border-color: #6366f1; }
+  .field-note { margin-top: 5px; font-size: 11px; color: #64748b; }
+  .modal-actions { display: flex; gap: 8px; margin-top: 4px; }
+  .modal-actions button { flex: 1; }
+  .sync-status {
+    min-height: 18px;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #94a3b8;
+  }
+  .sync-status.ok { color: #86efac; }
+  .sync-status.err { color: #fca5a5; }
+  .clear-btn {
+    width: auto;
+    min-width: 0;
+    padding: 6px 9px;
+    margin-top: 4px;
+    background: transparent;
+    color: #64748b;
+    font-size: 11px;
+  }
+  .clear-btn:hover { background: #334155; color: #cbd5e1; }
+
   @media (max-width: 480px) {
     .word { font-size: 30px; }
     .card { padding: 20px 16px; min-height: 340px; }
@@ -114,21 +210,36 @@
     <button onclick="reset()">↺ Reset</button>
   </div>
 
-  <div class="sync-panel">
-    <div class="sync-title">☁ GitHub Gist Sync</div>
-    <div class="sync-row">
-      <input id="gistUrl" type="url" placeholder="Gist URL">
-      <input id="gistToken" type="password" placeholder="GitHub PAT (gist read/write)">
-    </div>
-    <div class="sync-row">
-      <button onclick="loadFromGist()">↓ Load from Gist</button>
-      <button onclick="saveToGist()">↑ Save to Gist</button>
-      <button onclick="clearSyncSettings()">Clear Settings</button>
-    </div>
-    <div class="sync-status" id="syncStatus"></div>
-    <div class="sync-note">
-      Your PAT is never written into this HTML. It is kept only in this browser session.
-      For a fine-grained PAT, grant Gists read/write permission; for a classic PAT, use the <code>gist</code> scope.
+  <button class="settings-btn" onclick="openSettings()" title="GitHub sync settings">⚙ Sync</button>
+
+  <div class="modal-backdrop" id="settingsModal" onclick="closeSettingsOnBackdrop(event)">
+    <div class="settings-modal">
+      <div class="modal-header">
+        <div>
+          <div class="modal-title">GitHub Sync</div>
+          <div class="modal-subtitle">Sync your flashcard progress across devices</div>
+        </div>
+        <button class="modal-close" onclick="closeSettings()">×</button>
+      </div>
+
+      <div class="modal-field">
+        <label for="gistUrl">Gist URL</label>
+        <input id="gistUrl" type="url" placeholder="https://gist.github.com/username/..." autocomplete="off">
+      </div>
+
+      <div class="modal-field">
+        <label for="gistToken">GitHub PAT</label>
+        <input id="gistToken" type="password" placeholder="GitHub PAT" autocomplete="off">
+        <div class="field-note">Stored only in this browser session.</div>
+      </div>
+
+      <div class="modal-actions">
+        <button onclick="loadFromGist(); closeSettings()">↓ Load</button>
+        <button class="primary" onclick="saveToGist(); closeSettings()">↑ Save</button>
+      </div>
+
+      <div class="sync-status" id="syncStatus"></div>
+      <button class="clear-btn" onclick="clearSyncSettings()">Clear Gist URL</button>
     </div>
   </div>
 
@@ -146,6 +257,13 @@ let syncTimer = null;
 let syncBusy = false;
 
 const GIST_FILE = 'gre-status.json';
+
+// ============================================================
+// GITHUB SYNC CONFIG
+// Put your Gist URL here before deploying.
+// The PAT is entered by the user in the Settings popup.
+// ============================================================
+const BAKED_GIST_URL = 'https://gist.github.com/codemonk-007/4e13175925ac7528754fac58d2a506b4';
 
 // --- GitHub Gist Sync ---
 function setSyncStatus(message, type = '') {
@@ -291,11 +409,12 @@ function queueGistSave() {
 }
 
 function clearSyncSettings() {
-  if (!confirm('Clear the saved Gist URL and PAT from this browser?')) return;
-  document.getElementById('gistUrl').value = '';
-  document.getElementById('gistToken').value = '';
+  if (!confirm('Clear the saved Gist URL override from this browser?')) return;
+  gistUrlInput.value = BAKED_GIST_URL !== 'PASTE_YOUR_GIST_URL_HERE'
+    ? BAKED_GIST_URL
+    : '';
   localStorage.removeItem('gre-gist-url');
-  setSyncStatus('Sync settings cleared.');
+  setSyncStatus('Gist URL reset.');
 }
 
 // --- Functions ---
@@ -396,13 +515,35 @@ document.addEventListener('keydown', e => {
 });
 
 // --- Sync settings ---
-document.getElementById('gistUrl').value = localStorage.getItem('gre-gist-url') || '';
-document.getElementById('gistToken').value = sessionStorage.getItem('gre-gist-token') || '';
+const gistUrlInput = document.getElementById('gistUrl');
+const gistTokenInput = document.getElementById('gistToken');
 
-document.getElementById('gistUrl').addEventListener('change', saveSyncUrl);
-document.getElementById('gistToken').addEventListener('change', e => {
-  // Token is deliberately session-only and is never persisted to the repository.
+gistUrlInput.value = BAKED_GIST_URL !== 'PASTE_YOUR_GIST_URL_HERE'
+  ? BAKED_GIST_URL
+  : (localStorage.getItem('gre-gist-url') || '');
+
+gistTokenInput.value = sessionStorage.getItem('gre-gist-token') || '';
+
+gistUrlInput.addEventListener('change', saveSyncUrl);
+gistTokenInput.addEventListener('change', e => {
   sessionStorage.setItem('gre-gist-token', e.target.value.trim());
+});
+
+function openSettings() {
+  document.getElementById('settingsModal').classList.add('open');
+  gistTokenInput.focus();
+}
+
+function closeSettings() {
+  document.getElementById('settingsModal').classList.remove('open');
+}
+
+function closeSettingsOnBackdrop(event) {
+  if (event.target.id === 'settingsModal') closeSettings();
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeSettings();
 });
 
 // --- Initialization LAST, after everything is declared ---
