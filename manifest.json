@@ -1,7 +1,7 @@
 {
   "name": "GRE 1000 Flashcards",
   "short_name": "GRE Flashcards",
-  "id": "/MH_FC/",
+  "id": "/MH_FC_GRE1000/"
   "start_url": "/MH_FC/index.html",
   "scope": "/MH_FC/",
   "display": "standalone",
