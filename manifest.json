@@ -1,9 +1,10 @@
 {
   "name": "GRE 1000 Flashcards",
   "short_name": "GRE Flashcards",
+  "id": "/MH_FC/",
   "description": "GRE vocabulary flashcards with progress tracking and GitHub Gist sync.",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "/MH_FC/",
+  "scope": "/MH_FC/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0f172a",
