@@ -1,10 +1,11 @@
-const GRE_WORDS = [
+const GRE_WORDS =[
+[
   {
     "word": "abase",
     "pronunciation": "/əbˈeɪs/",
     "pos": "Verb",
     "meaning": "Degrade or humble; to lower in rank, status, or esteem",
-    "mnemonic": "A-BASE: imagine putting someone at the BASE of the ladder, below everyone else.",
+    "mnemonic": "A-BASE: imagine being forced to the BASE of a ladder — the lowest rung, humiliated and degraded.",
     "usage": "The senator's willingness to abase himself before party donors shocked even his most cynical colleagues.",
     "synonyms": [
       "degrade",
@@ -23,7 +24,7 @@ const GRE_WORDS = [
     "pronunciation": "/əbˈeɪt/",
     "pos": "Verb",
     "meaning": "Reduce, diminish; become less intense",
-    "mnemonic": "A-BAIT: imagine bait luring the storm away until its force fades.",
+    "mnemonic": "A-BAIT: a fisherman pulls the BAIT away, and the fish's excitement ABATEs — it fades, diminishes.",
     "usage": "Only after the storm began to abate did the rescue teams venture into the flooded streets.",
     "synonyms": [
       "subside",
@@ -38,10 +39,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aberrant",
-    "pronunciation": "/æbˈɛrʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/əbˈɛɹənt/",
+    "pos": "Noun",
     "meaning": "Abnormal, deviant; departing from the usual course",
-    "mnemonic": "ERR = error: imagine something going wrong and wandering off the normal path.",
+    "mnemonic": "AB-ERR-ANT: an ANT that ERRs, wandering off the trail — abnormal, deviating from the norm.",
     "usage": "The scientist dismissed the aberrant reading as a calibration error rather than evidence of a novel phenomenon.",
     "synonyms": [
       "deviant",
@@ -56,10 +57,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abeyance",
-    "pronunciation": "/ʌbˈeɪʌns/",
+    "pronunciation": "/əbˈeɪəns/",
     "pos": "Noun",
     "meaning": "Temporary suspension, inactivity; a state of being held back",
-    "mnemonic": "Picture “suspension” vividly; link that image directly to abeyance.",
+    "mnemonic": "A-BAY-ANCE: a ship anchored in a BAY, waiting in suspension for orders to move.",
     "usage": "The controversial legislation was held in abeyance while the committee awaited the results of an independent audit.",
     "synonyms": [
       "suspension",
@@ -74,10 +75,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abhor",
-    "pronunciation": "/æbhˈɔr/",
-    "pos": "Verb",
+    "pronunciation": "/əbhˈoːɹ/",
+    "pos": "Noun",
     "meaning": "Detest, regard with disgust; loathe intensely",
-    "mnemonic": "Picture “detest” vividly; link that image directly to abhor.",
+    "mnemonic": "AB-HOR(ror): HORROR makes you ABHOR something — to detest it deeply.",
     "usage": "The pacifist abhorred violence in all its forms, refusing even to watch films that glorified war.",
     "synonyms": [
       "detest",
@@ -92,10 +93,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abjure",
-    "pronunciation": "/əbdʒˈʊɹ/",
+    "pronunciation": "/əbdʒjˈʊɹ/",
     "pos": "Verb",
     "meaning": "Give up, renounce; repudiate, recant formally",
-    "mnemonic": "Picture “renounce” vividly; link that image directly to abjure.",
+    "mnemonic": "AB-JURY: imagine renouncing your beliefs before a JURY — formally give up.",
     "usage": "Under threat of excommunication, the astronomer was forced to abjure his heliocentric views.",
     "synonyms": [
       "renounce",
@@ -110,10 +111,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abrasive",
-    "pronunciation": "/əbrˈeɪsɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/əbɹˈeɪsɪv/",
+    "pos": "Noun",
     "meaning": "Rough; causing irritation or annoyance",
-    "mnemonic": "Picture “caustic” vividly; link that image directly to abrasive.",
+    "mnemonic": "A-BRASIVE: sandpaper is ABRASIVE — rough and irritating to the touch.",
     "usage": "His abrasive management style alienated talented employees who might otherwise have stayed for years.",
     "synonyms": [
       "caustic",
@@ -128,10 +129,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abreast",
-    "pronunciation": "/əbrˈɛst/",
-    "pos": "Adjective",
+    "pronunciation": "/əbɹˈɛst/",
+    "pos": "Noun",
     "meaning": "Side-by-side; keeping up with, staying informed",
-    "mnemonic": "Picture “informed” vividly; link that image directly to abreast.",
+    "mnemonic": "A-BREAST: keep your BREAST (chest) level with the person beside you — side by side.",
     "usage": "A physician must stay abreast of the latest research, or her clinical judgment will quietly grow obsolete.",
     "synonyms": [
       "informed",
@@ -146,10 +147,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abridge",
-    "pronunciation": "/əbrˈɪdʒ/",
+    "pronunciation": "/əbɹˈɪdʒ/",
     "pos": "Verb",
     "meaning": "Reduce or lessen; shorten by omitting parts",
-    "mnemonic": "Picture “condense” vividly; link that image directly to abridge.",
+    "mnemonic": "A-BRIDGE: build a short BRIDGE across a river — you've shortened the crossing.",
     "usage": "The publisher abridged the novel for young readers, cutting nearly half of its digressions and subplots.",
     "synonyms": [
       "condense",
@@ -167,7 +168,7 @@ const GRE_WORDS = [
     "pronunciation": "/əbsˈɪʃən/",
     "pos": "Noun",
     "meaning": "Cutting off; sudden termination; the separation of leaves or parts",
-    "mnemonic": "Picture “severance” vividly; link that image directly to abscission.",
+    "mnemonic": "AB-SCISSORS: SCISSORS cut off leaves — a sudden cutting away.",
     "usage": "The abscission of the colonial government was abrupt, leaving the new nation without trained administrators.",
     "synonyms": [
       "severance",
@@ -182,10 +183,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abscond",
-    "pronunciation": "/æbskˈɑnd/",
+    "pronunciation": "/əbskˈɑːnd/",
     "pos": "Verb",
     "meaning": "Depart suddenly and secretively; flee",
-    "mnemonic": "Picture “flee” vividly; link that image directly to abscond.",
+    "mnemonic": "ABS-COND: a CON man ABSCONDs with the money — flees secretly.",
     "usage": "The treasurer absconded with the charity's funds, leaving behind only a hastily emptied safe.",
     "synonyms": [
       "flee",
@@ -200,10 +201,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abstain",
-    "pronunciation": "/əbˈsteɪn/",
+    "pronunciation": "/əbstˈeɪn/",
     "pos": "Verb",
     "meaning": "Hold back, refrain; decline to vote",
-    "mnemonic": "TAIN = hold: picture something being retained.",
+    "mnemonic": "AB-STAIN: refuse to leave a STAIN — hold back from something bad.",
     "usage": "Three board members chose to abstain from the vote, unwilling to endorse either faction.",
     "synonyms": [
       "refrain",
@@ -218,10 +219,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abyss",
-    "pronunciation": "/ʌbˈɪs/",
-    "pos": "Adjective",
+    "pronunciation": "/əbˈɪs/",
+    "pos": "Noun",
     "meaning": "A deep and vast space or cavity; anything profound or infinite",
-    "mnemonic": "Picture “chasm” vividly; link that image directly to abyss.",
+    "mnemonic": "A-BYSS: think BOTTOMLESS — the deepest chasm with no bottom.",
     "usage": "Staring into the abyss between the two cliffs, the climber felt a vertigo that had nothing to do with height.",
     "synonyms": [
       "chasm",
@@ -236,10 +237,10 @@ const GRE_WORDS = [
   },
   {
     "word": "accede",
-    "pronunciation": "/æksˈid/",
+    "pronunciation": "/əksˈiːd/",
     "pos": "Verb",
     "meaning": "Agree, give consent; assume power or office",
-    "mnemonic": "Picture “consent” vividly; link that image directly to accede.",
+    "mnemonic": "AC-CEDE: CEDE means give in. To accede is to give your consent.",
     "usage": "After weeks of resisting, the manager finally acceded to the union's demand for a cost-of-living adjustment.",
     "synonyms": [
       "consent",
@@ -254,10 +255,10 @@ const GRE_WORDS = [
   },
   {
     "word": "accretion",
-    "pronunciation": "/ʌkrˈiʃʌn/",
+    "pronunciation": "/əkɹˈɛʃən/",
     "pos": "Noun",
     "meaning": "Gradual increase; an added part or addition",
-    "mnemonic": "Picture “accumulation” vividly; link that image directly to accretion.",
+    "mnemonic": "AC-CRETE: CRETE sounds like CONCRETE — layers slowly adding up, gradual growth.",
     "usage": "The accretion of small concessions over the years had transformed the once-modest contract into a sprawling document.",
     "synonyms": [
       "accumulation",
@@ -272,10 +273,10 @@ const GRE_WORDS = [
   },
   {
     "word": "acerbic",
-    "pronunciation": "/ʌsˈɛrbɪk/",
+    "pronunciation": "/əsˈɜːbɪk/",
     "pos": "Adjective",
     "meaning": "Sour; harsh or severe in tone or manner",
-    "mnemonic": "Picture “caustic” vividly; link that image directly to acerbic.",
+    "mnemonic": "ACERB-ic: sounds like ACIDIC — sour and harsh in tone.",
     "usage": "The critic's acerbic reviews, once feared, gradually became a badge of honor for those he attacked.",
     "synonyms": [
       "caustic",
@@ -291,9 +292,9 @@ const GRE_WORDS = [
   {
     "word": "acidulous",
     "pronunciation": "/əsˈɪdʒuːləs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Slightly acid or sour; sharp or caustic in tone",
-    "mnemonic": "Picture “tart” vividly; link that image directly to acidulous.",
+    "mnemonic": "ACID-ulous: slightly ACID — tart, sharp-tongued.",
     "usage": "Her acidulous remarks about colleagues, delivered always with a smile, made her few friends in the department.",
     "synonyms": [
       "tart",
@@ -309,9 +310,9 @@ const GRE_WORDS = [
   {
     "word": "acme",
     "pronunciation": "/ˈækmi/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Summit, peak, highest point",
-    "mnemonic": "Picture “peak” vividly; link that image directly to acme.",
+    "mnemonic": "ACME: the ACME company logo always sits on TOP of the anvil — the peak.",
     "usage": "The cathedral's spire, regarded as the acme of Gothic architecture, drew pilgrims and tourists alike.",
     "synonyms": [
       "peak",
@@ -326,10 +327,10 @@ const GRE_WORDS = [
   },
   {
     "word": "activism",
-    "pronunciation": "/ˈæktɪvˌɪzʌm/",
+    "pronunciation": "/ˈæktɪvˌɪzəm/",
     "pos": "Noun",
     "meaning": "Pursuing political or social goals through vigorous action",
-    "mnemonic": "Picture “advocacy” vividly; link that image directly to activism.",
+    "mnemonic": "ACT-ivism: taking ACTION for a cause — advocacy.",
     "usage": "Her activism began in college, when she organized a sit-in against the university's investment policies.",
     "synonyms": [
       "advocacy",
@@ -344,10 +345,10 @@ const GRE_WORDS = [
   },
   {
     "word": "acumen",
-    "pronunciation": "/ʌkjˈumʌn/",
+    "pronunciation": "/ˈækjuːmˌɛn/",
     "pos": "Verb",
     "meaning": "Keen, quick, accurate insight or judgment",
-    "mnemonic": "Picture “shrewdness” vividly; link that image directly to acumen.",
+    "mnemonic": "ACU-MEN: ACU = sharp (acupuncture). Sharp-MEN with keen insight.",
     "usage": "Her business acumen turned a failing bookstore into the most profitable shop on the block.",
     "synonyms": [
       "shrewdness",
@@ -362,10 +363,10 @@ const GRE_WORDS = [
   },
   {
     "word": "adhere",
-    "pronunciation": "/ʌdhˈɪr/",
+    "pronunciation": "/ədhˈɪɹ/",
     "pos": "Verb",
     "meaning": "Stick to; follow closely; remain attached",
-    "mnemonic": "Picture “comply” vividly; link that image directly to adhere.",
+    "mnemonic": "AD-HERE: stick HERE — cling to the plan.",
     "usage": "The researcher refused to adhere to the prevailing paradigm, convinced that the data pointed elsewhere.",
     "synonyms": [
       "comply",
@@ -380,10 +381,10 @@ const GRE_WORDS = [
   },
   {
     "word": "admonish",
-    "pronunciation": "/ædmˈɑnɪʃ/",
+    "pronunciation": "/ədmˈɑːnɪʃ/",
     "pos": "Adjective",
     "meaning": "Mildly scold; caution, advise, or remind",
-    "mnemonic": "Picture “reprimand” vividly; link that image directly to admonish.",
+    "mnemonic": "AD-MONISH: a demon-ish warning — mildly scold or caution.",
     "usage": "The editor admonished the young reporter for relying on anonymous sources without corroboration.",
     "synonyms": [
       "reprimand",
@@ -398,10 +399,10 @@ const GRE_WORDS = [
   },
   {
     "word": "adulterate",
-    "pronunciation": "/ʌdˈʌltɝˌeɪt/",
+    "pronunciation": "/ədˈʌltɚɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Make impure by adding inappropriate or inferior ingredients",
-    "mnemonic": "Picture “contaminate” vividly; link that image directly to adulterate.",
+    "mnemonic": "ADULTER-ate: commit ADULTERY on a pure substance — make it impure.",
     "usage": "The honey was adulterated with corn syrup, a fraud that regulators discovered only after years of complaints.",
     "synonyms": [
       "contaminate",
@@ -419,7 +420,7 @@ const GRE_WORDS = [
     "pronunciation": "/ˈædəmbɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Give a rough outline of; foreshadow; reveal only partially",
-    "mnemonic": "Picture “outline” vividly; link that image directly to adumbrate.",
+    "mnemonic": "AD-UMBRATE: UMBR = shadow (umbrella). Sketch in shadowy outline — foreshadow.",
     "usage": "The report adumbrated a coming crisis but stopped short of naming its likely causes.",
     "synonyms": [
       "outline",
@@ -434,10 +435,10 @@ const GRE_WORDS = [
   },
   {
     "word": "adverse",
-    "pronunciation": "/ædvˈɝs/",
+    "pronunciation": "/ædvˈɜːs/",
     "pos": "Noun",
     "meaning": "Opposing, harmful; unfavorable",
-    "mnemonic": "VERS = turn: picture something turning.",
+    "mnemonic": "AD-VERSE: VERSE = turn. Adverse winds are turned against you.",
     "usage": "Adverse weather conditions grounded all flights for two consecutive days.",
     "synonyms": [
       "unfavorable",
@@ -452,10 +453,10 @@ const GRE_WORDS = [
   },
   {
     "word": "advocate",
-    "pronunciation": "/ˈædvʌkʌt/",
-    "pos": "Verb",
+    "pronunciation": "/ˈædvəkˌeɪt/",
+    "pos": "Noun",
     "meaning": "Speak or argue in favor of; a person who pleads for a cause",
-    "mnemonic": "VOC = call/voice: picture someone calling out.",
+    "mnemonic": "AD-VOCATE: VOC = voice. Advocate = raise your voice for a cause.",
     "usage": "She has advocated for prison reform for over two decades, testifying before Congress six times.",
     "synonyms": [
       "champion",
@@ -470,10 +471,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aerie",
-    "pronunciation": "/ˈɛri/",
+    "pronunciation": "/ˈɛɹi/",
     "pos": "Noun",
     "meaning": "Dwelling or fortress built on a high place; the nest of a bird of prey",
-    "mnemonic": "Picture “nest” vividly; link that image directly to aerie.",
+    "mnemonic": "AERIE: sounds like AIRY — an eagle's nest high in the air.",
     "usage": "The eagle's aerie, perched on a cliff face, was accessible only by a narrow and dangerous path.",
     "synonyms": [
       "nest",
@@ -488,10 +489,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aesthetic",
-    "pronunciation": "/ɛsθˈɛtɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛsθˈɛɾɪk/",
+    "pos": "Noun",
     "meaning": "Concerning the appreciation of beauty or good taste",
-    "mnemonic": "Picture “artistic” vividly; link that image directly to aesthetic.",
+    "mnemonic": "AESTHET-ic: think AN AESTHETIC — concerning beauty and taste.",
     "usage": "Her aesthetic sensibility, honed by years of museum work, made her a sought-after curator.",
     "synonyms": [
       "artistic",
@@ -506,10 +507,10 @@ const GRE_WORDS = [
   },
   {
     "word": "affable",
-    "pronunciation": "/ˈæfʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈæfəbəl/",
+    "pos": "Noun",
     "meaning": "Warm and friendly, pleasant, approachable",
-    "mnemonic": "Picture “congenial” vividly; link that image directly to affable.",
+    "mnemonic": "AF-FABLE: someone you'd tell a FABLE to — warm, friendly, approachable.",
     "usage": "The affable professor was known for inviting students to his home for dinner and discussion.",
     "synonyms": [
       "congenial",
@@ -524,10 +525,10 @@ const GRE_WORDS = [
   },
   {
     "word": "affectation",
-    "pronunciation": "/ˌæfɛktˈeɪʃʌn/",
+    "pronunciation": "/əfɪktˈeɪʃən/",
     "pos": "Noun",
     "meaning": "Fake behavior adopted to give a certain impression",
-    "mnemonic": "Picture “pretense” vividly; link that image directly to affectation.",
+    "mnemonic": "AFFECT-ation: putting on AFFECted behavior — a fake mannerism.",
     "usage": "His British accent was a transparent affectation, adopted after a single semester abroad.",
     "synonyms": [
       "pretense",
@@ -542,10 +543,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aggrandize",
-    "pronunciation": "/ʌɡrˈændˌaɪz/",
+    "pronunciation": "/əɡɹˈændaɪz/",
     "pos": "Verb",
     "meaning": "Make greater; exaggerate; increase power or wealth",
-    "mnemonic": "Picture “enlarge” vividly; link that image directly to aggrandize.",
+    "mnemonic": "AG-GRAND-ize: make GRAND — enlarge, exaggerate one's power.",
     "usage": "The dictator aggrandized his power by dissolving parliament and rewriting the constitution.",
     "synonyms": [
       "enlarge",
@@ -560,10 +561,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aggregate",
-    "pronunciation": "/ˈæɡrʌɡʌt/",
-    "pos": "Verb",
+    "pronunciation": "/ˈæɡɹɪɡˌeɪt/",
+    "pos": "Noun",
     "meaning": "Gather together, amount to; a whole made up of parts",
-    "mnemonic": "Picture “total” vividly; link that image directly to aggregate.",
+    "mnemonic": "AGGREG-ate: GREG = flock (gregarious). Gather into a flock — total.",
     "usage": "The aggregate effect of a thousand small decisions was a society no one had intended to create.",
     "synonyms": [
       "total",
@@ -578,10 +579,10 @@ const GRE_WORDS = [
   },
   {
     "word": "alacrity",
-    "pronunciation": "/ʌlˈækrʌti/",
+    "pronunciation": "/əlˈækɹɪɾi/",
     "pos": "Noun",
     "meaning": "Cheerful or speedy willingness",
-    "mnemonic": "Picture “eagerness” vividly; link that image directly to alacrity.",
+    "mnemonic": "ALACR-ity: sounds like A LARK — cheerful, brisk willingness.",
     "usage": "She accepted the difficult assignment with alacrity, eager to prove herself.",
     "synonyms": [
       "eagerness",
@@ -596,10 +597,10 @@ const GRE_WORDS = [
   },
   {
     "word": "albeit",
-    "pronunciation": "/ɔlbˈiɪt/",
+    "pronunciation": "/ɔːlbˈiːɪt/",
     "pos": "Noun",
     "meaning": "Although, even though",
-    "mnemonic": "Picture “although” vividly; link that image directly to albeit.",
+    "mnemonic": "AL-BE-IT: ALL BE IT — although, even though.",
     "usage": "The theory was widely accepted, albeit with significant reservations from a minority of researchers.",
     "synonyms": [
       "although",
@@ -614,10 +615,10 @@ const GRE_WORDS = [
   },
   {
     "word": "alienate",
-    "pronunciation": "/ˈeɪljʌnˌeɪt/",
+    "pronunciation": "/ˈeɪliənˌeɪt/",
     "pos": "Verb",
     "meaning": "Cause to become unfriendly, hostile, or distant",
-    "mnemonic": "Picture “estrange” vividly; link that image directly to alienate.",
+    "mnemonic": "ALIEN-ate: make someone feel like an ALIEN — estranged.",
     "usage": "His refusal to compromise alienated even his most loyal supporters.",
     "synonyms": [
       "estrange",
@@ -632,10 +633,10 @@ const GRE_WORDS = [
   },
   {
     "word": "alleviate",
-    "pronunciation": "/ʌlˈiviˌeɪt/",
+    "pronunciation": "/əlˈiːvɪˌeɪt/",
     "pos": "Verb",
     "meaning": "Lessen, make easier to endure",
-    "mnemonic": "Picture “ease” vividly; link that image directly to alleviate.",
+    "mnemonic": "AL-LEVI-ate: LEVI = light (levity). Make lighter — relieve.",
     "usage": "The new treatment alleviated the symptoms without addressing the underlying disease.",
     "synonyms": [
       "ease",
@@ -650,10 +651,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aloof",
-    "pronunciation": "/ʌlˈuf/",
+    "pronunciation": "/əlˈuːf/",
     "pos": "Noun",
     "meaning": "Distant physically or emotionally; reserved; indifferent",
-    "mnemonic": "Picture “detached” vividly; link that image directly to aloof.",
+    "mnemonic": "A-LOOF: stand A-ROOF away from the crowd — detached, distant.",
     "usage": "He remained aloof from the office gossip, preferring to eat lunch alone with a book.",
     "synonyms": [
       "detached",
@@ -668,10 +669,10 @@ const GRE_WORDS = [
   },
   {
     "word": "amalgamate",
-    "pronunciation": "/ʌmˈælɡʌmˌeɪt/",
+    "pronunciation": "/əmˈælɡəmˌeɪt/",
     "pos": "Verb",
     "meaning": "Blend, merge, or unite",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "AMALGAM-ate: an AMALGAM is a blend of metals — merge, unite.",
     "usage": "The two rival firms amalgamated, creating an industry giant with more than half the market.",
     "synonyms": [
       "merge",
@@ -686,10 +687,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ambiguous",
-    "pronunciation": "/æmbˈɪɡjuʌs/",
+    "pronunciation": "/æmbˈɪɡjuːəs/",
     "pos": "Adjective",
     "meaning": "Not clear; open to several meanings or interpretations",
-    "mnemonic": "Picture “unclear” vividly; link that image directly to ambiguous.",
+    "mnemonic": "AMBI-GUOUS: AMBI = both. Both meanings possible — unclear.",
     "usage": "The contract's ambiguous language led both parties to believe they had won the negotiation.",
     "synonyms": [
       "unclear",
@@ -704,10 +705,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ambivalent",
-    "pronunciation": "/æmbˈɪvʌlʌnt/",
+    "pronunciation": "/æmbˈɪvələnt/",
     "pos": "Adjective",
     "meaning": "Uncertain; having mixed feelings; unable to decide",
-    "mnemonic": "Picture “conflicted” vividly; link that image directly to ambivalent.",
+    "mnemonic": "AMBI-VALENT: both VALENCES — two opposing feelings at once.",
     "usage": "She felt ambivalent about the promotion, which offered prestige but demanded a move across the country.",
     "synonyms": [
       "conflicted",
@@ -722,10 +723,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ameliorate",
-    "pronunciation": "/ʌmˈiljɝˌeɪt/",
+    "pronunciation": "/əmˈiːlɪɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Improve; make better or more bearable",
-    "mnemonic": "Picture “improve” vividly; link that image directly to ameliorate.",
+    "mnemonic": "AMELIOR-ate: MELIOR = better (Latin). Make better, improve.",
     "usage": "The reforms ameliorated working conditions but did not address the deeper problem of low wages.",
     "synonyms": [
       "improve",
@@ -740,10 +741,10 @@ const GRE_WORDS = [
   },
   {
     "word": "amortize",
-    "pronunciation": "/ˈæmɝtˌaɪz/",
+    "pronunciation": "/əmˈɔːɹɾaɪz/",
     "pos": "Verb",
     "meaning": "Gradually pay off a debt, or gradually write off an asset",
-    "mnemonic": "MORT = death: picture the word connected to mortality.",
+    "mnemonic": "A-MORT-ize: MORT = death. You KILL OFF the debt slowly — pay off gradually.",
     "usage": "The company chose to amortize the cost of the new equipment over ten years rather than expensing it immediately.",
     "synonyms": [
       "repay",
@@ -758,10 +759,10 @@ const GRE_WORDS = [
   },
   {
     "word": "anachronism",
-    "pronunciation": "/ʌnˈækrʌnˌɪzʌm/",
+    "pronunciation": "/ænˈækɹənˌɪzəm/",
     "pos": "Noun",
     "meaning": "Something not in its correct historical time; a chronological mistake",
-    "mnemonic": "Picture “misplacement” vividly; link that image directly to anachronism.",
+    "mnemonic": "ANA-CHRON-ism: CHRON = time. Out of time — misplaced historically.",
     "usage": "The clock in the Roman epic was an anachronism that no one but the historians noticed.",
     "synonyms": [
       "misplacement",
@@ -779,7 +780,7 @@ const GRE_WORDS = [
     "pronunciation": "/ˌænəldʒˈiːʒə/",
     "pos": "Noun",
     "meaning": "Pain relief; inability to feel pain",
-    "mnemonic": "Picture “painlessness” vividly; link that image directly to analgesia.",
+    "mnemonic": "AN-ALGESIA: ALGES = pain (neuralgia). No pain — relief.",
     "usage": "The drug produced complete analgesia without the drowsiness associated with older painkillers.",
     "synonyms": [
       "painlessness",
@@ -794,10 +795,10 @@ const GRE_WORDS = [
   },
   {
     "word": "analogous",
-    "pronunciation": "/ʌnˈælʌɡʌs/",
+    "pronunciation": "/ənˈæləɡəs/",
     "pos": "Adjective",
     "meaning": "Comparable, corresponding in some particular way",
-    "mnemonic": "Picture “similar” vividly; link that image directly to analogous.",
+    "mnemonic": "ANA-LOGOS: LOGOS = reason/word. Parallel reasoning — similar.",
     "usage": "The heart is often described as analogous to a pump, though the comparison understates its complexity.",
     "synonyms": [
       "similar",
@@ -812,10 +813,10 @@ const GRE_WORDS = [
   },
   {
     "word": "anarchy",
-    "pronunciation": "/ˈænɝkˌi/",
+    "pronunciation": "/ˈænɑːɹki/",
     "pos": "Adjective",
     "meaning": "Absence of law or government; chaos, disorder",
-    "mnemonic": "Picture “chaos” vividly; link that image directly to anarchy.",
+    "mnemonic": "AN-ARCHY: AN = without; ARCHY = rule. Without rule — chaos.",
     "usage": "After the revolution, the country descended into anarchy, with rival factions battling for control.",
     "synonyms": [
       "chaos",
@@ -830,10 +831,10 @@ const GRE_WORDS = [
   },
   {
     "word": "annul",
-    "pronunciation": "/ˈænʌl/",
+    "pronunciation": "/ənˈʌl/",
     "pos": "Verb",
     "meaning": "Make void or null; cancel, abolish",
-    "mnemonic": "Picture “cancel” vividly; link that image directly to annul.",
+    "mnemonic": "AN-NUL: make NULL — cancel.",
     "usage": "The court annulled the marriage after discovering that one party had never divorced a previous spouse.",
     "synonyms": [
       "cancel",
@@ -849,9 +850,9 @@ const GRE_WORDS = [
   {
     "word": "anodyne",
     "pronunciation": "/ˈænədˌaɪn/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Medicine that relieves pain; soothing, relieving pain",
-    "mnemonic": "Picture “soothing” vividly; link that image directly to anodyne.",
+    "mnemonic": "AN-ODYNE: think NO PAIN — soothing medicine.",
     "usage": "The anodyne effect of the music helped patients endure the tedium of the long wait.",
     "synonyms": [
       "soothing",
@@ -866,10 +867,10 @@ const GRE_WORDS = [
   },
   {
     "word": "anoint",
-    "pronunciation": "/ʌnˈɔɪnt/",
+    "pronunciation": "/ənˈɔɪnt/",
     "pos": "Verb",
     "meaning": "Rub or sprinkle oil on; make sacred, consecrate",
-    "mnemonic": "Picture “consecrate” vividly; link that image directly to anoint.",
+    "mnemonic": "AN-OINT: rub with OIL (both contain OI) — consecrate with oil.",
     "usage": "The archbishop anointed the new king in a ceremony watched by millions.",
     "synonyms": [
       "consecrate",
@@ -887,7 +888,7 @@ const GRE_WORDS = [
     "pronunciation": "/æsˈɛptɪk/",
     "pos": "Adjective",
     "meaning": "Free from germs; sterile",
-    "mnemonic": "Picture “sterile” vividly; link that image directly to aseptic.",
+    "mnemonic": "A-SEPTIC: SEPTIC = infected. Without infection — sterile.",
     "usage": "The surgeon insisted on aseptic conditions, checking each instrument personally before the operation.",
     "synonyms": [
       "sterile",
@@ -902,10 +903,10 @@ const GRE_WORDS = [
   },
   {
     "word": "asperity",
-    "pronunciation": "/ʌspˈɛrɪti/",
+    "pronunciation": "/əspˈɛɹɪɾi/",
     "pos": "Noun",
     "meaning": "Rigor, severity; harshness or sharpness of tone; roughness of surface",
-    "mnemonic": "Picture “harshness” vividly; link that image directly to asperity.",
+    "mnemonic": "ASPER-ity: ASPER = rough. Harshness of tone or surface.",
     "usage": "The diplomat's asperity, usually kept in check, surfaced when the negotiations stalled for the third time.",
     "synonyms": [
       "harshness",
@@ -920,10 +921,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aspersions",
-    "pronunciation": "/ʌspˈɝʒʌnz/",
+    "pronunciation": "/əspˈɜːʒənz/",
     "pos": "Noun",
     "meaning": "Damaging remarks; defamation, slander",
-    "mnemonic": "Picture “slander” vividly; link that image directly to aspersions.",
+    "mnemonic": "AS-PERSE: PERSE = sprinkle. You SPRINKLE damaging rumors — slander.",
     "usage": "The candidate cast aspersions on his opponent's business record without offering a shred of evidence.",
     "synonyms": [
       "slander",
@@ -938,10 +939,10 @@ const GRE_WORDS = [
   },
   {
     "word": "assail",
-    "pronunciation": "/ʌsˈeɪl/",
+    "pronunciation": "/əsˈeɪl/",
     "pos": "Verb",
     "meaning": "Attack violently; assault; criticize harshly",
-    "mnemonic": "Picture “attack” vividly; link that image directly to assail.",
+    "mnemonic": "AS-SAIL: SAIL your fists at someone — attack violently.",
     "usage": "The senator was assailed from all sides for her equivocal response to the crisis.",
     "synonyms": [
       "attack",
@@ -956,10 +957,10 @@ const GRE_WORDS = [
   },
   {
     "word": "assiduous",
-    "pronunciation": "/ʌsˈɪdwʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/əsˈɪdjuːəs/",
+    "pos": "Noun",
     "meaning": "Persevering, diligent, constant; showing great care",
-    "mnemonic": "Picture “diligent” vividly; link that image directly to assiduous.",
+    "mnemonic": "AS-SID-uous: SIT at something — diligent, persistent.",
     "usage": "Her assiduous attention to detail turned the shabby archive into a model of order.",
     "synonyms": [
       "diligent",
@@ -974,10 +975,10 @@ const GRE_WORDS = [
   },
   {
     "word": "assuage",
-    "pronunciation": "/ʌswˈeɪdʒ/",
-    "pos": "Verb",
+    "pronunciation": "/əswˈeɪdʒ/",
+    "pos": "Noun",
     "meaning": "Make milder, relieve; soothe, pacify, or calm",
-    "mnemonic": "Picture “soothe” vividly; link that image directly to assuage.",
+    "mnemonic": "AS-SUAGE: sounds like A SWAGE — to smooth over, soothe, pacify.",
     "usage": "No apology could assuage the grief of the families who had lost everything in the flood.",
     "synonyms": [
       "soothe",
@@ -992,10 +993,10 @@ const GRE_WORDS = [
   },
   {
     "word": "attenuate",
-    "pronunciation": "/ʌtˈɛnjuˌeɪt/",
+    "pronunciation": "/ətˈɛnjuːˌeɪt/",
     "pos": "Verb",
     "meaning": "Weaken or thin out; reduce in force or intensity",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "AT-TENU-ate: TENU = thin (tenuous). Weaken, thin out.",
     "usage": "The thick walls attenuated the noise from the street until it was barely a murmur.",
     "synonyms": [
       "weaken",
@@ -1010,10 +1011,10 @@ const GRE_WORDS = [
   },
   {
     "word": "attuned",
-    "pronunciation": "/ʌtˈund/",
+    "pronunciation": "/ətˈuːnd/",
     "pos": "Adjective",
     "meaning": "In harmony; in sympathetic relationship; sensitive to",
-    "mnemonic": "Picture “harmonious” vividly; link that image directly to attuned.",
+    "mnemonic": "AT-TUNED: in TUNE — harmonious, sensitive to.",
     "usage": "A teacher who is attuned to her students' moods can sense when a lesson is failing.",
     "synonyms": [
       "harmonious",
@@ -1028,10 +1029,10 @@ const GRE_WORDS = [
   },
   {
     "word": "audacious",
-    "pronunciation": "/ɑdˈeɪʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɔːdˈeɪʃəs/",
+    "pos": "Noun",
     "meaning": "Very bold or brave, often in a rude or reckless way; extremely original",
-    "mnemonic": "AUD = hear: picture the word connected to sound.",
+    "mnemonic": "AUD-ACIOUS: AUD = bold (audacity). Bold, daring, reckless.",
     "usage": "The audacious plan to cross the Antarctic in winter struck most experts as suicidal.",
     "synonyms": [
       "bold",
@@ -1046,10 +1047,10 @@ const GRE_WORDS = [
   },
   {
     "word": "augment",
-    "pronunciation": "/ɔɡmˈɛnt/",
-    "pos": "Verb",
+    "pronunciation": "/ɔːɡmˈɛnt/",
+    "pos": "Noun",
     "meaning": "Make larger; increase; enhance",
-    "mnemonic": "Picture “increase” vividly; link that image directly to augment.",
+    "mnemonic": "AUG-MENT: AUG = grow (Augustus, auxiliary). Make larger.",
     "usage": "The company augmented its cybersecurity budget after the breach exposed vulnerabilities in its systems.",
     "synonyms": [
       "increase",
@@ -1065,9 +1066,9 @@ const GRE_WORDS = [
   {
     "word": "augury",
     "pronunciation": "/ˈɔːɡjʊɹi/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Telling the future; an omen or portent",
-    "mnemonic": "Picture “omen” vividly; link that image directly to augury.",
+    "mnemonic": "AUG-ury: an AUGUR was a Roman soothsayer — an omen of the future.",
     "usage": "The eclipse was read as an augury of the emperor's death, and the court fell silent for days.",
     "synonyms": [
       "omen",
@@ -1082,10 +1083,10 @@ const GRE_WORDS = [
   },
   {
     "word": "august",
-    "pronunciation": "/ˈɑɡʌst/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɔːɡəst/",
+    "pos": "Noun",
     "meaning": "Venerable, majestic; inspiring admiration and reverence",
-    "mnemonic": "Picture “majestic” vividly; link that image directly to august.",
+    "mnemonic": "AUGUST: like the emperor — majestic, venerable.",
     "usage": "The august assembly included three Nobel laureates and a former prime minister.",
     "synonyms": [
       "majestic",
@@ -1100,10 +1101,10 @@ const GRE_WORDS = [
   },
   {
     "word": "austere",
-    "pronunciation": "/ɔstˈɪr/",
-    "pos": "Adjective",
+    "pronunciation": "/ɔːstˈɪɹ/",
+    "pos": "Noun",
     "meaning": "Severe in manner or appearance; very self-disciplined, ascetic; without luxury or ease",
-    "mnemonic": "Picture “stern” vividly; link that image directly to austere.",
+    "mnemonic": "AUSTERE: think AUSTERITY — severe, stern, no luxury.",
     "usage": "The austere monk owned only two robes, a bowl, and a worn copy of scripture.",
     "synonyms": [
       "stern",
@@ -1118,10 +1119,10 @@ const GRE_WORDS = [
   },
   {
     "word": "autonomous",
-    "pronunciation": "/ɔtˈɑnʌmʌs/",
+    "pronunciation": "/ɔːtˈɑːnəməs/",
     "pos": "Adjective",
     "meaning": "Self-governing, independent; acting on one's own",
-    "mnemonic": "Picture “independent” vividly; link that image directly to autonomous.",
+    "mnemonic": "AUTO-NOMOUS: AUTO = self; NOMOS = law. Self-governing.",
     "usage": "The region became autonomous after decades of conflict, though foreign policy remained with the central government.",
     "synonyms": [
       "independent",
@@ -1136,10 +1137,10 @@ const GRE_WORDS = [
   },
   {
     "word": "avarice",
-    "pronunciation": "/ˈævɝʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈævɚɹˌɪs/",
+    "pos": "Noun",
     "meaning": "Insatiable greed; a miserly desire to hoard wealth",
-    "mnemonic": "Picture “greed” vividly; link that image directly to avarice.",
+    "mnemonic": "AVAR-ice: A VERY ICE (cold, hoarding) — greed.",
     "usage": "His avarice was such that he would sell his own family's land to buy another parcel.",
     "synonyms": [
       "greed",
@@ -1154,10 +1155,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aver",
-    "pronunciation": "/ˈeɪvɝ/",
+    "pronunciation": "/əvˈɜː/",
     "pos": "Verb",
     "meaning": "Declare or affirm with confidence; assert",
-    "mnemonic": "Picture “assert” vividly; link that image directly to aver.",
+    "mnemonic": "A-VER: VER = truth (verify). Say it as truth — assert.",
     "usage": "The witness averred that he had seen the defendant leave the building at midnight.",
     "synonyms": [
       "assert",
@@ -1172,10 +1173,10 @@ const GRE_WORDS = [
   },
   {
     "word": "avid",
-    "pronunciation": "/ˈævʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈævɪd/",
+    "pos": "Noun",
     "meaning": "Enthusiastic, dedicated, passionate; excessively desirous",
-    "mnemonic": "Picture “keen” vividly; link that image directly to avid.",
+    "mnemonic": "AVID: think AVID gamer — enthusiastic, passionate.",
     "usage": "An avid collector of rare maps, she spent weekends scouring estate sales for overlooked treasures.",
     "synonyms": [
       "keen",
@@ -1190,10 +1191,10 @@ const GRE_WORDS = [
   },
   {
     "word": "axiom",
-    "pronunciation": "/ˈæksiʌm/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈæksɪəm/",
+    "pos": "Noun",
     "meaning": "Self-evident truth requiring no proof; universally accepted principle",
-    "mnemonic": "Picture “truism” vividly; link that image directly to axiom.",
+    "mnemonic": "AXIOM: an AXE splits wood by an obvious truth — a self-evident principle.",
     "usage": "It is an axiom of journalism that a story without sources is no story at all.",
     "synonyms": [
       "truism",
@@ -1208,10 +1209,10 @@ const GRE_WORDS = [
   },
   {
     "word": "balk",
-    "pronunciation": "/bˈɔk/",
+    "pronunciation": "/bˈɔːk/",
     "pos": "Verb",
     "meaning": "Refuse to proceed or to do something; hesitate",
-    "mnemonic": "Picture “refuse” vividly; link that image directly to balk.",
+    "mnemonic": "BALK: a horse BALKS at a jump — refuses to proceed.",
     "usage": "The board balked at the price of the acquisition, convinced the valuation was inflated.",
     "synonyms": [
       "refuse",
@@ -1226,10 +1227,10 @@ const GRE_WORDS = [
   },
   {
     "word": "balloon",
-    "pronunciation": "/bʌlˈun/",
+    "pronunciation": "/bəlˈuːn/",
     "pos": "Noun",
     "meaning": "Swell or puff out; increase rapidly",
-    "mnemonic": "Picture “swell” vividly; link that image directly to balloon.",
+    "mnemonic": "BALLOON: it swells and puffs up — increase rapidly.",
     "usage": "Costs ballooned once the contractor realized how unstable the foundation was.",
     "synonyms": [
       "swell",
@@ -1244,10 +1245,10 @@ const GRE_WORDS = [
   },
   {
     "word": "banal",
-    "pronunciation": "/bʌnˈɑl/",
+    "pronunciation": "/bˈeɪnəl/",
     "pos": "Adjective",
     "meaning": "Lacking freshness and originality; commonplace, trite",
-    "mnemonic": "Picture “trite” vividly; link that image directly to banal.",
+    "mnemonic": "BANAL: sounds like BLAND — commonplace, trite.",
     "usage": "The commencement speech was full of banal exhortations that the graduates had heard a hundred times.",
     "synonyms": [
       "trite",
@@ -1263,9 +1264,9 @@ const GRE_WORDS = [
   {
     "word": "bane",
     "pronunciation": "/bˈeɪn/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Something that ruins or spoils; a source of persistent distress",
-    "mnemonic": "Picture “curse” vividly; link that image directly to bane.",
+    "mnemonic": "BANE: BATMAN's BANE was his ruin, his curse.",
     "usage": "Procrastination was the bane of his career, costing him one opportunity after another.",
     "synonyms": [
       "curse",
@@ -1281,9 +1282,9 @@ const GRE_WORDS = [
   {
     "word": "base",
     "pronunciation": "/bˈeɪs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Morally low, mean, dishonorable; of little or no value",
-    "mnemonic": "Picture “vile” vividly; link that image directly to base.",
+    "mnemonic": "BASE: the BASE of the ladder — morally low, dishonorable.",
     "usage": "His base motives were exposed when the charity's funds turned up in his personal account.",
     "synonyms": [
       "vile",
@@ -1299,9 +1300,9 @@ const GRE_WORDS = [
   {
     "word": "baying",
     "pronunciation": "/bˈeɪɪŋ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Howling in a deep way, like a dog or wolf",
-    "mnemonic": "Picture “howling” vividly; link that image directly to baying.",
+    "mnemonic": "BAYING: hounds BAY at the moon — deep howling.",
     "usage": "The baying of the hounds grew louder as the fox doubled back toward the river.",
     "synonyms": [
       "howling",
@@ -1319,7 +1320,7 @@ const GRE_WORDS = [
     "pronunciation": "/bɪlˈaɪ/",
     "pos": "Noun",
     "meaning": "Contradict or misrepresent; show to be false",
-    "mnemonic": "Picture “contradict” vividly; link that image directly to belie.",
+    "mnemonic": "BE-LIE: to LIE about — contradict, misrepresent.",
     "usage": "Her cheerful tone belied the anxiety that had kept her awake for weeks.",
     "synonyms": [
       "contradict",
@@ -1334,10 +1335,10 @@ const GRE_WORDS = [
   },
   {
     "word": "beneficent",
-    "pronunciation": "/bˌɛnʌfˈɪʃʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/bˈɛnɪfˌɪsənt/",
+    "pos": "Noun",
     "meaning": "Doing good; generous; producing benefit",
-    "mnemonic": "BENE = good: picture something good or beneficial.",
+    "mnemonic": "BENE-FICENT: BENE = good. Doing good, generous.",
     "usage": "The beneficent patron funded scholarships for decades without ever seeking recognition.",
     "synonyms": [
       "kind",
@@ -1353,9 +1354,9 @@ const GRE_WORDS = [
   {
     "word": "benign",
     "pronunciation": "/bɪnˈaɪn/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Harmless; kindly, gentle; not cancerous",
-    "mnemonic": "Picture “harmless” vividly; link that image directly to benign.",
+    "mnemonic": "BE-NIGN: BE NICE — kindly, harmless, gentle.",
     "usage": "The biopsy revealed a benign tumor, to the immense relief of the entire family.",
     "synonyms": [
       "harmless",
@@ -1371,9 +1372,9 @@ const GRE_WORDS = [
   {
     "word": "bent",
     "pronunciation": "/bˈɛnt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Personal inclination or tendency; natural aptitude",
-    "mnemonic": "Picture “inclination” vividly; link that image directly to bent.",
+    "mnemonic": "BENT: a metal rod bent toward one direction — an inclination.",
     "usage": "From an early age, he showed a bent for mathematics that his teachers struggled to satisfy.",
     "synonyms": [
       "inclination",
@@ -1388,10 +1389,10 @@ const GRE_WORDS = [
   },
   {
     "word": "besiege",
-    "pronunciation": "/bɪsˈidʒ/",
+    "pronunciation": "/bɪsˈiːdʒ/",
     "pos": "Verb",
     "meaning": "Attack, overwhelm, crowd in on or surround",
-    "mnemonic": "Picture “surround” vividly; link that image directly to besiege.",
+    "mnemonic": "BE-SIEGE: to lay SIEGE to — surround, overwhelm.",
     "usage": "After the speech, the senator was besieged by reporters demanding clarification.",
     "synonyms": [
       "surround",
@@ -1407,9 +1408,9 @@ const GRE_WORDS = [
   {
     "word": "bevy",
     "pronunciation": "/bˈɛvi/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Group of birds or other animals that stay close together; any large group",
-    "mnemonic": "Picture “group” vividly; link that image directly to bevy.",
+    "mnemonic": "BEVY: a BEVY of beauties — a large group of birds or people.",
     "usage": "A bevy of eager interns descended on the newsroom each summer, and most departed within weeks.",
     "synonyms": [
       "group",
@@ -1424,10 +1425,10 @@ const GRE_WORDS = [
   },
   {
     "word": "bifurcate",
-    "pronunciation": "/bˈɪfɝkˌeɪt/",
+    "pronunciation": "/bˈaɪfɚkˌeɪt/",
     "pos": "Verb",
     "meaning": "To fork into two branches or divide into two halves",
-    "mnemonic": "Picture “fork” vividly; link that image directly to bifurcate.",
+    "mnemonic": "BI-FURC-ate: BI = two; FURC = fork. Fork into two branches.",
     "usage": "The river bifurcates just north of the city, one branch continuing east and the other turning south.",
     "synonyms": [
       "fork",
@@ -1445,7 +1446,7 @@ const GRE_WORDS = [
     "pronunciation": "/bˈɪlk/",
     "pos": "Noun",
     "meaning": "Cheat or defraud; evade payment",
-    "mnemonic": "Picture “defraud” vividly; link that image directly to bilk.",
+    "mnemonic": "BILK: sounds like BILL — cheat someone out of their BILL — defraud.",
     "usage": "The con artist bilked elderly investors out of millions before the authorities caught up with him.",
     "synonyms": [
       "defraud",
@@ -1461,9 +1462,9 @@ const GRE_WORDS = [
   {
     "word": "blight",
     "pronunciation": "/blˈaɪt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Disease that kills plants rapidly; any cause of decay or destruction",
-    "mnemonic": "Picture “disease” vividly; link that image directly to blight.",
+    "mnemonic": "BLIGHT: the first letter says it — a BLIGHT kills plants.",
     "usage": "The blight destroyed the potato crop and with it the only livelihood the villagers had known.",
     "synonyms": [
       "disease",
@@ -1479,9 +1480,9 @@ const GRE_WORDS = [
   {
     "word": "blithe",
     "pronunciation": "/blˈaɪð/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Joyous, merry; carefree; often in a way that ignores important concerns",
-    "mnemonic": "Picture “carefree” vividly; link that image directly to blithe.",
+    "mnemonic": "BLITHE: light-hearted and carefree, indifferent to worry.",
     "usage": "His blithe dismissal of the risks alarmed even his most loyal advisors.",
     "synonyms": [
       "carefree",
@@ -1496,10 +1497,10 @@ const GRE_WORDS = [
   },
   {
     "word": "bogus",
-    "pronunciation": "/bˈoʊɡʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/bˈoʊɡəs/",
+    "pos": "Noun",
     "meaning": "Fake, fraudulent; not genuine",
-    "mnemonic": "Picture “fake” vividly; link that image directly to bogus.",
+    "mnemonic": "BOGUS: BOGUS documents — fake, fraudulent.",
     "usage": "The bogus charity collected millions before investigators discovered that no programs existed.",
     "synonyms": [
       "fake",
@@ -1514,10 +1515,10 @@ const GRE_WORDS = [
   },
   {
     "word": "bolster",
-    "pronunciation": "/bˈoʊlstɝ/",
+    "pronunciation": "/bˈoʊlstɚ/",
     "pos": "Verb",
     "meaning": "Strengthen or support; reinforce; a support or prop",
-    "mnemonic": "Picture “support” vividly; link that image directly to bolster.",
+    "mnemonic": "BOLSTER: a BOLSTER is a pillow that props things up — to support.",
     "usage": "The new evidence bolstered the prosecution's case considerably.",
     "synonyms": [
       "support",
@@ -1532,10 +1533,10 @@ const GRE_WORDS = [
   },
   {
     "word": "bombastic",
-    "pronunciation": "/bɑmbˈæstɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/bəmbˈæstɪk/",
+    "pos": "Noun",
     "meaning": "(Of speech or writing) far too showy or dramatic; pretentious, pompous",
-    "mnemonic": "Picture “pompous” vividly; link that image directly to bombastic.",
+    "mnemonic": "BOMB-ASTIC: speech dropping BOMBS of pompous words — pompous.",
     "usage": "His bombastic acceptance speech lasted nearly an hour and thanked everyone he had ever met.",
     "synonyms": [
       "pompous",
@@ -1553,7 +1554,7 @@ const GRE_WORDS = [
     "pronunciation": "/bˈɑːnəmˌiː/",
     "pos": "Noun",
     "meaning": "Friendliness, open and simple good-heartedness; geniality",
-    "mnemonic": "Picture “geniality” vividly; link that image directly to bonhomie.",
+    "mnemonic": "BON-HOMIE: BON = good; HOMIE = friend. Good friend-liness.",
     "usage": "The dinner was marked by the kind of easy bonhomie that comes only with old friends.",
     "synonyms": [
       "geniality",
@@ -1568,10 +1569,10 @@ const GRE_WORDS = [
   },
   {
     "word": "boor",
-    "pronunciation": "/bˈʊr/",
-    "pos": "Adjective",
+    "pronunciation": "/bˈoːɹ/",
+    "pos": "Noun",
     "meaning": "Rude, ill-mannered, or insensitive person; a peasant or country bumpkin",
-    "mnemonic": "Picture “lout” vividly; link that image directly to boor.",
+    "mnemonic": "BOOR: a BOAR in a china shop — a rude, crude person.",
     "usage": "The boor at the next table talked loudly on his phone throughout the entire meal.",
     "synonyms": [
       "lout",
@@ -1586,10 +1587,10 @@ const GRE_WORDS = [
   },
   {
     "word": "brandish",
-    "pronunciation": "/brˈændɪʃ/",
+    "pronunciation": "/bɹˈændɪʃ/",
     "pos": "Adjective",
     "meaning": "Shake, wave, or flourish, as a weapon",
-    "mnemonic": "Picture “flourish” vividly; link that image directly to brandish.",
+    "mnemonic": "BRANDISH: BRAND (sword) + ISH — wave a weapon.",
     "usage": "He brandished the letter triumphantly as if it were a trophy.",
     "synonyms": [
       "flourish",
@@ -1604,10 +1605,10 @@ const GRE_WORDS = [
   },
   {
     "word": "brook",
-    "pronunciation": "/brˈʊk/",
-    "pos": "Verb",
+    "pronunciation": "/bɹˈʊk/",
+    "pos": "Noun",
     "meaning": "Suffer or tolerate; put up with",
-    "mnemonic": "Picture “tolerate” vividly; link that image directly to brook.",
+    "mnemonic": "BROOK: a Brook (stream) doesn't mind — to TOLERATE.",
     "usage": "The director would brook no dissent, however thoughtfully it was expressed.",
     "synonyms": [
       "tolerate",
@@ -1622,10 +1623,10 @@ const GRE_WORDS = [
   },
   {
     "word": "bucolic",
-    "pronunciation": "/bjukˈɑlɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/bjuːkˈɑːlɪk/",
+    "pos": "Noun",
     "meaning": "Pertaining to shepherds; suggesting a peaceful and pleasant view of rural life",
-    "mnemonic": "Picture “rural” vividly; link that image directly to bucolic.",
+    "mnemonic": "BU-COLIC: BU = cow (bovine). A cow in a meadow — pastoral, rural.",
     "usage": "The painting presents a bucolic scene in which shepherds pipe while sheep graze under an unchanging sun.",
     "synonyms": [
       "rural",
@@ -1640,10 +1641,10 @@ const GRE_WORDS = [
   },
   {
     "word": "buffer",
-    "pronunciation": "/bˈʌfɝ/",
+    "pronunciation": "/bˈʌfɚ/",
     "pos": "Noun",
     "meaning": "Something that shields, protects, absorbs shock, or cushions",
-    "mnemonic": "FER = carry: picture something being carried.",
+    "mnemonic": "BUFFER: a buffer zone shields you — protect, cushion.",
     "usage": "The wetlands serve as a natural buffer against hurricanes, absorbing the force of storm surges.",
     "synonyms": [
       "shield",
@@ -1658,10 +1659,10 @@ const GRE_WORDS = [
   },
   {
     "word": "bureaucracy",
-    "pronunciation": "/bjʊrˈɑkrʌsi/",
+    "pronunciation": "/bjʊɹɹˈɑːkɹəsi/",
     "pos": "Noun",
     "meaning": "Government characterized by many bureaus and petty administrators; excessively complex administrative procedures",
-    "mnemonic": "Picture “administration” vividly; link that image directly to bureaucracy.",
+    "mnemonic": "BUREAU-CRACY: a BUREAU (desk) RULES — many petty administrators.",
     "usage": "The bureaucracy required three separate forms, two interviews, and six weeks of waiting for what should have been a five-minute decision.",
     "synonyms": [
       "administration",
@@ -1676,10 +1677,10 @@ const GRE_WORDS = [
   },
   {
     "word": "burgeon",
-    "pronunciation": "/bˈɝdʒʌn/",
+    "pronunciation": "/bˈɜːdʒən/",
     "pos": "Noun",
     "meaning": "Grow or flourish rapidly; put forth buds or shoots",
-    "mnemonic": "Picture “flourish” vividly; link that image directly to burgeon.",
+    "mnemonic": "BURGEON: to BUD and grow rapidly.",
     "usage": "The tech sector burgeoned after the new tax incentives took effect.",
     "synonyms": [
       "flourish",
@@ -1694,10 +1695,10 @@ const GRE_WORDS = [
   },
   {
     "word": "burnish",
-    "pronunciation": "/bˈɝnɪʃ/",
+    "pronunciation": "/bˈɜːnɪʃ/",
     "pos": "Adjective",
     "meaning": "Polish, make smooth and lustrous; enhance (a reputation)",
-    "mnemonic": "Picture “polish” vividly; link that image directly to burnish.",
+    "mnemonic": "BURNISH: BURN-ISH — to shine like fire — polish.",
     "usage": "The statesman burnished his reputation for integrity by returning the campaign donation unspent.",
     "synonyms": [
       "polish",
@@ -1712,10 +1713,10 @@ const GRE_WORDS = [
   },
   {
     "word": "buttress",
-    "pronunciation": "/bˈʌtrʌs/",
+    "pronunciation": "/bˈʌtɹəs/",
     "pos": "Verb",
     "meaning": "Support or encourage; a support or prop, especially projecting from a wall",
-    "mnemonic": "Picture “support” vividly; link that image directly to buttress.",
+    "mnemonic": "BUTTRESS: the BUTT (end) of a wall support — prop up.",
     "usage": "The new data buttressed the theory that had seemed shaky only months before.",
     "synonyms": [
       "support",
@@ -1730,10 +1731,10 @@ const GRE_WORDS = [
   },
   {
     "word": "bygone",
-    "pronunciation": "/bˈaɪɡˌɔn/",
-    "pos": "Adjective",
+    "pronunciation": "/bˈaɪɡɑːn/",
+    "pos": "Noun",
     "meaning": "Past, former; that which is in the past",
-    "mnemonic": "Picture “past” vividly; link that image directly to bygone.",
+    "mnemonic": "BY-GONE: what has BY-GONE — the past.",
     "usage": "The memoir conjures a bygone world of gas lamps and horse-drawn carriages.",
     "synonyms": [
       "past",
@@ -1748,10 +1749,10 @@ const GRE_WORDS = [
   },
   {
     "word": "cacophony",
-    "pronunciation": "/kækˈɑfʌni/",
-    "pos": "Adjective",
+    "pronunciation": "/kəkˈɑːfəni/",
+    "pos": "Noun",
     "meaning": "Harsh, discordant, or meaningless mixture of sounds",
-    "mnemonic": "Picture “din” vividly; link that image directly to cacophony.",
+    "mnemonic": "CACO-PHONY: CACO = bad; PHONY = sound. Bad sound — harsh noise.",
     "usage": "A cacophony of car horns, jackhammers, and street vendors greeted him as he stepped out of the hotel.",
     "synonyms": [
       "din",
@@ -1769,7 +1770,7 @@ const GRE_WORDS = [
     "pronunciation": "/kˈælʌmni/",
     "pos": "Noun",
     "meaning": "Malicious lie intended to hurt someone's reputation; slander",
-    "mnemonic": "Picture “slander” vividly; link that image directly to calumny.",
+    "mnemonic": "CALUMNY: like CALAMITY, made of lies — slander.",
     "usage": "The biography was less a portrait than a calumny, inventing scandals that never occurred.",
     "synonyms": [
       "slander",
@@ -1784,10 +1785,10 @@ const GRE_WORDS = [
   },
   {
     "word": "canard",
-    "pronunciation": "/kʌnˈɑrd/",
-    "pos": "Adjective",
+    "pronunciation": "/kˈænɑːɹd/",
+    "pos": "Noun",
     "meaning": "Rumor, a false or baseless story",
-    "mnemonic": "Picture “rumor” vividly; link that image directly to canard.",
+    "mnemonic": "CANARD: French for DUCK — a false story people swallow like a duck.",
     "usage": "The canard that the vaccine caused infertility spread faster than any correction could.",
     "synonyms": [
       "rumor",
@@ -1802,10 +1803,10 @@ const GRE_WORDS = [
   },
   {
     "word": "candid",
-    "pronunciation": "/kˈændʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/kˈændɪd/",
+    "pos": "Noun",
     "meaning": "Open, sincere, honest; frank",
-    "mnemonic": "Picture “honest” vividly; link that image directly to candid.",
+    "mnemonic": "CANDID: a CANDID camera catches truth — honest, frank.",
     "usage": "Her candid assessment of the project's flaws, delivered without hedging, won the team's respect.",
     "synonyms": [
       "honest",
@@ -1820,10 +1821,10 @@ const GRE_WORDS = [
   },
   {
     "word": "canonical",
-    "pronunciation": "/kʌnˈɑnʌkʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/kənˈɑːnɪkəl/",
+    "pos": "Noun",
     "meaning": "Authorized, recognized; pertaining to a canon",
-    "mnemonic": "Picture “authorized” vividly; link that image directly to canonical.",
+    "mnemonic": "CANON-ical: an official CANON of accepted works — authorized.",
     "usage": "The scholar questioned whether the canonical texts truly represented the period's diversity.",
     "synonyms": [
       "authorized",
@@ -1838,10 +1839,10 @@ const GRE_WORDS = [
   },
   {
     "word": "capricious",
-    "pronunciation": "/kʌprˈɪʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/kəpɹˈɪʃəs/",
+    "pos": "Noun",
     "meaning": "Acting on impulse, erratic; unpredictable",
-    "mnemonic": "Picture “erratic” vividly; link that image directly to capricious.",
+    "mnemonic": "CAPRI-CIOUS: a CAPRIcious goat jumps around — erratic.",
     "usage": "The capricious weather of the mountains made long-range planning impossible.",
     "synonyms": [
       "erratic",
@@ -1856,10 +1857,10 @@ const GRE_WORDS = [
   },
   {
     "word": "cardinal",
-    "pronunciation": "/kˈɑrdʌnʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/kˈɑːɹdɪnəl/",
+    "pos": "Noun",
     "meaning": "Chief, most important; fundamental",
-    "mnemonic": "Picture “chief” vividly; link that image directly to cardinal.",
+    "mnemonic": "CARDINAL: a CARDINAL sin is the most important — chief.",
     "usage": "Honesty is a cardinal virtue in any profession, but especially in journalism.",
     "synonyms": [
       "chief",
@@ -1877,7 +1878,7 @@ const GRE_WORDS = [
     "pronunciation": "/kɑːɹtˈɑːɡɹəfi/",
     "pos": "Adjective",
     "meaning": "Mapmaking; the art and science of drawing maps",
-    "mnemonic": "Picture “mapmaking” vividly; link that image directly to cartography.",
+    "mnemonic": "CARTO-GRAPHY: GRAPH = write. Writing CARTes (maps) — mapmaking.",
     "usage": "Advances in cartography made ocean navigation far safer in the sixteenth century.",
     "synonyms": [
       "mapmaking",
@@ -1891,10 +1892,10 @@ const GRE_WORDS = [
   },
   {
     "word": "castigate",
-    "pronunciation": "/kˈæstʌɡˌeɪt/",
+    "pronunciation": "/kˈæstᵻɡˌeɪt/",
     "pos": "Verb",
     "meaning": "Criticize severely; punish in order to correct",
-    "mnemonic": "Picture “reprimand” vividly; link that image directly to castigate.",
+    "mnemonic": "CASTIG-ate: CAST a GATE on someone's behavior — criticize severely.",
     "usage": "The editorial castigated the governor for what it called a failure of moral courage.",
     "synonyms": [
       "reprimand",
@@ -1909,10 +1910,10 @@ const GRE_WORDS = [
   },
   {
     "word": "catalyst",
-    "pronunciation": "/kˈætʌlʌst/",
-    "pos": "Verb",
+    "pronunciation": "/kˈæɾəlˌɪst/",
+    "pos": "Noun",
     "meaning": "Cause of change; something that precipitates an event",
-    "mnemonic": "Picture “stimulus” vividly; link that image directly to catalyst.",
+    "mnemonic": "CATALYST: speeds up a reaction — a trigger of change.",
     "usage": "The assassination proved the catalyst for a war that had been brewing for a decade.",
     "synonyms": [
       "stimulus",
@@ -1928,9 +1929,9 @@ const GRE_WORDS = [
   {
     "word": "catholic",
     "pronunciation": "/kˈæθlɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Universal, broad-minded; comprehensive in sympathies",
-    "mnemonic": "Picture “universal” vividly; link that image directly to catholic.",
+    "mnemonic": "CATHOLIC: the Catholic Church is universal — broad-minded.",
     "usage": "Her catholic taste in music ranged from Renaissance motets to free jazz.",
     "synonyms": [
       "universal",
@@ -1945,10 +1946,10 @@ const GRE_WORDS = [
   },
   {
     "word": "caustic",
-    "pronunciation": "/kˈɑstɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/kˈɔːstɪk/",
+    "pos": "Noun",
     "meaning": "Capable of corroding metal or burning the skin; very critical or sarcastic",
-    "mnemonic": "Picture “biting” vividly; link that image directly to caustic.",
+    "mnemonic": "CAUSTIC: CAUSTIC soda burns — biting, harsh.",
     "usage": "His caustic remarks about the exhibition left the artist in tears.",
     "synonyms": [
       "biting",
@@ -1963,10 +1964,10 @@ const GRE_WORDS = [
   },
   {
     "word": "censure",
-    "pronunciation": "/sˈɛnʃɝ/",
+    "pronunciation": "/sˈɛnʃɚ/",
     "pos": "Noun",
     "meaning": "Strong disapproval or official reprimand",
-    "mnemonic": "Picture “condemnation” vividly; link that image directly to censure.",
+    "mnemonic": "CENSURE: sounds like CENSOR — officially reprimand.",
     "usage": "The senator faced formal censure for misusing campaign funds.",
     "synonyms": [
       "condemnation",
@@ -1981,10 +1982,10 @@ const GRE_WORDS = [
   },
   {
     "word": "chauvinism",
-    "pronunciation": "/ʃˈoʊvʌnˌɪzʌm/",
+    "pronunciation": "/ʃˈoʊvɪnˌɪzəm/",
     "pos": "Noun",
     "meaning": "Fanatical patriotism or blind enthusiasm for military glory; undue devotion to any group",
-    "mnemonic": "Picture “jingoism” vividly; link that image directly to chauvinism.",
+    "mnemonic": "CHUVAN-ism: from Nicolas Chauvin, a fanatically patriotic soldier — jingoism.",
     "usage": "The chauvinism of the state press made any criticism of the military unthinkable.",
     "synonyms": [
       "jingoism",
@@ -1999,10 +2000,10 @@ const GRE_WORDS = [
   },
   {
     "word": "chicanery",
-    "pronunciation": "/ʃɪkˈeɪnɝi/",
+    "pronunciation": "/ʃɪkˈeɪnˌɛɹi/",
     "pos": "Noun",
     "meaning": "Trickery, deception by knowingly false arguments",
-    "mnemonic": "Picture “trickery” vividly; link that image directly to chicanery.",
+    "mnemonic": "CHIC-ANERY: CHIC trickery — deception by false arguments.",
     "usage": "The defense's chicanery, though technically legal, disgusted the jury.",
     "synonyms": [
       "trickery",
@@ -2017,10 +2018,10 @@ const GRE_WORDS = [
   },
   {
     "word": "chronological",
-    "pronunciation": "/krˌɑnʌlˈɑdʒɪkʌl/",
+    "pronunciation": "/kɹˌɑːnəlˈɑːdʒɪkəl/",
     "pos": "Adjective",
     "meaning": "Arranged in or relating to time order",
-    "mnemonic": "Picture “sequential” vividly; link that image directly to chronological.",
+    "mnemonic": "CHRONO-LOGICAL: CHRONO = time. In time order.",
     "usage": "The exhibition presented the artist's works in strict chronological order, revealing her stylistic evolution.",
     "synonyms": [
       "sequential",
@@ -2035,10 +2036,10 @@ const GRE_WORDS = [
   },
   {
     "word": "circumscribe",
-    "pronunciation": "/sˌɝkʌmskrˈaɪb/",
+    "pronunciation": "/sˈɜːkəmskɹˌaɪb/",
     "pos": "Noun",
     "meaning": "Strictly limit a role, range of activity, or area; define the boundaries of",
-    "mnemonic": "SCRIB = write: picture the word written down.",
+    "mnemonic": "CIRCUM-SCRIBE: SCRIBE a CIRCLE around something — limit.",
     "usage": "The new regulations circumscribed the powers of the agency so narrowly that it could barely function.",
     "synonyms": [
       "limit",
@@ -2053,10 +2054,10 @@ const GRE_WORDS = [
   },
   {
     "word": "circumspect",
-    "pronunciation": "/sˈɝkʌmspˌɛkt/",
+    "pronunciation": "/sˈɜːkəmspˌɛkt/",
     "pos": "Adjective",
     "meaning": "Cautious, prudent; careful to consider circumstances and consequences",
-    "mnemonic": "SPECT = see: picture the word through an act of seeing.",
+    "mnemonic": "CIRCUM-SPECT: SPECT = look. Looking around — cautious.",
     "usage": "The ambassador was circumspect in her public remarks, aware that a single phrase could derail the talks.",
     "synonyms": [
       "cautious",
@@ -2071,10 +2072,10 @@ const GRE_WORDS = [
   },
   {
     "word": "clamber",
-    "pronunciation": "/klˈæmbɝ/",
+    "pronunciation": "/klˈæmbɚ/",
     "pos": "Noun",
     "meaning": "Climb awkwardly or with difficulty; scramble",
-    "mnemonic": "Picture “scramble” vividly; link that image directly to clamber.",
+    "mnemonic": "CLAMBER: CLIMB + SCAMBER — awkward climbing.",
     "usage": "The hikers clambered over the boulders, gripping the wet rock with both hands.",
     "synonyms": [
       "scramble",
@@ -2089,10 +2090,10 @@ const GRE_WORDS = [
   },
   {
     "word": "clamor",
-    "pronunciation": "/klˈæmɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/klˈæmɚ/",
+    "pos": "Noun",
     "meaning": "Noisy uproar or protest, as from a crowd; a loud, continuous noise",
-    "mnemonic": "Picture “uproar” vividly; link that image directly to clamor.",
+    "mnemonic": "CLAMOR: the CLAMORous din of a crowd.",
     "usage": "A clamor rose from the crowd as the verdict was announced.",
     "synonyms": [
       "uproar",
@@ -2110,7 +2111,7 @@ const GRE_WORDS = [
     "pronunciation": "/klˈɪntʃ/",
     "pos": "Verb",
     "meaning": "Make final or settle conclusively; to fasten or hold together",
-    "mnemonic": "Picture “secure” vividly; link that image directly to clinch.",
+    "mnemonic": "CLINCH: CLINCH the deal — settle conclusively.",
     "usage": "The final goal clinched the championship for a team that had been the underdog all season.",
     "synonyms": [
       "secure",
@@ -2128,7 +2129,7 @@ const GRE_WORDS = [
     "pronunciation": "/klˈɔɪɪŋ/",
     "pos": "Noun",
     "meaning": "Disgustingly or distastefully sweet; overly sentimental",
-    "mnemonic": "Picture “saccharine” vividly; link that image directly to cloying.",
+    "mnemonic": "CLOYING: CLOY (like CLAY) sweetness — disgustingly sweet.",
     "usage": "The film's cloying sentimentality made it almost unwatchable for anyone over twelve.",
     "synonyms": [
       "saccharine",
@@ -2143,10 +2144,10 @@ const GRE_WORDS = [
   },
   {
     "word": "coagulate",
-    "pronunciation": "/koʊˈæɡjʌlˌeɪt/",
+    "pronunciation": "/koʊˈæɡjʊlˌeɪt/",
     "pos": "Verb",
     "meaning": "Cause a liquid to become solid or semisolid",
-    "mnemonic": "Picture “clot” vividly; link that image directly to coagulate.",
+    "mnemonic": "CO-AGULATE: AGUL (like GLUE) — liquids gluing together.",
     "usage": "The blood coagulated quickly, forming a scab over the wound.",
     "synonyms": [
       "clot",
@@ -2161,10 +2162,10 @@ const GRE_WORDS = [
   },
   {
     "word": "coalesce",
-    "pronunciation": "/kˌoʊʌlˈɛs/",
+    "pronunciation": "/koʊəlˈɛs/",
     "pos": "Verb",
     "meaning": "Come together, unite; fuse together",
-    "mnemonic": "Picture “merge” vividly; link that image directly to coalesce.",
+    "mnemonic": "CO-AL-ESCE: come together, fuse.",
     "usage": "The scattered protests gradually coalesced into a national movement.",
     "synonyms": [
       "merge",
@@ -2179,10 +2180,10 @@ const GRE_WORDS = [
   },
   {
     "word": "coda",
-    "pronunciation": "/kˈoʊdʌ/",
+    "pronunciation": "/kˈoʊdə/",
     "pos": "Noun",
     "meaning": "Final part of a musical composition; an ending that sums up what came before",
-    "mnemonic": "Picture “ending” vividly; link that image directly to coda.",
+    "mnemonic": "CODA: musical ending — final part.",
     "usage": "The novel's coda, set twenty years later, casts the entire story in a new light.",
     "synonyms": [
       "ending",
@@ -2197,10 +2198,10 @@ const GRE_WORDS = [
   },
   {
     "word": "coffer",
-    "pronunciation": "/kˈɔfɝ/",
+    "pronunciation": "/kˈɑːfɚ/",
     "pos": "Noun",
     "meaning": "Chest for storing valuables; financial resources, treasury",
-    "mnemonic": "FER = carry: picture something being carried.",
+    "mnemonic": "COFFER: a COFFin-shaped chest for money — treasury.",
     "usage": "The king's coffers, once overflowing, were nearly empty after years of war.",
     "synonyms": [
       "treasury",
@@ -2214,10 +2215,10 @@ const GRE_WORDS = [
   },
   {
     "word": "cogent",
-    "pronunciation": "/kˈoʊdʒʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/kˈoʊdʒənt/",
+    "pos": "Noun",
     "meaning": "Very convincing, logical; compelling",
-    "mnemonic": "Picture “convincing” vividly; link that image directly to cogent.",
+    "mnemonic": "COGENT: COGENT reasoning drives like COGs in a machine — convincing.",
     "usage": "Her cogent analysis of the market's failures persuaded even the skeptics on the board.",
     "synonyms": [
       "convincing",
@@ -2232,10 +2233,10 @@ const GRE_WORDS = [
   },
   {
     "word": "collude",
-    "pronunciation": "/kʌlˈud/",
+    "pronunciation": "/kəlˈuːd/",
     "pos": "Noun",
     "meaning": "Conspire; cooperate for illegal or fraudulent purposes",
-    "mnemonic": "Picture “conspire” vividly; link that image directly to collude.",
+    "mnemonic": "CO-LLUDE: LUDE together in secret — conspire.",
     "usage": "The executives colluded to fix prices, a scheme that cost consumers billions.",
     "synonyms": [
       "conspire",
@@ -2250,10 +2251,10 @@ const GRE_WORDS = [
   },
   {
     "word": "commensurate",
-    "pronunciation": "/kʌmˈɛnsɝʌt/",
+    "pronunciation": "/kəmˈɛnsɚɹət/",
     "pos": "Adjective",
     "meaning": "The same in size, extent, etc.; equivalent; proportional",
-    "mnemonic": "Picture “proportional” vividly; link that image directly to commensurate.",
+    "mnemonic": "COMMENSUR-ate: MENSUR = measure. Same measure — proportional.",
     "usage": "Her salary was commensurate with her experience, which was considerable.",
     "synonyms": [
       "proportional",
@@ -2268,10 +2269,10 @@ const GRE_WORDS = [
   },
   {
     "word": "compendium",
-    "pronunciation": "/kʌmpˈɛndiʌm/",
-    "pos": "Adjective",
+    "pronunciation": "/kəmpˈɛndiəm/",
+    "pos": "Noun",
     "meaning": "Concise but complete summary; a list or collection",
-    "mnemonic": "Picture “summary” vividly; link that image directly to compendium.",
+    "mnemonic": "COM-PENDIUM: PEND = weigh. A brief that weighs it all — concise summary.",
     "usage": "The volume serves as a compendium of every major discovery in the field over fifty years.",
     "synonyms": [
       "summary",
@@ -2285,10 +2286,10 @@ const GRE_WORDS = [
   },
   {
     "word": "complacent",
-    "pronunciation": "/kʌmplˈeɪsʌnt/",
+    "pronunciation": "/kəmplˈeɪsənt/",
     "pos": "Adjective",
     "meaning": "Self-satisfied, smug; overly content and therefore neglectful",
-    "mnemonic": "Picture “smug” vividly; link that image directly to complacent.",
+    "mnemonic": "COM-PLACENT: PLACED and satisfied — smug.",
     "usage": "After three easy victories, the team grew complacent and lost to a far weaker opponent.",
     "synonyms": [
       "smug",
@@ -2303,10 +2304,10 @@ const GRE_WORDS = [
   },
   {
     "word": "complaisant",
-    "pronunciation": "/kʌmplˈeɪsʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/kəmplˈeɪsənt/",
+    "pos": "Noun",
     "meaning": "Eager to please; cheerfully complying; obliging",
-    "mnemonic": "Picture “obliging” vividly; link that image directly to complaisant.",
+    "mnemonic": "COMPLAISANT: PLAISANT = pleasing (pleasant) — eager to please.",
     "usage": "The complaisant waiter anticipated every request before it was made.",
     "synonyms": [
       "obliging",
@@ -2321,10 +2322,10 @@ const GRE_WORDS = [
   },
   {
     "word": "complementary",
-    "pronunciation": "/kˌɑmplʌmˈɛntri/",
+    "pronunciation": "/kˌɑːmplɪmˈɛntɚɹi/",
     "pos": "Adjective",
     "meaning": "Completing; fitting together well; filling mutual needs",
-    "mnemonic": "Picture “matching” vividly; link that image directly to complementary.",
+    "mnemonic": "COMPLE-MENTARY: complements each other — completing.",
     "usage": "The two departments' skills were complementary, and their collaboration produced something neither could have alone.",
     "synonyms": [
       "matching",
@@ -2339,10 +2340,10 @@ const GRE_WORDS = [
   },
   {
     "word": "compliant",
-    "pronunciation": "/kʌmplˈaɪʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/kəmplˈaɪənt/",
+    "pos": "Noun",
     "meaning": "Obeying, submissive; following requirements",
-    "mnemonic": "Picture “obedient” vividly; link that image directly to compliant.",
+    "mnemonic": "COMPLI-ANT: COMPLIES — submissive.",
     "usage": "The compliant employee never questioned a directive, which was precisely why she was never promoted.",
     "synonyms": [
       "obedient",
@@ -2357,10 +2358,10 @@ const GRE_WORDS = [
   },
   {
     "word": "concede",
-    "pronunciation": "/kʌnsˈid/",
+    "pronunciation": "/kənsˈiːd/",
     "pos": "Verb",
     "meaning": "Give in, admit, yield; acknowledge reluctantly",
-    "mnemonic": "Picture “admit” vividly; link that image directly to concede.",
+    "mnemonic": "CON-CEDE: CEDE = give in. To yield, admit.",
     "usage": "The senator conceded the election at midnight, urging his supporters to accept the result.",
     "synonyms": [
       "admit",
@@ -2375,10 +2376,10 @@ const GRE_WORDS = [
   },
   {
     "word": "conciliatory",
-    "pronunciation": "/kʌnsˈɪlˌiʌtˌɔri/",
-    "pos": "Adjective",
+    "pronunciation": "/kənsˈɪlɪətˌoːɹi/",
+    "pos": "Noun",
     "meaning": "Reconciling, appeasing; attempting to make peace",
-    "mnemonic": "Picture “appeasing” vividly; link that image directly to conciliatory.",
+    "mnemonic": "CONCILIATORY: CONCIL (like COUNCIL) — making peace.",
     "usage": "Her conciliatory tone, coming after weeks of bitter dispute, caught everyone off guard.",
     "synonyms": [
       "appeasing",
@@ -2393,10 +2394,10 @@ const GRE_WORDS = [
   },
   {
     "word": "concur",
-    "pronunciation": "/kʌnkˈɝ/",
+    "pronunciation": "/kənkˈɜː/",
     "pos": "Noun",
     "meaning": "Approve, agree; coincide",
-    "mnemonic": "Picture “agree” vividly; link that image directly to concur.",
+    "mnemonic": "CON-CUR: CUR (like CURRENT) — same current, agree.",
     "usage": "The specialists concurred on the diagnosis, though each emphasized a different symptom.",
     "synonyms": [
       "agree",
@@ -2411,10 +2412,10 @@ const GRE_WORDS = [
   },
   {
     "word": "condone",
-    "pronunciation": "/kʌndˈoʊn/",
+    "pronunciation": "/kəndˈoʊn/",
     "pos": "Noun",
     "meaning": "Overlook, tolerate, regard as harmless; pardon",
-    "mnemonic": "Picture “overlook” vividly; link that image directly to condone.",
+    "mnemonic": "CON-DONE: DONE, I'll overlook it — tolerate.",
     "usage": "The school does not condone cheating, though its penalties are modest.",
     "synonyms": [
       "overlook",
@@ -2429,10 +2430,10 @@ const GRE_WORDS = [
   },
   {
     "word": "confer",
-    "pronunciation": "/kʌnfˈɝ/",
+    "pronunciation": "/kənfˈɜː/",
     "pos": "Noun",
     "meaning": "Consult, compare views; bestow or give",
-    "mnemonic": "FER = carry: picture something being carried.",
+    "mnemonic": "CON-FER: FER = carry. Carry views together — consult; bestow.",
     "usage": "The doctors conferred privately before delivering the diagnosis.",
     "synonyms": [
       "consult",
@@ -2447,10 +2448,10 @@ const GRE_WORDS = [
   },
   {
     "word": "confound",
-    "pronunciation": "/kɑnfˈaʊnd/",
+    "pronunciation": "/kənfˈaʊnd/",
     "pos": "Noun",
     "meaning": "Confuse, frustrate; mix up or make worse",
-    "mnemonic": "Picture “confuse” vividly; link that image directly to confound.",
+    "mnemonic": "CON-FOUND: the puzzle has FOUND you — confuses you.",
     "usage": "The results confounded the researchers, who had predicted exactly the opposite outcome.",
     "synonyms": [
       "confuse",
@@ -2465,10 +2466,10 @@ const GRE_WORDS = [
   },
   {
     "word": "connoisseur",
-    "pronunciation": "/kˌɑnʌsˈɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/kˌɑːnəsˈʊɹ/",
+    "pos": "Noun",
     "meaning": "Expert, especially in the fine arts; person of educated, refined tastes",
-    "mnemonic": "Picture “expert” vividly; link that image directly to connoisseur.",
+    "mnemonic": "CONNOISSEUR: an expert taster.",
     "usage": "A connoisseur of Renaissance bronzes, he could date a piece within a decade by glancing at its patina.",
     "synonyms": [
       "expert",
@@ -2483,10 +2484,10 @@ const GRE_WORDS = [
   },
   {
     "word": "connote",
-    "pronunciation": "/kʌnˈoʊt/",
+    "pronunciation": "/kənˈoʊt/",
     "pos": "Verb",
     "meaning": "Suggest or imply in addition to the literal meaning",
-    "mnemonic": "Picture “imply” vividly; link that image directly to connote.",
+    "mnemonic": "CON-NOTE: NOTEs alongside — suggest in addition.",
     "usage": "The word 'home' connotes warmth and safety in a way that 'house' does not.",
     "synonyms": [
       "imply",
@@ -2501,10 +2502,10 @@ const GRE_WORDS = [
   },
   {
     "word": "console",
-    "pronunciation": "/kˈɑnsoʊl/",
+    "pronunciation": "/kˈɑːnsoʊl/",
     "pos": "Noun",
     "meaning": "Lessen the suffering or grief of; comfort",
-    "mnemonic": "Picture “comfort” vividly; link that image directly to console.",
+    "mnemonic": "CON-SOLE: SOLE (alone) — comfort the grieving.",
     "usage": "She consoled the grieving widow for hours, saying nothing and simply remaining present.",
     "synonyms": [
       "comfort",
@@ -2519,10 +2520,10 @@ const GRE_WORDS = [
   },
   {
     "word": "consolidate",
-    "pronunciation": "/kʌnsˈɑlɪdˌeɪt/",
+    "pronunciation": "/kənsˈɑːlᵻdˌeɪt/",
     "pos": "Verb",
     "meaning": "Unite, combine, solidify, make coherent",
-    "mnemonic": "Picture “strengthen” vividly; link that image directly to consolidate.",
+    "mnemonic": "CON-SOLID-ate: make SOLID — strengthen, unite.",
     "usage": "The general consolidated his forces before launching the final offensive.",
     "synonyms": [
       "strengthen",
@@ -2537,10 +2538,10 @@ const GRE_WORDS = [
   },
   {
     "word": "constrict",
-    "pronunciation": "/kʌnstrˈɪkt/",
+    "pronunciation": "/kənstɹˈɪkt/",
     "pos": "Verb",
     "meaning": "Squeeze, compress; restrict the freedom of",
-    "mnemonic": "Picture “tighten” vividly; link that image directly to constrict.",
+    "mnemonic": "CON-STRICT: STRICT = tight. Squeeze, tighten.",
     "usage": "The tight collar constricted his neck, making it hard to swallow.",
     "synonyms": [
       "tighten",
@@ -2555,10 +2556,10 @@ const GRE_WORDS = [
   },
   {
     "word": "construe",
-    "pronunciation": "/kʌnstrˈu/",
+    "pronunciation": "/kənstɹˈuː/",
     "pos": "Verb",
     "meaning": "Interpret or translate; explain the meaning of",
-    "mnemonic": "Picture “interpret” vividly; link that image directly to construe.",
+    "mnemonic": "CON-STRUE: STRU (like STRUCTURE) — interpret.",
     "usage": "His silence was construed as agreement, a reading he later protested vigorously.",
     "synonyms": [
       "interpret",
@@ -2573,10 +2574,10 @@ const GRE_WORDS = [
   },
   {
     "word": "contentious",
-    "pronunciation": "/kʌntˈɛnʃʌs/",
+    "pronunciation": "/kəntˈɛnʃəs/",
     "pos": "Adjective",
     "meaning": "Controversial; prone to causing arguments, especially petty ones",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "CONTENT-IOUS: always ready to CONTEND — argumentative.",
     "usage": "The most contentious clause in the treaty was the one governing fishing rights.",
     "synonyms": [
       "controversial",
@@ -2594,7 +2595,7 @@ const GRE_WORDS = [
     "pronunciation": "/kəntˈɛkstʃuːəlˌaɪz/",
     "pos": "Verb",
     "meaning": "Place in context, such as by giving the background or circumstances",
-    "mnemonic": "Picture “situate” vividly; link that image directly to contextualize.",
+    "mnemonic": "CONTEXT-ualize: place in CONTEXT.",
     "usage": "The historian contextualized the letter by describing the political crisis in which it was written.",
     "synonyms": [
       "situate",
@@ -2611,7 +2612,7 @@ const GRE_WORDS = [
     "pronunciation": "/kˈɑːntɹɛɹiz/",
     "pos": "Adjective",
     "meaning": "Things that are opposing; either of two opposite things",
-    "mnemonic": "Picture “opposites” vividly; link that image directly to contraries.",
+    "mnemonic": "CONTRARIES: CONTRARY things — opposites.",
     "usage": "Hot and cold are contraries, each defined only by reference to the other.",
     "synonyms": [
       "opposites",
@@ -2624,10 +2625,10 @@ const GRE_WORDS = [
   },
   {
     "word": "contrite",
-    "pronunciation": "/kʌntrˈaɪt/",
-    "pos": "Adjective",
+    "pronunciation": "/kəntɹˈaɪt/",
+    "pos": "Noun",
     "meaning": "Remorseful; feeling sorry for one's offenses or sins",
-    "mnemonic": "Picture “remorseful” vividly; link that image directly to contrite.",
+    "mnemonic": "CON-TRITE: worn down with remorse — remorseful.",
     "usage": "His contrite apology, delivered without excuses, finally softened her anger.",
     "synonyms": [
       "remorseful",
@@ -2643,9 +2644,9 @@ const GRE_WORDS = [
   {
     "word": "contumacious",
     "pronunciation": "/kɑːntuːmˈeɪʃəs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Rebellious; stubbornly disobedient; insubordinate",
-    "mnemonic": "Picture “rebellious” vividly; link that image directly to contumacious.",
+    "mnemonic": "CONTUMACIOUS: sounds like CONTEMPTUOUS — rebellious.",
     "usage": "The contumacious officer ignored three direct orders before being court-martialed.",
     "synonyms": [
       "rebellious",
@@ -2660,10 +2661,10 @@ const GRE_WORDS = [
   },
   {
     "word": "conundrum",
-    "pronunciation": "/kʌnˈʌndrʌm/",
+    "pronunciation": "/kənˈʌndɹəm/",
     "pos": "Noun",
     "meaning": "Riddle; any mystery or difficult problem",
-    "mnemonic": "Picture “riddle” vividly; link that image directly to conundrum.",
+    "mnemonic": "CON-UNDRUM: an UNDER-hand riddle — a puzzle.",
     "usage": "How to fund the program without raising taxes remains the city council's central conundrum.",
     "synonyms": [
       "riddle",
@@ -2678,10 +2679,10 @@ const GRE_WORDS = [
   },
   {
     "word": "converge",
-    "pronunciation": "/kʌnvˈɝdʒ/",
+    "pronunciation": "/kənvˈɜːdʒ/",
     "pos": "Noun",
     "meaning": "Move toward one another or toward a point; unite",
-    "mnemonic": "Picture “meet” vividly; link that image directly to converge.",
+    "mnemonic": "CON-VERGE: VERGE = turn. Turn toward each other.",
     "usage": "The two investigations converged on the same suspect within a week.",
     "synonyms": [
       "meet",
@@ -2696,10 +2697,10 @@ const GRE_WORDS = [
   },
   {
     "word": "conversant",
-    "pronunciation": "/kʌnvˈɝsʌnt/",
+    "pronunciation": "/kənvˈɜːsənt/",
     "pos": "Adjective",
     "meaning": "Knowledgeable about or experienced with; familiar with",
-    "mnemonic": "VERS = turn: picture something turning.",
+    "mnemonic": "CONVERS-ant: able to CONVERSE about — familiar with.",
     "usage": "She was conversant in three languages and could read two more.",
     "synonyms": [
       "familiar",
@@ -2714,10 +2715,10 @@ const GRE_WORDS = [
   },
   {
     "word": "conversely",
-    "pronunciation": "/kˈɑnvɝsli/",
+    "pronunciation": "/kənvˈɜːsli/",
     "pos": "Adverb",
     "meaning": "In an opposite way; on the other hand",
-    "mnemonic": "VERS = turn: picture something turning.",
+    "mnemonic": "CON-VERSE-ly: turned the other way — oppositely.",
     "usage": "Higher interest rates typically slow inflation; conversely, lower rates tend to accelerate it.",
     "synonyms": [
       "inversely",
@@ -2732,10 +2733,10 @@ const GRE_WORDS = [
   },
   {
     "word": "convoke",
-    "pronunciation": "/kɑnvˈoʊk/",
+    "pronunciation": "/kənvˈoʊk/",
     "pos": "Verb",
     "meaning": "Call together, as to a meeting; convene",
-    "mnemonic": "Picture “convene” vividly; link that image directly to convoke.",
+    "mnemonic": "CON-VOKE: VOKE = call (vocal). Call together.",
     "usage": "The prime minister convoked an emergency session of parliament.",
     "synonyms": [
       "convene",
@@ -2750,10 +2751,10 @@ const GRE_WORDS = [
   },
   {
     "word": "convoluted",
-    "pronunciation": "/kˈɑnvʌlˌutʌd/",
+    "pronunciation": "/kˌɑːnvəlˈuːɾᵻd/",
     "pos": "Noun",
     "meaning": "Twisted; very complicated, intricate, or difficult to follow",
-    "mnemonic": "Picture “complicated” vividly; link that image directly to convoluted.",
+    "mnemonic": "CON-VOLUTED: VOLUTE = rolled (spiral shell) — twisted.",
     "usage": "The plot was so convoluted that even the director struggled to summarize it.",
     "synonyms": [
       "complicated",
@@ -2768,10 +2769,10 @@ const GRE_WORDS = [
   },
   {
     "word": "copious",
-    "pronunciation": "/kˈoʊpiʌs/",
+    "pronunciation": "/kˈoʊpɪəs/",
     "pos": "Adjective",
     "meaning": "Plentiful, bountiful; abundant",
-    "mnemonic": "Picture “abundant” vividly; link that image directly to copious.",
+    "mnemonic": "COPIOUS: COPIES galore — plentiful.",
     "usage": "She took copious notes during the lecture, filling nearly an entire notebook.",
     "synonyms": [
       "abundant",
@@ -2786,10 +2787,10 @@ const GRE_WORDS = [
   },
   {
     "word": "corroborate",
-    "pronunciation": "/kɝˈɑbɝˌeɪt/",
+    "pronunciation": "/kɚɹˈɑːbɚɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Support, add evidence to; confirm",
-    "mnemonic": "Picture “confirm” vividly; link that image directly to corroborate.",
+    "mnemonic": "COR-ROBOR-ate: ROBOR = strength (robust). Strengthen with evidence.",
     "usage": "Three independent witnesses corroborated the victim's account.",
     "synonyms": [
       "confirm",
@@ -2804,10 +2805,10 @@ const GRE_WORDS = [
   },
   {
     "word": "cosmopolitan",
-    "pronunciation": "/kˌɑzmʌpˈɑlʌtʌn/",
-    "pos": "Adjective",
+    "pronunciation": "/kˌɑːzməpˈɑːlɪtən/",
+    "pos": "Noun",
     "meaning": "Belonging to the entire world, at home globally; free from local prejudices",
-    "mnemonic": "Picture “worldly” vividly; link that image directly to cosmopolitan.",
+    "mnemonic": "COSMO-POLITAN: COSMOS = world; POLIS = city. Citizen of the world.",
     "usage": "The cosmopolitan city drew artists and entrepreneurs from every continent.",
     "synonyms": [
       "worldly",
@@ -2822,10 +2823,10 @@ const GRE_WORDS = [
   },
   {
     "word": "cosset",
-    "pronunciation": "/kˈɑsʌt/",
-    "pos": "Adjective",
+    "pronunciation": "/kˈɑːsᵻt/",
+    "pos": "Noun",
     "meaning": "Treat as a pet, pamper; indulge excessively",
-    "mnemonic": "Picture “pamper” vividly; link that image directly to cosset.",
+    "mnemonic": "COSSET: to pamper in a COZY (cosy) bed.",
     "usage": "The only child was cosseted by grandparents who indulged her every whim.",
     "synonyms": [
       "pamper",
@@ -2840,10 +2841,10 @@ const GRE_WORDS = [
   },
   {
     "word": "coterie",
-    "pronunciation": "/kˈoʊtɝi/",
+    "pronunciation": "/kˈoʊɾɚɹi/",
     "pos": "Noun",
     "meaning": "Close or exclusive group, clique; a circle of people with shared interests",
-    "mnemonic": "Picture “clique” vividly; link that image directly to coterie.",
+    "mnemonic": "COTERIE: an exclusive CLIQUE, close-knit group.",
     "usage": "A small coterie of advisors made every important decision, leaving the cabinet in the dark.",
     "synonyms": [
       "clique",
@@ -2857,10 +2858,10 @@ const GRE_WORDS = [
   },
   {
     "word": "countenance",
-    "pronunciation": "/kˈaʊntʌnʌns/",
+    "pronunciation": "/kˈaʊntənəns/",
     "pos": "Noun",
     "meaning": "Facial expression or face; approve or tolerate",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "COUNTEN-ance: the COUNTENance (face) — approval or expression.",
     "usage": "The school will not countenance any form of harassment, however minor.",
     "synonyms": [
       "approve",
@@ -2876,9 +2877,9 @@ const GRE_WORDS = [
   {
     "word": "counterintuitive",
     "pronunciation": "/kˌaʊntɚɹɪntˈuːɪtˌɪv/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Against what one would intuitively expect; contrary to common sense",
-    "mnemonic": "Picture “unexpected” vividly; link that image directly to counterintuitive.",
+    "mnemonic": "COUNTER-INTUITIVE: against intuition.",
     "usage": "The counterintuitive finding—that moderate exercise outperformed intense training—surprised even the researchers.",
     "synonyms": [
       "unexpected",
@@ -2893,10 +2894,10 @@ const GRE_WORDS = [
   },
   {
     "word": "counterpoint",
-    "pronunciation": "/kˈaʊntɝpˌɔɪnt/",
-    "pos": "Adjective",
+    "pronunciation": "/kˈaʊntɚpˌɔɪnt/",
+    "pos": "Noun",
     "meaning": "Contrasting item, opposite; a complement; the use of contrast in a work",
-    "mnemonic": "Picture “contrast” vividly; link that image directly to counterpoint.",
+    "mnemonic": "COUNTER-POINT: a contrasting point.",
     "usage": "The austere furniture was a counterpoint to the ornate ceiling, each accentuating the other.",
     "synonyms": [
       "contrast",
@@ -2910,10 +2911,10 @@ const GRE_WORDS = [
   },
   {
     "word": "counterproductive",
-    "pronunciation": "/kˈaʊntɝprʌdˌʌktɪv/",
+    "pronunciation": "/kˌaʊntɚpɹədˈʌktɪv/",
     "pos": "Adjective",
     "meaning": "Defeating the purpose; preventing the intended goal",
-    "mnemonic": "DUC = lead: picture someone being led.",
+    "mnemonic": "COUNTER-PRODUCTIVE: works against productivity.",
     "usage": "The crackdown on dissent proved counterproductive, driving moderates into the opposition.",
     "synonyms": [
       "self-defeating",
@@ -2928,10 +2929,10 @@ const GRE_WORDS = [
   },
   {
     "word": "covert",
-    "pronunciation": "/kˈoʊvɝt/",
+    "pronunciation": "/koʊvˈɜːt/",
     "pos": "Noun",
     "meaning": "Secret, veiled, undercover; not openly acknowledged",
-    "mnemonic": "VERT = turn: picture something turning.",
+    "mnemonic": "COVERT: COVERED — secret, hidden.",
     "usage": "The agency ran covert operations in three countries, none of which appeared in its budget.",
     "synonyms": [
       "secret",
@@ -2946,10 +2947,10 @@ const GRE_WORDS = [
   },
   {
     "word": "crafty",
-    "pronunciation": "/krˈæfti/",
-    "pos": "Adjective",
+    "pronunciation": "/kɹˈæfti/",
+    "pos": "Noun",
     "meaning": "Cunning, skillful in deception or underhanded schemes",
-    "mnemonic": "Picture “cunning” vividly; link that image directly to crafty.",
+    "mnemonic": "CRAFTY: skilled in CRAFT (tricks) — cunning.",
     "usage": "The crafty negotiator extracted concessions without ever appearing to ask for anything.",
     "synonyms": [
       "cunning",
@@ -2964,10 +2965,10 @@ const GRE_WORDS = [
   },
   {
     "word": "craven",
-    "pronunciation": "/krˈeɪvʌn/",
-    "pos": "Adjective",
+    "pronunciation": "/kɹˈeɪvən/",
+    "pos": "Noun",
     "meaning": "Very cowardly, lacking courage; contemptibly timid",
-    "mnemonic": "Picture “cowardly” vividly; link that image directly to craven.",
+    "mnemonic": "CRAVEN: a cringing COWARD — very cowardly.",
     "usage": "His craven retreat from the debate was read by many as an admission of weakness.",
     "synonyms": [
       "cowardly",
@@ -2982,10 +2983,10 @@ const GRE_WORDS = [
   },
   {
     "word": "credibility",
-    "pronunciation": "/krˌɛdʌbˈɪlɪti/",
+    "pronunciation": "/kɹˌɛdɪbˈɪlɪɾi/",
     "pos": "Noun",
     "meaning": "Believability, trustworthiness; the quality of being credible",
-    "mnemonic": "CRED = believe: picture deciding whether a claim is believable.",
+    "mnemonic": "CRED-ibility: CRED = believe. Believability.",
     "usage": "The scandal damaged the newspaper's credibility so severely that subscriptions fell by a third.",
     "synonyms": [
       "trustworthiness",
@@ -3000,10 +3001,10 @@ const GRE_WORDS = [
   },
   {
     "word": "credulous",
-    "pronunciation": "/krˈɛdʒʌlʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/kɹˈɛdʒuːləs/",
+    "pos": "Noun",
     "meaning": "Gullible; prone to believing or trusting too easily",
-    "mnemonic": "CRED = believe: picture deciding whether a claim is believable.",
+    "mnemonic": "CRED-ulous: CRED = believe. Too ready to believe — gullible.",
     "usage": "The credulous investor handed his savings to a stranger who promised a 40 percent return.",
     "synonyms": [
       "gullible",
@@ -3018,10 +3019,10 @@ const GRE_WORDS = [
   },
   {
     "word": "crescendo",
-    "pronunciation": "/krɪʃˈɛndoʊ/",
-    "pos": "Adjective",
+    "pronunciation": "/kɹəʃˈɛndoʊ/",
+    "pos": "Noun",
     "meaning": "Steady increase in force, intensity, or loudness; a climax or peak",
-    "mnemonic": "Picture “climax” vividly; link that image directly to crescendo.",
+    "mnemonic": "CRESCENDO: CRESC (grow, like CRESCENT moon) — growing louder.",
     "usage": "The applause rose to a crescendo as the conductor took her final bow.",
     "synonyms": [
       "climax",
@@ -3036,10 +3037,10 @@ const GRE_WORDS = [
   },
   {
     "word": "culminate",
-    "pronunciation": "/kˈʌlmɪnˌeɪt/",
+    "pronunciation": "/kˈʌlmᵻnˌeɪt/",
     "pos": "Verb",
     "meaning": "Reach the highest point or final stage; conclude",
-    "mnemonic": "Picture “climax” vividly; link that image directly to culminate.",
+    "mnemonic": "CULMIN-ate: CULMEN = top. Reach the peak.",
     "usage": "The investigation culminated in the indictment of three senior executives.",
     "synonyms": [
       "climax",
@@ -3054,10 +3055,10 @@ const GRE_WORDS = [
   },
   {
     "word": "cupidity",
-    "pronunciation": "/kjupˈɪdɪti/",
+    "pronunciation": "/kjuːpˈɪdɪɾi/",
     "pos": "Noun",
     "meaning": "Greed, great or excessive desire, especially for wealth",
-    "mnemonic": "Picture “greed” vividly; link that image directly to cupidity.",
+    "mnemonic": "CUPID-ity: CUPID makes you want — greed, desire.",
     "usage": "His cupidity was such that he would have sold his own grandmother's house if the price were right.",
     "synonyms": [
       "greed",
@@ -3072,10 +3073,10 @@ const GRE_WORDS = [
   },
   {
     "word": "curmudgeon",
-    "pronunciation": "/kɝmˈʌdʒɪn/",
+    "pronunciation": "/kˈɜːmʌdʒən/",
     "pos": "Noun",
     "meaning": "Bad-tempered, difficult person; a grouch",
-    "mnemonic": "Picture “grouch” vividly; link that image directly to curmudgeon.",
+    "mnemonic": "Link curmudgeon to “grouch” — picture that idea as vividly as possible.",
     "usage": "The old curmudgeon yelled at every child who stepped on his lawn.",
     "synonyms": [
       "grouch",
@@ -3090,10 +3091,10 @@ const GRE_WORDS = [
   },
   {
     "word": "cynical",
-    "pronunciation": "/sˈɪnɪkʌl/",
+    "pronunciation": "/sˈɪnɪkəl/",
     "pos": "Adjective",
     "meaning": "Thinking the worst of others' motivations; bitterly pessimistic",
-    "mnemonic": "Picture “pessimistic” vividly; link that image directly to cynical.",
+    "mnemonic": "Link cynical to “pessimistic” — picture that idea as vividly as possible.",
     "usage": "After years in politics, she had grown cynical about every promise she heard.",
     "synonyms": [
       "pessimistic",
@@ -3108,10 +3109,10 @@ const GRE_WORDS = [
   },
   {
     "word": "daunt",
-    "pronunciation": "/dˈɔnt/",
+    "pronunciation": "/dˈɔːnt/",
     "pos": "Noun",
     "meaning": "Discourage, dishearten; lessen the courage of",
-    "mnemonic": "Picture “intimidate” vividly; link that image directly to daunt.",
+    "mnemonic": "DAUNT: sounds like TAUNT. A taunt tries to discourage you — to daunt is to intimidate.",
     "usage": "The scale of the task did not daunt her; if anything, it sharpened her resolve.",
     "synonyms": [
       "intimidate",
@@ -3126,10 +3127,10 @@ const GRE_WORDS = [
   },
   {
     "word": "debase",
-    "pronunciation": "/dʌbˈeɪs/",
+    "pronunciation": "/dɪbˈeɪs/",
     "pos": "Noun",
     "meaning": "Degrade; lower in quality, value, rank, or moral quality",
-    "mnemonic": "Picture “degrade” vividly; link that image directly to debase.",
+    "mnemonic": "DE-BASE: knock someone down to the BASE — degrade, lower in value.",
     "usage": "The scandal debased the office of the mayor in ways that would take decades to repair.",
     "synonyms": [
       "degrade",
@@ -3144,10 +3145,10 @@ const GRE_WORDS = [
   },
   {
     "word": "debunk",
-    "pronunciation": "/dɪbˈʌŋk/",
+    "pronunciation": "/diːbˈʌnk/",
     "pos": "Noun",
     "meaning": "Expose, ridicule, or disprove false or exaggerated claims",
-    "mnemonic": "Picture “disprove” vividly; link that image directly to debunk.",
+    "mnemonic": "DE-BUNK: take the BUNK (nonsense) out of a claim — disprove it.",
     "usage": "The young historian debunked the legend that had been repeated in textbooks for a century.",
     "synonyms": [
       "disprove",
@@ -3162,10 +3163,10 @@ const GRE_WORDS = [
   },
   {
     "word": "declaim",
-    "pronunciation": "/dɪklˈeɪm/",
+    "pronunciation": "/dᵻklˈeɪm/",
     "pos": "Verb",
     "meaning": "Speak in an impassioned, pompous, or oratorical manner; give a formal speech",
-    "mnemonic": "Picture “speechify” vividly; link that image directly to declaim.",
+    "mnemonic": "DE-CLAIM: CLAIM your views loudly on stage — speak pompously.",
     "usage": "He declaimed against the government for twenty minutes without pausing for breath.",
     "synonyms": [
       "speechify",
@@ -3183,7 +3184,7 @@ const GRE_WORDS = [
     "pronunciation": "/dᵻklˈɪvɪɾi/",
     "pos": "Noun",
     "meaning": "Downward slope",
-    "mnemonic": "VIT = life: picture something vividly alive.",
+    "mnemonic": "DE-CLIVITY: CLIFF-ity — a downward slope like a cliff descending.",
     "usage": "The declivity was so steep that the horses had to be led down one at a time.",
     "synonyms": [
       "slope",
@@ -3198,10 +3199,10 @@ const GRE_WORDS = [
   },
   {
     "word": "decorous",
-    "pronunciation": "/dˈɛkɝʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/dˈɛkɚɹəs/",
+    "pos": "Noun",
     "meaning": "Behaving with propriety and good taste; polite",
-    "mnemonic": "Picture “proper” vividly; link that image directly to decorous.",
+    "mnemonic": "DECOR-ous: proper DECORum — polite, well-behaved.",
     "usage": "Her decorous conduct at the funeral moved everyone who observed it.",
     "synonyms": [
       "proper",
@@ -3216,10 +3217,10 @@ const GRE_WORDS = [
   },
   {
     "word": "deem",
-    "pronunciation": "/dˈim/",
+    "pronunciation": "/dˈiːm/",
     "pos": "Verb",
     "meaning": "Judge; consider; regard as",
-    "mnemonic": "Picture “consider” vividly; link that image directly to deem.",
+    "mnemonic": "DEEM: sounds like DREAM — judge it in your mind, consider.",
     "usage": "The committee deemed the proposal too risky to approve without further study.",
     "synonyms": [
       "consider",
@@ -3234,9 +3235,9 @@ const GRE_WORDS = [
   {
     "word": "deface",
     "pronunciation": "/dɪfˈeɪs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Vandalize, mar the appearance of; damage the surface of",
-    "mnemonic": "Picture “vandalize” vividly; link that image directly to deface.",
+    "mnemonic": "DE-FACE: ruin the FACE of something — vandalize, mar.",
     "usage": "The monument was defaced with spray paint the night before the dedication.",
     "synonyms": [
       "vandalize",
@@ -3251,10 +3252,10 @@ const GRE_WORDS = [
   },
   {
     "word": "default",
-    "pronunciation": "/dɪfˈɔlt/",
+    "pronunciation": "/dɪfˈɑːlt/",
     "pos": "Noun",
     "meaning": "Failure to act; fail to fulfill an obligation, especially financial",
-    "mnemonic": "Picture “fail” vividly; link that image directly to default.",
+    "mnemonic": "DE-FAULT: it's your FAULT if you DEFAULT — fail to pay or act.",
     "usage": "The borrower defaulted on the loan after losing his job.",
     "synonyms": [
       "fail",
@@ -3269,10 +3270,10 @@ const GRE_WORDS = [
   },
   {
     "word": "deference",
-    "pronunciation": "/dˈɛfɝʌns/",
+    "pronunciation": "/dˈɛfɹəns/",
     "pos": "Noun",
     "meaning": "Respectful submission; yielding to the authority or opinion of another",
-    "mnemonic": "FER = carry: picture something being carried.",
+    "mnemonic": "DE-FERENCE: DIFFER to someone else's view out of respect — yield.",
     "usage": "Out of deference to his mentor, he declined to publish the criticism while she was still alive.",
     "synonyms": [
       "respect",
@@ -3290,7 +3291,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪflˈɛkt/",
     "pos": "Verb",
     "meaning": "Cause to curve; turn aside, especially from a straight course; avoid",
-    "mnemonic": "Picture “divert” vividly; link that image directly to deflect.",
+    "mnemonic": "DE-FLECT: FLEX (bend) the blow away — turn aside.",
     "usage": "The shield deflected the blow, but the impact still staggered him.",
     "synonyms": [
       "divert",
@@ -3305,10 +3306,10 @@ const GRE_WORDS = [
   },
   {
     "word": "deleterious",
-    "pronunciation": "/dˌɛlʌtˈɪriʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪlɪtˈiəɹɪəs/",
+    "pos": "Noun",
     "meaning": "Harmful, unhealthful; injurious",
-    "mnemonic": "Picture “harmful” vividly; link that image directly to deleterious.",
+    "mnemonic": "DELETERIOUS: DELETES your health — harmful.",
     "usage": "The deleterious effects of long-term stress on the cardiovascular system are well documented.",
     "synonyms": [
       "harmful",
@@ -3326,7 +3327,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪlˈɪmɪt/",
     "pos": "Noun",
     "meaning": "Fix, mark, or define the boundaries of",
-    "mnemonic": "Picture “define” vividly; link that image directly to delimit.",
+    "mnemonic": "DE-LIMIT: set the LIMIT — define boundaries.",
     "usage": "The treaty delimited the border along the river's eastern bank.",
     "synonyms": [
       "define",
@@ -3341,10 +3342,10 @@ const GRE_WORDS = [
   },
   {
     "word": "delineate",
-    "pronunciation": "/dɪlˈɪniˌeɪt/",
+    "pronunciation": "/dɪlˈɪniːˌeɪt/",
     "pos": "Verb",
     "meaning": "Mark the outline of; sketch; describe in detail",
-    "mnemonic": "Picture “outline” vividly; link that image directly to delineate.",
+    "mnemonic": "DE-LINE-ate: draw a LINE around — outline in detail.",
     "usage": "The report delineated the steps necessary to reform the agency, beginning with transparent budgeting.",
     "synonyms": [
       "outline",
@@ -3359,10 +3360,10 @@ const GRE_WORDS = [
   },
   {
     "word": "demagogue",
-    "pronunciation": "/dˈɛmʌɡˌɑɡ/",
+    "pronunciation": "/dˈɛməɡˌɑːɡ/",
     "pos": "Noun",
     "meaning": "A leader who lies and gains power by arousing the passions and prejudices of the people",
-    "mnemonic": "Picture “agitator” vividly; link that image directly to demagogue.",
+    "mnemonic": "DEMA-GOGUE: DEMOS = people; GOGUE = leader. A leader who manipulates the mob.",
     "usage": "The demagogue's rhetoric, thrilling to his followers, alarmed every serious analyst of the republic's health.",
     "synonyms": [
       "agitator",
@@ -3377,10 +3378,10 @@ const GRE_WORDS = [
   },
   {
     "word": "demur",
-    "pronunciation": "/dɪmˈɝ/",
+    "pronunciation": "/dɪmˈɜː/",
     "pos": "Verb",
     "meaning": "Show reluctance or object, especially for moral reasons; raise doubts",
-    "mnemonic": "Picture “object” vividly; link that image directly to demur.",
+    "mnemonic": "DE-MUR: MURmur reluctance — object quietly.",
     "usage": "When asked to sign the misleading report, she demurred and requested time to review the figures.",
     "synonyms": [
       "object",
@@ -3395,10 +3396,10 @@ const GRE_WORDS = [
   },
   {
     "word": "denigrate",
-    "pronunciation": "/dˈɛnʌɡrˌeɪt/",
+    "pronunciation": "/dˈɛnɪɡɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Belittle, attack the reputation of; disparage",
-    "mnemonic": "Picture “belittle” vividly; link that image directly to denigrate.",
+    "mnemonic": "DENI-GRATE: GRATE (shred) someone's reputation — belittle.",
     "usage": "The biography denigrates its subject's achievements while quietly relying on his papers.",
     "synonyms": [
       "belittle",
@@ -3416,7 +3417,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪnˈoʊt/",
     "pos": "Noun",
     "meaning": "Be a name or symbol for; indicate",
-    "mnemonic": "Picture “indicate” vividly; link that image directly to denote.",
+    "mnemonic": "DE-NOTE: a NOTE that indicates — signify.",
     "usage": "In chemical formulas, the subscript denotes the number of atoms of each element.",
     "synonyms": [
       "indicate",
@@ -3431,10 +3432,10 @@ const GRE_WORDS = [
   },
   {
     "word": "deride",
-    "pronunciation": "/dɪrˈaɪd/",
+    "pronunciation": "/dɪɹˈaɪd/",
     "pos": "Verb",
     "meaning": "Mock, scoff at, laugh at contemptuously",
-    "mnemonic": "Picture “mock” vividly; link that image directly to deride.",
+    "mnemonic": "DE-RIDE: RIDE on someone with mockery — ridicule.",
     "usage": "The inventor was derided for years before his device became indispensable.",
     "synonyms": [
       "mock",
@@ -3449,10 +3450,10 @@ const GRE_WORDS = [
   },
   {
     "word": "derivative",
-    "pronunciation": "/dɝˈɪvʌtɪv/",
+    "pronunciation": "/dɪɹˈɪvətˌɪv/",
     "pos": "Adjective",
     "meaning": "Derived from something else; not original",
-    "mnemonic": "Picture “unoriginal” vividly; link that image directly to derivative.",
+    "mnemonic": "DE-RIVATIVE: RIVEN (torn) from another source — not original.",
     "usage": "The film, though technically accomplished, was derivative of a dozen better movies.",
     "synonyms": [
       "unoriginal",
@@ -3467,10 +3468,10 @@ const GRE_WORDS = [
   },
   {
     "word": "desiccate",
-    "pronunciation": "/dˈɛsʌkeɪt/",
-    "pos": "Adjective",
+    "pronunciation": "/dˈɛsɪkˌeɪt/",
+    "pos": "Verb",
     "meaning": "Thoroughly dried up, dehydrated",
-    "mnemonic": "Picture “dry” vividly; link that image directly to desiccate.",
+    "mnemonic": "DESICCATE: DESERT + DRY — thoroughly dried up.",
     "usage": "The desiccated leaves crumbled to dust at the slightest touch.",
     "synonyms": [
       "dry",
@@ -3485,10 +3486,10 @@ const GRE_WORDS = [
   },
   {
     "word": "desultory",
-    "pronunciation": "/dˈɛsʌltˌɔri/",
-    "pos": "Adjective",
+    "pronunciation": "/dˈɛsəltɚɹi/",
+    "pos": "Noun",
     "meaning": "Lacking consistency or order; disconnected, sporadic; going off-topic",
-    "mnemonic": "Picture “random” vividly; link that image directly to desultory.",
+    "mnemonic": "DE-SULTORY: SULTRY and lazy, jumping randomly — aimless.",
     "usage": "His desultory reading habits left him with a smattering of knowledge across a dozen fields.",
     "synonyms": [
       "random",
@@ -3506,7 +3507,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪtˈætʃt/",
     "pos": "Noun",
     "meaning": "Impartial, disinterested; unconcerned, distant, aloof",
-    "mnemonic": "Picture “impartial” vividly; link that image directly to detached.",
+    "mnemonic": "DE-TACHED: un-TACHED (unfastened) — aloof, impartial.",
     "usage": "She remained detached throughout the crisis, a quality that reassured some and unnerved others.",
     "synonyms": [
       "impartial",
@@ -3521,10 +3522,10 @@ const GRE_WORDS = [
   },
   {
     "word": "deterrent",
-    "pronunciation": "/dɪtˈɝrʌnt/",
+    "pronunciation": "/dɪtˈɜːɹənt/",
     "pos": "Adjective",
     "meaning": "Something that restrains or discourages",
-    "mnemonic": "Picture “disincentive” vividly; link that image directly to deterrent.",
+    "mnemonic": "DE-TERRENT: TERROR deters — something that discourages.",
     "usage": "The new surveillance cameras proved a modest deterrent to shoplifters.",
     "synonyms": [
       "disincentive",
@@ -3539,10 +3540,10 @@ const GRE_WORDS = [
   },
   {
     "word": "diaphanous",
-    "pronunciation": "/daɪˈæfʌnɪs/",
-    "pos": "Adjective",
+    "pronunciation": "/daɪˈæfənəs/",
+    "pos": "Noun",
     "meaning": "Very sheer, fine, translucent; light and delicate",
-    "mnemonic": "Picture “sheer” vividly; link that image directly to diaphanous.",
+    "mnemonic": "DIA-PHANOUS: DIAPHANE = show through (like diaphanous fabric). Sheer, translucent.",
     "usage": "The diaphanous curtains let in every ray of the morning sun.",
     "synonyms": [
       "sheer",
@@ -3557,10 +3558,10 @@ const GRE_WORDS = [
   },
   {
     "word": "diatribe",
-    "pronunciation": "/dˈaɪʌtrˌaɪb/",
-    "pos": "Adjective",
+    "pronunciation": "/dˈaɪətɹˌaɪb/",
+    "pos": "Noun",
     "meaning": "Bitter, abusive attack or criticism; rant",
-    "mnemonic": "Picture “tirade” vividly; link that image directly to diatribe.",
+    "mnemonic": "DIA-TRIBE: a TRIBE shouting abuse at once — bitter attack.",
     "usage": "His letter to the editor was less an argument than a diatribe against everyone under thirty.",
     "synonyms": [
       "tirade",
@@ -3575,10 +3576,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dichotomy",
-    "pronunciation": "/daɪkˈɑtʌmi/",
+    "pronunciation": "/daɪkˈɑːɾəmi/",
     "pos": "Adjective",
     "meaning": "Division into two parts or into two contradictory groups",
-    "mnemonic": "Picture “division” vividly; link that image directly to dichotomy.",
+    "mnemonic": "DI-CHOTOMY: DICHOTOMY = cutting in two. A division into two parts.",
     "usage": "The proposed dichotomy between reason and emotion has troubled philosophers for centuries.",
     "synonyms": [
       "division",
@@ -3593,10 +3594,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dictum",
-    "pronunciation": "/dˈɪktʌm/",
-    "pos": "Adjective",
+    "pronunciation": "/dˈɪktəm/",
+    "pos": "Noun",
     "meaning": "Formal or authoritative pronouncement; saying or proverb",
-    "mnemonic": "DICT = say: picture the word being declared aloud.",
+    "mnemonic": "DICT-um: DICTATE = to say. A formal saying.",
     "usage": "The dictum that history repeats itself is true only in the loosest sense.",
     "synonyms": [
       "pronouncement",
@@ -3611,10 +3612,10 @@ const GRE_WORDS = [
   },
   {
     "word": "didactic",
-    "pronunciation": "/daɪdˈæktɪk/",
+    "pronunciation": "/dɪdˈæktɪk/",
     "pos": "Adjective",
     "meaning": "Intended to instruct; teaching, or teaching a moral lesson, often excessively",
-    "mnemonic": "Picture “instructive” vividly; link that image directly to didactic.",
+    "mnemonic": "DI-DACTIC: DIDACT = teacher. Intended to instruct.",
     "usage": "The novel's didactic passages, in which the author steps in to explain the moral, are its weakest sections.",
     "synonyms": [
       "instructive",
@@ -3632,7 +3633,7 @@ const GRE_WORDS = [
     "pronunciation": "/dˈɪfɪdənt/",
     "pos": "Adjective",
     "meaning": "Lacking confidence, shy; hesitant about one's own abilities",
-    "mnemonic": "Picture “shy” vividly; link that image directly to diffident.",
+    "mnemonic": "DIFFI-DENT: DIFFIcult to be confident — shy, self-doubting.",
     "usage": "Though brilliant, he was diffident in public and rarely spoke unless asked.",
     "synonyms": [
       "shy",
@@ -3647,10 +3648,10 @@ const GRE_WORDS = [
   },
   {
     "word": "diffuse",
-    "pronunciation": "/dɪfjˈus/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪfjˈuːz/",
+    "pos": "Noun",
     "meaning": "Spread widely, disseminate; dispersed, widely spread out, or wordy and off-topic",
-    "mnemonic": "Picture “rambling” vividly; link that image directly to diffuse.",
+    "mnemonic": "DIFFUSE: DIFFICULT to FUSE — spread out everywhere.",
     "usage": "The diffuse essay touched on a dozen topics without developing any of them.",
     "synonyms": [
       "rambling",
@@ -3665,10 +3666,10 @@ const GRE_WORDS = [
   },
   {
     "word": "digress",
-    "pronunciation": "/daɪɡrˈɛs/",
+    "pronunciation": "/daɪɡɹˈɛs/",
     "pos": "Verb",
     "meaning": "Go off-topic when speaking or writing; depart from the main subject",
-    "mnemonic": "GRESS = go/step: picture movement along a path.",
+    "mnemonic": "DI-GRESS: GRESS = step. Step away from the main topic.",
     "usage": "The professor digressed into an anecdote about his graduate school days, then returned to the argument as if nothing had happened.",
     "synonyms": [
       "deviate",
@@ -3683,10 +3684,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dilate",
-    "pronunciation": "/dˌaɪlˈeɪt/",
+    "pronunciation": "/dˈaɪleɪt/",
     "pos": "Verb",
     "meaning": "To become wider or make wider; speak or write at length",
-    "mnemonic": "Picture “expand” vividly; link that image directly to dilate.",
+    "mnemonic": "DI-LATE: LAT = wide (latitude). Become wider.",
     "usage": "The pupils dilate in darkness, an involuntary response controlled by the autonomic nervous system.",
     "synonyms": [
       "expand",
@@ -3701,10 +3702,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dilatory",
-    "pronunciation": "/dˈɪlʌtˌɔri/",
-    "pos": "Adjective",
+    "pronunciation": "/dˈɪlætˌoːɹi/",
+    "pos": "Noun",
     "meaning": "Slow, late; procrastinating or stalling for time",
-    "mnemonic": "Picture “slow” vividly; link that image directly to dilatory.",
+    "mnemonic": "DILA-TORY: DILLY-DALLY — slow, stalling.",
     "usage": "The firm's dilatory response to the complaint allowed the damage to compound.",
     "synonyms": [
       "slow",
@@ -3720,9 +3721,9 @@ const GRE_WORDS = [
   {
     "word": "dilettante",
     "pronunciation": "/daɪltˈɑːnteɪ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Person who takes up an art or activity for amusement only or in a superficial way",
-    "mnemonic": "Picture “amateur” vividly; link that image directly to dilettante.",
+    "mnemonic": "DILETTANTE: DILLY + TANTE — a dabbler who plays at art.",
     "usage": "The critic dismissed him as a dilettante whose enthusiasm far exceeded his knowledge.",
     "synonyms": [
       "amateur",
@@ -3738,9 +3739,9 @@ const GRE_WORDS = [
   {
     "word": "din",
     "pronunciation": "/dˈɪn/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Loud, confused noise, especially for a long period",
-    "mnemonic": "Picture “noise” vividly; link that image directly to din.",
+    "mnemonic": "DIN: sounds like the DIN of a thousand drums — loud confused noise.",
     "usage": "The din of the market made conversation impossible, and we finally gave up and walked in silence.",
     "synonyms": [
       "noise",
@@ -3755,10 +3756,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dirge",
-    "pronunciation": "/dˈɝdʒ/",
+    "pronunciation": "/dˈɜːdʒ/",
     "pos": "Noun",
     "meaning": "A funeral or mourning song or poem",
-    "mnemonic": "Picture “lament” vividly; link that image directly to dirge.",
+    "mnemonic": "DIRGE: sounds like DIRT-e — a mournful funeral song.",
     "usage": "The choir sang a slow dirge as the coffin was carried down the aisle.",
     "synonyms": [
       "lament",
@@ -3773,10 +3774,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disabuse",
-    "pronunciation": "/dɪsʌbjˈus/",
+    "pronunciation": "/dˌɪsəbjˈuːs/",
     "pos": "Noun",
     "meaning": "Free someone from a mistake in thinking; correct a false impression",
-    "mnemonic": "Picture “correct” vividly; link that image directly to disabuse.",
+    "mnemonic": "DIS-ABUSE: stop the ABUSE of wrong belief — correct a misconception.",
     "usage": "Let me disabuse you of the notion that the process will be quick or cheap.",
     "synonyms": [
       "correct",
@@ -3791,10 +3792,10 @@ const GRE_WORDS = [
   },
   {
     "word": "discerning",
-    "pronunciation": "/dɪsˈɝnɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪsˈɜːnɪŋ/",
+    "pos": "Noun",
     "meaning": "Having good judgment or insight; able to distinguish mentally",
-    "mnemonic": "Picture “perceptive” vividly; link that image directly to discerning.",
+    "mnemonic": "DIS-CERNING: CERN (sift, like CERN lab) — able to distinguish.",
     "usage": "A discerning reader will notice that the author's examples all come from the same narrow region.",
     "synonyms": [
       "perceptive",
@@ -3809,10 +3810,10 @@ const GRE_WORDS = [
   },
   {
     "word": "discomfiting",
-    "pronunciation": "/dɪskʌmfɪɾɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪskˈʌmfɪɾɪŋ/",
+    "pos": "Noun",
     "meaning": "Disconcerting, confusing, frustrating; making one uneasy",
-    "mnemonic": "Picture “unsettling” vividly; link that image directly to discomfiting.",
+    "mnemonic": "DIS-COMFITING: makes you un-COMFORTABLE — unsettling.",
     "usage": "The discomfiting silence that followed his question made him wish he had said nothing.",
     "synonyms": [
       "unsettling",
@@ -3827,10 +3828,10 @@ const GRE_WORDS = [
   },
   {
     "word": "discordant",
-    "pronunciation": "/dɪskˈɔrdʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪskˈoːɹdənt/",
+    "pos": "Noun",
     "meaning": "Harsh or inharmonious in sound; disagreeing, incongruous",
-    "mnemonic": "Picture “harsh” vividly; link that image directly to discordant.",
+    "mnemonic": "DIS-CORD: un-CORDinated sounds — harsh, disagreeing.",
     "usage": "The discordant notes from the rehearsal room suggested that the orchestra had a long way to go.",
     "synonyms": [
       "harsh",
@@ -3845,10 +3846,10 @@ const GRE_WORDS = [
   },
   {
     "word": "discredit",
-    "pronunciation": "/dɪskrˈɛdʌt/",
+    "pronunciation": "/dɪskɹˈɛdɪt/",
     "pos": "Noun",
     "meaning": "Injure the reputation of, destroy credibility of or confidence in",
-    "mnemonic": "CRED = believe: picture deciding whether a claim is believable.",
+    "mnemonic": "DIS-CREDIT: take away CREDIT — damage reputation.",
     "usage": "The revelations discredited the report and, with it, the committee that had produced it.",
     "synonyms": [
       "disgrace",
@@ -3863,10 +3864,10 @@ const GRE_WORDS = [
   },
   {
     "word": "discrepancy",
-    "pronunciation": "/dɪskrˈɛpʌnsi/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪskɹˈɛpənsi/",
+    "pos": "Noun",
     "meaning": "Difference or inconsistency; lack of agreement",
-    "mnemonic": "Picture “inconsistency” vividly; link that image directly to discrepancy.",
+    "mnemonic": "DIS-CREPANCY: DISagreement between two sets of numbers — inconsistency.",
     "usage": "The auditors found a discrepancy between the reported income and the bank deposits.",
     "synonyms": [
       "inconsistency",
@@ -3881,10 +3882,10 @@ const GRE_WORDS = [
   },
   {
     "word": "discrete",
-    "pronunciation": "/dɪskrˈit/",
+    "pronunciation": "/dɪskɹˈiːt/",
     "pos": "Verb",
     "meaning": "Separate, distinct, detached, existing as individual parts",
-    "mnemonic": "Picture “separate” vividly; link that image directly to discrete.",
+    "mnemonic": "DIS-CRETE: CONCRETE pieces, SEPARATE from each other.",
     "usage": "The course was divided into ten discrete modules, each self-contained.",
     "synonyms": [
       "separate",
@@ -3899,10 +3900,10 @@ const GRE_WORDS = [
   },
   {
     "word": "discriminating",
-    "pronunciation": "/dɪskrˈɪmʌnˌeɪtɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪskɹˈɪmᵻnˌeɪɾɪŋ/",
+    "pos": "Noun",
     "meaning": "Judicious, discerning, having good judgment or insight; able to make fine distinctions",
-    "mnemonic": "Picture “discerning” vividly; link that image directly to discriminating.",
+    "mnemonic": "DIS-CRIMINATING: able to DISCRIMINATE fine distinctions — discerning.",
     "usage": "Her discriminating taste in wine made her the obvious choice to select the cellar.",
     "synonyms": [
       "discerning",
@@ -3917,10 +3918,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disingenuous",
-    "pronunciation": "/dɪsɪndʒˈɛnjuʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/dˌɪsɪndʒˈɛnjuːəs/",
+    "pos": "Noun",
     "meaning": "Insincere, not genuine; pretending to be unaware",
-    "mnemonic": "Picture “insincere” vividly; link that image directly to disingenuous.",
+    "mnemonic": "DIS-INGENUOUS: not INGENUOUS (innocent) — insincere.",
     "usage": "His disingenuous apology, blaming the very people he had harmed, fooled no one.",
     "synonyms": [
       "insincere",
@@ -3935,10 +3936,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disinterested",
-    "pronunciation": "/dɪsˈɪntrɪstɪd/",
-    "pos": "Adjective",
+    "pronunciation": "/dˌɪsˈɪntɹəstᵻd/",
+    "pos": "Noun",
     "meaning": "Unbiased, impartial; not interested (in the sense of having no stake)",
-    "mnemonic": "Picture “impartial” vividly; link that image directly to disinterested.",
+    "mnemonic": "DIS-INTERESTED: not INTERESTED in one side — impartial (NOT uninterested).",
     "usage": "A disinterested observer would find the committee's conclusion well supported by the evidence.",
     "synonyms": [
       "impartial",
@@ -3953,10 +3954,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disjointed",
-    "pronunciation": "/dɪsdʒˈɔɪntɪd/",
+    "pronunciation": "/dɪsdʒˈɔɪntᵻd/",
     "pos": "Adjective",
     "meaning": "Disconnected, not coherent, jerky; having the joints separated",
-    "mnemonic": "Picture “disconnected” vividly; link that image directly to disjointed.",
+    "mnemonic": "DIS-JOINTED: JOINTS pulled apart — disconnected.",
     "usage": "The film's disjointed narrative made it difficult to follow any single character's arc.",
     "synonyms": [
       "disconnected",
@@ -3974,7 +3975,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪsmˈɪs/",
     "pos": "Noun",
     "meaning": "Allow to disperse or leave; fire from a job; put aside or reject after only brief consideration",
-    "mnemonic": "Picture “reject” vividly; link that image directly to dismiss.",
+    "mnemonic": "DIS-MISS: MISS the chance to keep it — reject, send away.",
     "usage": "The committee dismissed the proposal without debate, a decision it would later regret.",
     "synonyms": [
       "reject",
@@ -3989,10 +3990,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disparage",
-    "pronunciation": "/dɪspˈɛrɪdʒ/",
+    "pronunciation": "/dɪspˈæɹɪdʒ/",
     "pos": "Noun",
     "meaning": "Belittle, put down; bring shame upon, discredit",
-    "mnemonic": "Picture “belittle” vividly; link that image directly to disparage.",
+    "mnemonic": "DIS-PARAGE: knock someone's PARAGE (peerage, rank) — belittle.",
     "usage": "The professor's habit of disparaging his colleagues' work made him few friends in the department.",
     "synonyms": [
       "belittle",
@@ -4007,10 +4008,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disparate",
-    "pronunciation": "/dˈɪspɝɪt/",
+    "pronunciation": "/dˈɪspɚɹət/",
     "pos": "Verb",
     "meaning": "Distinct, different; fundamentally dissimilar",
-    "mnemonic": "Picture “different” vividly; link that image directly to disparate.",
+    "mnemonic": "DIS-PARATE: DIS-PARATE = separate, different.",
     "usage": "The book attempts to unify disparate traditions that had previously been studied in isolation.",
     "synonyms": [
       "different",
@@ -4025,10 +4026,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dispassionate",
-    "pronunciation": "/dɪspˈæʃʌnʌt/",
-    "pos": "Verb",
+    "pronunciation": "/dɪspˈæʃənət/",
+    "pos": "Adjective",
     "meaning": "Unbiased, not having a selfish or personal motivation; calm, lacking emotion",
-    "mnemonic": "Picture “impartial” vividly; link that image directly to dispassionate.",
+    "mnemonic": "DIS-PASSIONATE: NOT PASSIONATE — calm, unbiased.",
     "usage": "The analyst's dispassionate assessment, though unwelcome, was impossible to refute.",
     "synonyms": [
       "impartial",
@@ -4046,7 +4047,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪspˈætʃ/",
     "pos": "Noun",
     "meaning": "Speed, promptness; send off or deal with in a speedy way",
-    "mnemonic": "Picture “promptness” vividly; link that image directly to dispatch.",
+    "mnemonic": "DIS-PATCH: send off at a PATCH (fast) — speed, promptness.",
     "usage": "The general dispatched reinforcements to the front within hours of receiving the news.",
     "synonyms": [
       "promptness",
@@ -4061,10 +4062,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disperse",
-    "pronunciation": "/dɪspˈɝs/",
+    "pronunciation": "/dɪspˈɜːs/",
     "pos": "Noun",
     "meaning": "Scatter, spread widely, cause to vanish",
-    "mnemonic": "Picture “scatter” vividly; link that image directly to disperse.",
+    "mnemonic": "DIS-PERSE: SPARSE = spread thin — scatter.",
     "usage": "The police dispersed the crowd without violence, though the mood remained tense.",
     "synonyms": [
       "scatter",
@@ -4079,10 +4080,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disposition",
-    "pronunciation": "/dˌɪspʌzˈɪʃʌn/",
+    "pronunciation": "/dˌɪspəzˈɪʃən/",
     "pos": "Noun",
     "meaning": "A person's general or natural mood; tendency",
-    "mnemonic": "Picture “temperament” vividly; link that image directly to disposition.",
+    "mnemonic": "DIS-POSITION: where you're POSITIONED mentally — natural mood.",
     "usage": "Her cheerful disposition made her a favorite with patients, even on difficult days.",
     "synonyms": [
       "temperament",
@@ -4096,10 +4097,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disquieting",
-    "pronunciation": "/dɪskwˈaɪʌtɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪskwˈaɪəɾɪŋ/",
+    "pos": "Noun",
     "meaning": "Disturbing, causing anxiety; unsettling",
-    "mnemonic": "Picture “disturbing” vividly; link that image directly to disquieting.",
+    "mnemonic": "DIS-QUIETING: takes away QUIET — disturbing.",
     "usage": "The disquieting silence from the other end of the line told her something had gone wrong.",
     "synonyms": [
       "disturbing",
@@ -4114,10 +4115,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dissemble",
-    "pronunciation": "/dɪsˈɛmbʌl/",
+    "pronunciation": "/dɪsˈɛmbəl/",
     "pos": "Noun",
     "meaning": "Mislead, conceal the truth, put on a false appearance",
-    "mnemonic": "Picture “deceive” vividly; link that image directly to dissemble.",
+    "mnemonic": "DIS-SEMBLE: DISSEMBLE (looks like DISASSEMBLE) the truth — conceal it.",
     "usage": "He dissembled for years, presenting himself as a moderate while quietly advancing a radical agenda.",
     "synonyms": [
       "deceive",
@@ -4132,10 +4133,10 @@ const GRE_WORDS = [
   },
   {
     "word": "disseminate",
-    "pronunciation": "/dɪsˈɛmʌnˌeɪt/",
+    "pronunciation": "/dɪsˈɛmᵻnˌeɪt/",
     "pos": "Verb",
     "meaning": "Scatter, spread about, broadcast; distribute widely",
-    "mnemonic": "Picture “spread” vividly; link that image directly to disseminate.",
+    "mnemonic": "DIS-SEMINATE: SEMEN = seed. Scatter seed — spread widely.",
     "usage": "The organization disseminates research findings to policymakers in a dozen countries.",
     "synonyms": [
       "spread",
@@ -4151,9 +4152,9 @@ const GRE_WORDS = [
   {
     "word": "dissent",
     "pronunciation": "/dɪsˈɛnt/",
-    "pos": "Verb",
+    "pos": "Adjective",
     "meaning": "Disagree or take an opposing view, especially in relation to a formal body; such a view",
-    "mnemonic": "Picture “disagree” vividly; link that image directly to dissent.",
+    "mnemonic": "DIS-SENT: SENT against — disagree.",
     "usage": "Two justices filed a vigorous dissent, arguing that the ruling misread the statute.",
     "synonyms": [
       "disagree",
@@ -4168,10 +4169,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dissolution",
-    "pronunciation": "/dˌɪsʌlˈuʃʌn/",
+    "pronunciation": "/dˌɪsəlˈuːʃən/",
     "pos": "Noun",
     "meaning": "Dissolving, the state of having been dissolved; breaking up of a group; death, disintegration",
-    "mnemonic": "Picture “disbanding” vividly; link that image directly to dissolution.",
+    "mnemonic": "DIS-SOLUTION: breaking the SOLUTION apart — dissolving.",
     "usage": "The dissolution of the empire took less than a decade, surprising nearly every observer.",
     "synonyms": [
       "disbanding",
@@ -4186,10 +4187,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dissonance",
-    "pronunciation": "/dˈɪsʌnʌns/",
+    "pronunciation": "/dˈɪsənəns/",
     "pos": "Noun",
     "meaning": "Harsh, inharmonious sound; cacophony; disagreement",
-    "mnemonic": "Picture “discord” vividly; link that image directly to dissonance.",
+    "mnemonic": "DIS-SONANCE: DIS-sound — harsh, discordant noise.",
     "usage": "The cognitive dissonance between his stated values and his behavior eventually became impossible to ignore.",
     "synonyms": [
       "discord",
@@ -4205,9 +4206,9 @@ const GRE_WORDS = [
   {
     "word": "distaff",
     "pronunciation": "/dɪstˈæf/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Female, especially relating to the maternal side of the family; women's work",
-    "mnemonic": "Picture “female” vividly; link that image directly to distaff.",
+    "mnemonic": "DISTAFF: the woman's side of the family — female.",
     "usage": "The distaff side of the family had produced three generations of physicians.",
     "synonyms": [
       "female",
@@ -4223,7 +4224,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪstˈɛnd/",
     "pos": "Noun",
     "meaning": "Swell, expand, stretch, bloat",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "DIS-TEND: TEND = stretch (tension). Swell, expand.",
     "usage": "The balloon distended steadily until it burst with a sharp crack.",
     "synonyms": [
       "swell",
@@ -4241,7 +4242,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪstˈɪl/",
     "pos": "Noun",
     "meaning": "Purify; extract the essential elements of",
-    "mnemonic": "Picture “purify” vividly; link that image directly to distill.",
+    "mnemonic": "DIS-TILL: TILL the soil to extract the good — purify.",
     "usage": "The book distills thirty years of research into a single readable volume.",
     "synonyms": [
       "purify",
@@ -4256,10 +4257,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dither",
-    "pronunciation": "/dˈɪðɝ/",
+    "pronunciation": "/dˈɪðɚ/",
     "pos": "Noun",
     "meaning": "Act indecisively; a state of fear or trembling excitement",
-    "mnemonic": "Picture “hesitate” vividly; link that image directly to dither.",
+    "mnemonic": "DITHER: DITHER-ing like a leaf — hesitate, waver.",
     "usage": "He dithered for weeks over the offer, and by the time he decided to accept, the position had been filled.",
     "synonyms": [
       "hesitate",
@@ -4274,10 +4275,10 @@ const GRE_WORDS = [
   },
   {
     "word": "diurnal",
-    "pronunciation": "/daɪˈɝnʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/dˈɪɜːnəl/",
+    "pos": "Noun",
     "meaning": "Occurring every day; happening in the daytime",
-    "mnemonic": "Picture “daily” vividly; link that image directly to diurnal.",
+    "mnemonic": "DI-URNAL: DI = day (dial). Daily, daytime.",
     "usage": "The diurnal rhythms of the birds determined when the garden fell silent.",
     "synonyms": [
       "daily",
@@ -4290,10 +4291,10 @@ const GRE_WORDS = [
   },
   {
     "word": "diverge",
-    "pronunciation": "/dɪvˈɝdʒ/",
+    "pronunciation": "/daɪvˈɜːdʒ/",
     "pos": "Noun",
     "meaning": "Differ, deviate; branch off or turn aside, as from a path",
-    "mnemonic": "Picture “differ” vividly; link that image directly to diverge.",
+    "mnemonic": "DI-VERGE: VERGE = turn. Turn away in different directions.",
     "usage": "The two interpretations diverge on the question of authorial intent.",
     "synonyms": [
       "differ",
@@ -4311,7 +4312,7 @@ const GRE_WORDS = [
     "pronunciation": "/daɪvˈɛst/",
     "pos": "Noun",
     "meaning": "Deprive or strip of a rank, title, or clothing; sell off holdings",
-    "mnemonic": "Picture “strip” vividly; link that image directly to divest.",
+    "mnemonic": "DI-VEST: take off the VEST — strip away.",
     "usage": "The university divested its endowment of fossil fuel stocks after years of student pressure.",
     "synonyms": [
       "strip",
@@ -4329,7 +4330,7 @@ const GRE_WORDS = [
     "pronunciation": "/dɪvˈaɪn/",
     "pos": "Noun",
     "meaning": "Discover through divination or supernatural means; perceive by insight",
-    "mnemonic": "Picture “discover” vividly; link that image directly to divine.",
+    "mnemonic": "DIVINE: to DIVINE is to perceive like a god — to discover by insight.",
     "usage": "She divined the truth from the smallest change in his expression.",
     "synonyms": [
       "discover",
@@ -4344,10 +4345,10 @@ const GRE_WORDS = [
   },
   {
     "word": "doctrinaire",
-    "pronunciation": "/dˌɑktrʌnˈɛr/",
+    "pronunciation": "/dˌɑːktɹɪnˈɛɹ/",
     "pos": "Noun",
     "meaning": "Person who applies doctrine in an impractical or rigid and close-minded way",
-    "mnemonic": "Picture “dogmatic” vividly; link that image directly to doctrinaire.",
+    "mnemonic": "DOCTRIN-AIRE: DOCTRINE obsessed, rigid.",
     "usage": "The minister was too doctrinaire to consider evidence that the policy was failing.",
     "synonyms": [
       "dogmatic",
@@ -4362,10 +4363,10 @@ const GRE_WORDS = [
   },
   {
     "word": "document",
-    "pronunciation": "/dˈɑkjʌmɛnt/",
-    "pos": "Verb",
+    "pronunciation": "/dˈɑːkjuːmənt/",
+    "pos": "Noun",
     "meaning": "Support with evidence, cite sources in a detailed way, create documentary evidence of",
-    "mnemonic": "Picture “record” vividly; link that image directly to document.",
+    "mnemonic": "DOCUMENT: to create a DOCUMENT as evidence — record.",
     "usage": "The report documents the long history of discrimination in the housing market.",
     "synonyms": [
       "record",
@@ -4380,10 +4381,10 @@ const GRE_WORDS = [
   },
   {
     "word": "doff",
-    "pronunciation": "/dˈɔf/",
+    "pronunciation": "/dˈɑːf/",
     "pos": "Verb",
     "meaning": "Take off, such as clothes; put aside; remove one's hat as a gesture",
-    "mnemonic": "Picture “remove” vividly; link that image directly to doff.",
+    "mnemonic": "DOFF: sounds like DO + OFF — take off (opposite of DON).",
     "usage": "The gentleman doffed his hat as the funeral procession passed.",
     "synonyms": [
       "remove",
@@ -4398,10 +4399,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dogma",
-    "pronunciation": "/dˈɑɡmʌ/",
-    "pos": "Adjective",
+    "pronunciation": "/dˈɑːɡmə/",
+    "pos": "Noun",
     "meaning": "A system of principles laid down by an authority; established belief",
-    "mnemonic": "Picture “doctrine” vividly; link that image directly to dogma.",
+    "mnemonic": "DOGMA: DOGmatic beliefs of the church — established doctrine.",
     "usage": "The dogma that markets always self-correct was tested severely in 2008.",
     "synonyms": [
       "doctrine",
@@ -4416,10 +4417,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dormant",
-    "pronunciation": "/dˈɔrmʌnt/",
+    "pronunciation": "/dˈoːɹmənt/",
     "pos": "Adjective",
     "meaning": "Asleep, inactive, on a break; temporarily without activity",
-    "mnemonic": "Picture “inactive” vividly; link that image directly to dormant.",
+    "mnemonic": "DORMANT: DORM = sleep (dormitory). Asleep, inactive.",
     "usage": "The volcano has been dormant for two centuries, but geologists warn that it will not stay so forever.",
     "synonyms": [
       "inactive",
@@ -4434,10 +4435,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dovetail",
-    "pronunciation": "/dˈʌvtˌeɪl/",
+    "pronunciation": "/dˈʌvteɪl/",
     "pos": "Noun",
     "meaning": "Join or fit together; correspond harmoniously",
-    "mnemonic": "Picture “fit” vividly; link that image directly to dovetail.",
+    "mnemonic": "DOVETAIL: DOVE + TAIL joints fit perfectly — to join harmoniously.",
     "usage": "Her research dovetailed neatly with his, and their collaboration produced a landmark paper.",
     "synonyms": [
       "fit",
@@ -4452,10 +4453,10 @@ const GRE_WORDS = [
   },
   {
     "word": "droll",
-    "pronunciation": "/drˈoʊl/",
-    "pos": "Adjective",
+    "pronunciation": "/dɹˈoʊl/",
+    "pos": "Noun",
     "meaning": "Funny in an odd way; amusingly eccentric",
-    "mnemonic": "Picture “amusing” vividly; link that image directly to droll.",
+    "mnemonic": "DROLL: sounds like DOLL — cute and funny in an odd way.",
     "usage": "His droll observations about academic life, delivered with a straight face, made him a favorite dinner guest.",
     "synonyms": [
       "amusing",
@@ -4470,10 +4471,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dubious",
-    "pronunciation": "/dˈubiʌs/",
+    "pronunciation": "/dˈuːbɪəs/",
     "pos": "Adjective",
     "meaning": "Doubtful, questionable, suspect; of uncertain outcome",
-    "mnemonic": "Picture “doubtful” vividly; link that image directly to dubious.",
+    "mnemonic": "DUBIOUS: DOUBT-ious — doubtful.",
     "usage": "The claim, though widely repeated, rests on dubious evidence.",
     "synonyms": [
       "doubtful",
@@ -4488,10 +4489,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dupe",
-    "pronunciation": "/dˈup/",
-    "pos": "Noun",
+    "pronunciation": "/dˈuːp/",
+    "pos": "Verb",
     "meaning": "Person who is easily fooled or used; to fool or exploit",
-    "mnemonic": "Picture “fool” vividly; link that image directly to dupe.",
+    "mnemonic": "DUPE: sounds like DOPE — fool, trick.",
     "usage": "The scam targeted elderly dupes who had savings but little financial knowledge.",
     "synonyms": [
       "fool",
@@ -4506,10 +4507,10 @@ const GRE_WORDS = [
   },
   {
     "word": "duplicity",
-    "pronunciation": "/duplˈɪsɪti/",
+    "pronunciation": "/duːplˈɪsɪɾi/",
     "pos": "Noun",
     "meaning": "Deceit, double-dealing, acting in two different ways for the purpose of deception",
-    "mnemonic": "Picture “deceit” vividly; link that image directly to duplicity.",
+    "mnemonic": "DUPLICITY: DUPLICATE = two. Double-dealing, two-faced.",
     "usage": "The duplicity of the minister, who publicly condemned the very practices he privately financed, shocked even seasoned observers.",
     "synonyms": [
       "deceit",
@@ -4524,10 +4525,10 @@ const GRE_WORDS = [
   },
   {
     "word": "dyspeptic",
-    "pronunciation": "/dˌɪspˈɛptɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/dɪspˈɛptɪk/",
+    "pos": "Noun",
     "meaning": "Grumpy, pessimistic, irritable; suffering from indigestion",
-    "mnemonic": "Picture “irritable” vividly; link that image directly to dyspeptic.",
+    "mnemonic": "DYS-PEPTIC: PEPtic problems — grumpy from bad digestion.",
     "usage": "The dyspeptic critic hated every film he saw, and audiences had long since stopped caring.",
     "synonyms": [
       "irritable",
@@ -4542,10 +4543,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ebullient",
-    "pronunciation": "/ˌɪbˈʌljʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪbˈʊliənt/",
+    "pos": "Noun",
     "meaning": "Very enthusiastic, lively, excited; bubbling as though being boiled",
-    "mnemonic": "Picture “enthusiastic” vividly; link that image directly to ebullient.",
+    "mnemonic": "EBULLIENT: EBULL = boil (bubbling). Enthusiastic, bubbling over.",
     "usage": "Her ebullient greeting at the door made even the weariest guest smile.",
     "synonyms": [
       "enthusiastic",
@@ -4560,10 +4561,10 @@ const GRE_WORDS = [
   },
   {
     "word": "eccentric",
-    "pronunciation": "/ɪksˈɛntrɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛksˈɛntɹɪk/",
+    "pos": "Noun",
     "meaning": "Peculiar, odd, deviating from the norm, especially in a whimsical way",
-    "mnemonic": "Picture “odd” vividly; link that image directly to eccentric.",
+    "mnemonic": "EC-CENTRIC: EC = out of; CENTRIC = center. Out of the center — odd.",
     "usage": "The eccentric professor wore mismatched shoes and lectured while pacing circles around the podium.",
     "synonyms": [
       "odd",
@@ -4578,10 +4579,10 @@ const GRE_WORDS = [
   },
   {
     "word": "echelon",
-    "pronunciation": "/ˈɛʃʌlˌɑn/",
+    "pronunciation": "/ˈɛʃəlˌɑːn/",
     "pos": "Noun",
     "meaning": "A level, rank or grade; the people at that level",
-    "mnemonic": "Picture “level” vividly; link that image directly to echelon.",
+    "mnemonic": "ECHELON: an ECHELON ladder of ranks — level.",
     "usage": "She rose to the upper echelons of the firm without ever attending a single golf outing.",
     "synonyms": [
       "level",
@@ -4596,9 +4597,9 @@ const GRE_WORDS = [
   {
     "word": "eclectic",
     "pronunciation": "/ɪklˈɛktɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Selecting the best of everything or from many diverse sources",
-    "mnemonic": "Picture “varied” vividly; link that image directly to eclectic.",
+    "mnemonic": "ECLECTIC: ECLECTIC COLLECTOR picks from many styles — diverse.",
     "usage": "Her eclectic reading list ranged from medieval theology to contemporary graphic novels.",
     "synonyms": [
       "varied",
@@ -4614,9 +4615,9 @@ const GRE_WORDS = [
   {
     "word": "eclipse",
     "pronunciation": "/ɪklˈɪps/",
-    "pos": "Adjective",
+    "pos": "Verb",
     "meaning": "The obscuring of one thing by another; to obscure, darken, make less important",
-    "mnemonic": "Picture “obscure” vividly; link that image directly to eclipse.",
+    "mnemonic": "ECLIPSE: the moon ECLIPSES the sun — to obscure, overshadow.",
     "usage": "Her early successes were eclipsed by the achievements of a younger rival.",
     "synonyms": [
       "obscure",
@@ -4631,10 +4632,10 @@ const GRE_WORDS = [
   },
   {
     "word": "edify",
-    "pronunciation": "/ˈɛdʌfˌaɪ/",
+    "pronunciation": "/ˈɛdᵻfˌaɪ/",
     "pos": "Adjective",
     "meaning": "Uplift, enlighten, instruct or improve in a spiritual or moral way",
-    "mnemonic": "Picture “enlighten” vividly; link that image directly to edify.",
+    "mnemonic": "EDI-FY: EDIFICE of knowledge — uplift, enlighten.",
     "usage": "The sermon edified the congregation without ever once sounding preachy.",
     "synonyms": [
       "enlighten",
@@ -4649,10 +4650,10 @@ const GRE_WORDS = [
   },
   {
     "word": "efficacy",
-    "pronunciation": "/ˈɛfɪkˌæsi/",
+    "pronunciation": "/ˈɛfɪkəsi/",
     "pos": "Noun",
     "meaning": "The quality of being able to produce the intended effect; effectiveness",
-    "mnemonic": "Picture “effectiveness” vividly; link that image directly to efficacy.",
+    "mnemonic": "EFFIC-acy: EFFICIENCY + ACCURACY — effectiveness.",
     "usage": "The efficacy of the new treatment was demonstrated in a trial of ten thousand patients.",
     "synonyms": [
       "effectiveness",
@@ -4668,9 +4669,9 @@ const GRE_WORDS = [
   {
     "word": "effigy",
     "pronunciation": "/ˈɛfɪdʒi/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Representation or image of a person, especially a crude facsimile used to mock a hated person",
-    "mnemonic": "Picture “image” vividly; link that image directly to effigy.",
+    "mnemonic": "EFFIGY: a FIGURE (FY) burned in protest — a likeness.",
     "usage": "The protesters burned an effigy of the dictator in the central square.",
     "synonyms": [
       "image",
@@ -4684,10 +4685,10 @@ const GRE_WORDS = [
   },
   {
     "word": "effrontery",
-    "pronunciation": "/ɪfrˈʌntɝi/",
+    "pronunciation": "/ˈɛfɹəntɚɹi/",
     "pos": "Noun",
     "meaning": "Shameless boldness; audacity; impudence",
-    "mnemonic": "Picture “impudence” vividly; link that image directly to effrontery.",
+    "mnemonic": "EFFRONTERY: FRONT + CHEEK — shameless boldness.",
     "usage": "He had the effrontery to ask for a raise the same week he was caught plagiarizing.",
     "synonyms": [
       "impudence",
@@ -4702,10 +4703,10 @@ const GRE_WORDS = [
   },
   {
     "word": "egalitarian",
-    "pronunciation": "/ɪɡˌælʌtˈɛriʌn/",
+    "pronunciation": "/ɪɡˌælɪtˈɛɹiən/",
     "pos": "Adjective",
     "meaning": "Related to belief in the equality of all people, especially in political, economic, or social spheres",
-    "mnemonic": "Picture “equal” vividly; link that image directly to egalitarian.",
+    "mnemonic": "EGALITARIAN: EQUAL + ITY — believing in equality.",
     "usage": "The community was egalitarian in principle, though in practice its founder's opinions carried the most weight.",
     "synonyms": [
       "equal",
@@ -4720,10 +4721,10 @@ const GRE_WORDS = [
   },
   {
     "word": "egregious",
-    "pronunciation": "/ɪɡrˈidʒʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪɡɹˈiːdʒəs/",
+    "pos": "Noun",
     "meaning": "Extraordinarily or conspicuously bad; flagrant, glaring",
-    "mnemonic": "Picture “flagrant” vividly; link that image directly to egregious.",
+    "mnemonic": "E-GREGIOUS: E = out; GREX = flock. Stands out of the flock — conspicuously bad.",
     "usage": "The report catalogued an egregious pattern of neglect stretching back a decade.",
     "synonyms": [
       "flagrant",
@@ -4738,10 +4739,10 @@ const GRE_WORDS = [
   },
   {
     "word": "egress",
-    "pronunciation": "/ɪɡrˈɛs/",
+    "pronunciation": "/ˈɛɡɹɛs/",
     "pos": "Noun",
     "meaning": "An exit or the action of exiting",
-    "mnemonic": "GRESS = go/step: picture movement along a path.",
+    "mnemonic": "E-GRESS: GRESS = step. Step out — an exit.",
     "usage": "The building was cited for having only one egress from the upper floors.",
     "synonyms": [
       "exit",
@@ -4756,10 +4757,10 @@ const GRE_WORDS = [
   },
   {
     "word": "elated",
-    "pronunciation": "/ɪlˈeɪtʌd/",
+    "pronunciation": "/ᵻlˈeɪɾᵻd/",
     "pos": "Adjective",
     "meaning": "Very happy, in high spirits; overjoyed",
-    "mnemonic": "Picture “overjoyed” vividly; link that image directly to elated.",
+    "mnemonic": "ELATED: LAT = carried. Carried high with joy.",
     "usage": "She was elated by the acceptance letter, which she read three times before believing it.",
     "synonyms": [
       "overjoyed",
@@ -4774,10 +4775,10 @@ const GRE_WORDS = [
   },
   {
     "word": "elegy",
-    "pronunciation": "/ˈɛlʌdʒˌi/",
+    "pronunciation": "/ˈɛlɪdʒi/",
     "pos": "Adjective",
     "meaning": "Song or poem of sorrow, especially for a deceased person",
-    "mnemonic": "Picture “lament” vividly; link that image directly to elegy.",
+    "mnemonic": "ELEGY: sounds like ELEGY (eulogy) — mourning poem for the dead.",
     "usage": "The poet's elegy for his mother became a standard in the anthologies.",
     "synonyms": [
       "lament",
@@ -4792,10 +4793,10 @@ const GRE_WORDS = [
   },
   {
     "word": "elevate",
-    "pronunciation": "/ˈɛlʌvˌeɪt/",
+    "pronunciation": "/ˈɛlɪvˌeɪt/",
     "pos": "Verb",
     "meaning": "Raise, lift up; lift the spirits of; move up to a higher rank or status",
-    "mnemonic": "Picture “raise” vividly; link that image directly to elevate.",
+    "mnemonic": "ELEVATE: ELEVATOR lifts you up — raise.",
     "usage": "The promotion elevated her from a competent manager to one of the firm's most influential voices.",
     "synonyms": [
       "raise",
@@ -4810,10 +4811,10 @@ const GRE_WORDS = [
   },
   {
     "word": "elicit",
-    "pronunciation": "/ɪlˈɪsɪt/",
+    "pronunciation": "/ᵻlˈɪsᵻt/",
     "pos": "Verb",
     "meaning": "Call forth, bring out, evoke; draw out (a response, answer, or fact)",
-    "mnemonic": "Picture “evoke” vividly; link that image directly to elicit.",
+    "mnemonic": "E-LICIT: LICIT = allowed. Draw out a response.",
     "usage": "The question elicited a response that no one in the room had expected.",
     "synonyms": [
       "evoke",
@@ -4828,10 +4829,10 @@ const GRE_WORDS = [
   },
   {
     "word": "eloquent",
-    "pronunciation": "/ˈɛlʌkwʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɛləkwənt/",
+    "pos": "Noun",
     "meaning": "Marked by forceful, fluid, apt speech; expressive, emotionally moving",
-    "mnemonic": "Picture “articulate” vividly; link that image directly to eloquent.",
+    "mnemonic": "ELOQUENT: LOQU = speak. Speaking beautifully — expressive.",
     "usage": "Her eloquent closing statement left the jury silent for a full minute.",
     "synonyms": [
       "articulate",
@@ -4846,10 +4847,10 @@ const GRE_WORDS = [
   },
   {
     "word": "emaciate",
-    "pronunciation": "/ɪmˈeɪʃiˌeɪt/",
+    "pronunciation": "/iːmˈeɪsɪˌeɪt/",
     "pos": "Verb",
     "meaning": "Make abnormally thin; cause to physically waste away",
-    "mnemonic": "Picture “waste away” vividly; link that image directly to emaciate.",
+    "mnemonic": "EMACIATE: a MAcIATED (thin) body — waste away.",
     "usage": "The long illness emaciated him until his own family barely recognized him.",
     "synonyms": [
       "waste away",
@@ -4864,10 +4865,10 @@ const GRE_WORDS = [
   },
   {
     "word": "embellish",
-    "pronunciation": "/ɪmbˈɛlɪʃ/",
+    "pronunciation": "/ɛmbˈɛlɪʃ/",
     "pos": "Adjective",
     "meaning": "Decorate, add ornamentation; enhance (a story) with fictional or fanciful details",
-    "mnemonic": "Picture “decorate” vividly; link that image directly to embellish.",
+    "mnemonic": "EMBELLISH: BELLE = beautiful. Decorate, make beautiful.",
     "usage": "He embellished the anecdote with details that no witness could corroborate.",
     "synonyms": [
       "decorate",
@@ -4882,10 +4883,10 @@ const GRE_WORDS = [
   },
   {
     "word": "eminent",
-    "pronunciation": "/ˈɛmʌnʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɛmɪnənt/",
+    "pos": "Noun",
     "meaning": "Prominent, distinguished, of high rank; standing out above others",
-    "mnemonic": "Picture “distinguished” vividly; link that image directly to eminent.",
+    "mnemonic": "EMINENT: E = out; MIN = project (prominent). Standing out — distinguished.",
     "usage": "The eminent historian was invited to deliver the university's most prestigious lecture.",
     "synonyms": [
       "distinguished",
@@ -4900,10 +4901,10 @@ const GRE_WORDS = [
   },
   {
     "word": "empirical",
-    "pronunciation": "/ˌɛmpˈɪrɪkʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛmpˈɪɹɪkəl/",
+    "pos": "Noun",
     "meaning": "Coming from, based on, or able to be verified by experience or experimentation; not purely based on theory",
-    "mnemonic": "Picture “experimental” vividly; link that image directly to empirical.",
+    "mnemonic": "EMPIRICAL: EMPIRE of EXPERIMENTS — based on observation.",
     "usage": "The theory is elegant, but the empirical evidence in its favor remains thin.",
     "synonyms": [
       "experimental",
@@ -4918,10 +4919,10 @@ const GRE_WORDS = [
   },
   {
     "word": "emulate",
-    "pronunciation": "/ˈɛmjʌlˌeɪt/",
+    "pronunciation": "/ˈɛmjʊlˌeɪt/",
     "pos": "Verb",
     "meaning": "Copy in an attempt to equal or be better than",
-    "mnemonic": "Picture “imitate” vividly; link that image directly to emulate.",
+    "mnemonic": "EMULATE: try to make an EMULSION (same) as your idol — imitate.",
     "usage": "The young violinist emulated her teacher's technique so faithfully that audiences sometimes mistook one for the other.",
     "synonyms": [
       "imitate",
@@ -4936,10 +4937,10 @@ const GRE_WORDS = [
   },
   {
     "word": "encomium",
-    "pronunciation": "/ɛnkˈɔmˌɪʌm/",
+    "pronunciation": "/ɛnkˈoʊmiəm/",
     "pos": "Noun",
     "meaning": "Warm, glowing praise, especially a formal expression of praise",
-    "mnemonic": "Picture “praise” vividly; link that image directly to encomium.",
+    "mnemonic": "ENCOMIUM: warm PRAISE, formal tribute.",
     "usage": "The retirement dinner produced one encomium after another, each more extravagant than the last.",
     "synonyms": [
       "praise",
@@ -4957,7 +4958,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɛndˈɛmɪk/",
     "pos": "Adjective",
     "meaning": "Native, local; natural, specific to, or confined to a particular place",
-    "mnemonic": "Picture “native” vividly; link that image directly to endemic.",
+    "mnemonic": "EN-DEMIC: DEMOS = people. Native to a place (like a disease in a region).",
     "usage": "The species is endemic to a single valley in the Andes and exists nowhere else on earth.",
     "synonyms": [
       "native",
@@ -4975,7 +4976,7 @@ const GRE_WORDS = [
     "pronunciation": "/ˈɛnɚvˌeɪt/",
     "pos": "Verb",
     "meaning": "Weaken, tire; deprive of vitality or energy",
-    "mnemonic": "Picture “weaken” vividly; link that image directly to enervate.",
+    "mnemonic": "ENERVATE: takes away your NERVE (energy) — weaken.",
     "usage": "The oppressive heat enervated the entire expedition, and they made only two miles a day.",
     "synonyms": [
       "weaken",
@@ -4990,10 +4991,10 @@ const GRE_WORDS = [
   },
   {
     "word": "engender",
-    "pronunciation": "/ɛndʒˈɛndɝ/",
+    "pronunciation": "/ɛndʒˈɛndɚ/",
     "pos": "Noun",
     "meaning": "Produce, give rise to, cause to exist; procreate",
-    "mnemonic": "Picture “cause” vividly; link that image directly to engender.",
+    "mnemonic": "EN-GENDER: GENDER creates people — to give rise to.",
     "usage": "The policy engendered so much resentment that it was quietly abandoned within a year.",
     "synonyms": [
       "cause",
@@ -5009,9 +5010,9 @@ const GRE_WORDS = [
   {
     "word": "enhance",
     "pronunciation": "/ɛnhˈæns/",
-    "pos": "Verb",
+    "pos": "Noun",
     "meaning": "Raise to a higher value, desirability, etc.; increase, improve",
-    "mnemonic": "Picture “improve” vividly; link that image directly to enhance.",
+    "mnemonic": "EN-HANCE: HANCE = high (like a raised platform). Raise, improve.",
     "usage": "The restoration enhanced the painting's value without altering a single brushstroke.",
     "synonyms": [
       "improve",
@@ -5026,10 +5027,10 @@ const GRE_WORDS = [
   },
   {
     "word": "enigma",
-    "pronunciation": "/ɪnˈɪɡmʌ/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛnˈɪɡmə/",
+    "pos": "Noun",
     "meaning": "Puzzle, mystery, riddle; mysterious or contradictory person",
-    "mnemonic": "Picture “mystery” vividly; link that image directly to enigma.",
+    "mnemonic": "ENIGMA: an ENIGMAtic puzzle — mystery.",
     "usage": "Her motives remained an enigma even to those who had known her for decades.",
     "synonyms": [
       "mystery",
@@ -5044,10 +5045,10 @@ const GRE_WORDS = [
   },
   {
     "word": "entitlement",
-    "pronunciation": "/ɛntˈaɪtʌlmʌnt/",
+    "pronunciation": "/ɛntˈaɪɾəlmənt/",
     "pos": "Noun",
     "meaning": "Having the right to certain privileges; believing, sometimes without cause, that one deserves or has a right to certain privileges",
-    "mnemonic": "Picture “prerogative” vividly; link that image directly to entitlement.",
+    "mnemonic": "EN-TITLE-ment: believing you have a TITLE to something — a right.",
     "usage": "The interns' sense of entitlement, evident on their first day, did not survive their first week.",
     "synonyms": [
       "prerogative",
@@ -5061,10 +5062,10 @@ const GRE_WORDS = [
   },
   {
     "word": "enumerate",
-    "pronunciation": "/ɪnˈumɝˌeɪt/",
+    "pronunciation": "/ɪnˈuːmɚɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Count or list; specify one-by-one",
-    "mnemonic": "Picture “list” vividly; link that image directly to enumerate.",
+    "mnemonic": "E-NUMERATE: NUMBER them out — count or list.",
     "usage": "The report enumerated eleven distinct failures of oversight.",
     "synonyms": [
       "list",
@@ -5078,10 +5079,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ephemeral",
-    "pronunciation": "/ɪfˈɛmɝʌl/",
+    "pronunciation": "/ɪfˈɛmɚɹəl/",
     "pos": "Adjective",
     "meaning": "Lasting only a short time, fleeting",
-    "mnemonic": "Picture “fleeting” vividly; link that image directly to ephemeral.",
+    "mnemonic": "EPHEMERAL: EPHEMERA = things that last a day. Fleeting.",
     "usage": "Fame in the digital age is often ephemeral, lasting a week at most.",
     "synonyms": [
       "fleeting",
@@ -5096,10 +5097,10 @@ const GRE_WORDS = [
   },
   {
     "word": "epicure",
-    "pronunciation": "/ˈɛpɪkjˌʊr/",
+    "pronunciation": "/ˈɛpɪkjˌʊɹ/",
     "pos": "Noun",
     "meaning": "Person with cultivated, refined tastes, especially in food and wine",
-    "mnemonic": "Picture “gourmet” vividly; link that image directly to epicure.",
+    "mnemonic": "EPICURE: EPICUREan loves good food — a gourmet.",
     "usage": "The epicure turned up his nose at the restaurant's ostentatious menu and ordered the simplest dish on it.",
     "synonyms": [
       "gourmet",
@@ -5114,10 +5115,10 @@ const GRE_WORDS = [
   },
   {
     "word": "equanimity",
-    "pronunciation": "/ˌikwʌnˈɪmɪti/",
+    "pronunciation": "/ˌiːkwənˈɪmɪɾi/",
     "pos": "Noun",
     "meaning": "Composure, evenness of mind; mental or emotional stability, especially under stress",
-    "mnemonic": "Picture “composure” vividly; link that image directly to equanimity.",
+    "mnemonic": "EQUANIMITY: EQUAL + ANIMUS (mind). Even mind — composure.",
     "usage": "She accepted both the promotion and the libel suit with the same astonishing equanimity.",
     "synonyms": [
       "composure",
@@ -5132,10 +5133,10 @@ const GRE_WORDS = [
   },
   {
     "word": "equitable",
-    "pronunciation": "/ˈɛkwʌtʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɛkwɪɾəbəl/",
+    "pos": "Noun",
     "meaning": "Fair, equal, just; characterized by fairness",
-    "mnemonic": "Picture “fair” vividly; link that image directly to equitable.",
+    "mnemonic": "EQUITABLE: EQUAL and FAIR.",
     "usage": "The judge crafted an equitable settlement that neither party loved but both accepted.",
     "synonyms": [
       "fair",
@@ -5150,10 +5151,10 @@ const GRE_WORDS = [
   },
   {
     "word": "equivocate",
-    "pronunciation": "/ɪkwˈɪvʌkˌeɪt/",
+    "pronunciation": "/ɪkwˈɪvəkˌeɪt/",
     "pos": "Verb",
     "meaning": "Use unclear language to deceive or avoid committing to a position",
-    "mnemonic": "VOC = call/voice: picture someone calling out.",
+    "mnemonic": "EQUIVOCATE: EQUAL + VOCE = two voices. Speak ambiguously.",
     "usage": "The minister equivocated for twenty minutes, and by the end no one knew what he thought.",
     "synonyms": [
       "prevaricate",
@@ -5168,10 +5169,10 @@ const GRE_WORDS = [
   },
   {
     "word": "erratic",
-    "pronunciation": "/ɪrˈætɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛɹˈæɾɪk/",
+    "pos": "Noun",
     "meaning": "Inconsistent, wandering, having no fixed course; unpredictable",
-    "mnemonic": "Picture “inconsistent” vividly; link that image directly to erratic.",
+    "mnemonic": "ERRATIC: ERR = wander. Wandering, inconsistent.",
     "usage": "His erratic attendance at meetings undermined his colleagues' trust.",
     "synonyms": [
       "inconsistent",
@@ -5186,10 +5187,10 @@ const GRE_WORDS = [
   },
   {
     "word": "erroneous",
-    "pronunciation": "/ɛrˈoʊniʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛɹˈoʊniəs/",
+    "pos": "Noun",
     "meaning": "Mistaken, in error; improper, morally incorrect",
-    "mnemonic": "Picture “incorrect” vividly; link that image directly to erroneous.",
+    "mnemonic": "ERRONEOUS: full of ERROR — mistaken.",
     "usage": "The erroneous assumption that costs would fall proved disastrous.",
     "synonyms": [
       "incorrect",
@@ -5204,10 +5205,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ersatz",
-    "pronunciation": "/ˈɛrsˌɑts/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɜːsæts/",
+    "pos": "Noun",
     "meaning": "Artificial, synthetic; being an inferior substitute",
-    "mnemonic": "Picture “artificial” vividly; link that image directly to ersatz.",
+    "mnemonic": "ERSATZ: ERSATZ coffee is fake — artificial.",
     "usage": "The ersatz coffee, made from roasted barley, fooled no one.",
     "synonyms": [
       "artificial",
@@ -5222,10 +5223,10 @@ const GRE_WORDS = [
   },
   {
     "word": "erstwhile",
-    "pronunciation": "/ˈɝstwˌaɪl/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɜːstwaɪl/",
+    "pos": "Noun",
     "meaning": "Former, previous; in the past, formerly",
-    "mnemonic": "Picture “former” vividly; link that image directly to erstwhile.",
+    "mnemonic": "ERST-WHILE: ERST = before (earliest). Former.",
     "usage": "The erstwhile allies barely spoke to each other by the end of the negotiations.",
     "synonyms": [
       "former",
@@ -5240,10 +5241,10 @@ const GRE_WORDS = [
   },
   {
     "word": "erudite",
-    "pronunciation": "/ˈɛrʌdˌaɪt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɛɹuːdˌaɪt/",
+    "pos": "Noun",
     "meaning": "Scholarly, knowledgeable; possessing deep, often systematic, knowledge",
-    "mnemonic": "Picture “learned” vividly; link that image directly to erudite.",
+    "mnemonic": "ERUDITE: ERU = rough out; DITE = say. One who has read everything — learned.",
     "usage": "The erudite lecture drew on sources in six languages, all quoted from memory.",
     "synonyms": [
       "learned",
@@ -5258,10 +5259,10 @@ const GRE_WORDS = [
   },
   {
     "word": "eschew",
-    "pronunciation": "/ɛstʃˈu/",
+    "pronunciation": "/ɪstʃˈuː/",
     "pos": "Noun",
     "meaning": "Shun, avoid, abstain from; deliberately avoid",
-    "mnemonic": "Picture “avoid” vividly; link that image directly to eschew.",
+    "mnemonic": "ESCHEW: sounds like A SHOE you refuse to wear — to shun.",
     "usage": "The novelist eschewed adjectives, relying on verbs to carry the prose.",
     "synonyms": [
       "avoid",
@@ -5276,10 +5277,10 @@ const GRE_WORDS = [
   },
   {
     "word": "esoteric",
-    "pronunciation": "/ˌɛsʌtˈɛrɪk/",
+    "pronunciation": "/ˌɛsoʊtˈɛɹɪk/",
     "pos": "Adjective",
     "meaning": "Understood by or intended for only a few; secret, obscure",
-    "mnemonic": "Picture “obscure” vividly; link that image directly to esoteric.",
+    "mnemonic": "ESOTERIC: understood by an ESOTERIC few — obscure.",
     "usage": "The lecture was too esoteric for a general audience, and half of them left before the break.",
     "synonyms": [
       "obscure",
@@ -5294,10 +5295,10 @@ const GRE_WORDS = [
   },
   {
     "word": "estimable",
-    "pronunciation": "/ˈɛstʌmʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɛstᵻməbəl/",
+    "pos": "Noun",
     "meaning": "Worthy of esteem, admirable; able to be estimated",
-    "mnemonic": "Picture “admirable” vividly; link that image directly to estimable.",
+    "mnemonic": "ESTIMABLE: worthy of ESTEEM — admirable.",
     "usage": "She was an estimable public servant whose integrity survived three administrations.",
     "synonyms": [
       "admirable",
@@ -5312,10 +5313,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ethos",
-    "pronunciation": "/ˈiθɑs/",
+    "pronunciation": "/ˈiːθoʊz/",
     "pos": "Noun",
     "meaning": "The character, personality, or moral values specific to a person, group, time period, etc.",
-    "mnemonic": "Picture “character” vividly; link that image directly to ethos.",
+    "mnemonic": "ETHOS: ETHICS + OS — the moral character of a group.",
     "usage": "The school's ethos emphasized service over self-promotion, and its graduates carried that with them.",
     "synonyms": [
       "character",
@@ -5329,10 +5330,10 @@ const GRE_WORDS = [
   },
   {
     "word": "eulogy",
-    "pronunciation": "/jˈulʌdʒi/",
-    "pos": "Adjective",
+    "pronunciation": "/jˈuːlədʒi/",
+    "pos": "Noun",
     "meaning": "Speech of praise or written work of praise, especially a speech given at a funeral",
-    "mnemonic": "Picture “tribute” vividly; link that image directly to eulogy.",
+    "mnemonic": "EULOGY: EU = good; LOGY = words. Good words for the dead.",
     "usage": "His eulogy for his father managed to be both funny and devastating.",
     "synonyms": [
       "tribute",
@@ -5347,10 +5348,10 @@ const GRE_WORDS = [
   },
   {
     "word": "euphemism",
-    "pronunciation": "/jˈufʌmˌɪzʌm/",
+    "pronunciation": "/jˈuːfəmˌɪzəm/",
     "pos": "Noun",
     "meaning": "Substitution of a mild, inoffensive, or indirect expression for one that is considered offensive or too direct",
-    "mnemonic": "Picture “mild term” vividly; link that image directly to euphemism.",
+    "mnemonic": "EU-PHEMISM: EU = good; PHEME = speech. Good-speak for something bad.",
     "usage": "\"Let go\" is a euphemism for \"fired,\" and everyone involved knows it.",
     "synonyms": [
       "mild term",
@@ -5365,10 +5366,10 @@ const GRE_WORDS = [
   },
   {
     "word": "euphony",
-    "pronunciation": "/jˈufʌni/",
+    "pronunciation": "/jˈuːfəni/",
     "pos": "Adjective",
     "meaning": "Pleasing or sweet sound, especially as formed by a harmonious use of words",
-    "mnemonic": "Picture “melodiousness” vividly; link that image directly to euphony.",
+    "mnemonic": "EU-PHONY: EU = good; PHONY = sound. Sweet sound.",
     "usage": "The poem's euphony made it a favorite for recitation, even among readers who could not parse it.",
     "synonyms": [
       "melodiousness",
@@ -5383,10 +5384,10 @@ const GRE_WORDS = [
   },
   {
     "word": "exacerbate",
-    "pronunciation": "/ɪɡzˈæsɝbˌeɪt/",
+    "pronunciation": "/ɛɡzˈæsɚbˌeɪt/",
     "pos": "Verb",
     "meaning": "Make worse (more violent, severe, etc.), inflame; irritate or embitter",
-    "mnemonic": "Picture “worsen” vividly; link that image directly to exacerbate.",
+    "mnemonic": "EX-ACERBATE: ACERB = sour. Make it sourer — worsen.",
     "usage": "The new tariffs exacerbated tensions that were already close to breaking.",
     "synonyms": [
       "worsen",
@@ -5401,10 +5402,10 @@ const GRE_WORDS = [
   },
   {
     "word": "exacting",
-    "pronunciation": "/ɪɡzˈæktɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛɡzˈæktɪŋ/",
+    "pos": "Noun",
     "meaning": "Very severe in making demands; requiring precise attention",
-    "mnemonic": "Picture “demanding” vividly; link that image directly to exacting.",
+    "mnemonic": "EXACT-ING: demanding EXACTness — very strict.",
     "usage": "The exacting editor returned the manuscript with notes on nearly every sentence.",
     "synonyms": [
       "demanding",
@@ -5419,10 +5420,10 @@ const GRE_WORDS = [
   },
   {
     "word": "exculpate",
-    "pronunciation": "/ˌɛkskˈʌlpeɪt/",
+    "pronunciation": "/ˈɛkskəlpˌeɪt/",
     "pos": "Verb",
     "meaning": "Clear from guilt or blame; absolve",
-    "mnemonic": "Picture “absolve” vividly; link that image directly to exculpate.",
+    "mnemonic": "EX-CULPATE: CULP = guilt (culprit). Free from guilt.",
     "usage": "The new evidence exculpated the defendant, who had already spent four years in prison.",
     "synonyms": [
       "absolve",
@@ -5437,10 +5438,10 @@ const GRE_WORDS = [
   },
   {
     "word": "exhaustive",
-    "pronunciation": "/ɪɡzˈɔstɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛɡzˈɔːstɪv/",
+    "pos": "Noun",
     "meaning": "Comprehensive, thorough, exhausting a topic or subject, accounting for all possibilities",
-    "mnemonic": "Picture “thorough” vividly; link that image directly to exhaustive.",
+    "mnemonic": "EX-HAUSTIVE: uses every HAUST (breath) — comprehensive.",
     "usage": "Her exhaustive survey of the literature ran to four hundred pages.",
     "synonyms": [
       "thorough",
@@ -5455,10 +5456,10 @@ const GRE_WORDS = [
   },
   {
     "word": "exigent",
-    "pronunciation": "/ˈɛksɪdʒʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɛksɪdʒənt/",
+    "pos": "Noun",
     "meaning": "Requiring immediate attention, action, or aid; excessively demanding",
-    "mnemonic": "Picture “urgent” vividly; link that image directly to exigent.",
+    "mnemonic": "EXIGENT: EXIGENCY = urgent need. Requiring immediate action.",
     "usage": "The exigent situation required decisions that no one had authority to make.",
     "synonyms": [
       "urgent",
@@ -5473,10 +5474,10 @@ const GRE_WORDS = [
   },
   {
     "word": "exonerate",
-    "pronunciation": "/ɪɡzˈɑnɝˌeɪt/",
+    "pronunciation": "/ɛɡzˈɑːnɚɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Clear from blame or accusation; free from a responsibility",
-    "mnemonic": "Picture “absolve” vividly; link that image directly to exonerate.",
+    "mnemonic": "EX-ONERATE: ONUS = burden. Lift the burden of blame.",
     "usage": "The commission exonerated the captain, but the stain on his reputation lingered.",
     "synonyms": [
       "absolve",
@@ -5491,10 +5492,10 @@ const GRE_WORDS = [
   },
   {
     "word": "expedient",
-    "pronunciation": "/ɪkspˈidiʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛkspˈiːdiənt/",
+    "pos": "Noun",
     "meaning": "Suitable, proper; effective, often at the expense of ethics or other considerations",
-    "mnemonic": "Picture “convenient” vividly; link that image directly to expedient.",
+    "mnemonic": "EXPEDIENT: EXPEDITE = hurry. Suitable and quick (often at moral cost).",
     "usage": "The expedient solution, though morally dubious, ended the crisis within a week.",
     "synonyms": [
       "convenient",
@@ -5509,10 +5510,10 @@ const GRE_WORDS = [
   },
   {
     "word": "explicit",
-    "pronunciation": "/ɪksplˈɪsʌt/",
+    "pronunciation": "/ɛksplˈɪsɪt/",
     "pos": "Adjective",
     "meaning": "Direct, clear, fully revealed; clearly stated",
-    "mnemonic": "Picture “clear” vividly; link that image directly to explicit.",
+    "mnemonic": "EX-PLICIT: PLIC = fold. Fully unfolded — clear, direct.",
     "usage": "The instructions were explicit: no exceptions, no extensions, no excuses.",
     "synonyms": [
       "clear",
@@ -5527,10 +5528,10 @@ const GRE_WORDS = [
   },
   {
     "word": "exponent",
-    "pronunciation": "/ˈɛkspˌoʊnʌnt/",
+    "pronunciation": "/ɛkspˈoʊnənt/",
     "pos": "Adjective",
     "meaning": "Person who expounds or explains; champion, advocate, or representative",
-    "mnemonic": "Picture “advocate” vividly; link that image directly to exponent.",
+    "mnemonic": "EX-PONENT: PON = put. One who puts forward — a champion.",
     "usage": "She became the most articulate exponent of a theory that had once been dismissed as fringe.",
     "synonyms": [
       "advocate",
@@ -5546,9 +5547,9 @@ const GRE_WORDS = [
   {
     "word": "expurgate",
     "pronunciation": "/ˈɛkspɚɡˌeɪt/",
-    "pos": "Adjective",
+    "pos": "Verb",
     "meaning": "Censor; remove objectionable or offensive parts",
-    "mnemonic": "Picture “censor” vividly; link that image directly to expurgate.",
+    "mnemonic": "EX-PURGATE: PURGE = clean out. Remove offensive parts.",
     "usage": "The school edition of the novel had been expurgated beyond recognition.",
     "synonyms": [
       "censor",
@@ -5563,9 +5564,9 @@ const GRE_WORDS = [
   {
     "word": "extemporaneous",
     "pronunciation": "/ɛkstˌɛmpoːɹˈeɪniəs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Done without preparation, or with some preparation but no notes; improvised",
-    "mnemonic": "Picture “impromptu” vividly; link that image directly to extemporaneous.",
+    "mnemonic": "EXTEMPORANEOUS: EX + TEMPORE = out of time. On the spot, improvised.",
     "usage": "His extemporaneous remarks, delivered without a note, were better than most prepared speeches.",
     "synonyms": [
       "impromptu",
@@ -5580,10 +5581,10 @@ const GRE_WORDS = [
   },
   {
     "word": "extraneous",
-    "pronunciation": "/ɛkstrˈeɪniʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɛkstɹˈeɪniəs/",
+    "pos": "Noun",
     "meaning": "Irrelevant; foreign, coming from without, not belonging",
-    "mnemonic": "Picture “irrelevant” vividly; link that image directly to extraneous.",
+    "mnemonic": "EXTRANEOUS: EXTRA + ANEOUS — extra, irrelevant.",
     "usage": "The editor cut every extraneous paragraph, tightening the essay by a third.",
     "synonyms": [
       "irrelevant",
@@ -5598,10 +5599,10 @@ const GRE_WORDS = [
   },
   {
     "word": "extrapolate",
-    "pronunciation": "/ɛkstrˈæpʌlˌeɪt/",
+    "pronunciation": "/ɛkstɹˈæpəlˌeɪt/",
     "pos": "Verb",
     "meaning": "Conjecture about an unknown by projecting information about something known; predict by projecting past experience",
-    "mnemonic": "Picture “infer” vividly; link that image directly to extrapolate.",
+    "mnemonic": "EXTRA-POLATE: POLISH off an estimate from the data — infer.",
     "usage": "The researchers extrapolated from a sample of two hundred to the entire population, and the prediction held.",
     "synonyms": [
       "infer",
@@ -5615,10 +5616,10 @@ const GRE_WORDS = [
   },
   {
     "word": "facetious",
-    "pronunciation": "/fʌsˈiʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/fəsˈiːʃəs/",
+    "pos": "Noun",
     "meaning": "Joking, humorous, especially inappropriately; not serious, concerned with frivolous things",
-    "mnemonic": "Picture “flippant” vividly; link that image directly to facetious.",
+    "mnemonic": "FACETIOUS: FACE + TIOUS — clownish face. Joking inappropriately.",
     "usage": "His facetious remark, delivered during the eulogy, emptied the room of sympathy for him.",
     "synonyms": [
       "flippant",
@@ -5633,10 +5634,10 @@ const GRE_WORDS = [
   },
   {
     "word": "facilitate",
-    "pronunciation": "/fʌsˈɪlʌtˌeɪt/",
+    "pronunciation": "/fəsˈɪlᵻtˌeɪt/",
     "pos": "Verb",
     "meaning": "Make easier, help the progress of",
-    "mnemonic": "Picture “ease” vividly; link that image directly to facilitate.",
+    "mnemonic": "FACILITATE: FACIL = easy. Make easy.",
     "usage": "The new digital system facilitated the exchange of information between the two agencies.",
     "synonyms": [
       "ease",
@@ -5651,10 +5652,10 @@ const GRE_WORDS = [
   },
   {
     "word": "faction",
-    "pronunciation": "/fˈækʃʌn/",
+    "pronunciation": "/fˈækʃən/",
     "pos": "Noun",
     "meaning": "Group or clique within a larger organization; party strife and dissension",
-    "mnemonic": "Picture “clique” vividly; link that image directly to faction.",
+    "mnemonic": "FACTION: FACT = made. A group made within a group — clique.",
     "usage": "The party split into two factions that disagreed on nearly every issue.",
     "synonyms": [
       "clique",
@@ -5668,10 +5669,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fallacious",
-    "pronunciation": "/fʌlˈeɪʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/fælˈeɪʃəs/",
+    "pos": "Noun",
     "meaning": "Containing a fallacy, or mistake in logic; logically unsound; deceptive",
-    "mnemonic": "Picture “erroneous” vividly; link that image directly to fallacious.",
+    "mnemonic": "FALLACIOUS: FALLACY — logically unsound.",
     "usage": "The argument, though persuasive, rested on a fallacious assumption about human nature.",
     "synonyms": [
       "erroneous",
@@ -5686,10 +5687,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fallow",
-    "pronunciation": "/fˈælˌoʊ/",
+    "pronunciation": "/fˈæloʊ/",
     "pos": "Noun",
     "meaning": "Left unplanted (of land); not in use; dormant",
-    "mnemonic": "Picture “uncultivated” vividly; link that image directly to fallow.",
+    "mnemonic": "FALLOW: FALL + LOW — a fallow field lies low, unplanted.",
     "usage": "The fields lay fallow for a season, then produced the best harvest in years.",
     "synonyms": [
       "uncultivated",
@@ -5704,10 +5705,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fanatical",
-    "pronunciation": "/fʌnˈætɪkʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/fənˈæɾɪkəl/",
+    "pos": "Noun",
     "meaning": "Excessively devoted, enthusiastic, or zealous in an uncritical way",
-    "mnemonic": "Picture “zealous” vividly; link that image directly to fanatical.",
+    "mnemonic": "FANATICAL: FANATIC — excessively devoted.",
     "usage": "The fanatical supporters would hear no criticism of their leader, however justified.",
     "synonyms": [
       "zealous",
@@ -5722,10 +5723,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fanciful",
-    "pronunciation": "/fˈænsɪfʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/fˈænsɪfəl/",
+    "pos": "Noun",
     "meaning": "Whimsical, capricious; imaginary; freely imaginative rather than based on reason or reality",
-    "mnemonic": "Picture “imaginative” vividly; link that image directly to fanciful.",
+    "mnemonic": "FANCIFUL: full of FANCY — imaginary, whimsical.",
     "usage": "Her fanciful account of the trip bore little resemblance to what had actually happened.",
     "synonyms": [
       "imaginative",
@@ -5740,10 +5741,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fastidious",
-    "pronunciation": "/fæstˈɪdiʌs/",
+    "pronunciation": "/fæstˈɪdɪəs/",
     "pos": "Adjective",
     "meaning": "Excessively particular, difficult to please; painstaking, meticulous, requiring excessive attention to detail",
-    "mnemonic": "Picture “meticulous” vividly; link that image directly to fastidious.",
+    "mnemonic": "FASTIDIOUS: FAST + TEDIOUS — hard to please, demands everything exactly.",
     "usage": "He was fastidious about his clothes, and a single scuff could ruin his day.",
     "synonyms": [
       "meticulous",
@@ -5758,10 +5759,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fathom",
-    "pronunciation": "/fˈæðʌm/",
+    "pronunciation": "/fˈæðəm/",
     "pos": "Noun",
     "meaning": "Measure the depth of (usually of water); penetrate and discover the meaning of, understand",
-    "mnemonic": "Picture “understand” vividly; link that image directly to fathom.",
+    "mnemonic": "FATHOM: a FATHOM measures the depth — to understand deeply.",
     "usage": "She could not fathom why her closest friend had stopped speaking to her.",
     "synonyms": [
       "understand",
@@ -5776,10 +5777,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fatuous",
-    "pronunciation": "/fˈætʃʌwʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/fˈætʃuːəs/",
+    "pos": "Noun",
     "meaning": "Foolish, silly, especially in a smug or complacent manner",
-    "mnemonic": "Picture “foolish” vividly; link that image directly to fatuous.",
+    "mnemonic": "FATUOUS: FAT + US — foolishly smug.",
     "usage": "His fatuous smile suggested he had understood nothing of the gravity of the moment.",
     "synonyms": [
       "foolish",
@@ -5794,10 +5795,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fawn",
-    "pronunciation": "/fˈɔn/",
+    "pronunciation": "/fˈɔːn/",
     "pos": "Verb",
     "meaning": "Show affection or try to please in the manner of a dog; try to win favor through flattery and submissive behavior",
-    "mnemonic": "Picture “flatter” vividly; link that image directly to fawn.",
+    "mnemonic": "FAWN: a FAWN (baby deer) follows its mother submissively — to flatter.",
     "usage": "The junior associate fawned over the partners at every opportunity.",
     "synonyms": [
       "flatter",
@@ -5812,10 +5813,10 @@ const GRE_WORDS = [
   },
   {
     "word": "feasible",
-    "pronunciation": "/fˈizʌbʌl/",
+    "pronunciation": "/fˈiːzəbəl/",
     "pos": "Adjective",
     "meaning": "Possible; logical or likely; suitable; capable of being done",
-    "mnemonic": "Picture “possible” vividly; link that image directly to feasible.",
+    "mnemonic": "FEASIBLE: FEAS = do (French faire). Doable — possible.",
     "usage": "The engineers determined that the bridge was feasible only if the river could be diverted.",
     "synonyms": [
       "possible",
@@ -5830,10 +5831,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fecund",
-    "pronunciation": "/fˈɛkənd/",
-    "pos": "Adjective",
+    "pronunciation": "/fˈɛkʌnd/",
+    "pos": "Noun",
     "meaning": "Fruitful, fertile; capable of abundantly producing offspring, vegetation, or creative or intellectual work",
-    "mnemonic": "Picture “fertile” vividly; link that image directly to fecund.",
+    "mnemonic": "FECUND: like FERTILE — fruitful, productive.",
     "usage": "The fecund valley produced three harvests a year and fed the entire province.",
     "synonyms": [
       "fertile",
@@ -5848,10 +5849,10 @@ const GRE_WORDS = [
   },
   {
     "word": "felicitous",
-    "pronunciation": "/fɪlˈɪsʌtʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/fɛlˈɪsᵻɾəs/",
+    "pos": "Noun",
     "meaning": "Admirably appropriate, very well-suited for the occasion; pleasant, fortunate, marked by happiness",
-    "mnemonic": "Picture “apt” vividly; link that image directly to felicitous.",
+    "mnemonic": "FELICITOUS: FELICITY = happiness. Apt, well-suited.",
     "usage": "Her felicitous choice of words, at exactly the right moment, turned the hostile room around.",
     "synonyms": [
       "apt",
@@ -5866,10 +5867,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fervid",
-    "pronunciation": "/fˈɝvʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/fˈɜːvɪd/",
+    "pos": "Noun",
     "meaning": "Very hot; heated in passion or enthusiasm; ardent",
-    "mnemonic": "FER = carry: picture something being carried.",
+    "mnemonic": "FERVID: FEVER — hot, passionate.",
     "usage": "The fervid preacher held the congregation spellbound for two hours.",
     "synonyms": [
       "passionate",
@@ -5884,10 +5885,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fetid",
-    "pronunciation": "/fˈɛtʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/fˈɛɾɪd/",
+    "pos": "Noun",
     "meaning": "Stinking; having an offensive smell",
-    "mnemonic": "Picture “stinking” vividly; link that image directly to fetid.",
+    "mnemonic": "FETID: a FETID smell is FOUL — stinking.",
     "usage": "The fetid swamp air made it hard to breathe, let alone sleep.",
     "synonyms": [
       "stinking",
@@ -5902,10 +5903,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fidelity",
-    "pronunciation": "/fʌdˈɛlʌti/",
+    "pronunciation": "/fɪdˈɛlɪɾi/",
     "pos": "Noun",
     "meaning": "Faithfulness, loyalty; strict observance of duty; accuracy in reproducing a sound or image",
-    "mnemonic": "Picture “faithfulness” vividly; link that image directly to fidelity.",
+    "mnemonic": "FIDELITY: FIDELITY = faithfulness.",
     "usage": "The translation's fidelity to the original text came at the cost of its readability in English.",
     "synonyms": [
       "faithfulness",
@@ -5920,10 +5921,10 @@ const GRE_WORDS = [
   },
   {
     "word": "figurative",
-    "pronunciation": "/fˈɪɡjɝʌtɪv/",
+    "pronunciation": "/fˈɪɡjɚɹətˌɪv/",
     "pos": "Adjective",
     "meaning": "Metaphorical, based on figures of speech; not literal",
-    "mnemonic": "Picture “metaphorical” vividly; link that image directly to figurative.",
+    "mnemonic": "FIGURATIVE: figures of speech — metaphorical.",
     "usage": "His use of the word 'war' was figurative, not a call to arms.",
     "synonyms": [
       "metaphorical",
@@ -5939,9 +5940,9 @@ const GRE_WORDS = [
   {
     "word": "finesse",
     "pronunciation": "/fɪnˈɛs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Extreme delicacy, subtlety, or diplomacy in handling a sensitive situation or in a performance or skill",
-    "mnemonic": "Picture “tact” vividly; link that image directly to finesse.",
+    "mnemonic": "FINESSE: FINE + NESSE — great delicacy, subtle skill.",
     "usage": "She handled the delicate negotiation with a finesse that impressed even the veterans.",
     "synonyms": [
       "tact",
@@ -5959,7 +5960,7 @@ const GRE_WORDS = [
     "pronunciation": "/flˈæɡ/",
     "pos": "Verb",
     "meaning": "Get tired, lose enthusiasm; hang limply or droop; become weak",
-    "mnemonic": "Picture “weaken” vividly; link that image directly to flag.",
+    "mnemonic": "FLAG: a FLAG droops when there's no wind — to weaken, tire.",
     "usage": "By the third hour of the hike, the group's energy began to flag.",
     "synonyms": [
       "weaken",
@@ -5975,9 +5976,9 @@ const GRE_WORDS = [
   {
     "word": "fledgling",
     "pronunciation": "/flˈɛdʒlɪŋ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "A young bird that has just recently gotten its feathers; an inexperienced person; new or inexperienced",
-    "mnemonic": "Picture “novice” vividly; link that image directly to fledgling.",
+    "mnemonic": "FLEDGLING: a young bird learning to FLEDGE (fly) — novice.",
     "usage": "The fledgling company, only six months old, had already raised two rounds of funding.",
     "synonyms": [
       "novice",
@@ -5992,10 +5993,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fleeting",
-    "pronunciation": "/flˈitɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/flˈiːɾɪŋ/",
+    "pos": "Noun",
     "meaning": "Passing quickly, transitory; lasting only a moment",
-    "mnemonic": "Picture “brief” vividly; link that image directly to fleeting.",
+    "mnemonic": "FLEETING: FLEET = fast ship. Passes fast.",
     "usage": "She caught a fleeting glimpse of him through the crowd before he disappeared.",
     "synonyms": [
       "brief",
@@ -6010,10 +6011,10 @@ const GRE_WORDS = [
   },
   {
     "word": "florid",
-    "pronunciation": "/flˈɔrʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/flˈɔːɹɪd/",
+    "pos": "Noun",
     "meaning": "Reddish or rosy; flowery, showy, or excessively fancy",
-    "mnemonic": "Picture “ornate” vividly; link that image directly to florid.",
+    "mnemonic": "FLORID: FLORA + ID — flowering, ornate, flowery.",
     "usage": "The florid prose, full of adjectives and ornate clauses, obscured a simple story.",
     "synonyms": [
       "ornate",
@@ -6031,7 +6032,7 @@ const GRE_WORDS = [
     "pronunciation": "/flˈaʊt/",
     "pos": "Noun",
     "meaning": "Treat with disdain, contempt, or scorn (usually of rules)",
-    "mnemonic": "Picture “defy” vividly; link that image directly to flout.",
+    "mnemonic": "FLOUT: sounds like FLY OUT — to fly in the face of rules — defy.",
     "usage": "The company flouted environmental regulations for years before regulators took notice.",
     "synonyms": [
       "defy",
@@ -6046,10 +6047,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fluke",
-    "pronunciation": "/flˈuk/",
+    "pronunciation": "/flˈuːk/",
     "pos": "Noun",
     "meaning": "Stroke of luck; something accidentally successful",
-    "mnemonic": "Picture “coincidence” vividly; link that image directly to fluke.",
+    "mnemonic": "FLUKE: a FLUKE of a whale's tail is random — a stroke of luck.",
     "usage": "The discovery, which the chemist later called a fluke, ended up winning him the Nobel Prize.",
     "synonyms": [
       "coincidence",
@@ -6064,10 +6065,10 @@ const GRE_WORDS = [
   },
   {
     "word": "foment",
-    "pronunciation": "/fˈoʊmɛnt/",
+    "pronunciation": "/fˈoʊmənt/",
     "pos": "Noun",
     "meaning": "Incite, instigate, stir up, promote the growth of",
-    "mnemonic": "Picture “incite” vividly; link that image directly to foment.",
+    "mnemonic": "FOMENT: FEVER + MENT — stir up (like fever). Incite.",
     "usage": "Agents were accused of fomenting rebellion in three provinces at once.",
     "synonyms": [
       "incite",
@@ -6082,10 +6083,10 @@ const GRE_WORDS = [
   },
   {
     "word": "forage",
-    "pronunciation": "/fˈɔrɪdʒ/",
+    "pronunciation": "/fˈɔːɹɪdʒ/",
     "pos": "Noun",
     "meaning": "Wander in search of; rummage, hunt, make a raid",
-    "mnemonic": "Picture “search” vividly; link that image directly to forage.",
+    "mnemonic": "FORAGE: FOR + AGE — go hunting for food.",
     "usage": "The bears forage for berries at dawn, before the hikers reach the trail.",
     "synonyms": [
       "search",
@@ -6099,10 +6100,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ford",
-    "pronunciation": "/fˈɔrd/",
+    "pronunciation": "/fˈoːɹd/",
     "pos": "Noun",
     "meaning": "Place where a river or similar body of water is shallow enough to walk or ride a vehicle across",
-    "mnemonic": "Picture “crossing” vividly; link that image directly to ford.",
+    "mnemonic": "FORD: a shallow place in a river — to cross.",
     "usage": "The travelers crossed the river at the ford, wary of the stones beneath the surface.",
     "synonyms": [
       "crossing",
@@ -6116,10 +6117,10 @@ const GRE_WORDS = [
   },
   {
     "word": "foreshadow",
-    "pronunciation": "/fɔrʃˈædoʊ/",
+    "pronunciation": "/fɔːɹʃˈædoʊ/",
     "pos": "Noun",
     "meaning": "Indicate or suggest beforehand; presage",
-    "mnemonic": "Picture “presage” vividly; link that image directly to foreshadow.",
+    "mnemonic": "FORE-SHADOW: a shadow cast before — indicate beforehand.",
     "usage": "The early defeats foreshadowed the collapse that followed within the year.",
     "synonyms": [
       "presage",
@@ -6133,10 +6134,10 @@ const GRE_WORDS = [
   },
   {
     "word": "forestall",
-    "pronunciation": "/fɔrstˈɔl/",
+    "pronunciation": "/foːɹstˈɔːl/",
     "pos": "Noun",
     "meaning": "Delay, hinder, prevent by taking action beforehand",
-    "mnemonic": "Picture “prevent” vividly; link that image directly to forestall.",
+    "mnemonic": "FORE-STALL: put a STALL before — prevent by acting ahead.",
     "usage": "The company forestalled litigation by offering a settlement before the plaintiffs filed.",
     "synonyms": [
       "prevent",
@@ -6151,10 +6152,10 @@ const GRE_WORDS = [
   },
   {
     "word": "forfeit",
-    "pronunciation": "/fˈɔrfɪt/",
+    "pronunciation": "/fˈɔːɹfɪt/",
     "pos": "Noun",
     "meaning": "Surrender or lose as a result of an error, crime, or failure to fulfill an obligation",
-    "mnemonic": "Picture “lose” vividly; link that image directly to forfeit.",
+    "mnemonic": "FORFEIT: FOR + FIT + EIT — lose the right to something.",
     "usage": "By missing the deadline, the firm forfeited the right to appeal.",
     "synonyms": [
       "lose",
@@ -6169,10 +6170,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fortify",
-    "pronunciation": "/fˈɔrtɪfˌaɪ/",
-    "pos": "Verb",
+    "pronunciation": "/fˈɔːɹɾᵻfˌaɪ/",
+    "pos": "Adjective",
     "meaning": "Strengthen, invigorate, encourage; reinforce against attack",
-    "mnemonic": "Picture “strengthen” vividly; link that image directly to fortify.",
+    "mnemonic": "FORTIFY: build a FORT — strengthen.",
     "usage": "The new data fortified the argument, which had seemed shaky only weeks earlier.",
     "synonyms": [
       "strengthen",
@@ -6187,10 +6188,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fortuitous",
-    "pronunciation": "/fɔrtˈuɪtʌs/",
+    "pronunciation": "/fɔːɹtˈuːᵻɾəs/",
     "pos": "Adjective",
     "meaning": "Happening by chance; lucky; accidental",
-    "mnemonic": "Picture “accidental” vividly; link that image directly to fortuitous.",
+    "mnemonic": "FORTUITOUS: FORTUNE — happening by chance.",
     "usage": "Their meeting at the conference was fortuitous: neither had known the other would attend.",
     "synonyms": [
       "accidental",
@@ -6205,10 +6206,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fracas",
-    "pronunciation": "/frˈeɪkʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/fɹˈɑːkəz/",
+    "pos": "Noun",
     "meaning": "Noisy disturbance or fight; brawl",
-    "mnemonic": "Picture “brawl” vividly; link that image directly to fracas.",
+    "mnemonic": "FRACAS: FRACKing noise — noisy brawl.",
     "usage": "A fracas broke out in the stands after the disputed call, and the game was suspended.",
     "synonyms": [
       "brawl",
@@ -6223,10 +6224,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fractious",
-    "pronunciation": "/frˈækʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/fɹˈækʃəs/",
+    "pos": "Noun",
     "meaning": "Unruly, troublemaking; irritable",
-    "mnemonic": "Picture “unruly” vividly; link that image directly to fractious.",
+    "mnemonic": "FRACTIOUS: FRACTURE + CIOUS — breaks easily into arguments.",
     "usage": "The fractious committee spent two hours arguing about the agenda and never reached the substance.",
     "synonyms": [
       "unruly",
@@ -6241,10 +6242,10 @@ const GRE_WORDS = [
   },
   {
     "word": "frenetic",
-    "pronunciation": "/frʌnˈɛtɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/fɹɛnˈɛɾɪk/",
+    "pos": "Noun",
     "meaning": "Wildly excited, frantic, distracted; fast-paced and chaotic",
-    "mnemonic": "Picture “frantic” vividly; link that image directly to frenetic.",
+    "mnemonic": "FRENETIC: FRANTIC + ENERGETIC — wild, frenzied.",
     "usage": "The frenetic pace of the trading floor exhausted even the youngest brokers.",
     "synonyms": [
       "frantic",
@@ -6259,10 +6260,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fringe",
-    "pronunciation": "/frˈɪndʒ/",
+    "pronunciation": "/fɹˈɪndʒ/",
     "pos": "Noun",
     "meaning": "On the margin, periphery; the people in a group who hold the most extreme views",
-    "mnemonic": "Picture “marginal” vividly; link that image directly to fringe.",
+    "mnemonic": "FRINGE: the outer edge of fabric — margin, periphery.",
     "usage": "The theory, once confined to the fringe, has begun to attract serious attention.",
     "synonyms": [
       "marginal",
@@ -6277,10 +6278,10 @@ const GRE_WORDS = [
   },
   {
     "word": "frugal",
-    "pronunciation": "/frˈuɡʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/fɹˈuːɡəl/",
+    "pos": "Noun",
     "meaning": "Economical, thrifty, not wasteful with money; inexpensive",
-    "mnemonic": "Picture “thrifty” vividly; link that image directly to frugal.",
+    "mnemonic": "FRUGAL: FRUIT + frugal — careful with money.",
     "usage": "Her frugal habits, born of the Depression, never left her even after she became wealthy.",
     "synonyms": [
       "thrifty",
@@ -6295,10 +6296,10 @@ const GRE_WORDS = [
   },
   {
     "word": "fulminate",
-    "pronunciation": "/fˈʊlmʌnˌeɪt/",
+    "pronunciation": "/fˈʊlmᵻnˌeɪt/",
     "pos": "Verb",
     "meaning": "Explode, detonate; attack verbally in a vehement, thunderous way",
-    "mnemonic": "Picture “denounce” vividly; link that image directly to fulminate.",
+    "mnemonic": "FULMINATE: FULMIN = lightning (fulminate of mercury explodes). Explode verbally.",
     "usage": "The bishop fulminated against the government from the pulpit, and the sermon was reprinted in every paper.",
     "synonyms": [
       "denounce",
@@ -6313,10 +6314,10 @@ const GRE_WORDS = [
   },
   {
     "word": "furtive",
-    "pronunciation": "/fˈɝtɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/fˈɜːɾɪv/",
+    "pos": "Noun",
     "meaning": "Done secretly; stealthy, sly, shifty",
-    "mnemonic": "Picture “secretive” vividly; link that image directly to furtive.",
+    "mnemonic": "FURTIVE: FUR + TIVE — sneaky like a furry thief.",
     "usage": "He cast a furtive glance over his shoulder before slipping the file into his bag.",
     "synonyms": [
       "secretive",
@@ -6331,10 +6332,10 @@ const GRE_WORDS = [
   },
   {
     "word": "futile",
-    "pronunciation": "/fjˈutʌl/",
+    "pronunciation": "/fjˈuːɾəl/",
     "pos": "Noun",
     "meaning": "Producing no useful result, ineffective; trivial or unimportant",
-    "mnemonic": "Picture “useless” vividly; link that image directly to futile.",
+    "mnemonic": "FUTILE: FUTILE effort = USELESS.",
     "usage": "Their efforts to change the policy proved futile; the vote was already decided.",
     "synonyms": [
       "useless",
@@ -6349,10 +6350,10 @@ const GRE_WORDS = [
   },
   {
     "word": "gainsay",
-    "pronunciation": "/ɡˈeɪnsˌeɪ/",
-    "pos": "Verb",
+    "pronunciation": "/ɡˈeɪnseɪ/",
+    "pos": "Adjective",
     "meaning": "Declare false, deny; oppose; contradict",
-    "mnemonic": "Picture “deny” vividly; link that image directly to gainsay.",
+    "mnemonic": "GAIN-SAY: no GAIN in what you SAY — to contradict.",
     "usage": "No one could gainsay the evidence, which was overwhelming and independent.",
     "synonyms": [
       "deny",
@@ -6370,7 +6371,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɡˈæmbɑːl/",
     "pos": "Noun",
     "meaning": "Frolic; skip or leap playfully",
-    "mnemonic": "Picture “frolic” vividly; link that image directly to gambol.",
+    "mnemonic": "GAMBOL: GAMbol like a lamb — frolic.",
     "usage": "The lambs gamboled in the field, oblivious to the storm gathering over the hills.",
     "synonyms": [
       "frolic",
@@ -6384,10 +6385,10 @@ const GRE_WORDS = [
   },
   {
     "word": "garner",
-    "pronunciation": "/ɡˈɑrnɝ/",
+    "pronunciation": "/ɡˈɑːɹnɚ/",
     "pos": "Verb",
     "meaning": "Gather and store; amass, collect; acquire by effort",
-    "mnemonic": "Picture “gather” vividly; link that image directly to garner.",
+    "mnemonic": "GARNER: GARNER = gather (like granary).",
     "usage": "The film garnered six Academy Award nominations, all of which it lost.",
     "synonyms": [
       "gather",
@@ -6402,10 +6403,10 @@ const GRE_WORDS = [
   },
   {
     "word": "garrulous",
-    "pronunciation": "/ɡˈɛrʌlʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɡˈæɹələs/",
+    "pos": "Noun",
     "meaning": "Talkative, wordy, rambling; excessively talkative",
-    "mnemonic": "Picture “talkative” vividly; link that image directly to garrulous.",
+    "mnemonic": "GARRULOUS: GARGLE + ULOUS — chatters and gargles on — talkative.",
     "usage": "The garrulous taxi driver had opinions on every subject, and he shared them all.",
     "synonyms": [
       "talkative",
@@ -6421,9 +6422,9 @@ const GRE_WORDS = [
   {
     "word": "gauche",
     "pronunciation": "/ɡˈoʊʃ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Tactless, lacking social grace, awkward, crude",
-    "mnemonic": "Picture “awkward” vividly; link that image directly to gauche.",
+    "mnemonic": "GAUCHE: French for LEFT — awkward, unsophisticated.",
     "usage": "His gauche remarks about her divorce embarrassed everyone at the dinner table.",
     "synonyms": [
       "awkward",
@@ -6438,10 +6439,10 @@ const GRE_WORDS = [
   },
   {
     "word": "gawky",
-    "pronunciation": "/ɡˈɔki/",
-    "pos": "Adjective",
+    "pronunciation": "/ɡˈɔːki/",
+    "pos": "Noun",
     "meaning": "Physically awkward (especially of a tall, skinny person, often used to describe teenagers)",
-    "mnemonic": "Picture “awkward” vividly; link that image directly to gawky.",
+    "mnemonic": "GAWKY: a GAWK looks awkwardly — clumsy.",
     "usage": "The gawky teenager had not yet grown into his limbs, and he knocked over a lamp at least twice a week.",
     "synonyms": [
       "awkward",
@@ -6456,10 +6457,10 @@ const GRE_WORDS = [
   },
   {
     "word": "germane",
-    "pronunciation": "/dʒɝmˈeɪn/",
+    "pronunciation": "/dʒˈɜːmeɪn/",
     "pos": "Noun",
     "meaning": "Relevant and appropriate, on-topic; fitting",
-    "mnemonic": "Picture “relevant” vividly; link that image directly to germane.",
+    "mnemonic": "GERMANE: GERM + ANE — the relevant seed of the matter.",
     "usage": "His objection, though pointed, was not germane to the motion before the committee.",
     "synonyms": [
       "relevant",
@@ -6474,10 +6475,10 @@ const GRE_WORDS = [
   },
   {
     "word": "gestation",
-    "pronunciation": "/dʒɛstˈeɪʃʌn/",
+    "pronunciation": "/dʒɛstˈeɪʃən/",
     "pos": "Noun",
     "meaning": "Pregnancy; the period from conception until birth; the development of an idea or plan",
-    "mnemonic": "Picture “development” vividly; link that image directly to gestation.",
+    "mnemonic": "GESTATION: GESTATE = carry a baby — development period.",
     "usage": "The project had a long gestation, nearly a decade from first sketch to finished building.",
     "synonyms": [
       "development",
@@ -6491,9 +6492,9 @@ const GRE_WORDS = [
   {
     "word": "gist",
     "pronunciation": "/dʒˈɪst/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Main idea, essence, core",
-    "mnemonic": "Picture “essence” vividly; link that image directly to gist.",
+    "mnemonic": "GIST: the GIST is the ESSENCE of an idea.",
     "usage": "He caught the gist of the argument without understanding any of the supporting evidence.",
     "synonyms": [
       "essence",
@@ -6508,10 +6509,10 @@ const GRE_WORDS = [
   },
   {
     "word": "glacial",
-    "pronunciation": "/ɡlˈeɪʃʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ɡlˈeɪʃəl/",
+    "pos": "Noun",
     "meaning": "Pertaining to glaciers; cold, icy, slow, unsympathetic",
-    "mnemonic": "Picture “icy” vividly; link that image directly to glacial.",
+    "mnemonic": "GLACIAL: GLACIER — icy, slow.",
     "usage": "Her glacial stare ended the conversation more effectively than any words could have.",
     "synonyms": [
       "icy",
@@ -6527,9 +6528,9 @@ const GRE_WORDS = [
   {
     "word": "glib",
     "pronunciation": "/ɡlˈɪb/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Fluent and easy in a way that suggests superficiality or insincerity",
-    "mnemonic": "Picture “superficial” vividly; link that image directly to glib.",
+    "mnemonic": "GLIB: GLIB talk is smooth and shallow.",
     "usage": "His glib answers, delivered without hesitation, began to seem less convincing the more he spoke.",
     "synonyms": [
       "superficial",
@@ -6544,10 +6545,10 @@ const GRE_WORDS = [
   },
   {
     "word": "glower",
-    "pronunciation": "/ɡlˈaʊɝ/",
+    "pronunciation": "/ɡlˈaʊɚ/",
     "pos": "Noun",
     "meaning": "Stare in an angry, sullen way",
-    "mnemonic": "Picture “scowl” vividly; link that image directly to glower.",
+    "mnemonic": "GLOWER: GLOW + LOWER — lower your brow with anger — scowl.",
     "usage": "The old man glowered at the children from his porch until they left.",
     "synonyms": [
       "scowl",
@@ -6565,7 +6566,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɡˈoʊd/",
     "pos": "Noun",
     "meaning": "Urge on (as cattle) with a pointed or electrically charged stick; spur on, stimulate, encourage",
-    "mnemonic": "Picture “prod” vividly; link that image directly to goad.",
+    "mnemonic": "GOAD: a sharp stick that Goads cattle — to prod.",
     "usage": "The coach goaded his players into a comeback that no one in the stands had expected.",
     "synonyms": [
       "prod",
@@ -6580,10 +6581,10 @@ const GRE_WORDS = [
   },
   {
     "word": "goosebumps",
-    "pronunciation": "/ɡˈuːsbəmps/",
-    "pos": "Adjective",
+    "pronunciation": "/ɡˈuːsbʌmps/",
+    "pos": "Noun",
     "meaning": "The bumps created by hairs standing up on the skin in response to cold, fear, etc.",
-    "mnemonic": "Picture “chills” vividly; link that image directly to goosebumps.",
+    "mnemonic": "GOOSEBUMPS: skin like a plucked GOOSE — chills.",
     "usage": "The final movement of the symphony gave her goosebumps every time she heard it.",
     "synonyms": [
       "chills",
@@ -6596,9 +6597,9 @@ const GRE_WORDS = [
   {
     "word": "gouge",
     "pronunciation": "/ɡˈaʊdʒ/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Scooping or digging tool; to cut or scoop out; to swindle or extort money from",
-    "mnemonic": "Picture “scoop” vividly; link that image directly to gouge.",
+    "mnemonic": "GOUGE: GOUGE out chunks — to scoop; also to overcharge.",
     "usage": "The contractor gouged the city on the emergency repairs, tripling his usual rates.",
     "synonyms": [
       "scoop",
@@ -6612,10 +6613,10 @@ const GRE_WORDS = [
   },
   {
     "word": "gradation",
-    "pronunciation": "/ɡreɪdˈeɪʃʌn/",
+    "pronunciation": "/ɡɹeɪdˈeɪʃən/",
     "pos": "Noun",
     "meaning": "A progression, a process taking place gradually, in stages; one of these stages",
-    "mnemonic": "GRAD = step: picture movement along a path.",
+    "mnemonic": "GRADATION: GRADE + ATION — a step-by-step progression.",
     "usage": "The painting's colors showed a subtle gradation from pale yellow at the top to deep ochre at the bottom.",
     "synonyms": [
       "progression",
@@ -6630,10 +6631,10 @@ const GRE_WORDS = [
   },
   {
     "word": "graft",
-    "pronunciation": "/ɡrˈæft/",
+    "pronunciation": "/ɡɹˈæft/",
     "pos": "Noun",
     "meaning": "Insert part of a plant into another plant; join living tissue; the act of acquiring money through illegal means",
-    "mnemonic": "Picture “transplant” vividly; link that image directly to graft.",
+    "mnemonic": "GRAFT: GRAFT a branch onto a tree — attach; also illegal profit.",
     "usage": "The surgeon performed a skin graft that saved the burn victim's arm.",
     "synonyms": [
       "transplant",
@@ -6646,10 +6647,10 @@ const GRE_WORDS = [
   },
   {
     "word": "grandiloquent",
-    "pronunciation": "/ɡrændˈɪlʌkwʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɡɹˈændɪlˌɑːkwənt/",
+    "pos": "Noun",
     "meaning": "Relating to lofty speech, especially to the point of being pompous, overblown, bombastic",
-    "mnemonic": "Picture “pompous” vividly; link that image directly to grandiloquent.",
+    "mnemonic": "GRANDILOQUENT: GRAND + LOQUENT (speaking) — pompous speech.",
     "usage": "His grandiloquent toast, full of classical allusions, lasted ten minutes and said nothing.",
     "synonyms": [
       "pompous",
@@ -6664,10 +6665,10 @@ const GRE_WORDS = [
   },
   {
     "word": "grandstand",
-    "pronunciation": "/ɡrˈændstˌænd/",
+    "pronunciation": "/ɡɹˈændstænd/",
     "pos": "Noun",
     "meaning": "Perform showily in an attempt to impress onlookers",
-    "mnemonic": "Picture “show off” vividly; link that image directly to grandstand.",
+    "mnemonic": "GRANDSTAND: performing in the grandSTAND — show off.",
     "usage": "The senator grandstanded for the cameras, proposing a bill he knew had no chance of passing.",
     "synonyms": [
       "show off",
@@ -6680,10 +6681,10 @@ const GRE_WORDS = [
   },
   {
     "word": "grating",
-    "pronunciation": "/ɡrˈeɪtɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/ɡɹˈeɪɾɪŋ/",
+    "pos": "Noun",
     "meaning": "Irritating; harsh or discordant (of a noise); scraping",
-    "mnemonic": "Picture “harsh” vividly; link that image directly to grating.",
+    "mnemonic": "GRATING: a GRATER grates — irritating sound.",
     "usage": "Her grating voice, audible from across the office, made concentration impossible.",
     "synonyms": [
       "harsh",
@@ -6698,10 +6699,10 @@ const GRE_WORDS = [
   },
   {
     "word": "gregarious",
-    "pronunciation": "/ɡrʌɡˈɛriʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɡɹɛɡˈɛɹɪəs/",
+    "pos": "Noun",
     "meaning": "Sociable, pertaining to a flock or crowd; fond of company",
-    "mnemonic": "Picture “sociable” vividly; link that image directly to gregarious.",
+    "mnemonic": "GREGARIOUS: GREX = flock. Loves the flock — sociable.",
     "usage": "The gregarious host moved from table to table, making sure no guest stood alone.",
     "synonyms": [
       "sociable",
@@ -6716,10 +6717,10 @@ const GRE_WORDS = [
   },
   {
     "word": "grievous",
-    "pronunciation": "/ɡrˈivʌs/",
+    "pronunciation": "/ɡɹˈiːvəs/",
     "pos": "Adjective",
     "meaning": "Causing grief or suffering; very serious, grave; flagrant, outrageous",
-    "mnemonic": "Picture “serious” vividly; link that image directly to grievous.",
+    "mnemonic": "GRIEVOUS: GRIEF — causing grief.",
     "usage": "The report documented grievous failures of oversight that had cost lives.",
     "synonyms": [
       "serious",
@@ -6734,10 +6735,10 @@ const GRE_WORDS = [
   },
   {
     "word": "grouse",
-    "pronunciation": "/ɡrˈaʊs/",
+    "pronunciation": "/ɡɹˈaʊs/",
     "pos": "Noun",
     "meaning": "Complain or grumble; a reason for complaint",
-    "mnemonic": "Picture “complain” vividly; link that image directly to grouse.",
+    "mnemonic": "GROUSE: the GROUSE bird GROUSES (complains) in the heather — to grumble.",
     "usage": "The staff groused about the new schedule, but most of them adapted within a month.",
     "synonyms": [
       "complain",
@@ -6752,10 +6753,10 @@ const GRE_WORDS = [
   },
   {
     "word": "grovel",
-    "pronunciation": "/ɡrˈɑvʌl/",
+    "pronunciation": "/ɡɹˈɑːvəl/",
     "pos": "Noun",
     "meaning": "Creep or crawl with one's face to the ground; prostrate oneself; degrade or abuse oneself to win favor",
-    "mnemonic": "Picture “cringe” vividly; link that image directly to grovel.",
+    "mnemonic": "GROVEL: GROUnd + LEVEL — face flat on the ground, begging — to crawl, degrade oneself.",
     "usage": "After the scandal, the executive groveled before the board in a desperate attempt to keep his job.",
     "synonyms": [
       "cringe",
@@ -6773,7 +6774,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɡˈaɪl/",
     "pos": "Noun",
     "meaning": "Clever deceit, cunning, craftiness",
-    "mnemonic": "Picture “cunning” vividly; link that image directly to guile.",
+    "mnemonic": "GUILE: sounds like GUILE (GUILE-less = innocent). Cunning deceit.",
     "usage": "He won the position through guile rather than talent, and it showed within a month.",
     "synonyms": [
       "cunning",
@@ -6791,7 +6792,7 @@ const GRE_WORDS = [
     "pronunciation": "/hˈæknid/",
     "pos": "Noun",
     "meaning": "So commonplace as to be stale; not fresh or original",
-    "mnemonic": "Picture “trite” vividly; link that image directly to hackneyed.",
+    "mnemonic": "HACKNEYED: HACKNEY cab horses were worn out from overuse — stale, trite.",
     "usage": "The plot was so hackneyed that the audience could predict every line five minutes before it was spoken.",
     "synonyms": [
       "trite",
@@ -6806,10 +6807,10 @@ const GRE_WORDS = [
   },
   {
     "word": "halcyon",
-    "pronunciation": "/hˈælsiʌn/",
-    "pos": "Adjective",
+    "pronunciation": "/hˈælsɪən/",
+    "pos": "Noun",
     "meaning": "Calm and peaceful, carefree; prosperous, successful, happy",
-    "mnemonic": "Picture “peaceful” vividly; link that image directly to halcyon.",
+    "mnemonic": "HALCYON: the HALCYON bird calmed the sea — calm, peaceful, idyllic.",
     "usage": "He looked back on the halcyon days of his twenties as if they had lasted a century.",
     "synonyms": [
       "peaceful",
@@ -6824,10 +6825,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hallmark",
-    "pronunciation": "/hˈɑlmˌɑrk/",
-    "pos": "Adjective",
+    "pronunciation": "/hˈɔːlmɑːɹk/",
+    "pos": "Noun",
     "meaning": "A mark indicating quality, purity, genuineness, etc.; any distinguishing characteristic",
-    "mnemonic": "Picture “trademark” vividly; link that image directly to hallmark.",
+    "mnemonic": "HALLMARK: the official stamp in the HALL of the Goldsmiths' Company — a mark of quality.",
     "usage": "Attention to detail was the hallmark of her work, whether in a memo or a memoir.",
     "synonyms": [
       "trademark",
@@ -6841,9 +6842,9 @@ const GRE_WORDS = [
   {
     "word": "hand-wringing",
     "pronunciation": "/hˈænd ɹˈɪŋɪŋ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Grasping of the hands as an expression of nervousness or guilt; extended debate over what to do about an issue",
-    "mnemonic": "Picture “anxiety” vividly; link that image directly to hand-wringing.",
+    "mnemonic": "HAND-WRINGING: wringing your HANDS in anxiety — nervous fretting.",
     "usage": "The hand-wringing in the editorial pages did nothing to solve the underlying problem.",
     "synonyms": [
       "anxiety",
@@ -6857,10 +6858,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hapless",
-    "pronunciation": "/hˈæplʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/hˈæpləs/",
+    "pos": "Noun",
     "meaning": "Unlucky, unfortunate; marked by ill fortune",
-    "mnemonic": "Picture “unlucky” vividly; link that image directly to hapless.",
+    "mnemonic": "HAPLESS: HAP = luck (happenstance). Without luck — unfortunate.",
     "usage": "The hapless traveler missed his connection in Frankfurt and spent two days in the airport.",
     "synonyms": [
       "unlucky",
@@ -6875,10 +6876,10 @@ const GRE_WORDS = [
   },
   {
     "word": "harangue",
-    "pronunciation": "/hɝˈæŋ/",
+    "pronunciation": "/hɚɹˈæŋ/",
     "pos": "Noun",
     "meaning": "Long, intense verbal attack, especially when delivered publicly; a tirade",
-    "mnemonic": "Picture “tirade” vividly; link that image directly to harangue.",
+    "mnemonic": "HARANGUE: HARRY + ANGUE — Harry shouts a long loud speech — a tirade.",
     "usage": "The editor's harangue against the mayor went on for three full pages.",
     "synonyms": [
       "tirade",
@@ -6893,10 +6894,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hardy",
-    "pronunciation": "/hˈɑrdi/",
-    "pos": "Adjective",
+    "pronunciation": "/hˈɑːɹdi/",
+    "pos": "Noun",
     "meaning": "Bold, brave; capable of withstanding hardship, fatigue, cold, etc.; robust",
-    "mnemonic": "Picture “robust” vividly; link that image directly to hardy.",
+    "mnemonic": "HARDY: HARD + Y — tough, able to survive hardship.",
     "usage": "The hardy settlers survived winters that killed most of their livestock.",
     "synonyms": [
       "robust",
@@ -6911,10 +6912,10 @@ const GRE_WORDS = [
   },
   {
     "word": "harrow",
-    "pronunciation": "/hˈæroʊ/",
-    "pos": "Noun",
+    "pronunciation": "/hˈæɹoʊ/",
+    "pos": "Verb",
     "meaning": "Farming tool that breaks up soil; to painfully disturb or distress",
-    "mnemonic": "Picture “distress” vividly; link that image directly to harrow.",
+    "mnemonic": "HARROW: a HARROW (farm tool) tears up soil — to distress painfully.",
     "usage": "The details of the accident harrowed everyone who heard them.",
     "synonyms": [
       "distress",
@@ -6929,10 +6930,10 @@ const GRE_WORDS = [
   },
   {
     "word": "haven",
-    "pronunciation": "/hˈeɪvʌn/",
-    "pos": "Adjective",
+    "pronunciation": "/hˈeɪvən/",
+    "pos": "Noun",
     "meaning": "Harbor or port; refuge, safe place",
-    "mnemonic": "Picture “refuge” vividly; link that image directly to haven.",
+    "mnemonic": "HAVEN: a HAVEN is a safe HARBOR.",
     "usage": "The public library became a haven for students whose homes had no quiet space.",
     "synonyms": [
       "refuge",
@@ -6950,7 +6951,7 @@ const GRE_WORDS = [
     "pronunciation": "/hˈɑːɹkən/",
     "pos": "Verb",
     "meaning": "Listen, pay attention to; give heed",
-    "mnemonic": "Picture “listen” vividly; link that image directly to hearken.",
+    "mnemonic": "HEARKEN: HARK! — listen, pay attention.",
     "usage": "Hearken to the advice of those who have gone before you, the old dean told the freshmen.",
     "synonyms": [
       "listen",
@@ -6968,7 +6969,7 @@ const GRE_WORDS = [
     "pronunciation": "/hˈɛdʒ/",
     "pos": "Verb",
     "meaning": "Avoid commitment by leaving provisions for withdrawal or changing one's mind; protect a bet by also betting on the other side",
-    "mnemonic": "Picture “equivocate” vividly; link that image directly to hedge.",
+    "mnemonic": "HEDGE: a HEDGE surrounds a garden for protection — to avoid commitment, to dodge.",
     "usage": "The senator hedged on the question for twenty minutes, and by the end no one knew his position.",
     "synonyms": [
       "equivocate",
@@ -6984,9 +6985,9 @@ const GRE_WORDS = [
   {
     "word": "hedonist",
     "pronunciation": "/hˈɛdənˌɪst/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Person devoted to pleasure; one who pursues pleasure as the highest good",
-    "mnemonic": "Picture “epicurean” vividly; link that image directly to hedonist.",
+    "mnemonic": "HEDONIST: HEDON = pleasure (Greek). One devoted to pleasure.",
     "usage": "The hedonist spent his inheritance in three years of parties and travel.",
     "synonyms": [
       "epicurean",
@@ -7001,10 +7002,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hegemony",
-    "pronunciation": "/hidʒˈɛmʌni/",
+    "pronunciation": "/hˈɛdʒɪməni/",
     "pos": "Adjective",
     "meaning": "Domination, authority; influence by one country over others socially, culturally, economically, etc.",
-    "mnemonic": "Picture “dominance” vividly; link that image directly to hegemony.",
+    "mnemonic": "HEGEMONY: HEGEMON = leader (Greek). Dominance of one over others.",
     "usage": "The empire's hegemony over the region lasted for three centuries and ended abruptly.",
     "synonyms": [
       "dominance",
@@ -7020,9 +7021,9 @@ const GRE_WORDS = [
   {
     "word": "hermetic",
     "pronunciation": "/hɜːmˈɛɾɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Airtight, sealed, isolated; reclusive; pertaining to alchemy, occult",
-    "mnemonic": "Picture “sealed” vividly; link that image directly to hermetic.",
+    "mnemonic": "HERMETIC: from Hermes Trismegistus (alchemy) — sealed airtight.",
     "usage": "The hermetic seal kept the contents fresh for decades.",
     "synonyms": [
       "sealed",
@@ -7037,10 +7038,10 @@ const GRE_WORDS = [
   },
   {
     "word": "heterogeneous",
-    "pronunciation": "/hˌɛtɝʌdʒˈinjʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/hˌɛɾɚɹədʒˈiːniəs/",
+    "pos": "Noun",
     "meaning": "Different in type, incongruous; composed of different types of elements",
-    "mnemonic": "Picture “diverse” vividly; link that image directly to heterogeneous.",
+    "mnemonic": "HETERO-GENEOUS: HETERO = different; GENOS = kind. Different kinds mixed.",
     "usage": "The heterogeneous population of the city spoke more than forty languages.",
     "synonyms": [
       "diverse",
@@ -7055,10 +7056,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hew",
-    "pronunciation": "/hjˈu/",
+    "pronunciation": "/hjˈuː/",
     "pos": "Noun",
     "meaning": "Strike, chop, or hack (as with an axe); make or shape something with a cutting tool",
-    "mnemonic": "Picture “chop” vividly; link that image directly to hew.",
+    "mnemonic": "HEW: sounds like HUE — chop, cut with an axe.",
     "usage": "The sculptor hewed the block of marble for three months before a figure began to emerge.",
     "synonyms": [
       "chop",
@@ -7073,9 +7074,9 @@ const GRE_WORDS = [
   {
     "word": "hierarchic",
     "pronunciation": "/haɪɚɹˈɑːɹkɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "A ranked series; a classification of people according to rank, ability, etc.; a ruling body",
-    "mnemonic": "Picture “ranked” vividly; link that image directly to hierarchic.",
+    "mnemonic": "HIERARCHIC: HIERARCHY — ranked in levels.",
     "usage": "The hierarchic structure of the firm meant that a single memo could take a week to reach the top.",
     "synonyms": [
       "ranked",
@@ -7090,10 +7091,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hoary",
-    "pronunciation": "/hˈɔri/",
-    "pos": "Adjective",
+    "pronunciation": "/hˈoːɹi/",
+    "pos": "Noun",
     "meaning": "Very old, gray or white as from old age; ancient and venerable",
-    "mnemonic": "Picture “ancient” vividly; link that image directly to hoary.",
+    "mnemonic": "HOARY: HOAR = frost/white hair. Old, gray, ancient.",
     "usage": "The hoary old joke was repeated at every family gathering, and it got funnier every year.",
     "synonyms": [
       "ancient",
@@ -7108,10 +7109,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hodgepodge",
-    "pronunciation": "/hˈɑdʒpˌɑdʒ/",
-    "pos": "Adjective",
+    "pronunciation": "/hˈɑːdʒpɑːdʒ/",
+    "pos": "Noun",
     "meaning": "Mixture of different kinds of things, jumble",
-    "mnemonic": "Picture “jumble” vividly; link that image directly to hodgepodge.",
+    "mnemonic": "HODGEPODGE: HOTCHPOTCH — a jumbled mixture.",
     "usage": "The essay was a hodgepodge of borrowed ideas held together by nothing more than punctuation.",
     "synonyms": [
       "jumble",
@@ -7126,10 +7127,10 @@ const GRE_WORDS = [
   },
   {
     "word": "homage",
-    "pronunciation": "/ˈɑmʌdʒ/",
-    "pos": "Verb",
+    "pronunciation": "/hˈɑːmɪdʒ/",
+    "pos": "Noun",
     "meaning": "Honor or respect demonstrated publicly; tribute",
-    "mnemonic": "Picture “tribute” vividly; link that image directly to homage.",
+    "mnemonic": "HOMAGE: HOMAGE to the king — public respect, tribute.",
     "usage": "The young director's film is an homage to the noir pictures of the 1940s.",
     "synonyms": [
       "tribute",
@@ -7144,10 +7145,10 @@ const GRE_WORDS = [
   },
   {
     "word": "homogeneous",
-    "pronunciation": "/hˌoʊmʌdʒˈiniʌs/",
+    "pronunciation": "/hɑːmˈoʊdʒniəs/",
     "pos": "Adjective",
     "meaning": "Of the same kind; uniform throughout; composed of similar elements",
-    "mnemonic": "Picture “uniform” vividly; link that image directly to homogeneous.",
+    "mnemonic": "HOMO-GENEOUS: HOMO = same; GENOS = kind. All the same kind.",
     "usage": "The town's population was remarkably homogeneous, and outsiders were noticed within a day.",
     "synonyms": [
       "uniform",
@@ -7162,10 +7163,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hoodwink",
-    "pronunciation": "/hˈʊdwˌɪŋk/",
+    "pronunciation": "/hˈʊdwɪŋk/",
     "pos": "Noun",
     "meaning": "Trick, deceive; blindfold (archaic)",
-    "mnemonic": "Picture “deceive” vividly; link that image directly to hoodwink.",
+    "mnemonic": "HOODWINK: pull a HOOD over someone's eyes — to blindfold and deceive.",
     "usage": "The broker hoodwinked his clients into investing in a scheme he knew to be worthless.",
     "synonyms": [
       "deceive",
@@ -7180,10 +7181,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hotly",
-    "pronunciation": "/hˈɑtli/",
+    "pronunciation": "/hˈɑːtli/",
     "pos": "Adverb",
     "meaning": "In an intense, fiery, or heated way; with passion or anger",
-    "mnemonic": "Picture “heatedly” vividly; link that image directly to hotly.",
+    "mnemonic": "HOTLY: HOT + LY — in a heated, fiery way.",
     "usage": "The proposal was hotly debated for three sessions before a compromise emerged.",
     "synonyms": [
       "heatedly",
@@ -7198,10 +7199,10 @@ const GRE_WORDS = [
   },
   {
     "word": "husband",
-    "pronunciation": "/hˈʌzbʌnd/",
+    "pronunciation": "/hˈʌsbənd/",
     "pos": "Noun",
     "meaning": "Manage prudently, sparingly, or economically; conserve",
-    "mnemonic": "Picture “conserve” vividly; link that image directly to husband.",
+    "mnemonic": "HUSBAND: a good HUSBAND manages the household carefully — to conserve resources.",
     "usage": "She husbanded her savings carefully through the long months of unemployment.",
     "synonyms": [
       "conserve",
@@ -7216,10 +7217,10 @@ const GRE_WORDS = [
   },
   {
     "word": "hyperbole",
-    "pronunciation": "/haɪpˈɝbʌlˌi/",
+    "pronunciation": "/haɪpˈɜːbəli/",
     "pos": "Adjective",
     "meaning": "Deliberate exaggeration for effect",
-    "mnemonic": "Picture “exaggeration” vividly; link that image directly to hyperbole.",
+    "mnemonic": "HYPERBOLE: HYPER = over; BOL = throw. Throwing it over the top — exaggeration.",
     "usage": "\"I've told you a million times\" is hyperbole, and everyone knows it.",
     "synonyms": [
       "exaggeration",
@@ -7234,10 +7235,10 @@ const GRE_WORDS = [
   },
   {
     "word": "iconoclast",
-    "pronunciation": "/ˌaɪkˈɑnʌklˌæst/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈaɪkənˌɑːklæst/",
+    "pos": "Noun",
     "meaning": "Attacker of cherished beliefs or institutions; one who challenges established customs",
-    "mnemonic": "Picture “rebel” vividly; link that image directly to iconoclast.",
+    "mnemonic": "ICONOCLAST: ICON + CLAST (break). One who breaks icons — a challenger of cherished beliefs.",
     "usage": "The iconoclast questioned every tradition the university held dear, and a generation later many of his questions had become the curriculum.",
     "synonyms": [
       "rebel",
@@ -7252,10 +7253,10 @@ const GRE_WORDS = [
   },
   {
     "word": "idiosyncrasy",
-    "pronunciation": "/ˌɪdioʊsˈɪnkrʌsˌi/",
+    "pronunciation": "/ˈɪdɪˌɑːsɪŋkɹəsi/",
     "pos": "Adjective",
     "meaning": "Characteristic or habit peculiar to an individual; peculiar quality, quirk",
-    "mnemonic": "Picture “quirk” vividly; link that image directly to idiosyncrasy.",
+    "mnemonic": "IDIOSYNCRASY: IDIO = own; SYN = together; CRASY = mix. Your own peculiar mix — a quirk.",
     "usage": "Wearing gloves indoors was only one of his many idiosyncrasies.",
     "synonyms": [
       "quirk",
@@ -7270,10 +7271,10 @@ const GRE_WORDS = [
   },
   {
     "word": "idolatry",
-    "pronunciation": "/aɪdˈɑlʌtri/",
+    "pronunciation": "/aɪdˈɑːlətɹi/",
     "pos": "Adjective",
     "meaning": "Idol worship; excessive or unthinking devotion or adoration",
-    "mnemonic": "Picture “worship” vividly; link that image directly to idolatry.",
+    "mnemonic": "IDOLATRY: IDOL + LATRY (worship). Excessive devotion.",
     "usage": "The director's idolatry of his mentor blinded him to the older man's serious flaws.",
     "synonyms": [
       "worship",
@@ -7291,7 +7292,7 @@ const GRE_WORDS = [
     "pronunciation": "/aɪdˈɪlɪk/",
     "pos": "Adjective",
     "meaning": "Presenting a positive, peaceful view of rural life; pleasant in a natural, simple way",
-    "mnemonic": "Picture “peaceful” vividly; link that image directly to idyllic.",
+    "mnemonic": "IDYLLIC: an IDYLL is a peaceful rural poem — charming, pastoral.",
     "usage": "The village seemed idyllic until you noticed the shuttered factory at its edge.",
     "synonyms": [
       "peaceful",
@@ -7306,10 +7307,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ignoble",
-    "pronunciation": "/ˌɪɡnˈoʊbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪɡnˈoʊbəl/",
+    "pos": "Noun",
     "meaning": "Not noble; having mean, base, low motives; low quality",
-    "mnemonic": "Picture “base” vividly; link that image directly to ignoble.",
+    "mnemonic": "IG-NOBLE: NOT NOBLE — mean, base, dishonorable.",
     "usage": "His ignoble retreat from the debate was read by many as an admission of weakness.",
     "synonyms": [
       "base",
@@ -7327,7 +7328,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɪlˌɪbɚɹˈælɪɾi/",
     "pos": "Noun",
     "meaning": "Narrow-mindedness, bigotry; strictness or lack of generosity",
-    "mnemonic": "Picture “narrow-mindedness” vividly; link that image directly to illiberality.",
+    "mnemonic": "ILLIBERALITY: NOT LIBERAL — narrow-mindedness, bigotry.",
     "usage": "The illiberality of the college's admissions policy was exposed by a series of anonymous alumni donations to the contrary.",
     "synonyms": [
       "narrow-mindedness",
@@ -7342,10 +7343,10 @@ const GRE_WORDS = [
   },
   {
     "word": "imbue",
-    "pronunciation": "/ˌɪmbjˈu/",
+    "pronunciation": "/ɪmbjˈuː/",
     "pos": "Noun",
     "meaning": "Permeate or saturate, as dye in a fabric; influence throughout; inspire",
-    "mnemonic": "Picture “infuse” vividly; link that image directly to imbue.",
+    "mnemonic": "IMBUE: IM + BUE (like IMBUE a sponge with water) — to permeate, saturate.",
     "usage": "Her parents imbued her with a strong sense of duty, which she carried into every job she held.",
     "synonyms": [
       "infuse",
@@ -7360,10 +7361,10 @@ const GRE_WORDS = [
   },
   {
     "word": "imminent",
-    "pronunciation": "/ˈɪmʌnʌnt/",
+    "pronunciation": "/ˈɪmɪnənt/",
     "pos": "Adjective",
     "meaning": "Ready to occur, impending; about to happen",
-    "mnemonic": "Picture “impending” vividly; link that image directly to imminent.",
+    "mnemonic": "IMMINENT: IMMINENT = about to happen — hanging over you.",
     "usage": "The storm was imminent, and the crew abandoned the ship within the hour.",
     "synonyms": [
       "impending",
@@ -7378,10 +7379,10 @@ const GRE_WORDS = [
   },
   {
     "word": "immutable",
-    "pronunciation": "/ˌɪmjˈutʌbʌl/",
+    "pronunciation": "/ɪmjˈuːɾəbəl/",
     "pos": "Adjective",
     "meaning": "Unchangeable; not subject to alteration",
-    "mnemonic": "Picture “unchanging” vividly; link that image directly to immutable.",
+    "mnemonic": "IMMUTABLE: IM + MUT = change (mutation). Unchangeable.",
     "usage": "The laws of thermodynamics are immutable, however much we might wish otherwise.",
     "synonyms": [
       "unchanging",
@@ -7396,10 +7397,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impair",
-    "pronunciation": "/ˌɪmpˈɛr/",
+    "pronunciation": "/ɪmpˈɛɹ/",
     "pos": "Verb",
     "meaning": "Make worse, weaken; damage",
-    "mnemonic": "Picture “damage” vividly; link that image directly to impair.",
+    "mnemonic": "IMPAIR: IM + PAIR — you break the PAIR, weaken it.",
     "usage": "The injury impaired his hearing but not his judgment, and he remained on the bench for a decade.",
     "synonyms": [
       "damage",
@@ -7414,10 +7415,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impartial",
-    "pronunciation": "/ˌɪmpˈɑrʃʌl/",
+    "pronunciation": "/ɪmpˈɑːɹʃəl/",
     "pos": "Adjective",
     "meaning": "Unbiased, fair; not favoring one side over another",
-    "mnemonic": "Picture “fair” vividly; link that image directly to impartial.",
+    "mnemonic": "IM-PARTIAL: NOT PARTIAL to one side — unbiased.",
     "usage": "The chairman's impartial handling of the dispute earned him the trust of both factions.",
     "synonyms": [
       "fair",
@@ -7432,10 +7433,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impasse",
-    "pronunciation": "/ˌɪmpˈæs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪmpˈæs/",
+    "pos": "Noun",
     "meaning": "Position or road from which there is no escape; deadlock; stalemate",
-    "mnemonic": "Picture “deadlock” vividly; link that image directly to impasse.",
+    "mnemonic": "IMPASSE: IM + PASSE (pass). You can't PASS — a deadlock.",
     "usage": "The negotiations reached an impasse that neither side knew how to break.",
     "synonyms": [
       "deadlock",
@@ -7450,10 +7451,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impassive",
-    "pronunciation": "/ˌɪmpˈæsɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪmpˈæsɪv/",
+    "pos": "Noun",
     "meaning": "Not having or not showing physical feeling or emotion; unemotional",
-    "mnemonic": "Picture “expressionless” vividly; link that image directly to impassive.",
+    "mnemonic": "IM-PASSIVE: NOT PASSIONATE — showing no emotion.",
     "usage": "His impassive face revealed nothing, and the jury had no idea what to make of him.",
     "synonyms": [
       "expressionless",
@@ -7469,9 +7470,9 @@ const GRE_WORDS = [
   {
     "word": "impecunious",
     "pronunciation": "/ˌɪmpɪkjˈuːnɪəs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Poor, without money; having little or no money",
-    "mnemonic": "Picture “poor” vividly; link that image directly to impecunious.",
+    "mnemonic": "IMPECUNIOUS: IM + PECUNIA = money (pecuniary). Without money — poor.",
     "usage": "The impecunious artist lived for years on bread, coffee, and the generosity of friends.",
     "synonyms": [
       "poor",
@@ -7486,10 +7487,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impede",
-    "pronunciation": "/ˌɪmpˈid/",
+    "pronunciation": "/ɪmpˈiːd/",
     "pos": "Verb",
     "meaning": "Hold back, obstruct the progress of; hinder",
-    "mnemonic": "Picture “hinder” vividly; link that image directly to impede.",
+    "mnemonic": "IMPEDE: IM + PEDE (foot, like pedal). Something in your FOOT's way — to hinder.",
     "usage": "The traffic impeded our journey, and what should have taken an hour took three.",
     "synonyms": [
       "hinder",
@@ -7504,10 +7505,10 @@ const GRE_WORDS = [
   },
   {
     "word": "imperious",
-    "pronunciation": "/ˌɪmpˈɪriʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪmpˈiəɹɪəs/",
+    "pos": "Noun",
     "meaning": "Commanding, domineering; acting like a high-ranking person; urgent",
-    "mnemonic": "Picture “domineering” vividly; link that image directly to imperious.",
+    "mnemonic": "IMPERIOUS: IMPER = command (imperial). Commanding, domineering.",
     "usage": "Her imperious manner, effective in the courtroom, alienated nearly everyone in the office.",
     "synonyms": [
       "domineering",
@@ -7523,9 +7524,9 @@ const GRE_WORDS = [
   {
     "word": "impermeable",
     "pronunciation": "/ɪmpˈɜːməbəl/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Impassable, not allowing passage through; impervious",
-    "mnemonic": "Picture “impenetrable” vividly; link that image directly to impermeable.",
+    "mnemonic": "IM-PERMEABLE: NOT PERMEABLE — cannot be passed through.",
     "usage": "The impermeable membrane kept the saltwater out of the freshwater tank.",
     "synonyms": [
       "impenetrable",
@@ -7543,7 +7544,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɪmpɚtˈɜːbəbəl/",
     "pos": "Adjective",
     "meaning": "Calm, not able to be upset or agitated; unshakeable",
-    "mnemonic": "Picture “calm” vividly; link that image directly to imperturbable.",
+    "mnemonic": "IM-PERTURBABLE: cannot be PERTURBED — calm, unshakeable.",
     "usage": "She remained imperturbable even as the reporters shouted over one another.",
     "synonyms": [
       "calm",
@@ -7558,10 +7559,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impervious",
-    "pronunciation": "/ˌɪmpˈɝviʌs/",
+    "pronunciation": "/ɪmpˈɜːvɪəs/",
     "pos": "Adjective",
     "meaning": "Impenetrable, not able to be harmed or emotionally disturbed; incapable of being penetrated",
-    "mnemonic": "Picture “impenetrable” vividly; link that image directly to impervious.",
+    "mnemonic": "IM-PERVIOUS: NOT PERVIOUS (permeable) — impenetrable, unaffected.",
     "usage": "The castle walls were impervious to every weapon of the age.",
     "synonyms": [
       "impenetrable",
@@ -7576,10 +7577,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impetuous",
-    "pronunciation": "/ˌɪmpˈɛtʃwʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪmpˈɛtʃuːəs/",
+    "pos": "Noun",
     "meaning": "Passionately impulsive, marked by sudden, hasty emotion; forceful, violent",
-    "mnemonic": "Picture “impulsive” vividly; link that image directly to impetuous.",
+    "mnemonic": "IMPETUOUS: IMPETUS = impulse. Acting on sudden impulse — rash.",
     "usage": "His impetuous decision to quit before finding another job nearly cost him his savings.",
     "synonyms": [
       "impulsive",
@@ -7594,10 +7595,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impious",
-    "pronunciation": "/ˌɪmpˈaɪʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪmpɪˈəs/",
+    "pos": "Noun",
     "meaning": "Not religious, lacking reverence, ungodly; showing disrespect for sacred things",
-    "mnemonic": "Picture “irreverent” vividly; link that image directly to impious.",
+    "mnemonic": "IM-PIOUS: NOT PIOUS — lacking reverence, ungodly.",
     "usage": "His impious remarks about the ceremony offended the entire congregation.",
     "synonyms": [
       "irreverent",
@@ -7612,10 +7613,10 @@ const GRE_WORDS = [
   },
   {
     "word": "implacable",
-    "pronunciation": "/ˌɪmplˈækʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪmplˈækəbəl/",
+    "pos": "Noun",
     "meaning": "Not able to be appeased, calmed, or satisfied; unyielding",
-    "mnemonic": "Picture “unrelenting” vividly; link that image directly to implacable.",
+    "mnemonic": "IM-PLACABLE: cannot be PLACATEd (appeased) — unyielding.",
     "usage": "The implacable prosecutor refused every offer of settlement.",
     "synonyms": [
       "unrelenting",
@@ -7630,10 +7631,10 @@ const GRE_WORDS = [
   },
   {
     "word": "implication",
-    "pronunciation": "/ˌɪmplʌkˈeɪʃʌn/",
+    "pronunciation": "/ˌɪmplɪkˈeɪʃən/",
     "pos": "Noun",
     "meaning": "Act of implying or that which is implied; close connection, especially in an incriminating way",
-    "mnemonic": "Picture “suggestion” vividly; link that image directly to implication.",
+    "mnemonic": "IMPLICATION: an IMPLIED suggestion — something hinted at.",
     "usage": "The implication of his remark was unmistakable: the deal was off.",
     "synonyms": [
       "suggestion",
@@ -7648,10 +7649,10 @@ const GRE_WORDS = [
   },
   {
     "word": "implicit",
-    "pronunciation": "/ˌɪmplˈɪsʌt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪmplˈɪsɪt/",
+    "pos": "Noun",
     "meaning": "Implied, not stated directly; involved in the very essence of something; unquestionable",
-    "mnemonic": "Picture “implied” vividly; link that image directly to implicit.",
+    "mnemonic": "IM-PLICIT: PLIC = fold. Folded in — implied, not stated.",
     "usage": "Her implicit criticism, conveyed by a raised eyebrow, was understood by everyone in the room.",
     "synonyms": [
       "implied",
@@ -7666,10 +7667,10 @@ const GRE_WORDS = [
   },
   {
     "word": "implode",
-    "pronunciation": "/ˌɪmplˈoʊd/",
+    "pronunciation": "/ɪmplˈoʊd/",
     "pos": "Noun",
     "meaning": "Burst inward; collapse suddenly and violently inward",
-    "mnemonic": "Picture “collapse” vividly; link that image directly to implode.",
+    "mnemonic": "IMPLODE: IM + PLODE (explode). Explode INWARD.",
     "usage": "The whole scheme imploded within a week once the first investor demanded a refund.",
     "synonyms": [
       "collapse",
@@ -7687,7 +7688,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɪmpɹɪkˈeɪʃən/",
     "pos": "Noun",
     "meaning": "Curse; prayer for harm to come to someone",
-    "mnemonic": "Picture “curse” vividly; link that image directly to imprecation.",
+    "mnemonic": "IMPRECATION: PREC = pray (precarious). A PRAYER for harm — a curse.",
     "usage": "He muttered an imprecation under his breath as the door closed behind him.",
     "synonyms": [
       "curse",
@@ -7702,10 +7703,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impugn",
-    "pronunciation": "/ˌɪmpjˈun/",
+    "pronunciation": "/ɪmpjˈuːn/",
     "pos": "Verb",
     "meaning": "Attack the truth or integrity of; challenge as false; call into question",
-    "mnemonic": "Picture “challenge” vividly; link that image directly to impugn.",
+    "mnemonic": "IMPUGN: IM + PUGN (fist, like pugnacious). Punch at someone's truth — to attack as false.",
     "usage": "The defense impugned the witness's character without ever disproving his testimony.",
     "synonyms": [
       "challenge",
@@ -7720,10 +7721,10 @@ const GRE_WORDS = [
   },
   {
     "word": "impute",
-    "pronunciation": "/ˌɪmpjˈut/",
+    "pronunciation": "/ɪmpjˈuːt/",
     "pos": "Noun",
     "meaning": "Credit, attribute; lay blame or responsibility for (sometimes falsely)",
-    "mnemonic": "Picture “attribute” vividly; link that image directly to impute.",
+    "mnemonic": "IMPUTE: IM + PUT + E — to PUT blame ON someone — to attribute.",
     "usage": "The prosecutor imputed criminal intent to every one of the defendant's decisions.",
     "synonyms": [
       "attribute",
@@ -7737,10 +7738,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inadvertent",
-    "pronunciation": "/ˌɪnʌdvˈɝtʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪnədvˈɜːtənt/",
+    "pos": "Noun",
     "meaning": "Unintentional; characterized by a lack of attention, careless",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "INADVERTENT: IN + ADVERT (turn attention) — not paying attention, unintentional.",
     "usage": "His inadvertent omission of a single comma changed the meaning of the entire clause.",
     "synonyms": [
       "accidental",
@@ -7755,10 +7756,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inasmuch",
-    "pronunciation": "/ˌɪnˈæsmʌk/",
+    "pronunciation": "/ɪnəsmˈʌtʃ/",
     "pos": "Noun",
     "meaning": "In like manner, considering that; since, because",
-    "mnemonic": "Picture “since” vividly; link that image directly to inasmuch.",
+    "mnemonic": "INASMUCH: IN AS MUCH = since, because.",
     "usage": "Inasmuch as you have already agreed, the matter is settled.",
     "synonyms": [
       "since",
@@ -7772,9 +7773,9 @@ const GRE_WORDS = [
   {
     "word": "incarnadine",
     "pronunciation": "/ɪnkˈɑːɹnədˌiːn/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Blood red or flesh-colored",
-    "mnemonic": "Picture “red” vividly; link that image directly to incarnadine.",
+    "mnemonic": "INCARNADINE: CARNA = flesh (carnivore). Flesh-colored — blood red.",
     "usage": "The incarnadine sky at sunset drew the entire village to the water's edge.",
     "synonyms": [
       "red",
@@ -7789,10 +7790,10 @@ const GRE_WORDS = [
   },
   {
     "word": "incendiary",
-    "pronunciation": "/ˌɪnsˈɛndiɛri/",
+    "pronunciation": "/ɪnsˈɛndjɚɹi/",
     "pos": "Adjective",
     "meaning": "Setting on fire, pertaining to arson; arousing strife, rebellion, etc.; inflammatory",
-    "mnemonic": "Picture “inflammatory” vividly; link that image directly to incendiary.",
+    "mnemonic": "INCENDIARY: INCEND = fire (incense). Setting things on fire — inflammatory.",
     "usage": "The editorial was so incendiary that three advertisers withdrew their support.",
     "synonyms": [
       "inflammatory",
@@ -7807,10 +7808,10 @@ const GRE_WORDS = [
   },
   {
     "word": "incentive",
-    "pronunciation": "/ˌɪnsˈɛntɪv/",
+    "pronunciation": "/ɪnsˈɛntɪv/",
     "pos": "Adjective",
     "meaning": "Something that encourages greater action or effort, such as a reward",
-    "mnemonic": "Picture “motivation” vividly; link that image directly to incentive.",
+    "mnemonic": "INCENTIVE: IN + CENT = sing (chant). A song that stirs you — a motivation.",
     "usage": "The new tax credit offered a powerful incentive to invest in renewable energy.",
     "synonyms": [
       "motivation",
@@ -7825,10 +7826,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inchoate",
-    "pronunciation": "/ˌɪnkˈoʊʌt/",
+    "pronunciation": "/ˈɪntʃoʊt/",
     "pos": "Verb",
     "meaning": "Just begun, undeveloped, unorganized; only partly in existence",
-    "mnemonic": "Picture “undeveloped” vividly; link that image directly to inchoate.",
+    "mnemonic": "INCHOATE: IN + CHOATE (like CHOAS/chaos). Just begun, unformed.",
     "usage": "The plan, still inchoate, had nevertheless convinced the board to fund a pilot.",
     "synonyms": [
       "undeveloped",
@@ -7843,10 +7844,10 @@ const GRE_WORDS = [
   },
   {
     "word": "incipient",
-    "pronunciation": "/ˌɪnsˈɪpiʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪnsˈɪpiənt/",
+    "pos": "Noun",
     "meaning": "Just beginning; in a very early stage",
-    "mnemonic": "Picture “beginning” vividly; link that image directly to incipient.",
+    "mnemonic": "INCIPIENT: IN + CIP = take (incipient = taking hold). Just beginning.",
     "usage": "The incipient rebellion was crushed before it could gather momentum.",
     "synonyms": [
       "beginning",
@@ -7861,10 +7862,10 @@ const GRE_WORDS = [
   },
   {
     "word": "incongruous",
-    "pronunciation": "/ˌɪŋkˈɔŋruʌs/",
+    "pronunciation": "/ɪnkˈɑːnɡɹuːəs/",
     "pos": "Adjective",
     "meaning": "Out of place, inappropriate, not harmonious",
-    "mnemonic": "Picture “inappropriate” vividly; link that image directly to incongruous.",
+    "mnemonic": "IN-CONGRUOUS: NOT CONGRUENT — out of place.",
     "usage": "The chandelier looked incongruous in the rustic cabin, but the owners loved it anyway.",
     "synonyms": [
       "inappropriate",
@@ -7879,10 +7880,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inconsequential",
-    "pronunciation": "/ˌɪŋkˌɑnsʌkwˈɛntʃʌl/",
+    "pronunciation": "/ɪnkˌɑːnsɪkwˈɛnʃəl/",
     "pos": "Adjective",
     "meaning": "Insignificant, unimportant; illogical",
-    "mnemonic": "Picture “trivial” vividly; link that image directly to inconsequential.",
+    "mnemonic": "INCONSEQUENTIAL: NOT of CONSEQUENCE — unimportant.",
     "usage": "The discrepancy, though real, was inconsequential to the overall argument.",
     "synonyms": [
       "trivial",
@@ -7897,10 +7898,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inconstancy",
-    "pronunciation": "/ˌɪnkˈɑnstʌnsi/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪnkˈɑːnstənsi/",
+    "pos": "Noun",
     "meaning": "Fickleness, unreliability; the state of changing without good reason",
-    "mnemonic": "Picture “fickleness” vividly; link that image directly to inconstancy.",
+    "mnemonic": "IN-CONSTANCY: NOT CONSTANT — fickleness.",
     "usage": "Her inconstancy in matters of friendship left her with many acquaintances and no confidants.",
     "synonyms": [
       "fickleness",
@@ -7915,10 +7916,10 @@ const GRE_WORDS = [
   },
   {
     "word": "incorporate",
-    "pronunciation": "/ˌɪnkˈɔrpɝˌeɪt/",
+    "pronunciation": "/ɪnkˈoːɹpɚɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Combine, unite; form a legal corporation; embody, give physical form to",
-    "mnemonic": "Picture “include” vividly; link that image directly to incorporate.",
+    "mnemonic": "INCORPORATE: IN + CORPUS = body. Bring into one body — combine.",
     "usage": "The new design incorporates elements of three earlier buildings without copying any of them.",
     "synonyms": [
       "include",
@@ -7933,10 +7934,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inculcate",
-    "pronunciation": "/ˈɪŋkʌlkˌeɪt/",
-    "pos": "Verb",
+    "pronunciation": "/ˈɪnkəlkˌeɪt/",
+    "pos": "Noun",
     "meaning": "Teach persistently, implant (an idea) in a person; instill",
-    "mnemonic": "Picture “instill” vividly; link that image directly to inculcate.",
+    "mnemonic": "INCULCATE: IN + CULC (like CULTIVATE). Plant ideas in someone's mind — to teach persistently.",
     "usage": "The school inculcated in its students a sense of duty that lasted a lifetime.",
     "synonyms": [
       "instill",
@@ -7950,10 +7951,10 @@ const GRE_WORDS = [
   },
   {
     "word": "indefatigable",
-    "pronunciation": "/ˌɪndɪfˈætɪɡʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ˌɪndɪfˈæɾɪɡəbəl/",
+    "pos": "Noun",
     "meaning": "Untiring, not able to become fatigued; tireless",
-    "mnemonic": "Picture “tireless” vividly; link that image directly to indefatigable.",
+    "mnemonic": "INDEFATIGABLE: IN + DEFATIG = tire out. Cannot be tired out — tireless.",
     "usage": "Her indefatigable efforts over twenty years turned a small clinic into a regional hospital.",
     "synonyms": [
       "tireless",
@@ -7968,10 +7969,10 @@ const GRE_WORDS = [
   },
   {
     "word": "indeterminate",
-    "pronunciation": "/ˌɪndɪtˈɝmɪnɪt/",
+    "pronunciation": "/ˌɪndɪtˈɜːmᵻnət/",
     "pos": "Adjective",
     "meaning": "Not fixed or determined, indefinite; vague; not precisely known",
-    "mnemonic": "Picture “uncertain” vividly; link that image directly to indeterminate.",
+    "mnemonic": "IN-DETERMINATE: NOT DETERMINED — vague, unfixed.",
     "usage": "The project's timeline was indeterminate, and the funders began to lose patience.",
     "synonyms": [
       "uncertain",
@@ -7986,10 +7987,10 @@ const GRE_WORDS = [
   },
   {
     "word": "indifferent",
-    "pronunciation": "/ˌɪndˈɪfrʌnt/",
+    "pronunciation": "/ɪndˈɪfɹənt/",
     "pos": "Adjective",
     "meaning": "Not caring, having no interest; unbiased, impartial; mediocre",
-    "mnemonic": "FER = carry: picture something being carried.",
+    "mnemonic": "IN-DIFFERENT: NOT DIFFERENT — no preference, unconcerned.",
     "usage": "The committee was indifferent to the proposal, and it died without a vote.",
     "synonyms": [
       "apathetic",
@@ -8007,7 +8008,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɪndˈɪdʒəns/",
     "pos": "Noun",
     "meaning": "Extreme poverty; destitution",
-    "mnemonic": "Picture “poverty” vividly; link that image directly to indigence.",
+    "mnemonic": "INDIGENCE: sounds like INDIGENT — in need — extreme poverty.",
     "usage": "The biography traces the family's fall from provincial comfort into indigence.",
     "synonyms": [
       "poverty",
@@ -8022,10 +8023,10 @@ const GRE_WORDS = [
   },
   {
     "word": "indolent",
-    "pronunciation": "/ˈɪndʌlʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɪndələnt/",
+    "pos": "Noun",
     "meaning": "Lazy, slothful; avoiding activity",
-    "mnemonic": "Picture “lazy” vividly; link that image directly to indolent.",
+    "mnemonic": "INDOLENT: IN + DOL = pain (dolor). Avoiding pain — lazy.",
     "usage": "The indolent student, brilliant in conversation, never finished a single assignment.",
     "synonyms": [
       "lazy",
@@ -8040,10 +8041,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inert",
-    "pronunciation": "/ˌɪnˈɝt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪnˈɜːt/",
+    "pos": "Noun",
     "meaning": "Inactive; having little or no power to move; not chemically reactive",
-    "mnemonic": "Picture “inactive” vividly; link that image directly to inert.",
+    "mnemonic": "INERT: IN + ERT (like insert). Not moving, inactive.",
     "usage": "The inert gas filled the chamber, protecting the manuscript from decay.",
     "synonyms": [
       "inactive",
@@ -8058,10 +8059,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inexorable",
-    "pronunciation": "/ˌɪnˈɛksɝʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪnˈɛksɚɹəbəl/",
+    "pos": "Noun",
     "meaning": "Relentless, unyielding; not moved by pleading",
-    "mnemonic": "Picture “relentless” vividly; link that image directly to inexorable.",
+    "mnemonic": "IN-EXORABLE: cannot be EXORCISED or moved — relentless.",
     "usage": "The inexorable rise in sea levels forced the coastal town to plan a gradual retreat.",
     "synonyms": [
       "relentless",
@@ -8076,10 +8077,10 @@ const GRE_WORDS = [
   },
   {
     "word": "infallible",
-    "pronunciation": "/ˌɪnfˈælʌbʌl/",
+    "pronunciation": "/ɪnfˈæləbəl/",
     "pos": "Adjective",
     "meaning": "Incapable of error; certain",
-    "mnemonic": "Picture “unerring” vividly; link that image directly to infallible.",
+    "mnemonic": "IN-FALLIBLE: cannot FALL into error — incapable of being wrong.",
     "usage": "No editor is infallible, and the best ones build a system to catch what they miss.",
     "synonyms": [
       "unerring",
@@ -8094,10 +8095,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inform",
-    "pronunciation": "/ˌɪnfˈɔrm/",
+    "pronunciation": "/ɪnfˈɔːɹm/",
     "pos": "Noun",
     "meaning": "Inspire, animate; give substance, essence, or context to; be the characteristic quality of",
-    "mnemonic": "Picture “inspire” vividly; link that image directly to inform.",
+    "mnemonic": "INFORM: to give FORM inside — to shape, inspire, give substance to.",
     "usage": "Her childhood in the Punjab informed every book she wrote.",
     "synonyms": [
       "inspire",
@@ -8111,10 +8112,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ingenuous",
-    "pronunciation": "/ˌɪndʒˈɛnjuʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪndʒˈɛnjuːəs/",
+    "pos": "Noun",
     "meaning": "Genuine, sincere, not holding back; naive; artless",
-    "mnemonic": "Picture “naive” vividly; link that image directly to ingenuous.",
+    "mnemonic": "INGENUOUS: like INGENUE (naive young woman) — innocent, artless.",
     "usage": "Her ingenuous questions, free of any agenda, were somehow more unsettling than hostile ones.",
     "synonyms": [
       "naive",
@@ -8129,10 +8130,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ingrained",
-    "pronunciation": "/ˌɪnɡrˈeɪnd/",
+    "pronunciation": "/ɪnɡɹˈeɪnd/",
     "pos": "Noun",
     "meaning": "Deep-rooted, forming part of the very essence; worked into the fiber",
-    "mnemonic": "Picture “deep-rooted” vividly; link that image directly to ingrained.",
+    "mnemonic": "INGRAINED: IN + GRAIN. Dyed into the GRAIN of the wood — deep-rooted.",
     "usage": "The habit of checking the locks twice was so ingrained that she did it even in hotels.",
     "synonyms": [
       "deep-rooted",
@@ -8148,9 +8149,9 @@ const GRE_WORDS = [
   {
     "word": "ingrate",
     "pronunciation": "/ɪnɡɹˈeɪt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Ungrateful person; one who fails to acknowledge a benefit",
-    "mnemonic": "Picture “ungrateful person” vividly; link that image directly to ingrate.",
+    "mnemonic": "INGRATE: IN + GRATE (grateful). NOT grateful — ungrateful.",
     "usage": "The ingrate never thanked the family who had taken him in.",
     "synonyms": [
       "ungrateful person",
@@ -8163,10 +8164,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ingratiate",
-    "pronunciation": "/ˌɪŋɡrˈeɪʃiˌeɪt/",
+    "pronunciation": "/ɪnɡɹˈeɪʃɪˌeɪt/",
     "pos": "Verb",
     "meaning": "Make an effort to gain favor with; bring oneself into favor",
-    "mnemonic": "Picture “flatter” vividly; link that image directly to ingratiate.",
+    "mnemonic": "INGRATIATE: bring yourself INTO GRATIA (favor) — to curry favor.",
     "usage": "The new intern tried to ingratiate himself with the partners by laughing at every joke.",
     "synonyms": [
       "flatter",
@@ -8181,10 +8182,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inherent",
-    "pronunciation": "/ɪnhˈɪrʌnt/",
+    "pronunciation": "/ɪnhˈiəɹənt/",
     "pos": "Adjective",
     "meaning": "Existing as a permanent, essential quality; intrinsic",
-    "mnemonic": "Picture “intrinsic” vividly; link that image directly to inherent.",
+    "mnemonic": "INHERENT: IN + HERE + ENT. Born inside you — intrinsic.",
     "usage": "The risks are inherent in any expedition of this kind, however careful the planning.",
     "synonyms": [
       "intrinsic",
@@ -8199,10 +8200,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inimical",
-    "pronunciation": "/ˌɪnˈɪmɪkʌl/",
+    "pronunciation": "/ɪnˈɪmɪkəl/",
     "pos": "Adjective",
     "meaning": "Hostile, adverse, harmful; tending to obstruct or harm",
-    "mnemonic": "Picture “hostile” vividly; link that image directly to inimical.",
+    "mnemonic": "INIMICAL: INIMICUS = enemy. Hostile, adverse, harmful.",
     "usage": "The new policy proved inimical to the very values the agency was founded to protect.",
     "synonyms": [
       "hostile",
@@ -8217,10 +8218,10 @@ const GRE_WORDS = [
   },
   {
     "word": "iniquity",
-    "pronunciation": "/ˌɪnˈɪkwɪti/",
+    "pronunciation": "/ɪnˈɪkwɪɾi/",
     "pos": "Noun",
     "meaning": "Injustice, wickedness, sin; gross immorality",
-    "mnemonic": "Picture “wickedness” vividly; link that image directly to iniquity.",
+    "mnemonic": "INIQUITY: IN + IQUITY (like EQUITY). NOT EQUITABLE — injustice.",
     "usage": "The novel exposes the iniquities of a system that punished poverty as if it were a crime.",
     "synonyms": [
       "wickedness",
@@ -8235,10 +8236,10 @@ const GRE_WORDS = [
   },
   {
     "word": "innocuous",
-    "pronunciation": "/ˌɪnˈɑkjuʌs/",
+    "pronunciation": "/ɪnnˈɑːkjuːəs/",
     "pos": "Adjective",
     "meaning": "Harmless, inoffensive; producing no ill effect",
-    "mnemonic": "Picture “harmless” vividly; link that image directly to innocuous.",
+    "mnemonic": "INNOCUOUS: IN + NOC = harm (noxious). NOT harmful.",
     "usage": "The remark seemed innocuous, but it started a feud that lasted a decade.",
     "synonyms": [
       "harmless",
@@ -8253,10 +8254,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inordinate",
-    "pronunciation": "/ˌɪnˈɔrdʌnɪt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪnˈɔːɹdᵻnət/",
+    "pos": "Noun",
     "meaning": "Excessive, not within proper limits, unrestrained; disproportionate",
-    "mnemonic": "Picture “excessive” vividly; link that image directly to inordinate.",
+    "mnemonic": "IN-ORDINATE: NOT ORDINARY in degree — excessive.",
     "usage": "The project consumed an inordinate amount of the department's time and returned almost nothing.",
     "synonyms": [
       "excessive",
@@ -8271,10 +8272,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inquest",
-    "pronunciation": "/ˈɪnkwˌɛst/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɪnkwɛst/",
+    "pos": "Noun",
     "meaning": "Legal or judicial inquiry, especially before a jury and especially made by a coroner into the cause of someone's death",
-    "mnemonic": "Picture “inquiry” vividly; link that image directly to inquest.",
+    "mnemonic": "INQUEST: a court INQUIRY — a formal investigation.",
     "usage": "The inquest returned an open verdict, leaving the family without answers.",
     "synonyms": [
       "inquiry",
@@ -8287,10 +8288,10 @@ const GRE_WORDS = [
   },
   {
     "word": "insensible",
-    "pronunciation": "/ˌɪnsˈɛnsʌbʌl/",
+    "pronunciation": "/ɪnsˈɛnsəbəl/",
     "pos": "Adjective",
     "meaning": "Incapable of feeling; unconscious, unaware; not able to be perceived",
-    "mnemonic": "Picture “unconscious” vividly; link that image directly to insensible.",
+    "mnemonic": "IN-SENSIBLE: NOT SENSIBLE — without feeling, unaware.",
     "usage": "He remained insensible to her charms, which was perhaps the greatest attraction of all.",
     "synonyms": [
       "unconscious",
@@ -8305,10 +8306,10 @@ const GRE_WORDS = [
   },
   {
     "word": "insinuate",
-    "pronunciation": "/ˌɪnsˈɪnjueɪt/",
+    "pronunciation": "/ɪnsˈɪnjuːˌeɪt/",
     "pos": "Verb",
     "meaning": "Hint, suggest slyly; introduce an idea into someone's mind in a subtle, artful way",
-    "mnemonic": "Picture “imply” vividly; link that image directly to insinuate.",
+    "mnemonic": "INSINUATE: IN + SINUS = curve (sinuous). To curve ideas INTO someone's mind slyly — to hint.",
     "usage": "Are you insinuating that I had something to do with the missing files?",
     "synonyms": [
       "imply",
@@ -8323,10 +8324,10 @@ const GRE_WORDS = [
   },
   {
     "word": "insipid",
-    "pronunciation": "/ˌɪnsˈɪpʌd/",
+    "pronunciation": "/ɪnsˈɪpɪd/",
     "pos": "Noun",
     "meaning": "Dull, stale, lacking taste or interest; flavorless",
-    "mnemonic": "Picture “bland” vividly; link that image directly to insipid.",
+    "mnemonic": "INSIPID: IN + SIP (sip). Tastes like nothing when you SIP — bland, dull.",
     "usage": "The soup was so insipid that the diners reached for the salt without being asked.",
     "synonyms": [
       "bland",
@@ -8341,10 +8342,10 @@ const GRE_WORDS = [
   },
   {
     "word": "insular",
-    "pronunciation": "/ˈɪnsʌlɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɪnsəlɚ/",
+    "pos": "Noun",
     "meaning": "Pertaining to an island; detached, standing alone; narrow-minded, provincial",
-    "mnemonic": "Picture “narrow-minded” vividly; link that image directly to insular.",
+    "mnemonic": "INSULAR: like an ISLAND (insula) — narrow-minded, detached.",
     "usage": "The insular community was suspicious of every outsider, even those who had lived there for decades.",
     "synonyms": [
       "narrow-minded",
@@ -8359,10 +8360,10 @@ const GRE_WORDS = [
   },
   {
     "word": "insurrection",
-    "pronunciation": "/ˌɪnsɝˈɛkʃʌn/",
+    "pronunciation": "/ɪnsɚɹˈɛkʃən/",
     "pos": "Noun",
     "meaning": "Rebellion or revolt against a government or similarly established authority",
-    "mnemonic": "Picture “rebellion” vividly; link that image directly to insurrection.",
+    "mnemonic": "INSURRECTION: INSURGENT rising — a rebellion.",
     "usage": "The insurrection was quickly suppressed, but the resentments that fueled it only deepened.",
     "synonyms": [
       "rebellion",
@@ -8377,10 +8378,10 @@ const GRE_WORDS = [
   },
   {
     "word": "intelligible",
-    "pronunciation": "/ˌɪntˈɛlʌdʒʌbʌl/",
+    "pronunciation": "/ɪntˈɛlɪdʒəbəl/",
     "pos": "Adjective",
     "meaning": "Able to be understood, clear; comprehensible",
-    "mnemonic": "Picture “understandable” vividly; link that image directly to intelligible.",
+    "mnemonic": "INTELLIGIBLE: able to be UNDERSTOOD — clear.",
     "usage": "His explanation, though technical, was intelligible even to the non-specialists in the room.",
     "synonyms": [
       "understandable",
@@ -8395,10 +8396,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inter",
-    "pronunciation": "/ˌɪntˈɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪntˈɜː/",
+    "pos": "Noun",
     "meaning": "Bury (a dead body) or place in a tomb",
-    "mnemonic": "Picture “bury” vividly; link that image directly to inter.",
+    "mnemonic": "INTER: to BURY (from Latin, IN + TERRA = in the earth).",
     "usage": "The poet was interred in the village churchyard beside his parents.",
     "synonyms": [
       "bury",
@@ -8413,10 +8414,10 @@ const GRE_WORDS = [
   },
   {
     "word": "interplay",
-    "pronunciation": "/ˈɪntɝplˌeɪ/",
-    "pos": "Adjective",
+    "pronunciation": "/ˌɪntɚplˈeɪ/",
+    "pos": "Noun",
     "meaning": "Interaction, reciprocal relationship or influence",
-    "mnemonic": "Picture “interaction” vividly; link that image directly to interplay.",
+    "mnemonic": "INTERPLAY: BETWEEN + PLAY — interaction.",
     "usage": "The interplay of light and shadow gave the courtyard a quality that photographs could not capture.",
     "synonyms": [
       "interaction",
@@ -8429,10 +8430,10 @@ const GRE_WORDS = [
   },
   {
     "word": "interregnum",
-    "pronunciation": "/ˌɪntɝrˈɛɡnʌm/",
+    "pronunciation": "/ˌɪntɚɹɪɡnˈʌm/",
     "pos": "Noun",
     "meaning": "A time in between two reigns or regimes during which there is no ruler; a period during which government does not function; any period of freedom from authority or break in a series",
-    "mnemonic": "Picture “interval” vividly; link that image directly to interregnum.",
+    "mnemonic": "INTERREGNUM: INTER + REGNUM = reign. Between two reigns — a gap.",
     "usage": "During the interregnum, rival factions competed for control of the capital.",
     "synonyms": [
       "interval",
@@ -8447,10 +8448,10 @@ const GRE_WORDS = [
   },
   {
     "word": "intractable",
-    "pronunciation": "/ˌɪntrˈæktʌbʌl/",
+    "pronunciation": "/ɪntɹˈæktəbəl/",
     "pos": "Adjective",
     "meaning": "Difficult to control, manage, or manipulate; hard to cure; stubborn",
-    "mnemonic": "TRACT = pull: picture something being pulled.",
+    "mnemonic": "IN-TRACTABLE: NOT TRACTABLE (cannot be pulled, like a tractor won't move it) — stubborn.",
     "usage": "The problem, long considered intractable, yielded to a combination of patience and new technology.",
     "synonyms": [
       "stubborn",
@@ -8465,10 +8466,10 @@ const GRE_WORDS = [
   },
   {
     "word": "intransigent",
-    "pronunciation": "/ˌɪntrˈænsʌdʒʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪntɹˈænsɪdʒənt/",
+    "pos": "Noun",
     "meaning": "Refusing to compromise, inflexible, having extreme attitudes; irreconcilable",
-    "mnemonic": "Picture “inflexible” vividly; link that image directly to intransigent.",
+    "mnemonic": "IN-TRANSIGENT: refuses to TRANSIGE (compromise) — unyielding.",
     "usage": "The intransigent negotiator rejected every offer, even the ones his own side had proposed.",
     "synonyms": [
       "inflexible",
@@ -8483,10 +8484,10 @@ const GRE_WORDS = [
   },
   {
     "word": "intrepid",
-    "pronunciation": "/ɪntrˈɛpʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪntɹˈɛpɪd/",
+    "pos": "Noun",
     "meaning": "Fearless, brave, enduring in the face of adversity",
-    "mnemonic": "Picture “fearless” vividly; link that image directly to intrepid.",
+    "mnemonic": "INTREPID: IN + TREPID = fear (trepidation). WITHOUT fear — bold.",
     "usage": "The intrepid explorer crossed the Antarctic alone, a feat no one had attempted before.",
     "synonyms": [
       "fearless",
@@ -8501,10 +8502,10 @@ const GRE_WORDS = [
   },
   {
     "word": "intrinsic",
-    "pronunciation": "/ˌɪntrˈɪnsɪk/",
+    "pronunciation": "/ɪntɹˈɪnsɪk/",
     "pos": "Adjective",
     "meaning": "Belonging to the essential nature of a thing; inherent; innate",
-    "mnemonic": "Picture “inherent” vividly; link that image directly to intrinsic.",
+    "mnemonic": "INTRINSIC: IN + TRIN (inside). Belonging to the innermost nature.",
     "usage": "The painting's intrinsic value, independent of its market price, lies in its extraordinary color.",
     "synonyms": [
       "inherent",
@@ -8519,10 +8520,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inundate",
-    "pronunciation": "/ˈɪnʌndˌeɪt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɪnəndˌeɪt/",
+    "pos": "Verb",
     "meaning": "Flood, cover with water, overwhelm; to swamp",
-    "mnemonic": "Picture “flood” vividly; link that image directly to inundate.",
+    "mnemonic": "INUNDATE: IN + UNDA = wave (undulate). Flooded by waves.",
     "usage": "The office was inundated with complaints after the announcement, and the phones rang for a week.",
     "synonyms": [
       "flood",
@@ -8537,10 +8538,10 @@ const GRE_WORDS = [
   },
   {
     "word": "inure",
-    "pronunciation": "/ˌɪnjˈʊr/",
-    "pos": "Verb",
+    "pronunciation": "/ɪnjˈʊɹ/",
+    "pos": "Noun",
     "meaning": "Toughen up; accustom or habituate to pain, hardship, etc.; become used to something unpleasant",
-    "mnemonic": "Picture “habituate” vividly; link that image directly to inure.",
+    "mnemonic": "INURE: IN + URE (endure). To endure until accustomed — to habituate.",
     "usage": "Years of criticism had inured her to hostile reviews, though she still read every one.",
     "synonyms": [
       "habituate",
@@ -8554,10 +8555,10 @@ const GRE_WORDS = [
   },
   {
     "word": "invective",
-    "pronunciation": "/ˌɪnvˈɛktɪv/",
+    "pronunciation": "/ɪnvˈɛktɪv/",
     "pos": "Adjective",
     "meaning": "Violent denunciation; accusations, insults, or verbal abuse",
-    "mnemonic": "Picture “abuse” vividly; link that image directly to invective.",
+    "mnemonic": "INVECTIVE: IN + VECT = carry. Hurl insults AT someone — abusive language.",
     "usage": "The editorial was pure invective, without a single fact to support its fury.",
     "synonyms": [
       "abuse",
@@ -8575,7 +8576,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɪnvˈeɪɡəl/",
     "pos": "Noun",
     "meaning": "Entice, lure; get something by flattery, cleverness, or offering incentives",
-    "mnemonic": "Picture “entice” vividly; link that image directly to inveigle.",
+    "mnemonic": "INVEIGLE: sounds like IN + VEIGLE (like VOGUE). Lure someone into a VOGUE-ish trap — to entice.",
     "usage": "He inveigled his way into the exclusive club by convincing the doorman he was a member.",
     "synonyms": [
       "entice",
@@ -8590,10 +8591,10 @@ const GRE_WORDS = [
   },
   {
     "word": "investiture",
-    "pronunciation": "/ˌɪnvˈɛstʌtʃɝ/",
+    "pronunciation": "/ɪnvˈɛstɪtʃɚ/",
     "pos": "Noun",
     "meaning": "Investing; formally giving someone a right or title; a ceremony marking the formal assumption of office",
-    "mnemonic": "Picture “installation” vividly; link that image directly to investiture.",
+    "mnemonic": "INVESTITURE: to INVEST someone with a TITLE — a formal ceremony.",
     "usage": "The investiture of the new archbishop drew dignitaries from three continents.",
     "synonyms": [
       "installation",
@@ -8607,10 +8608,10 @@ const GRE_WORDS = [
   },
   {
     "word": "invidious",
-    "pronunciation": "/ˌɪnvˈɪdiʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪnvˈɪdɪəs/",
+    "pos": "Noun",
     "meaning": "Hateful, offensive, injurious; tending to arouse ill will or envy",
-    "mnemonic": "Picture “offensive” vividly; link that image directly to invidious.",
+    "mnemonic": "INVIDIOUS: IN + VID = see (video). Something that makes others ENVY when they see it — offensive, unfair.",
     "usage": "The teacher faced the invidious task of choosing one student to represent the class.",
     "synonyms": [
       "offensive",
@@ -8625,10 +8626,10 @@ const GRE_WORDS = [
   },
   {
     "word": "irascible",
-    "pronunciation": "/ˌɪrˈæsɪbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ɪɹˈæsəbəl/",
+    "pos": "Noun",
     "meaning": "Irritable, easily angered; prone to outbursts of temper",
-    "mnemonic": "Picture “irritable” vividly; link that image directly to irascible.",
+    "mnemonic": "IRASCIBLE: IRAS = wrath (irate). Easily angered.",
     "usage": "The irascible old man yelled at every child who crossed his lawn.",
     "synonyms": [
       "irritable",
@@ -8644,9 +8645,9 @@ const GRE_WORDS = [
   {
     "word": "irresolute",
     "pronunciation": "/ɪɹˈɛzəlˌuːt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Wavering, not sure how to proceed, not firm in one's decision-making",
-    "mnemonic": "Picture “indecisive” vividly; link that image directly to irresolute.",
+    "mnemonic": "IR-RESOLUTE: NOT RESOLUTE — wavering, indecisive.",
     "usage": "The irresolute committee delayed its decision for months, until the window for action had closed.",
     "synonyms": [
       "indecisive",
@@ -8661,10 +8662,10 @@ const GRE_WORDS = [
   },
   {
     "word": "itinerant",
-    "pronunciation": "/aɪtˈɪnɝʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/aɪtˈɪnɚɹənt/",
+    "pos": "Noun",
     "meaning": "Traveling from place to place, especially as part of a job",
-    "mnemonic": "Picture “wandering” vividly; link that image directly to itinerant.",
+    "mnemonic": "ITINERANT: ITINERARY — travels from place to place.",
     "usage": "The itinerant preacher moved from town to town, staying never more than a week.",
     "synonyms": [
       "wandering",
@@ -8679,10 +8680,10 @@ const GRE_WORDS = [
   },
   {
     "word": "itinerary",
-    "pronunciation": "/aɪtˈɪnɝˌɛri/",
+    "pronunciation": "/aɪtˈɪnɚɹˌɛɹi/",
     "pos": "Noun",
     "meaning": "Travel schedule; detailed plan for a journey",
-    "mnemonic": "Picture “schedule” vividly; link that image directly to itinerary.",
+    "mnemonic": "ITINERARY: your travel plan — a schedule.",
     "usage": "The itinerary, planned to the minute, left no time for spontaneity.",
     "synonyms": [
       "schedule",
@@ -8695,10 +8696,10 @@ const GRE_WORDS = [
   },
   {
     "word": "jargon",
-    "pronunciation": "/dʒˈɑrɡʌn/",
+    "pronunciation": "/dʒˈɑːɹɡən/",
     "pos": "Noun",
     "meaning": "Vocabulary specific to a group or occupation; convoluted or unintelligible language",
-    "mnemonic": "Picture “lingo” vividly; link that image directly to jargon.",
+    "mnemonic": "JARGON: specialists' GARGLE — technical gibberish.",
     "usage": "The legal jargon obscured what should have been a one-sentence ruling.",
     "synonyms": [
       "lingo",
@@ -8713,10 +8714,10 @@ const GRE_WORDS = [
   },
   {
     "word": "jettison",
-    "pronunciation": "/dʒˈɛtɪsʌn/",
+    "pronunciation": "/dʒˈɛɾɪsən/",
     "pos": "Noun",
     "meaning": "Discard, cast off; throw items overboard in order to lighten a ship in an emergency",
-    "mnemonic": "Picture “discard” vividly; link that image directly to jettison.",
+    "mnemonic": "JETTISON: JETT + SON — throw cargo off a JET(ty) — to discard.",
     "usage": "The committee jettisoned the more controversial provisions to win broader support.",
     "synonyms": [
       "discard",
@@ -8731,10 +8732,10 @@ const GRE_WORDS = [
   },
   {
     "word": "jingoism",
-    "pronunciation": "/dʒˈɪŋɡˌoʊɪzʌm/",
+    "pronunciation": "/dʒˈɪŋɡoʊˌɪzəm/",
     "pos": "Noun",
     "meaning": "Excessive, loud patriotism and aggressive, warlike foreign policy",
-    "mnemonic": "Picture “chauvinism” vividly; link that image directly to jingoism.",
+    "mnemonic": "JINGOISM: from a British music-hall song — 'We don't want to fight, but by JINGO if we do!' — warlike patriotism.",
     "usage": "The jingoism of the tabloids alarmed even the government's own advisors.",
     "synonyms": [
       "chauvinism",
@@ -8749,10 +8750,10 @@ const GRE_WORDS = [
   },
   {
     "word": "jocular",
-    "pronunciation": "/dʒˈɑkjʌlɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/dʒˈɑːkjʊlɚ/",
+    "pos": "Noun",
     "meaning": "Joking or given to joking all the time; jolly, playful",
-    "mnemonic": "Picture “jovial” vividly; link that image directly to jocular.",
+    "mnemonic": "JOCULAR: JOKE + ular — joking, jovial.",
     "usage": "His jocular manner put everyone at ease, even during the most stressful moments.",
     "synonyms": [
       "jovial",
@@ -8767,10 +8768,10 @@ const GRE_WORDS = [
   },
   {
     "word": "judicious",
-    "pronunciation": "/dʒudˈɪʃʌs/",
+    "pronunciation": "/dʒuːdˈɪʃəs/",
     "pos": "Adjective",
     "meaning": "Using good judgment; wise, sensible",
-    "mnemonic": "Picture “wise” vividly; link that image directly to judicious.",
+    "mnemonic": "JUDICIOUS: JUDGE + icious — wise, sensible, good judgment.",
     "usage": "The judge's judicious handling of the case earned respect from both sides.",
     "synonyms": [
       "wise",
@@ -8785,10 +8786,10 @@ const GRE_WORDS = [
   },
   {
     "word": "juncture",
-    "pronunciation": "/dʒˈʌŋktʃɝ/",
+    "pronunciation": "/dʒˈʌŋktʃɚ/",
     "pos": "Noun",
     "meaning": "Critical point in time, such as a crisis or a time when a decision is necessary; a place where two things are joined together",
-    "mnemonic": "Picture “point” vividly; link that image directly to juncture.",
+    "mnemonic": "JUNCTURE: a JUNCTION point — a critical moment.",
     "usage": "At this juncture, the committee has only two options: proceed or disband.",
     "synonyms": [
       "point",
@@ -8801,10 +8802,10 @@ const GRE_WORDS = [
   },
   {
     "word": "juxtapose",
-    "pronunciation": "/dʒˌʌkstʌpˈoʊz/",
+    "pronunciation": "/dʒˈʌkstəpˌoʊz/",
     "pos": "Noun",
     "meaning": "Place side by side (either physically or in a metaphorical way, such as to make a comparison)",
-    "mnemonic": "Picture “compare” vividly; link that image directly to juxtapose.",
+    "mnemonic": "JUXTAPOSE: JUXTA = next to; POSE = place. Place side by side.",
     "usage": "The exhibition juxtaposes photographs of the same street taken forty years apart.",
     "synonyms": [
       "compare",
@@ -8819,10 +8820,10 @@ const GRE_WORDS = [
   },
   {
     "word": "keen",
-    "pronunciation": "/kˈin/",
-    "pos": "Adjective",
+    "pronunciation": "/kˈiːn/",
+    "pos": "Noun",
     "meaning": "Sharp, piercing; very perceptive or mentally sharp; intense (of a feeling)",
-    "mnemonic": "Picture “sharp” vividly; link that image directly to keen.",
+    "mnemonic": "KEEN: a KEEN blade is sharp — perceptive, intense.",
     "usage": "Her keen eye for detail caught errors that three editors had missed.",
     "synonyms": [
       "sharp",
@@ -8837,10 +8838,10 @@ const GRE_WORDS = [
   },
   {
     "word": "kindle",
-    "pronunciation": "/kˈɪndʌl/",
+    "pronunciation": "/kˈɪndəl/",
     "pos": "Noun",
     "meaning": "Ignite, cause to begin burning; incite, arouse, inflame",
-    "mnemonic": "Picture “ignite” vividly; link that image directly to kindle.",
+    "mnemonic": "KINDLE: start a FIRE (like Kindle book lights up) — to ignite, arouse.",
     "usage": "The lecture kindled in her a lifelong interest in medieval history.",
     "synonyms": [
       "ignite",
@@ -8855,10 +8856,10 @@ const GRE_WORDS = [
   },
   {
     "word": "kinetic",
-    "pronunciation": "/kʌnˈɛtɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/kᵻnˈɛɾɪk/",
+    "pos": "Noun",
     "meaning": "Pertaining to motion; characterized by movement",
-    "mnemonic": "Picture “moving” vividly; link that image directly to kinetic.",
+    "mnemonic": "KINETIC: KINEMA = motion (cinema). Pertaining to movement.",
     "usage": "The kinetic energy of the moving car was enough to crush the barrier.",
     "synonyms": [
       "moving",
@@ -8874,9 +8875,9 @@ const GRE_WORDS = [
   {
     "word": "knell",
     "pronunciation": "/nˈɛl/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "The sound made by a bell for a funeral, or any sad sound or signal of a failure, death, ending, etc.",
-    "mnemonic": "Picture “toll” vividly; link that image directly to knell.",
+    "mnemonic": "KNELL: KNELL of the bell at a funeral — a death signal.",
     "usage": "The announcement sounded the knell for the entire industry, though few realized it at the time.",
     "synonyms": [
       "toll",
@@ -8889,10 +8890,10 @@ const GRE_WORDS = [
   },
   {
     "word": "kudos",
-    "pronunciation": "/kˈudoʊs/",
+    "pronunciation": "/kjˈuːdoʊz/",
     "pos": "Verb",
     "meaning": "Praise, honor, congratulations; acclaim",
-    "mnemonic": "Picture “praise” vividly; link that image directly to kudos.",
+    "mnemonic": "KUDOS: praise, congratulations — the Greek word for glory.",
     "usage": "The young director received kudos from critics who had panned her first film.",
     "synonyms": [
       "praise",
@@ -8907,10 +8908,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lachrymose",
-    "pronunciation": "/lˈækrimˌoʊz/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈækɹɪmˌoʊs/",
+    "pos": "Noun",
     "meaning": "Tearful, mournful; given to weeping",
-    "mnemonic": "Picture “tearful” vividly; link that image directly to lachrymose.",
+    "mnemonic": "LACHRYMOSE: LACHRYMAL = tear (lacrimal glands). Tearful, mournful.",
     "usage": "The lachrymose farewell, complete with tears and embraces, lasted half an hour.",
     "synonyms": [
       "tearful",
@@ -8925,10 +8926,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lackluster",
-    "pronunciation": "/lˈæklˌʌstɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈæklʌstɚ/",
+    "pos": "Noun",
     "meaning": "Not shiny; dull, mediocre; lacking brilliance or vitality",
-    "mnemonic": "Picture “dull” vividly; link that image directly to lackluster.",
+    "mnemonic": "LACK-LUSTER: LACKing LUSTER (shine) — dull, mediocre.",
     "usage": "The lackluster performance disappointed an audience that had waited two years for the concert.",
     "synonyms": [
       "dull",
@@ -8943,10 +8944,10 @@ const GRE_WORDS = [
   },
   {
     "word": "laconic",
-    "pronunciation": "/lɑkˈɑnɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/lækˈɑːnɪk/",
+    "pos": "Noun",
     "meaning": "Using few words, concise; terse",
-    "mnemonic": "Picture “concise” vividly; link that image directly to laconic.",
+    "mnemonic": "LACONIC: from Laconia (Sparta), where people spoke in few words — concise, terse.",
     "usage": "His laconic reply—just two words—ended the conversation more effectively than any speech.",
     "synonyms": [
       "concise",
@@ -8961,10 +8962,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lament",
-    "pronunciation": "/lʌmˈɛnt/",
+    "pronunciation": "/ləmˈɛnt/",
     "pos": "Noun",
     "meaning": "Mourn; express grief, sorrow, or regret; an expression of grief",
-    "mnemonic": "Picture “mourn” vividly; link that image directly to lament.",
+    "mnemonic": "LAMENT: LAME + ENT — to mourn, grieve over loss.",
     "usage": "The memoir laments a way of life that had vanished by the time she was thirty.",
     "synonyms": [
       "mourn",
@@ -8979,10 +8980,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lampoon",
-    "pronunciation": "/læmpˈun/",
+    "pronunciation": "/læmpˈuːn/",
     "pos": "Noun",
     "meaning": "A harsh satire; ridicule or satirize",
-    "mnemonic": "Picture “satirize” vividly; link that image directly to lampoon.",
+    "mnemonic": "LAMPOON: from French LAMPOON (drink it down) — a satire that jabs — to mock.",
     "usage": "The play lampooned the president so sharply that its lead actor received death threats.",
     "synonyms": [
       "satirize",
@@ -8997,10 +8998,10 @@ const GRE_WORDS = [
   },
   {
     "word": "landmark",
-    "pronunciation": "/lˈændmˌɑrk/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈændmɑːɹk/",
+    "pos": "Noun",
     "meaning": "Object (such as a building) that stands out and can be used to navigate by; a very important place, event, etc.",
-    "mnemonic": "Picture “milestone” vividly; link that image directly to landmark.",
+    "mnemonic": "LANDMARK: a MARK on the LAND — a milestone.",
     "usage": "The ruling was a landmark that reshaped the entire industry within a decade.",
     "synonyms": [
       "milestone",
@@ -9013,10 +9014,10 @@ const GRE_WORDS = [
   },
   {
     "word": "languid",
-    "pronunciation": "/lˈæŋɡwʌd/",
+    "pronunciation": "/lˈæŋɡwɪd/",
     "pos": "Noun",
     "meaning": "Drooping from exhaustion, sluggish, slow; lacking in spirit",
-    "mnemonic": "Picture “sluggish” vividly; link that image directly to languid.",
+    "mnemonic": "LANGUID: LANG = long; UID — stretched out, sluggish, slow.",
     "usage": "The heat made everyone languid, and even the simplest tasks took hours.",
     "synonyms": [
       "sluggish",
@@ -9031,10 +9032,10 @@ const GRE_WORDS = [
   },
   {
     "word": "larceny",
-    "pronunciation": "/lˈɑrsʌni/",
+    "pronunciation": "/lˈɑːɹsɛni/",
     "pos": "Adjective",
     "meaning": "Theft; the unlawful taking of another's property",
-    "mnemonic": "Picture “theft” vividly; link that image directly to larceny.",
+    "mnemonic": "LARCENY: LARGE + CENY — taking something LARGE that isn't yours — theft.",
     "usage": "He was convicted of grand larceny and sentenced to eight years.",
     "synonyms": [
       "theft",
@@ -9047,10 +9048,10 @@ const GRE_WORDS = [
   },
   {
     "word": "largess",
-    "pronunciation": "/lˈɑrdʒʌs/",
+    "pronunciation": "/lˈɑːɹdʒɛs/",
     "pos": "Noun",
     "meaning": "Generosity, the giving of money or gifts (especially with the implication that the giver is a bit superior to the recipient)",
-    "mnemonic": "Picture “generosity” vividly; link that image directly to largess.",
+    "mnemonic": "LARGESS: LARGE + ESS — giving LARGEly — generosity.",
     "usage": "The patron's largess funded an entire wing of the museum, though he never visited it.",
     "synonyms": [
       "generosity",
@@ -9068,7 +9069,7 @@ const GRE_WORDS = [
     "pronunciation": "/lˈæsɪtˌuːd/",
     "pos": "Noun",
     "meaning": "Tiredness, weariness; lazy indifference; lack of energy",
-    "mnemonic": "Picture “fatigue” vividly; link that image directly to lassitude.",
+    "mnemonic": "LASSITUDE: LASS (tired girl) + ITUDE — weariness, fatigue.",
     "usage": "A deep lassitude settled over the office in the days between Christmas and New Year's.",
     "synonyms": [
       "fatigue",
@@ -9083,10 +9084,10 @@ const GRE_WORDS = [
   },
   {
     "word": "latent",
-    "pronunciation": "/lˈeɪtʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈeɪtənt/",
+    "pos": "Noun",
     "meaning": "Potential; existing but not visible or active; dormant",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "LATENT: LATE + ENT — hidden but ready to emerge LATE (opposite of patent).",
     "usage": "The latent talent in the young pianist only emerged under the right teacher.",
     "synonyms": [
       "dormant",
@@ -9101,10 +9102,10 @@ const GRE_WORDS = [
   },
   {
     "word": "laudable",
-    "pronunciation": "/lˈɔdʌbʌl/",
+    "pronunciation": "/lˈɔːdəbəl/",
     "pos": "Adjective",
     "meaning": "Worthy of praise; commendable",
-    "mnemonic": "AUD = hear: picture the word connected to sound.",
+    "mnemonic": "LAUDABLE: LAUD = praise (laudatory). Worthy of praise.",
     "usage": "Her efforts to reform the prison system were laudable, though they ultimately failed.",
     "synonyms": [
       "praiseworthy",
@@ -9120,9 +9121,9 @@ const GRE_WORDS = [
   {
     "word": "lavish",
     "pronunciation": "/lˈævɪʃ/",
-    "pos": "Adjective",
+    "pos": "Verb",
     "meaning": "Abundant or giving in abundance; marked by excess; to give very generously",
-    "mnemonic": "Picture “extravagant” vividly; link that image directly to lavish.",
+    "mnemonic": "LAVISH: LAV + ISH — pour like a LAVa flow — abundant, extravagant.",
     "usage": "The wedding was lavish beyond anything the couple had wanted.",
     "synonyms": [
       "extravagant",
@@ -9138,9 +9139,9 @@ const GRE_WORDS = [
   {
     "word": "lax",
     "pronunciation": "/lˈæks/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Not strict; careless, loose, slack",
-    "mnemonic": "Picture “careless” vividly; link that image directly to lax.",
+    "mnemonic": "LAX: LAX airport security is too loose — not strict.",
     "usage": "The lax security at the museum allowed the thief to walk out with the painting.",
     "synonyms": [
       "careless",
@@ -9155,10 +9156,10 @@ const GRE_WORDS = [
   },
   {
     "word": "layperson",
-    "pronunciation": "/leɪpˈɝsɪn/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈeɪpɚsən/",
+    "pos": "Noun",
     "meaning": "A person who is not a member of the clergy or not a member of a particular profession",
-    "mnemonic": "Picture “nonprofessional” vividly; link that image directly to layperson.",
+    "mnemonic": "LAYPERSON: a LAY person is not a professional — an amateur.",
     "usage": "The book explains quantum mechanics in terms even a layperson can follow.",
     "synonyms": [
       "nonprofessional",
@@ -9173,10 +9174,10 @@ const GRE_WORDS = [
   },
   {
     "word": "leery",
-    "pronunciation": "/lˈɪri/",
-    "pos": "Noun",
+    "pronunciation": "/lˈɪɹi/",
+    "pos": "Adjective",
     "meaning": "Suspicious or wary; cautious about possible dangers",
-    "mnemonic": "Picture “suspicious” vividly; link that image directly to leery.",
+    "mnemonic": "LEERY: sounds like LEER — a leering look makes you cautious — suspicious.",
     "usage": "She was leery of any offer that promised a guaranteed return.",
     "synonyms": [
       "suspicious",
@@ -9191,10 +9192,10 @@ const GRE_WORDS = [
   },
   {
     "word": "legerdemain",
-    "pronunciation": "/lˌɛdʒɝdʌmˈeɪn/",
+    "pronunciation": "/lˈɛdʒɚdɪmˌeɪn/",
     "pos": "Noun",
     "meaning": "Sleight-of-hand (magic as performed by a magician); trickery or deception",
-    "mnemonic": "Picture “sleight of hand” vividly; link that image directly to legerdemain.",
+    "mnemonic": "LEGERDEMAIN: LÉGER = light; DE MAIN = of hand. Light-handed magic — sleight of hand.",
     "usage": "The accountant's legerdemain, hiding losses in a dozen shell companies, fooled regulators for years.",
     "synonyms": [
       "sleight of hand",
@@ -9207,10 +9208,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lethargic",
-    "pronunciation": "/lʌθˈɑrdʒɪk/",
+    "pronunciation": "/lɛθˈɑːɹdʒɪk/",
     "pos": "Adjective",
     "meaning": "Lazy, drowsy, or sluggish; lacking energy",
-    "mnemonic": "Picture “sluggish” vividly; link that image directly to lethargic.",
+    "mnemonic": "LETHARGIC: LETH = forgetfulness (Lethe river). Forgetful and sluggish.",
     "usage": "The medication made him lethargic, and he slept fourteen hours a day.",
     "synonyms": [
       "sluggish",
@@ -9225,10 +9226,10 @@ const GRE_WORDS = [
   },
   {
     "word": "levity",
-    "pronunciation": "/lˈɛvɪti/",
+    "pronunciation": "/lˈɛvɪɾi/",
     "pos": "Noun",
     "meaning": "Lightness (of mind, spirit, or mood) or lack of seriousness, sometimes in an inappropriate way",
-    "mnemonic": "VIT = life: picture something vividly alive.",
+    "mnemonic": "LEVITY: LEV = light (levitate). Lightness of mood.",
     "usage": "The levity of his remark at the funeral stunned everyone into silence.",
     "synonyms": [
       "frivolity",
@@ -9246,7 +9247,7 @@ const GRE_WORDS = [
     "pronunciation": "/lˈɛvi/",
     "pos": "Adjective",
     "meaning": "Collect tax from, wage war on, or enlist for military service; an act of collecting tax or amount owed",
-    "mnemonic": "Picture “impose” vividly; link that image directly to levy.",
+    "mnemonic": "LEVY: LEV = raise (lever). Raise a tax — to impose.",
     "usage": "The city levied a new tax on sugary drinks to fund public health programs.",
     "synonyms": [
       "impose",
@@ -9259,10 +9260,10 @@ const GRE_WORDS = [
   },
   {
     "word": "liberal",
-    "pronunciation": "/lˈɪbˌɝʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈɪbɚɹəl/",
+    "pos": "Noun",
     "meaning": "Favorable to progress or reform; believing in maximum possible individual freedom; tolerant, open-minded; generous",
-    "mnemonic": "Picture “progressive” vividly; link that image directly to liberal.",
+    "mnemonic": "LIBERAL: LIBER = free (liberty). Generous, open-minded.",
     "usage": "The liberal arts curriculum was designed to produce thoughtful citizens rather than trained specialists.",
     "synonyms": [
       "progressive",
@@ -9277,10 +9278,10 @@ const GRE_WORDS = [
   },
   {
     "word": "libertine",
-    "pronunciation": "/lˈɪbɝtˌin/",
+    "pronunciation": "/lˈɪbɚtˌiːn/",
     "pos": "Noun",
     "meaning": "Morally or sexually unrestrained person; freethinker (regarding religion)",
-    "mnemonic": "Picture “debauchee” vividly; link that image directly to libertine.",
+    "mnemonic": "LIBERTINE: LIBERTY + INE — one who takes every liberty — morally unrestrained.",
     "usage": "The aging libertine's memoirs scandalized the very society that had once celebrated him.",
     "synonyms": [
       "debauchee",
@@ -9295,10 +9296,10 @@ const GRE_WORDS = [
   },
   {
     "word": "licentious",
-    "pronunciation": "/laɪsˈɛntʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/laɪsˈɛnʃəs/",
+    "pos": "Noun",
     "meaning": "Sexually unrestrained; immoral; ignoring the rules",
-    "mnemonic": "Picture “immoral” vividly; link that image directly to licentious.",
+    "mnemonic": "LICENTIOUS: LICENSE — has license to do anything — immoral, unrestrained.",
     "usage": "The novel was banned for its licentious passages, which by modern standards seem almost tame.",
     "synonyms": [
       "immoral",
@@ -9313,10 +9314,10 @@ const GRE_WORDS = [
   },
   {
     "word": "likewise",
-    "pronunciation": "/lˈaɪkwˌaɪz/",
+    "pronunciation": "/lˈaɪkwaɪz/",
     "pos": "Adverb",
     "meaning": "Also, in addition to; similarly, in the same way",
-    "mnemonic": "Picture “also” vividly; link that image directly to likewise.",
+    "mnemonic": "LIKEWISE: LIKE + WISE — in the same way.",
     "usage": "She works hard, and her sister is likewise known for her dedication.",
     "synonyms": [
       "also",
@@ -9332,9 +9333,9 @@ const GRE_WORDS = [
   {
     "word": "limpid",
     "pronunciation": "/lˈɪmpɪd/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Clear, transparent; completely calm; lucid",
-    "mnemonic": "Picture “clear” vividly; link that image directly to limpid.",
+    "mnemonic": "LIMPID: LIMP + ID — clear like LIMPID water.",
     "usage": "The limpid water revealed every stone on the lake bottom.",
     "synonyms": [
       "clear",
@@ -9349,10 +9350,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lionize",
-    "pronunciation": "/lˈaɪʌnˌaɪz/",
+    "pronunciation": "/lˈaɪənaɪz/",
     "pos": "Verb",
     "meaning": "Treat like a celebrity; celebrate someone as a hero",
-    "mnemonic": "Picture “celebrate” vividly; link that image directly to lionize.",
+    "mnemonic": "LIONIZE: treat someone like a LION (king of beasts) — to celebrate as a star.",
     "usage": "The press lionized the young astronaut, then turned on her the moment she made a mistake.",
     "synonyms": [
       "celebrate",
@@ -9367,10 +9368,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lissome",
-    "pronunciation": "/lˈɪssəm/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈɪssʌm/",
+    "pos": "Noun",
     "meaning": "Flexible, supple, agile; lithe",
-    "mnemonic": "Picture “supple” vividly; link that image directly to lissome.",
+    "mnemonic": "LISSOME: LIST + SOME — supple, flexible, agile.",
     "usage": "The lissome dancer moved as though her limbs had no joints at all.",
     "synonyms": [
       "supple",
@@ -9385,10 +9386,10 @@ const GRE_WORDS = [
   },
   {
     "word": "listless",
-    "pronunciation": "/lˈɪstlʌs/",
+    "pronunciation": "/lˈɪstləs/",
     "pos": "Adjective",
     "meaning": "Spiritless, lacking interest or energy; indifferent",
-    "mnemonic": "Picture “lethargic” vividly; link that image directly to listless.",
+    "mnemonic": "LISTLESS: a LIST with no items is empty — lacking energy, indifferent.",
     "usage": "The patients in the ward were listless, too tired even to read.",
     "synonyms": [
       "lethargic",
@@ -9406,7 +9407,7 @@ const GRE_WORDS = [
     "pronunciation": "/lˈɪvɪd/",
     "pos": "Adjective",
     "meaning": "Furiously angry, enraged; discolored, as from a bruise",
-    "mnemonic": "Picture “furious” vividly; link that image directly to livid.",
+    "mnemonic": "LIVID: LIV = lead-colored (as in livid bruise) — furiously angry.",
     "usage": "She was livid when she learned that her work had been published under another's name.",
     "synonyms": [
       "furious",
@@ -9424,7 +9425,7 @@ const GRE_WORDS = [
     "pronunciation": "/lˈɔɡ/",
     "pos": "Verb",
     "meaning": "Keep a record of, write down; travel for or at a certain distance or speed; a written record",
-    "mnemonic": "Picture “record” vividly; link that image directly to log.",
+    "mnemonic": "LOG: a LOG records events — to keep a record.",
     "usage": "The captain logged the ship's position every four hours without fail.",
     "synonyms": [
       "record",
@@ -9437,10 +9438,10 @@ const GRE_WORDS = [
   },
   {
     "word": "loquacious",
-    "pronunciation": "/loʊkwˈeɪʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ləkwˈeɪʃəs/",
+    "pos": "Noun",
     "meaning": "Talkative, wordy; excessively talkative",
-    "mnemonic": "Picture “talkative” vividly; link that image directly to loquacious.",
+    "mnemonic": "LOQUACIOUS: LOQU = speak (eloquent). Very talkative.",
     "usage": "The loquacious cabdriver had opinions on every subject and shared them all before we reached the hotel.",
     "synonyms": [
       "talkative",
@@ -9455,10 +9456,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lucid",
-    "pronunciation": "/lˈusʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈuːsɪd/",
+    "pos": "Noun",
     "meaning": "Clear, easy to understand; rational, sane; luminous",
-    "mnemonic": "Picture “clear” vividly; link that image directly to lucid.",
+    "mnemonic": "LUCID: LUC = light (translucent). Clear, easy to understand.",
     "usage": "Her lucid explanation of the merger made the complexities almost enjoyable.",
     "synonyms": [
       "clear",
@@ -9473,10 +9474,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lugubrious",
-    "pronunciation": "/luɡjˈubriʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ləɡˈuːbɹɪəs/",
+    "pos": "Noun",
     "meaning": "Mournful, gloomy (sometimes in an exaggerated way); doleful",
-    "mnemonic": "Picture “mournful” vividly; link that image directly to lugubrious.",
+    "mnemonic": "LUGUBRIOUS: LUG + UBR (like LUGGING a great burden) — mournful, gloomy.",
     "usage": "The lugubrious music at the reception cast a pall over what should have been a joyful evening.",
     "synonyms": [
       "mournful",
@@ -9492,9 +9493,9 @@ const GRE_WORDS = [
   {
     "word": "lull",
     "pronunciation": "/lˈʌl/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Soothe or cause to fall asleep (as in a lullaby); quiet down; make to feel secure, sometimes falsely; a period of calm or quiet",
-    "mnemonic": "Picture “soothe” vividly; link that image directly to lull.",
+    "mnemonic": "LULL: sing a LULLaby — to soothe to sleep.",
     "usage": "The lullaby lulled the baby to sleep within minutes.",
     "synonyms": [
       "soothe",
@@ -9509,10 +9510,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lumber",
-    "pronunciation": "/lˈʌmbɝ/",
+    "pronunciation": "/lˈʌmbɚ/",
     "pos": "Noun",
     "meaning": "Walk in a heavy or clumsy way, sometimes due to being weighed down; timber",
-    "mnemonic": "Picture “stumble” vividly; link that image directly to lumber.",
+    "mnemonic": "LUMBER: to move like a LUMBERing giant with heavy LUMBER — to walk clumsily.",
     "usage": "The bear lumbered through the brush, indifferent to the hikers watching from the ridge.",
     "synonyms": [
       "stumble",
@@ -9527,10 +9528,10 @@ const GRE_WORDS = [
   },
   {
     "word": "luminous",
-    "pronunciation": "/lˈumʌnʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/lˈuːmɪnəs/",
+    "pos": "Noun",
     "meaning": "Shining, radiant, well-lit; brilliant or enlightening",
-    "mnemonic": "Picture “glowing” vividly; link that image directly to luminous.",
+    "mnemonic": "LUMINOUS: LUMEN = light. Glowing, radiant.",
     "usage": "The luminous dial on the watch was readable in complete darkness.",
     "synonyms": [
       "glowing",
@@ -9545,10 +9546,10 @@ const GRE_WORDS = [
   },
   {
     "word": "lurid",
-    "pronunciation": "/lˈʊrʌd/",
+    "pronunciation": "/lˈʊɹɹɪd/",
     "pos": "Noun",
     "meaning": "Gruesome or excessively vivid; sensational, shocking, unrestrained",
-    "mnemonic": "Picture “sensational” vividly; link that image directly to lurid.",
+    "mnemonic": "LURID: LURE + ID — sensational, gruesome, shocking.",
     "usage": "The tabloid's lurid account of the murder, complete with invented details, sold a million copies.",
     "synonyms": [
       "sensational",
@@ -9563,10 +9564,10 @@ const GRE_WORDS = [
   },
   {
     "word": "machination",
-    "pronunciation": "/mˌækʌnˈeɪʃʌn/",
+    "pronunciation": "/mˌækɪnˈeɪʃən/",
     "pos": "Noun",
     "meaning": "Crafty scheme or plot; a scheming or plotting activity",
-    "mnemonic": "Picture “plot” vividly; link that image directly to machination.",
+    "mnemonic": "MACHINATION: MACHINE + ATION — secret plotting, like a MACHINE working behind the scenes.",
     "usage": "The machinations of the court, all smiles and poison, consumed the young ambassador's every waking hour.",
     "synonyms": [
       "plot",
@@ -9579,10 +9580,10 @@ const GRE_WORDS = [
   },
   {
     "word": "milieu",
-    "pronunciation": "/mɪljˈʊ/",
+    "pronunciation": "/miːljˈuː/",
     "pos": "Noun",
     "meaning": "Environment, atmosphere; the setting or surroundings",
-    "mnemonic": "Picture “environment” vividly; link that image directly to milieu.",
+    "mnemonic": "MILIEU: French for MIDDLE — the surrounding environment.",
     "usage": "She thrived in the intellectual milieu of the university, where every dinner became a debate.",
     "synonyms": [
       "environment",
@@ -9595,10 +9596,10 @@ const GRE_WORDS = [
   },
   {
     "word": "militate",
-    "pronunciation": "/mˈɪlɪtˌeɪt/",
+    "pronunciation": "/mˈɪlᵻtˌeɪt/",
     "pos": "Verb",
     "meaning": "Have a substantial effect; weigh against; to have force or influence",
-    "mnemonic": "Picture “argue against” vividly; link that image directly to militate.",
+    "mnemonic": "MILITATE: MILITARY force WORKS AGAINST — to weigh against.",
     "usage": "The candidate's inexperience militated against her, despite her evident intelligence.",
     "synonyms": [
       "argue against",
@@ -9613,10 +9614,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mired",
-    "pronunciation": "/mˈaɪrd/",
+    "pronunciation": "/mˈaɪɚd/",
     "pos": "Adjective",
     "meaning": "Stuck, entangled; bogged down",
-    "mnemonic": "Picture “stuck” vividly; link that image directly to mired.",
+    "mnemonic": "MIRED: stuck in the MIRE (mud) — bogged down.",
     "usage": "The project was mired in disputes from its first week and never recovered.",
     "synonyms": [
       "stuck",
@@ -9631,10 +9632,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mirth",
-    "pronunciation": "/mˈɝθ/",
+    "pronunciation": "/mˈɜːθ/",
     "pos": "Noun",
     "meaning": "Amusement, laughter, merriment; joy",
-    "mnemonic": "Picture “merriment” vividly; link that image directly to mirth.",
+    "mnemonic": "MIRTH: MERRY + TH — laughter, merriment.",
     "usage": "The joke caused such mirth that the meeting had to be paused for five minutes.",
     "synonyms": [
       "merriment",
@@ -9649,10 +9650,10 @@ const GRE_WORDS = [
   },
   {
     "word": "misanthrope",
-    "pronunciation": "/mˈɪsʌnθrˌoʊp/",
-    "pos": "Adjective",
+    "pronunciation": "/mɪsˈænθɹoʊp/",
+    "pos": "Noun",
     "meaning": "Person who hates humankind; one who dislikes others",
-    "mnemonic": "Picture “cynic” vividly; link that image directly to misanthrope.",
+    "mnemonic": "MISANTHROPE: MIS = hate; ANTHROPOS = mankind. One who hates humans.",
     "usage": "The misanthrope avoided all social contact, even at his own birthday party.",
     "synonyms": [
       "cynic",
@@ -9670,7 +9671,7 @@ const GRE_WORDS = [
     "pronunciation": "/mˈɪsɪv/",
     "pos": "Adjective",
     "meaning": "A letter or written message; especially a formal or official one",
-    "mnemonic": "Picture “letter” vividly; link that image directly to missive.",
+    "mnemonic": "MISSIVE: MISS + IVE — a message SENT to someone — a letter.",
     "usage": "The senator's missive to the president, leaked within a week, made front pages across the country.",
     "synonyms": [
       "letter",
@@ -9683,10 +9684,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mitigate",
-    "pronunciation": "/mˈɪtʌɡˌeɪt/",
+    "pronunciation": "/mˈɪɾᵻɡˌeɪt/",
     "pos": "Verb",
     "meaning": "Make less severe or painful; lessen the impact of; alleviate",
-    "mnemonic": "Picture “alleviate” vividly; link that image directly to mitigate.",
+    "mnemonic": "MITIGATE: MIT = soft (mild). To make softer, less severe.",
     "usage": "The new drainage system mitigated flooding in the lower districts.",
     "synonyms": [
       "alleviate",
@@ -9701,10 +9702,10 @@ const GRE_WORDS = [
   },
   {
     "word": "modest",
-    "pronunciation": "/mˈɑdʌst/",
+    "pronunciation": "/mˈɑːdəst/",
     "pos": "Noun",
     "meaning": "Humble; moderate in size or amount; unassuming",
-    "mnemonic": "Picture “humble” vividly; link that image directly to modest.",
+    "mnemonic": "MODEST: MODE + ST — not flashy about your MODE — humble.",
     "usage": "Despite her considerable achievements, she remained modest about them.",
     "synonyms": [
       "humble",
@@ -9719,10 +9720,10 @@ const GRE_WORDS = [
   },
   {
     "word": "modicum",
-    "pronunciation": "/mˈɑdɪkʌm/",
-    "pos": "Adjective",
+    "pronunciation": "/mˈɑːdɪkəm/",
+    "pos": "Noun",
     "meaning": "A small amount; a token amount",
-    "mnemonic": "Picture “bit” vividly; link that image directly to modicum.",
+    "mnemonic": "MODICUM: MODIC + UM — a MODIC (small) amount.",
     "usage": "He had a modicum of talent, but far more ambition.",
     "synonyms": [
       "bit",
@@ -9738,9 +9739,9 @@ const GRE_WORDS = [
   {
     "word": "modish",
     "pronunciation": "/mˈɑːdɪʃ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Fashionable, stylish; in the current mode",
-    "mnemonic": "Picture “fashionable” vividly; link that image directly to modish.",
+    "mnemonic": "MODISH: MODE + ISH — in MODE — fashionable.",
     "usage": "The modish boutique attracted a clientele that changed with every trend.",
     "synonyms": [
       "fashionable",
@@ -9755,10 +9756,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mollify",
-    "pronunciation": "/mˈɑlʌfˌaɪ/",
+    "pronunciation": "/mˈɑːlᵻfˌaɪ/",
     "pos": "Adjective",
     "meaning": "Soothe, calm, make less angry; placate",
-    "mnemonic": "Picture “soothe” vividly; link that image directly to mollify.",
+    "mnemonic": "MOLLIFY: MOLL = soft (like MOLLusc). Make soft — soothe.",
     "usage": "The manager mollified the angry customer with a refund and a sincere apology.",
     "synonyms": [
       "soothe",
@@ -9776,7 +9777,7 @@ const GRE_WORDS = [
     "pronunciation": "/mˈoʊlt/",
     "pos": "Noun",
     "meaning": "Shed old feathers, hair, or skin; shed",
-    "mnemonic": "Picture “shed” vividly; link that image directly to molt.",
+    "mnemonic": "MOLT: MOLTing birds shed feathers — to shed.",
     "usage": "The snake molts its skin in one piece, leaving behind a perfect cast.",
     "synonyms": [
       "shed",
@@ -9789,10 +9790,10 @@ const GRE_WORDS = [
   },
   {
     "word": "monastic",
-    "pronunciation": "/mʌnˈæstɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/mənˈæstɪk/",
+    "pos": "Noun",
     "meaning": "Relating to monks; austere, secluded; characterized by renunciation of worldly concerns",
-    "mnemonic": "Picture “ascetic” vividly; link that image directly to monastic.",
+    "mnemonic": "MONASTIC: a MONK lives MONASTically — austere, secluded.",
     "usage": "The scholar lived a monastic life, rising at four and reading until midnight.",
     "synonyms": [
       "ascetic",
@@ -9807,10 +9808,10 @@ const GRE_WORDS = [
   },
   {
     "word": "monotony",
-    "pronunciation": "/mʌnˈɑtʌni/",
-    "pos": "Adjective",
+    "pronunciation": "/mənˈɑːtəni/",
+    "pos": "Noun",
     "meaning": "Sameness, dull lack of variety; tedious repetition",
-    "mnemonic": "Picture “sameness” vividly; link that image directly to monotony.",
+    "mnemonic": "MONOTONY: MONO = one; TON = tone. One tone — dull sameness.",
     "usage": "The monotony of the assembly line numbed even the most patient workers.",
     "synonyms": [
       "sameness",
@@ -9825,10 +9826,10 @@ const GRE_WORDS = [
   },
   {
     "word": "moreover",
-    "pronunciation": "/mɔrˈoʊvɝ/",
+    "pronunciation": "/moːɹˈoʊvɚ/",
     "pos": "Noun",
     "meaning": "In addition, furthermore; besides",
-    "mnemonic": "Picture “furthermore” vividly; link that image directly to moreover.",
+    "mnemonic": "MOREOVER: MORE + OVER — beyond that, in addition.",
     "usage": "The plan is expensive; moreover, it is unlikely to work.",
     "synonyms": [
       "furthermore",
@@ -9843,10 +9844,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mores",
-    "pronunciation": "/mˈɔrˌeɪz/",
-    "pos": "Adjective",
+    "pronunciation": "/mˈoːɹz/",
+    "pos": "Noun",
     "meaning": "Customs, conventions, moral norms; the fixed customs of a particular group",
-    "mnemonic": "Picture “customs” vividly; link that image directly to mores.",
+    "mnemonic": "MORES: the customs and MORALs of a group.",
     "usage": "The mores of the small town had not changed in a century.",
     "synonyms": [
       "customs",
@@ -9859,10 +9860,10 @@ const GRE_WORDS = [
   },
   {
     "word": "morose",
-    "pronunciation": "/mɝˈoʊs/",
+    "pronunciation": "/mɚɹˈoʊs/",
     "pos": "Adjective",
     "meaning": "Gloomy, sullen, ill-tempered; moody",
-    "mnemonic": "Picture “gloomy” vividly; link that image directly to morose.",
+    "mnemonic": "MOROSE: MOAN + ROSE — gloomy, sullen.",
     "usage": "He was morose for weeks after losing the match, and no joke could reach him.",
     "synonyms": [
       "gloomy",
@@ -9877,10 +9878,10 @@ const GRE_WORDS = [
   },
   {
     "word": "multifarious",
-    "pronunciation": "/mʌltɪfˈɛɹɪəs/",
-    "pos": "Adjective",
+    "pronunciation": "/mˌʌltɪfˈɛɹɪəs/",
+    "pos": "Noun",
     "meaning": "Having great variety; diverse; manifold",
-    "mnemonic": "Picture “diverse” vividly; link that image directly to multifarious.",
+    "mnemonic": "MULTIFARIOUS: MULTI = many; FARIOUS = various. Many and varied.",
     "usage": "The multifarious duties of the office left him no time for the projects he cared about.",
     "synonyms": [
       "diverse",
@@ -9898,7 +9899,7 @@ const GRE_WORDS = [
     "pronunciation": "/mʌndˈeɪn/",
     "pos": "Noun",
     "meaning": "Ordinary, dull, commonplace; of the world (as opposed to heavenly)",
-    "mnemonic": "Picture “ordinary” vividly; link that image directly to mundane.",
+    "mnemonic": "MUNDANE: MUND = world (mundial). Worldly, everyday, dull.",
     "usage": "Most of the job involved mundane tasks that no one else wanted to do.",
     "synonyms": [
       "ordinary",
@@ -9914,9 +9915,9 @@ const GRE_WORDS = [
   {
     "word": "munificent",
     "pronunciation": "/mjuːnˈɪfɪsənt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Very generous; lavish in giving",
-    "mnemonic": "Picture “generous” vividly; link that image directly to munificent.",
+    "mnemonic": "MUNIFICENT: MUNI = gift (municipal); FIC = make. One who makes gifts — very generous.",
     "usage": "The munificent donor, who insisted on anonymity, funded the entire library.",
     "synonyms": [
       "generous",
@@ -9931,10 +9932,10 @@ const GRE_WORDS = [
   },
   {
     "word": "myopic",
-    "pronunciation": "/maɪˈɑpɪk/",
+    "pronunciation": "/maɪˈɑːpɪk/",
     "pos": "Adjective",
     "meaning": "Nearsighted; lacking foresight or discernment; shortsighted",
-    "mnemonic": "Picture “shortsighted” vividly; link that image directly to myopic.",
+    "mnemonic": "MYOPIC: MY = mouse; OPTIC = eye. Shortsighted, lacking foresight.",
     "usage": "The company's myopic focus on quarterly earnings blinded it to the shift that would destroy its business within a decade.",
     "synonyms": [
       "shortsighted",
@@ -9949,10 +9950,10 @@ const GRE_WORDS = [
   },
   {
     "word": "nadir",
-    "pronunciation": "/nˈeɪdɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/nˈædɪɹ/",
+    "pos": "Noun",
     "meaning": "Lowest point; the point of greatest adversity or despair",
-    "mnemonic": "Picture “bottom” vividly; link that image directly to nadir.",
+    "mnemonic": "NADIR: the LOWEST astronomical point (opposite of zenith).",
     "usage": "The night of the bankruptcy hearing was the nadir of his career, though it also marked the beginning of his recovery.",
     "synonyms": [
       "bottom",
@@ -9967,10 +9968,10 @@ const GRE_WORDS = [
   },
   {
     "word": "naive",
-    "pronunciation": "/nˌaɪˈiv/",
+    "pronunciation": "/naɪˈiːv/",
     "pos": "Adjective",
     "meaning": "Simple, unsophisticated, innocent; lacking worldly experience",
-    "mnemonic": "Picture “innocent” vividly; link that image directly to naive.",
+    "mnemonic": "NAIVE: sounds like NAIve — innocent, unsophisticated.",
     "usage": "It was naive of him to assume that the offer came without conditions.",
     "synonyms": [
       "innocent",
@@ -9985,10 +9986,10 @@ const GRE_WORDS = [
   },
   {
     "word": "nascent",
-    "pronunciation": "/nˈeɪsʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/nˈeɪsənt/",
+    "pos": "Noun",
     "meaning": "Just beginning, emerging; coming into existence",
-    "mnemonic": "Picture “emerging” vividly; link that image directly to nascent.",
+    "mnemonic": "NASCENT: NASC = born (nascent). Just being born — emerging.",
     "usage": "The nascent industry, barely a year old, already had three competitors.",
     "synonyms": [
       "emerging",
@@ -10006,7 +10007,7 @@ const GRE_WORDS = [
     "pronunciation": "/nɪɡˈeɪt/",
     "pos": "Verb",
     "meaning": "Deny, nullify, make ineffective; to make negative",
-    "mnemonic": "Picture “nullify” vividly; link that image directly to negate.",
+    "mnemonic": "NEGATE: NEG = no. Say NO to it — to nullify.",
     "usage": "The new evidence negated his entire defense, which had rested on a single alibi.",
     "synonyms": [
       "nullify",
@@ -10024,7 +10025,7 @@ const GRE_WORDS = [
     "pronunciation": "/niːˈoʊlədʒˌɪzəm/",
     "pos": "Noun",
     "meaning": "New word or phrase; a new meaning applied to an existing word",
-    "mnemonic": "Picture “coinage” vividly; link that image directly to neologism.",
+    "mnemonic": "NEOLOGISM: NEO = new; LOGOS = word. A new word.",
     "usage": "\"Selfie\" was a neologism that became part of the language within a decade.",
     "synonyms": [
       "coinage",
@@ -10039,10 +10040,10 @@ const GRE_WORDS = [
   },
   {
     "word": "neophyte",
-    "pronunciation": "/nˈiʌfˌaɪt/",
-    "pos": "Adjective",
+    "pronunciation": "/nˈiːoʊfˌaɪt/",
+    "pos": "Noun",
     "meaning": "Beginner, novice; a person newly converted to a religion",
-    "mnemonic": "Picture “novice” vividly; link that image directly to neophyte.",
+    "mnemonic": "NEOPHYTE: NEO = new; PHYTON = plant. A new plant — a novice.",
     "usage": "The neophyte senator learned quickly that competence and seniority rarely went together.",
     "synonyms": [
       "novice",
@@ -10058,9 +10059,9 @@ const GRE_WORDS = [
   {
     "word": "net",
     "pronunciation": "/nˈɛt/",
-    "pos": "Adjective",
+    "pos": "Verb",
     "meaning": "Remaining after expenses or other factors have been deducted; ultimate; to bring in as profit",
-    "mnemonic": "Picture “final” vividly; link that image directly to net.",
+    "mnemonic": "NET: catches the profit AFTER deductions — net income.",
     "usage": "The net profit, after taxes and fees, came to less than a third of the headline number.",
     "synonyms": [
       "final",
@@ -10075,10 +10076,10 @@ const GRE_WORDS = [
   },
   {
     "word": "nettle",
-    "pronunciation": "/nˈɛtʌl/",
+    "pronunciation": "/nˈɛɾəl/",
     "pos": "Noun",
     "meaning": "Irritate, sting, or annoy; a prickly plant",
-    "mnemonic": "Picture “irritate” vividly; link that image directly to nettle.",
+    "mnemonic": "NETTLE: a NETTLE plant stings — to irritate.",
     "usage": "The criticism nettled him, though he knew it was justified.",
     "synonyms": [
       "irritate",
@@ -10093,10 +10094,10 @@ const GRE_WORDS = [
   },
   {
     "word": "nevertheless",
-    "pronunciation": "/nˌɛvɝðʌlˈɛs/",
+    "pronunciation": "/nˌɛvɚðəlˈɛs/",
     "pos": "Adjective",
     "meaning": "However, even so, despite that; nonetheless",
-    "mnemonic": "VERT = turn: picture something turning.",
+    "mnemonic": "NEVERTHELESS: NEVER + THE + LESS — still, despite that.",
     "usage": "The plan was risky; nevertheless, the board approved it unanimously.",
     "synonyms": [
       "however",
@@ -10111,10 +10112,10 @@ const GRE_WORDS = [
   },
   {
     "word": "noisome",
-    "pronunciation": "/nˈɔɪsəm/",
-    "pos": "Adjective",
+    "pronunciation": "/nˈɔɪsʌm/",
+    "pos": "Noun",
     "meaning": "Offensive, disgusting; harmful; having an unpleasant smell",
-    "mnemonic": "Picture “foul” vividly; link that image directly to noisome.",
+    "mnemonic": "NOISOME: NOI + SOME — a NOI-some smell — offensive.",
     "usage": "The noisome odor from the factory made the nearby houses unlivable.",
     "synonyms": [
       "foul",
@@ -10129,10 +10130,10 @@ const GRE_WORDS = [
   },
   {
     "word": "nominal",
-    "pronunciation": "/nˈɑmʌnʌl/",
+    "pronunciation": "/nˈɑːmɪnəl/",
     "pos": "Adjective",
     "meaning": "Trivial, so small as to be unimportant; in name only, so-called",
-    "mnemonic": "Picture “token” vividly; link that image directly to nominal.",
+    "mnemonic": "NOMINAL: NOM = name (nominate). IN NAME only — trivial.",
     "usage": "The fee was nominal, but the paperwork it required was anything but.",
     "synonyms": [
       "token",
@@ -10150,7 +10151,7 @@ const GRE_WORDS = [
     "pronunciation": "/nˌɑːntɹˈɪvɪəl/",
     "pos": "Adjective",
     "meaning": "Important or big enough to matter; not insignificant",
-    "mnemonic": "Picture “significant” vividly; link that image directly to nontrivial.",
+    "mnemonic": "NONTRIVIAL: NOT TRIVIAL — important, significant.",
     "usage": "The problem looked simple but turned out to be nontrivial, requiring months of work.",
     "synonyms": [
       "significant",
@@ -10165,10 +10166,10 @@ const GRE_WORDS = [
   },
   {
     "word": "normative",
-    "pronunciation": "/nˈɔrmʌtɪv/",
+    "pronunciation": "/nˈoːɹmətˌɪv/",
     "pos": "Adjective",
     "meaning": "Implying or attempting to establish a norm; expressing value judgments or telling people what to do",
-    "mnemonic": "Picture “prescriptive” vividly; link that image directly to normative.",
+    "mnemonic": "NORMATIVE: establishes the NORM — prescriptive.",
     "usage": "The report was descriptive, not normative; it made no recommendations.",
     "synonyms": [
       "prescriptive",
@@ -10182,10 +10183,10 @@ const GRE_WORDS = [
   },
   {
     "word": "notoriety",
-    "pronunciation": "/nˌoʊtɝˈaɪʌti/",
+    "pronunciation": "/nˌoʊɾoːɹˈaɪəɾi/",
     "pos": "Adjective",
     "meaning": "Ill fame; the state of being well-known for a disgraceful reason",
-    "mnemonic": "Picture “infamy” vividly; link that image directly to notoriety.",
+    "mnemonic": "NOTORIETY: NOTORIOUS — famous for bad reasons.",
     "usage": "The scandal brought him notoriety he had never sought and could not escape.",
     "synonyms": [
       "infamy",
@@ -10200,10 +10201,10 @@ const GRE_WORDS = [
   },
   {
     "word": "novel",
-    "pronunciation": "/nˈɑvʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/nˈɑːvəl/",
+    "pos": "Noun",
     "meaning": "New, fresh, original; a long fictional narrative",
-    "mnemonic": "Picture “new” vividly; link that image directly to novel.",
+    "mnemonic": "NOVEL: NEO = new (like novel). New, original.",
     "usage": "The novel approach solved a problem that had resisted decades of conventional effort.",
     "synonyms": [
       "new",
@@ -10218,10 +10219,10 @@ const GRE_WORDS = [
   },
   {
     "word": "nuance",
-    "pronunciation": "/nˈuɑns/",
+    "pronunciation": "/nˈuːɑːns/",
     "pos": "Noun",
     "meaning": "A subtle difference in tone, meaning, expression, etc.; a shade of meaning",
-    "mnemonic": "Picture “subtlety” vividly; link that image directly to nuance.",
+    "mnemonic": "NUANCE: NU = new; ANCE — a subtle new shade of meaning.",
     "usage": "The translation loses every nuance of the original, which is why scholars still read it in Italian.",
     "synonyms": [
       "subtlety",
@@ -10234,10 +10235,10 @@ const GRE_WORDS = [
   },
   {
     "word": "obdurate",
-    "pronunciation": "/ˈɑbdɝʌt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɑːbdʒɚɹət/",
+    "pos": "Noun",
     "meaning": "Stubborn, hardhearted, hardened in wrongdoing; unyielding",
-    "mnemonic": "Picture “stubborn” vividly; link that image directly to obdurate.",
+    "mnemonic": "OBDURATE: OB + DUR = hard (durable). Hardened, stubborn.",
     "usage": "The obdurate criminal refused every offer of leniency and continued to deny everything.",
     "synonyms": [
       "stubborn",
@@ -10252,10 +10253,10 @@ const GRE_WORDS = [
   },
   {
     "word": "objective",
-    "pronunciation": "/ʌbdʒˈɛktɪv/",
+    "pronunciation": "/ɑːbdʒˈɛktɪv/",
     "pos": "Adjective",
     "meaning": "Factual, related to reality or physical objects; not influenced by emotions, unbiased",
-    "mnemonic": "JECT = throw: picture something being thrown.",
+    "mnemonic": "OBJECTIVE: OUTSIDE of you (an object) — unbiased, factual.",
     "usage": "The reporter's objective account, uncolored by opinion, told the story more powerfully than any editorial could.",
     "synonyms": [
       "impartial",
@@ -10270,10 +10271,10 @@ const GRE_WORDS = [
   },
   {
     "word": "oblique",
-    "pronunciation": "/ʌblˈik/",
-    "pos": "Adjective",
+    "pronunciation": "/oʊblˈiːk/",
+    "pos": "Noun",
     "meaning": "Slanting or sloping; indirect, misleading, or evasive",
-    "mnemonic": "Picture “indirect” vividly; link that image directly to oblique.",
+    "mnemonic": "OBLIQUE: OBLIQUE angle — slanting, indirect.",
     "usage": "His oblique reference to the scandal, never naming names, fooled no one in the newsroom.",
     "synonyms": [
       "indirect",
@@ -10288,10 +10289,10 @@ const GRE_WORDS = [
   },
   {
     "word": "obsequious",
-    "pronunciation": "/ʌbsˈikwiʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/əbsˈiːkwɪəs/",
+    "pos": "Noun",
     "meaning": "Servile, very compliant, fawning; excessively eager to please",
-    "mnemonic": "Picture “servile” vividly; link that image directly to obsequious.",
+    "mnemonic": "OBSEQUIOUS: OB + SEQUI = follow (sequence). Following someone eagerly — servile, fawning.",
     "usage": "The obsequious waiter hovered at the table, anticipating every request before it was made.",
     "synonyms": [
       "servile",
@@ -10306,10 +10307,10 @@ const GRE_WORDS = [
   },
   {
     "word": "obsolete",
-    "pronunciation": "/ˈɑbsʌlˌit/",
+    "pronunciation": "/ˈɑːbsəlˌiːt/",
     "pos": "Noun",
     "meaning": "Out of date, no longer in use; superseded",
-    "mnemonic": "Picture “outdated” vividly; link that image directly to obsolete.",
+    "mnemonic": "OBSOLETE: OB + SOL = grow old. Worn out, no longer used.",
     "usage": "The technology became obsolete within three years, a lifetime record for the industry.",
     "synonyms": [
       "outdated",
@@ -10324,10 +10325,10 @@ const GRE_WORDS = [
   },
   {
     "word": "obstinate",
-    "pronunciation": "/ˈɑbstʌnʌt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɑːbstᵻnət/",
+    "pos": "Noun",
     "meaning": "Stubborn or hard to control; refusing to change",
-    "mnemonic": "Picture “stubborn” vividly; link that image directly to obstinate.",
+    "mnemonic": "OBSTINATE: OB + STIN (like STAND). Standing in the way — stubborn.",
     "usage": "The obstinate child refused to move, and the whole family was late to the wedding.",
     "synonyms": [
       "stubborn",
@@ -10342,10 +10343,10 @@ const GRE_WORDS = [
   },
   {
     "word": "obviate",
-    "pronunciation": "/ˈɑbviˌeɪt/",
+    "pronunciation": "/ˈɑːbvɪˌeɪt/",
     "pos": "Verb",
     "meaning": "Prevent, eliminate, or make unnecessary; to anticipate and prevent",
-    "mnemonic": "Picture “prevent” vividly; link that image directly to obviate.",
+    "mnemonic": "OBVIATE: OB + VIA = way. To get in the WAY of — prevent.",
     "usage": "The new law obviated the need for the cumbersome permit process.",
     "synonyms": [
       "prevent",
@@ -10361,9 +10362,9 @@ const GRE_WORDS = [
   {
     "word": "occlude",
     "pronunciation": "/əklˈuːd/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Stop up, close, shut in or shut off; to block",
-    "mnemonic": "Picture “block” vividly; link that image directly to occlude.",
+    "mnemonic": "OCCLUDE: OC + CLUDE = close (include). To close off, block.",
     "usage": "The clot occluded the artery, cutting off blood to the heart.",
     "synonyms": [
       "block",
@@ -10378,10 +10379,10 @@ const GRE_WORDS = [
   },
   {
     "word": "occult",
-    "pronunciation": "/ʌkˈʌlt/",
-    "pos": "Adjective",
+    "pronunciation": "/əkˈʌlt/",
+    "pos": "Noun",
     "meaning": "The supernatural; pertaining to magic, astrology, etc.; mysterious, secret or hidden",
-    "mnemonic": "Picture “supernatural” vividly; link that image directly to occult.",
+    "mnemonic": "OCCULT: OC + CULT = hidden. Secret, supernatural.",
     "usage": "The occult practices fascinated the young scholar, though he never believed a word of them.",
     "synonyms": [
       "supernatural",
@@ -10396,10 +10397,10 @@ const GRE_WORDS = [
   },
   {
     "word": "offhand",
-    "pronunciation": "/ˈɔfhˈænd/",
-    "pos": "Adjective",
+    "pronunciation": "/ɔfhˈænd/",
+    "pos": "Noun",
     "meaning": "Casual, informal; done without preparation or forethought; rude in a short way",
-    "mnemonic": "Picture “casual” vividly; link that image directly to offhand.",
+    "mnemonic": "OFFHAND: OFF + HAND — without looking at your HAND — without preparation, casual.",
     "usage": "His offhand remark, made without thinking, ended a friendship of twenty years.",
     "synonyms": [
       "casual",
@@ -10415,9 +10416,9 @@ const GRE_WORDS = [
   {
     "word": "officious",
     "pronunciation": "/əfˈɪʃəs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Excessively eager in giving unwanted advice or intruding where one is not wanted; meddlesome, pushy",
-    "mnemonic": "Picture “meddlesome” vividly; link that image directly to officious.",
+    "mnemonic": "OFFICIOUS: pretends to be an OFFICER of everything — meddlesome, pushy.",
     "usage": "The officious clerk kept interrupting the meeting to remind everyone of rules no one cared about.",
     "synonyms": [
       "meddlesome",
@@ -10432,10 +10433,10 @@ const GRE_WORDS = [
   },
   {
     "word": "offset",
-    "pronunciation": "/ɔfsˈɛt/",
+    "pronunciation": "/ˈɔfsɛt/",
     "pos": "Noun",
     "meaning": "Counteract, compensate for; a counterbalance",
-    "mnemonic": "Picture “counterbalance” vividly; link that image directly to offset.",
+    "mnemonic": "OFFSET: OFF + SET — set something off against another — to counterbalance.",
     "usage": "The gains in productivity offset the rise in wages.",
     "synonyms": [
       "counterbalance",
@@ -10449,10 +10450,10 @@ const GRE_WORDS = [
   },
   {
     "word": "onerous",
-    "pronunciation": "/ˈoʊnɝʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈoʊnɚɹəs/",
+    "pos": "Noun",
     "meaning": "Burdensome, oppressive, hard to endure; involving a heavy burden",
-    "mnemonic": "Picture “burdensome” vividly; link that image directly to onerous.",
+    "mnemonic": "ONEROUS: ONER = burden (onus). Burdensome, oppressive.",
     "usage": "The onerous reporting requirements consumed more time than the work they were meant to track.",
     "synonyms": [
       "burdensome",
@@ -10470,7 +10471,7 @@ const GRE_WORDS = [
     "pronunciation": "/oʊpˈeɪk/",
     "pos": "Noun",
     "meaning": "Not translucent; not allowing light, heat, etc. to pass through; dark, dull, unclear or stupid",
-    "mnemonic": "Picture “cloudy” vividly; link that image directly to opaque.",
+    "mnemonic": "OPAQUE: O + PAQUE (like PACK). Packed solid — not see-through.",
     "usage": "The financial statements were deliberately opaque, which is precisely why the regulators were suspicious.",
     "synonyms": [
       "cloudy",
@@ -10486,9 +10487,9 @@ const GRE_WORDS = [
   {
     "word": "opine",
     "pronunciation": "/oʊpˈaɪn/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Express an opinion; to state as one's opinion",
-    "mnemonic": "Picture “comment” vividly; link that image directly to opine.",
+    "mnemonic": "OPINE: from OPINION — to express an opinion.",
     "usage": "She opined that the bill would never pass, and she turned out to be right.",
     "synonyms": [
       "comment",
@@ -10501,10 +10502,10 @@ const GRE_WORDS = [
   },
   {
     "word": "opprobrium",
-    "pronunciation": "/ʌprˈoʊbriʌm/",
+    "pronunciation": "/ɑːpɹˈɑːbɹiəm/",
     "pos": "Noun",
     "meaning": "Disgrace and disapproval that result from outrageously shameful actions; public scorn",
-    "mnemonic": "Picture “disgrace” vividly; link that image directly to opprobrium.",
+    "mnemonic": "OPPROBRIUM: OB + PROBRUM = disgrace. Public shame and scorn.",
     "usage": "The company faced public opprobrium for years after the spill.",
     "synonyms": [
       "disgrace",
@@ -10519,10 +10520,10 @@ const GRE_WORDS = [
   },
   {
     "word": "optimal",
-    "pronunciation": "/ˈɑptʌmʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɑːptɪməl/",
+    "pos": "Noun",
     "meaning": "Best, most desirable or favorable; most favorable",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "OPTIMAL: OPTIMUM — best, most favorable.",
     "usage": "The optimal solution, requiring perfect information, was unreachable in practice.",
     "synonyms": [
       "best",
@@ -10537,10 +10538,10 @@ const GRE_WORDS = [
   },
   {
     "word": "optimum",
-    "pronunciation": "/ˈɑptʌmʌm/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɑːptɪməm/",
+    "pos": "Noun",
     "meaning": "Most favorable condition or greatest degree or amount possible under given circumstances",
-    "mnemonic": "Picture “ideal” vividly; link that image directly to optimum.",
+    "mnemonic": "OPTIMUM: the BEST possible condition.",
     "usage": "The reactor operated at its optimum for six months before any maintenance was required.",
     "synonyms": [
       "ideal",
@@ -10555,10 +10556,10 @@ const GRE_WORDS = [
   },
   {
     "word": "orotund",
-    "pronunciation": "/ˈoːɹətʌnd/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈoːɹətˌʌnd/",
+    "pos": "Noun",
     "meaning": "Full, rich, and clear (of the voice or speaking); pompous, bombastic",
-    "mnemonic": "Picture “pompous” vividly; link that image directly to orotund.",
+    "mnemonic": "OROTUND: ORO = mouth; ROTUND = round. Round-mouthed speech — pompous.",
     "usage": "The orotund delivery, magnificent in the cathedral, seemed absurd in the small conference room.",
     "synonyms": [
       "pompous",
@@ -10573,10 +10574,10 @@ const GRE_WORDS = [
   },
   {
     "word": "orthodox",
-    "pronunciation": "/ˈɔrθʌdˌɑks/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɔːɹθədˌɑːks/",
+    "pos": "Noun",
     "meaning": "Adhering to a traditional, established faith, or to anything customary or commonly accepted",
-    "mnemonic": "Picture “traditional” vividly; link that image directly to orthodox.",
+    "mnemonic": "ORTHODOX: ORTHO = straight; DOX = belief. Straight belief — conventional.",
     "usage": "The orthodox interpretation, accepted for a century, collapsed under a single well-designed experiment.",
     "synonyms": [
       "traditional",
@@ -10591,10 +10592,10 @@ const GRE_WORDS = [
   },
   {
     "word": "oscillate",
-    "pronunciation": "/ˈɑsʌlˌeɪt/",
+    "pronunciation": "/ˈɑːsɪlˌeɪt/",
     "pos": "Verb",
     "meaning": "Swing back and forth; waver, change one's mind; to move to and fro",
-    "mnemonic": "Picture “swing” vividly; link that image directly to oscillate.",
+    "mnemonic": "OSCILLATE: like an OSCILLATING fan — swings back and forth.",
     "usage": "She oscillated for weeks between accepting and declining before finally saying no.",
     "synonyms": [
       "swing",
@@ -10609,10 +10610,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ossify",
-    "pronunciation": "/ˈɑsʌfˌaɪ/",
-    "pos": "Verb",
+    "pronunciation": "/ˈɑːsᵻfˌaɪ/",
+    "pos": "Adjective",
     "meaning": "Become bone or become hard like bone; become inflexible in attitudes, opinions, etc.",
-    "mnemonic": "Picture “harden” vividly; link that image directly to ossify.",
+    "mnemonic": "OSSIFY: OS = bone (ossuary). Turn to bone — become rigid.",
     "usage": "The institution ossified over the decades, until reform became impossible from within.",
     "synonyms": [
       "harden",
@@ -10627,10 +10628,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ostensible",
-    "pronunciation": "/ɑstˈɛnsʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ɑːstˈɛnsəbəl/",
+    "pos": "Noun",
     "meaning": "Professed, evident, or pretended; outwardly appearing in a certain way",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "OSTENSIBLE: OS + TENS = stretch out. Stretched out in appearance — apparent, supposed.",
     "usage": "The ostensible reason for the trip was business, but everyone knew it was pleasure.",
     "synonyms": [
       "apparent",
@@ -10645,10 +10646,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ostentatious",
-    "pronunciation": "/ˌɑstʌntˈeɪʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ˌɑːstəntˈeɪʃəs/",
+    "pos": "Noun",
     "meaning": "Pretentious, boastful showiness; designed to impress",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "OSTENTATIOUS: OS + TENT = stretched out. Showy, pretentious.",
     "usage": "The ostentatious display of wealth, from the gold-plated car to the marble fountain, embarrassed the family.",
     "synonyms": [
       "showy",
@@ -10663,10 +10664,10 @@ const GRE_WORDS = [
   },
   {
     "word": "outstrip",
-    "pronunciation": "/aʊtstrˈɪp/",
+    "pronunciation": "/aʊtstɹˈɪp/",
     "pos": "Noun",
     "meaning": "Surpass, exceed; be larger or better than; leave behind",
-    "mnemonic": "Picture “surpass” vividly; link that image directly to outstrip.",
+    "mnemonic": "OUTSTRIP: OUT + STRIP — strip ahead of the others — surpass.",
     "usage": "The demand for tickets outstripped supply within an hour of the announcement.",
     "synonyms": [
       "surpass",
@@ -10681,10 +10682,10 @@ const GRE_WORDS = [
   },
   {
     "word": "overshadow",
-    "pronunciation": "/ˈoʊvɝʃˈædoʊ/",
-    "pos": "Adjective",
+    "pronunciation": "/ˌoʊvɚʃˈædoʊ/",
+    "pos": "Noun",
     "meaning": "Cast a shadow over, darken; dominate, make to seem less important",
-    "mnemonic": "VERS = turn: picture something turning.",
+    "mnemonic": "OVERSHADOW: cast a SHADOW OVER — to dominate, eclipse.",
     "usage": "Her early poems were overshadowed by the novel that made her famous.",
     "synonyms": [
       "eclipse",
@@ -10699,10 +10700,10 @@ const GRE_WORDS = [
   },
   {
     "word": "overwrought",
-    "pronunciation": "/ˌoʊvɝrˈɔt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˌoʊvɚɹˈɔːt/",
+    "pos": "Noun",
     "meaning": "Overly nervous, agitated, or excited; too ornate, elaborate, or fussy; overdone",
-    "mnemonic": "Picture “agitated” vividly; link that image directly to overwrought.",
+    "mnemonic": "OVERWROUGHT: OVER + WROUGHT (worked). Over-worked — agitated.",
     "usage": "The overwrought finale of the novel, full of exclamation marks, undid the restraint of the earlier chapters.",
     "synonyms": [
       "agitated",
@@ -10717,10 +10718,10 @@ const GRE_WORDS = [
   },
   {
     "word": "palatial",
-    "pronunciation": "/pʌlˈeɪʃʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/pælˈeɪʃəl/",
+    "pos": "Noun",
     "meaning": "Suitable for or resembling a palace, magnificent; large and ornate",
-    "mnemonic": "Picture “grand” vividly; link that image directly to palatial.",
+    "mnemonic": "PALATIAL: like a PALACE — grand, magnificent.",
     "usage": "The palatial estate, with fifty rooms and a private lake, went unsold for a decade.",
     "synonyms": [
       "grand",
@@ -10738,7 +10739,7 @@ const GRE_WORDS = [
     "pronunciation": "/pˈælɪˌeɪt/",
     "pos": "Verb",
     "meaning": "Make less serious or severe; relieve symptoms of an illness; to extenuate",
-    "mnemonic": "Picture “relieve” vividly; link that image directly to palliate.",
+    "mnemonic": "PALLIATE: PALL = cloak (palliate). Throw a cloak over — to relieve without curing.",
     "usage": "The treatment palliated the symptoms without addressing the underlying disease.",
     "synonyms": [
       "relieve",
@@ -10753,10 +10754,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pallid",
-    "pronunciation": "/pˈælʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈælɪd/",
+    "pos": "Noun",
     "meaning": "Abnormally pale; lacking color or vitality; insipid",
-    "mnemonic": "Picture “pale” vividly; link that image directly to pallid.",
+    "mnemonic": "PALLID: PALL = pale. Abnormally pale.",
     "usage": "His pallid face, drained of all color, alarmed the nurses at once.",
     "synonyms": [
       "pale",
@@ -10771,10 +10772,10 @@ const GRE_WORDS = [
   },
   {
     "word": "panache",
-    "pronunciation": "/pʌnˈɑʃ/",
+    "pronunciation": "/pənˈæʃ/",
     "pos": "Noun",
     "meaning": "Flair, style, swagger; a flamboyant or grand way of acting",
-    "mnemonic": "Picture “flair” vividly; link that image directly to panache.",
+    "mnemonic": "PANACHE: from French — a plume on a helmet. Flair, style, swagger.",
     "usage": "She performed the difficult passage with such panache that the audience forgot to breathe.",
     "synonyms": [
       "flair",
@@ -10792,7 +10793,7 @@ const GRE_WORDS = [
     "pronunciation": "/peɪndʒˈɪɹɪk/",
     "pos": "Noun",
     "meaning": "Formal or lofty expression of praise; a eulogy or encomium",
-    "mnemonic": "Picture “eulogy” vividly; link that image directly to panegyric.",
+    "mnemonic": "PANEGYRIC: PAN = all; EGYRIC (like AGORA = assembly). A speech before ALL — a eulogy of praise.",
     "usage": "The speech was less a eulogy than a panegyric, comparing the deceased to Lincoln and Churchill in turn.",
     "synonyms": [
       "eulogy",
@@ -10807,10 +10808,10 @@ const GRE_WORDS = [
   },
   {
     "word": "panoply",
-    "pronunciation": "/pˈænɑpli/",
+    "pronunciation": "/pˈænəpli/",
     "pos": "Adverb",
     "meaning": "Splendid, wide-ranging, impressive display or array",
-    "mnemonic": "Picture “array” vividly; link that image directly to panoply.",
+    "mnemonic": "PANOPLY: PAN = all; HOPLON = armor (hoplite). Full suit of armor — a splendid array.",
     "usage": "The exhibition presented the full panoply of the artist's work, from early sketches to late masterpieces.",
     "synonyms": [
       "array",
@@ -10823,10 +10824,10 @@ const GRE_WORDS = [
   },
   {
     "word": "paradigm",
-    "pronunciation": "/pˈɛrʌdˌaɪm/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈæɹədˌaɪm/",
+    "pos": "Noun",
     "meaning": "Model or pattern; worldview, set of shared assumptions, values, etc.",
-    "mnemonic": "Picture “model” vividly; link that image directly to paradigm.",
+    "mnemonic": "PARADIGM: PARA = alongside; DEIGMA = show. A model shown beside — a pattern.",
     "usage": "The discovery was a paradigm shift, forcing scientists to abandon assumptions they had held for a century.",
     "synonyms": [
       "model",
@@ -10839,10 +10840,10 @@ const GRE_WORDS = [
   },
   {
     "word": "paradox",
-    "pronunciation": "/pˈɛrʌdˌɑks/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈæɹədˌɑːks/",
+    "pos": "Noun",
     "meaning": "Contradiction, or seeming contradiction that is actually true; a self-contradictory statement",
-    "mnemonic": "Picture “contradiction” vividly; link that image directly to paradox.",
+    "mnemonic": "PARADOX: PARA = against; DOXA = opinion. Against common opinion — a seeming contradiction.",
     "usage": "The paradox that the poorest families were the most generous had puzzled sociologists for decades.",
     "synonyms": [
       "contradiction",
@@ -10857,10 +10858,10 @@ const GRE_WORDS = [
   },
   {
     "word": "paragon",
-    "pronunciation": "/pˈɛrʌɡˌɑn/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈæɹəɡˌɑːn/",
+    "pos": "Noun",
     "meaning": "Model of excellence, perfect example; a person of outstanding virtue",
-    "mnemonic": "Picture “model” vividly; link that image directly to paragon.",
+    "mnemonic": "PARAGON: PARA + GON (like a shape on a whetstone). A perfect model to sharpen against.",
     "usage": "She was held up as a paragon of journalistic integrity, a reputation she took pains to earn.",
     "synonyms": [
       "model",
@@ -10873,10 +10874,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pare",
-    "pronunciation": "/pˈɛr/",
+    "pronunciation": "/pˈɛɹ/",
     "pos": "Noun",
     "meaning": "Peel or cut off the outer layer; reduce or trim as if cutting off the outer parts",
-    "mnemonic": "Picture “peel” vividly; link that image directly to pare.",
+    "mnemonic": "PARE: PEEL an apple with a knife — trim, reduce.",
     "usage": "The editor pared the manuscript from 900 pages to 400 without losing anything essential.",
     "synonyms": [
       "peel",
@@ -10890,10 +10891,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pariah",
-    "pronunciation": "/pɝˈaɪʌ/",
+    "pronunciation": "/pɚɹˈaɪə/",
     "pos": "Noun",
     "meaning": "Social outcast, untouchable; one who is rejected by society",
-    "mnemonic": "Picture “outcast” vividly; link that image directly to pariah.",
+    "mnemonic": "PARIAH: the lowest Indian caste, the untouchable — social outcast.",
     "usage": "After the scandal he became a pariah, unable to find work or a table at any restaurant in town.",
     "synonyms": [
       "outcast",
@@ -10908,10 +10909,10 @@ const GRE_WORDS = [
   },
   {
     "word": "parley",
-    "pronunciation": "/pˈɑrli/",
-    "pos": "Noun",
+    "pronunciation": "/pˈɑːɹli/",
+    "pos": "Verb",
     "meaning": "Discussion, negotiation, especially between enemies; to have such a discussion",
-    "mnemonic": "Picture “negotiation” vividly; link that image directly to parley.",
+    "mnemonic": "PARLEY: from French PARLER (to speak) — a discussion between enemies.",
     "usage": "The two generals met under a flag of truce for a parley.",
     "synonyms": [
       "negotiation",
@@ -10924,10 +10925,10 @@ const GRE_WORDS = [
   },
   {
     "word": "parry",
-    "pronunciation": "/pˈɛri/",
+    "pronunciation": "/pˈæɹi/",
     "pos": "Adjective",
     "meaning": "Deflect or avoid (especially a blow or attack); skillfully evade (a question)",
-    "mnemonic": "Picture “deflect” vividly; link that image directly to parry.",
+    "mnemonic": "PARRY: PARRY a sword thrust — deflect; also dodge a question.",
     "usage": "She parried every question about her future plans with the ease of long practice.",
     "synonyms": [
       "deflect",
@@ -10942,10 +10943,10 @@ const GRE_WORDS = [
   },
   {
     "word": "partial",
-    "pronunciation": "/pˈɑrʃʌl/",
+    "pronunciation": "/pˈɑːɹʃəl/",
     "pos": "Adjective",
     "meaning": "Biased, prejudiced, favoring one over others; having a special liking for something (usually partial to)",
-    "mnemonic": "Picture “biased” vividly; link that image directly to partial.",
+    "mnemonic": "PARTIAL: taking only a PART — biased, incomplete.",
     "usage": "The judge was disqualified for being partial to the defendant's family.",
     "synonyms": [
       "biased",
@@ -10960,10 +10961,10 @@ const GRE_WORDS = [
   },
   {
     "word": "partisan",
-    "pronunciation": "/pˈɑrtʌzʌn/",
+    "pronunciation": "/pˈɑːɹɾɪsən/",
     "pos": "Noun",
     "meaning": "Devoted to a particular group, cause, etc.; a fervent supporter; a guerrilla fighter",
-    "mnemonic": "Picture “biased” vividly; link that image directly to partisan.",
+    "mnemonic": "PARTISAN: a PARTY loyalist — devoted to one side, biased.",
     "usage": "The audience was so partisan that the visiting team could not hear its own captain.",
     "synonyms": [
       "biased",
@@ -10978,10 +10979,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pastiche",
-    "pronunciation": "/pˌæstˈiʃ/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈæstɪtʃ/",
+    "pos": "Noun",
     "meaning": "Mix of incongruous parts; artistic work imitating the work of other artists, often satirically",
-    "mnemonic": "Picture “medley” vividly; link that image directly to pastiche.",
+    "mnemonic": "PASTICHE: PASTE + ICHE — pasting pieces from other art — a medley.",
     "usage": "The film is a pastiche of noir, Western, and science fiction, held together by little more than charm.",
     "synonyms": [
       "medley",
@@ -10994,10 +10995,10 @@ const GRE_WORDS = [
   },
   {
     "word": "patent",
-    "pronunciation": "/pˈætʌnt/",
+    "pronunciation": "/pˈæʔn̩t/",
     "pos": "Adjective",
     "meaning": "Obvious, apparent, plain to see; a letter from a government guaranteeing an inventor rights to an invention",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "PATENT: PATENT leather shoes — obvious, on display; also government rights to an invention.",
     "usage": "Her annoyance was patent to everyone in the room, though she said nothing.",
     "synonyms": [
       "obvious",
@@ -11012,10 +11013,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pathogenic",
-    "pronunciation": "/pˌæθʌdʒˈɛnɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/pˌæθoʊdʒˈɛnɪk/",
+    "pos": "Noun",
     "meaning": "Capable of producing disease; causing disease",
-    "mnemonic": "Picture “disease-causing” vividly; link that image directly to pathogenic.",
+    "mnemonic": "PATHOGENIC: PATHOS = suffering; GEN = produce. Produces disease.",
     "usage": "The pathogenic bacteria spread through the hospital within days.",
     "synonyms": [
       "disease-causing",
@@ -11030,10 +11031,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pathological",
-    "pronunciation": "/pˌæθʌlˈɑdʒɪkʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/pˌæθəlˈɑːdʒɪkəl/",
+    "pos": "Noun",
     "meaning": "Relating to or caused by disease; relating to compulsive bad behavior",
-    "mnemonic": "Picture “diseased” vividly; link that image directly to pathological.",
+    "mnemonic": "PATHOLOGICAL: PATHOLOGY = disease study — caused by disease; compulsive.",
     "usage": "He was a pathological liar, incapable of telling the truth even when it served no purpose.",
     "synonyms": [
       "diseased",
@@ -11048,10 +11049,10 @@ const GRE_WORDS = [
   },
   {
     "word": "patronizing",
-    "pronunciation": "/pˈeɪtrʌnˌaɪzɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈætɹənˌaɪzɪŋ/",
+    "pos": "Noun",
     "meaning": "Condescending, having a superior manner, treating as an inferior",
-    "mnemonic": "Picture “condescending” vividly; link that image directly to patronizing.",
+    "mnemonic": "PATRONIZING: acting like a PATRON of the arts toward someone inferior — condescending.",
     "usage": "His patronizing tone, as if explaining arithmetic to a child, made her see red.",
     "synonyms": [
       "condescending",
@@ -11066,10 +11067,10 @@ const GRE_WORDS = [
   },
   {
     "word": "paucity",
-    "pronunciation": "/pˈɔsʌtˌi/",
+    "pronunciation": "/pˈɔːsɪɾi/",
     "pos": "Noun",
     "meaning": "Scarcity, the state of being small in number; insufficiency",
-    "mnemonic": "Picture “scarcity” vividly; link that image directly to paucity.",
+    "mnemonic": "PAUCITY: PAUC = few (pauper). Scarcity, smallness in number.",
     "usage": "The paucity of evidence made the case nearly impossible to prosecute.",
     "synonyms": [
       "scarcity",
@@ -11087,7 +11088,7 @@ const GRE_WORDS = [
     "pronunciation": "/pˌɛkədˈɪloʊ/",
     "pos": "Noun",
     "meaning": "Small sin or fault; a minor offense",
-    "mnemonic": "Picture “minor fault” vividly; link that image directly to peccadillo.",
+    "mnemonic": "PECCADILLO: PECC = sin (impeccable). A tiny sin.",
     "usage": "His peccadilloes, harmless in themselves, eventually cost him the trust of the board.",
     "synonyms": [
       "minor fault",
@@ -11102,10 +11103,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pedant",
-    "pronunciation": "/pˈɛdʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈɛdənt/",
+    "pos": "Noun",
     "meaning": "Person who pays excessive attention to book learning and rules, or who uses his or her learning to show off",
-    "mnemonic": "Picture “nitpicker” vividly; link that image directly to pedant.",
+    "mnemonic": "PEDANT: PED = foot (pedal, peddler). A show-off of learning who trips over details.",
     "usage": "The pedant corrected every minor error in his colleagues' emails, which made him impossible to work with.",
     "synonyms": [
       "nitpicker",
@@ -11118,10 +11119,10 @@ const GRE_WORDS = [
   },
   {
     "word": "peddle",
-    "pronunciation": "/pˈɛdʌl/",
+    "pronunciation": "/pˈɛdəl/",
     "pos": "Noun",
     "meaning": "Travel around while selling; sell illegally; give out or disseminate",
-    "mnemonic": "Picture “sell” vividly; link that image directly to peddle.",
+    "mnemonic": "PEDDLE: a PEDDLER sells goods on foot — to travel selling.",
     "usage": "He peddled his wares from town to town, never staying anywhere longer than a week.",
     "synonyms": [
       "sell",
@@ -11134,10 +11135,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pedestrian",
-    "pronunciation": "/pʌdˈɛstriʌn/",
+    "pronunciation": "/pədˈɛstɹiən/",
     "pos": "Adjective",
     "meaning": "Ordinary, dull, commonplace; a person traveling on foot",
-    "mnemonic": "Picture “dull” vividly; link that image directly to pedestrian.",
+    "mnemonic": "PEDESTRIAN: someone walking on FOOT (ped). Also, dull, commonplace.",
     "usage": "The writing was pedestrian but clear, and it got the job done.",
     "synonyms": [
       "dull",
@@ -11152,10 +11153,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pejorative",
-    "pronunciation": "/pʌdʒˈɔrʌtɪv/",
+    "pronunciation": "/pədʒˈɔːɹətˌɪv/",
     "pos": "Adjective",
     "meaning": "Disparaging, derogatory, belittling; expressing disapproval",
-    "mnemonic": "Picture “derogatory” vividly; link that image directly to pejorative.",
+    "mnemonic": "PEJORATIVE: PEJOR = worse (Latin). Making something sound worse — derogatory.",
     "usage": "The term was once neutral but has become pejorative over the past century.",
     "synonyms": [
       "derogatory",
@@ -11171,9 +11172,9 @@ const GRE_WORDS = [
   {
     "word": "pellucid",
     "pronunciation": "/pˈɛluːsˌɪd/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Transparent, translucent; clear, easy to understand; limpid",
-    "mnemonic": "Picture “clear” vividly; link that image directly to pellucid.",
+    "mnemonic": "PELLUCID: PER + LUCID. Perfectly lucid — transparent, clear.",
     "usage": "The pellucid prose read as if it had been written in a single sitting by someone who never doubted a word.",
     "synonyms": [
       "clear",
@@ -11188,10 +11189,10 @@ const GRE_WORDS = [
   },
   {
     "word": "penchant",
-    "pronunciation": "/pˈɛntʃʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈɛnʃənt/",
+    "pos": "Noun",
     "meaning": "Liking or inclination (usually penchant for)",
-    "mnemonic": "Picture “liking” vividly; link that image directly to penchant.",
+    "mnemonic": "PENCHANT: PEN + CHANT — leaning toward a preference, like leaning on a pen.",
     "usage": "She has a penchant for the obscure, which is why her bookshelves hold three editions of a forgotten poet.",
     "synonyms": [
       "liking",
@@ -11206,10 +11207,10 @@ const GRE_WORDS = [
   },
   {
     "word": "penitent",
-    "pronunciation": "/pˈɛnɪtɪnt/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈɛnɪtənt/",
+    "pos": "Noun",
     "meaning": "Regretful, feeling remorse for one's sins or misdeeds; a person who feels this way",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "PENITENT: PENITENTiary — remorseful, repentant.",
     "usage": "The penitent thief returned the money and spent years trying to make amends.",
     "synonyms": [
       "remorseful",
@@ -11224,10 +11225,10 @@ const GRE_WORDS = [
   },
   {
     "word": "penumbra",
-    "pronunciation": "/pɪnˈʌmbrʌ/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈɛnʌmbɹə/",
+    "pos": "Noun",
     "meaning": "Outer part of a shadow from an eclipse; any surrounding region, fringe, periphery; any area where something \"sort of\" exists",
-    "mnemonic": "Picture “fringe” vividly; link that image directly to penumbra.",
+    "mnemonic": "PENUMBRA: PEN + UMBRA = shadow. Almost (pen) in shadow — the fringe of a shadow.",
     "usage": "The penumbra of the eclipse, though less dramatic, was visible for over an hour.",
     "synonyms": [
       "fringe",
@@ -11242,10 +11243,10 @@ const GRE_WORDS = [
   },
   {
     "word": "penury",
-    "pronunciation": "/pˈɛnjʊri/",
+    "pronunciation": "/pˈɛnjʊɹi/",
     "pos": "Verb",
     "meaning": "Extreme poverty or scarcity; destitution",
-    "mnemonic": "Picture “poverty” vividly; link that image directly to penury.",
+    "mnemonic": "PENURY: like PENNy-less — extreme poverty.",
     "usage": "The family, once prosperous, was reduced to penury within a generation.",
     "synonyms": [
       "poverty",
@@ -11263,7 +11264,7 @@ const GRE_WORDS = [
     "pronunciation": "/pˌɜː sˈeɪ/",
     "pos": "Noun",
     "meaning": "Intrinsically; by itself; in itself",
-    "mnemonic": "Picture “intrinsically” vividly; link that image directly to per se.",
+    "mnemonic": "PER SE: BY ITSELF, intrinsically.",
     "usage": "The idea is not bad per se; the problem is the way it has been implemented.",
     "synonyms": [
       "intrinsically",
@@ -11279,7 +11280,7 @@ const GRE_WORDS = [
     "pronunciation": "/pˈɛɹəɡɹˌɪneɪt/",
     "pos": "Verb",
     "meaning": "Travel from place to place, especially on foot; wander",
-    "mnemonic": "Picture “wander” vividly; link that image directly to peregrinate.",
+    "mnemonic": "PEREGRINATE: PEREGRINE falcon — travels widely — to wander.",
     "usage": "He peregrinated across Europe for three years, supporting himself by writing travel essays.",
     "synonyms": [
       "wander",
@@ -11294,10 +11295,10 @@ const GRE_WORDS = [
   },
   {
     "word": "perennial",
-    "pronunciation": "/pɝˈɛniʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/pəɹˈɛnɪəl/",
+    "pos": "Noun",
     "meaning": "Lasting through the years or indefinitely, enduring; recurring",
-    "mnemonic": "Picture “enduring” vividly; link that image directly to perennial.",
+    "mnemonic": "PERENNIAL: PER + ANN = year. Through the YEARS — enduring.",
     "usage": "The perennial complaint about the trains, though familiar, became impossible to ignore when ridership collapsed.",
     "synonyms": [
       "enduring",
@@ -11313,9 +11314,9 @@ const GRE_WORDS = [
   {
     "word": "perfidious",
     "pronunciation": "/pɜːfˈɪdɪəs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Disloyal, treacherous, violating one's trust; deliberately faithless",
-    "mnemonic": "Picture “treacherous” vividly; link that image directly to perfidious.",
+    "mnemonic": "PERFIDIOUS: PER + FID = faith. Faithless — treacherous.",
     "usage": "The perfidious advisor, loyal only to himself, sold secrets to three governments at once.",
     "synonyms": [
       "treacherous",
@@ -11330,10 +11331,10 @@ const GRE_WORDS = [
   },
   {
     "word": "perfunctory",
-    "pronunciation": "/pɝfˈʌŋktɝi/",
-    "pos": "Adjective",
+    "pronunciation": "/pɚfˈʌŋktɚɹi/",
+    "pos": "Noun",
     "meaning": "Done superficially, without much care, or merely as routine; hasty and without interest",
-    "mnemonic": "Picture “cursory” vividly; link that image directly to perfunctory.",
+    "mnemonic": "PERFUNCTORY: PER + FUNCT = perform. Merely performed — done as routine, without care.",
     "usage": "The inspection was so perfunctory that the inspectors missed the cracked foundation entirely.",
     "synonyms": [
       "cursory",
@@ -11348,10 +11349,10 @@ const GRE_WORDS = [
   },
   {
     "word": "peripatetic",
-    "pronunciation": "/pˌɛrʌpʌtˈɛtɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/pˌɛɹɪpətˈɛɾɪk/",
+    "pos": "Noun",
     "meaning": "Journeying from place to place; traveling on foot; itinerant",
-    "mnemonic": "Picture “itinerant” vividly; link that image directly to peripatetic.",
+    "mnemonic": "PERIPATETIC: PERI = around; PATE = walk. Aristotle walked around while teaching — traveling, itinerant.",
     "usage": "The peripatetic teacher, moving between five villages each week, knew every student by name.",
     "synonyms": [
       "itinerant",
@@ -11366,10 +11367,10 @@ const GRE_WORDS = [
   },
   {
     "word": "peripheral",
-    "pronunciation": "/pɝˈɪfɝʌl/",
+    "pronunciation": "/pɚɹˈɪfɚɹəl/",
     "pos": "Adjective",
     "meaning": "Relating to or making up an outer boundary or region; not of primary importance, fringe",
-    "mnemonic": "Picture “marginal” vividly; link that image directly to peripheral.",
+    "mnemonic": "PERIPHERAL: PERI = around; PHER = carry. Carried around the edge — on the fringe.",
     "usage": "The issue, peripheral to the main argument, consumed two hours of the meeting anyway.",
     "synonyms": [
       "marginal",
@@ -11384,10 +11385,10 @@ const GRE_WORDS = [
   },
   {
     "word": "permeate",
-    "pronunciation": "/pˈɝmiˌeɪt/",
+    "pronunciation": "/pˈɜːmɪˌeɪt/",
     "pos": "Verb",
     "meaning": "Spread or penetrate throughout; to pass through",
-    "mnemonic": "Picture “penetrate” vividly; link that image directly to permeate.",
+    "mnemonic": "PERMEATE: PER + MEATE (like MEAT through a sieve). To pass through everything.",
     "usage": "The smell of woodsmoke permeated the entire house, even the rooms whose windows had been closed.",
     "synonyms": [
       "penetrate",
@@ -11400,10 +11401,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pernicious",
-    "pronunciation": "/pɝnˈɪʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/pɜːnˈɪʃəs/",
+    "pos": "Noun",
     "meaning": "Very harmful or destructive, deadly; causing great harm in a gradual or subtle way",
-    "mnemonic": "Picture “harmful” vividly; link that image directly to pernicious.",
+    "mnemonic": "PERNICIOUS: PER + NEC = death (necrosis). Very harmful, deadly.",
     "usage": "The pernicious effect of the rumor, invisible at first, ultimately destroyed her career.",
     "synonyms": [
       "harmful",
@@ -11418,10 +11419,10 @@ const GRE_WORDS = [
   },
   {
     "word": "perspicacious",
-    "pronunciation": "/pɝspʌkˈeɪʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/pɚspɪkˈeɪʃəs/",
+    "pos": "Noun",
     "meaning": "Having penetrating insight or good discernment; mentally sharp",
-    "mnemonic": "Picture “discerning” vividly; link that image directly to perspicacious.",
+    "mnemonic": "PERSPICACIOUS: PER + SPIC = see (spectacles). Seeing through things — insightful.",
     "usage": "Her perspicacious reading of the situation, arrived at before anyone else, saved the deal.",
     "synonyms": [
       "discerning",
@@ -11436,10 +11437,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pervasive",
-    "pronunciation": "/pɝvˈeɪsɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/pɚvˈeɪsɪv/",
+    "pos": "Noun",
     "meaning": "Tending to spread throughout; widespread",
-    "mnemonic": "Picture “widespread” vividly; link that image directly to pervasive.",
+    "mnemonic": "PERVASIVE: PER + VAS = go. Goes through everything — widespread.",
     "usage": "A pervasive sense of unease, never stated and never resolved, runs through the entire novel.",
     "synonyms": [
       "widespread",
@@ -11454,10 +11455,10 @@ const GRE_WORDS = [
   },
   {
     "word": "phalanx",
-    "pronunciation": "/fˈeɪlæŋks/",
-    "pos": "Adjective",
+    "pronunciation": "/fˈælæŋks/",
+    "pos": "Noun",
     "meaning": "Formation of soldiers carrying shields close together for defense; any very close group of people",
-    "mnemonic": "Picture “formation” vividly; link that image directly to phalanx.",
+    "mnemonic": "PHALANX: Greek soldiers in tight formation — a close group.",
     "usage": "A phalanx of lawyers surrounded the executive as he left the courthouse.",
     "synonyms": [
       "formation",
@@ -11470,10 +11471,10 @@ const GRE_WORDS = [
   },
   {
     "word": "philanthropy",
-    "pronunciation": "/fɪlˈænθrʌpi/",
+    "pronunciation": "/fɪlˈænθɹəpi/",
     "pos": "Noun",
     "meaning": "Efforts to improve the well-being of humankind, generally through giving money",
-    "mnemonic": "Picture “charity” vividly; link that image directly to philanthropy.",
+    "mnemonic": "PHILANTHROPY: PHIL = love; ANTHROPOS = man. Love of mankind — charity.",
     "usage": "Her philanthropy, quiet and consistent for forty years, transformed the city's public schools.",
     "synonyms": [
       "charity",
@@ -11488,10 +11489,10 @@ const GRE_WORDS = [
   },
   {
     "word": "philistine",
-    "pronunciation": "/fˈɪlʌstˌin/",
-    "pos": "Adjective",
+    "pronunciation": "/fˈɪlɪstˌaɪn/",
+    "pos": "Noun",
     "meaning": "Person deficient in or hostile to culture; one indifferent to the arts",
-    "mnemonic": "Picture “boor” vividly; link that image directly to philistine.",
+    "mnemonic": "PHILISTINE: from the Philistines, outsiders to culture — a person hostile to art.",
     "usage": "The philistine dismissed the entire exhibition as a waste of public money.",
     "synonyms": [
       "boor",
@@ -11506,10 +11507,10 @@ const GRE_WORDS = [
   },
   {
     "word": "phlegmatic",
-    "pronunciation": "/flɛɡmˈætɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/flɛɡmˈæɾɪk/",
+    "pos": "Noun",
     "meaning": "Apathetic, sluggish, not easily excited or made emotional; calm and composed",
-    "mnemonic": "Picture “calm” vividly; link that image directly to phlegmatic.",
+    "mnemonic": "PHLEGMATIC: from the humor PHLEGM — cold, unemotional, calm.",
     "usage": "His phlegmatic temperament, infuriating to his more passionate colleagues, kept the department steady through every crisis.",
     "synonyms": [
       "calm",
@@ -11525,9 +11526,9 @@ const GRE_WORDS = [
   {
     "word": "phony",
     "pronunciation": "/fˈoʊni/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Fake, counterfeit; insincere, not genuine",
-    "mnemonic": "Picture “fake” vividly; link that image directly to phony.",
+    "mnemonic": "PHONY: from FAWNEY (a fake gold ring). Fake, insincere.",
     "usage": "His phony British accent, adopted after one semester abroad, fooled no one.",
     "synonyms": [
       "fake",
@@ -11542,10 +11543,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pious",
-    "pronunciation": "/pˈaɪʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈaɪəs/",
+    "pos": "Noun",
     "meaning": "Devout; religiously reverent and dutiful; showing reverence",
-    "mnemonic": "Picture “devout” vividly; link that image directly to pious.",
+    "mnemonic": "PIOUS: from PIETY — devout, reverent.",
     "usage": "The pious woman, who had prayed every morning for fifty years, was the first to welcome the stranger.",
     "synonyms": [
       "devout",
@@ -11561,9 +11562,9 @@ const GRE_WORDS = [
   {
     "word": "pith",
     "pronunciation": "/pˈɪθ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Core, essence; significance or weight; the spongy tissue in the stem of a plant",
-    "mnemonic": "Picture “essence” vividly; link that image directly to pith.",
+    "mnemonic": "PITH: the PITH is the CORE of a fruit — the essence of an idea.",
     "usage": "The pith of his argument, once the digressions were stripped away, was a single sentence.",
     "synonyms": [
       "essence",
@@ -11579,9 +11580,9 @@ const GRE_WORDS = [
   {
     "word": "placate",
     "pronunciation": "/plˈeɪkeɪt/",
-    "pos": "Verb",
+    "pos": "Noun",
     "meaning": "Satisfy or calm down (an angry or dissatisfied person), especially by conciliatory gestures; appease",
-    "mnemonic": "Picture “appease” vividly; link that image directly to placate.",
+    "mnemonic": "PLACATE: PLAC = please (placid). To please and calm — appease.",
     "usage": "The manager placated the furious client with a full refund and a personal apology.",
     "synonyms": [
       "appease",
@@ -11596,10 +11597,10 @@ const GRE_WORDS = [
   },
   {
     "word": "placid",
-    "pronunciation": "/plˈæsʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/plˈæsɪd/",
+    "pos": "Noun",
     "meaning": "Peaceful, calm, tranquil; not easily upset",
-    "mnemonic": "Picture “calm” vividly; link that image directly to placid.",
+    "mnemonic": "PLACID: PLAC = calm. Peaceful, tranquil.",
     "usage": "The placid surface of the lake reflected the mountains so perfectly that the two became indistinguishable.",
     "synonyms": [
       "calm",
@@ -11615,9 +11616,9 @@ const GRE_WORDS = [
   {
     "word": "plastic",
     "pronunciation": "/plˈæstɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Able to be shaped or formed; easily influenced; synthetic material",
-    "mnemonic": "Picture “malleable” vividly; link that image directly to plastic.",
+    "mnemonic": "PLASTIC: PLAST = mold (plaster). Able to be molded — impressionable.",
     "usage": "The plastic mind of a young child absorbs languages with an ease that adults can only envy.",
     "synonyms": [
       "malleable",
@@ -11632,10 +11633,10 @@ const GRE_WORDS = [
   },
   {
     "word": "platitude",
-    "pronunciation": "/plˈætɪtˌud/",
+    "pronunciation": "/plˈæɾɪtˌuːd/",
     "pos": "Noun",
     "meaning": "A shallow, overused statement; cliché; a flat, dull remark",
-    "mnemonic": "Picture “cliché” vividly; link that image directly to platitude.",
+    "mnemonic": "PLATITUDE: PLAT = flat. A FLAT, boring statement — a cliché.",
     "usage": "The commencement speech was a string of platitudes that the graduates had heard from every teacher for four years.",
     "synonyms": [
       "cliché",
@@ -11650,10 +11651,10 @@ const GRE_WORDS = [
   },
   {
     "word": "plausible",
-    "pronunciation": "/plˈɔzʌbʌl/",
+    "pronunciation": "/plˈɔːzəbəl/",
     "pos": "Adjective",
     "meaning": "Believable; having the appearance of truth; seemingly reasonable",
-    "mnemonic": "Picture “believable” vividly; link that image directly to plausible.",
+    "mnemonic": "PLAUSIBLE: PL = clap (applause). Worthy of applause — believable.",
     "usage": "His excuse was plausible enough that no one thought to check it.",
     "synonyms": [
       "believable",
@@ -11669,9 +11670,9 @@ const GRE_WORDS = [
   {
     "word": "plebian",
     "pronunciation": "/plˈɛbiən/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Of the common people; relating to the lower classes",
-    "mnemonic": "Picture “common” vividly; link that image directly to plebian.",
+    "mnemonic": "PLEBIAN: from the PLEBS, commoners — of the common people.",
     "usage": "The plebian origins of the new mayor, far from being a liability, became the core of his appeal.",
     "synonyms": [
       "common",
@@ -11686,10 +11687,10 @@ const GRE_WORDS = [
   },
   {
     "word": "plethora",
-    "pronunciation": "/plˈɛθɝʌ/",
-    "pos": "Adjective",
+    "pronunciation": "/plˈɛθɚɹə/",
+    "pos": "Noun",
     "meaning": "Excess; excessive amount; overabundance",
-    "mnemonic": "Picture “excess” vividly; link that image directly to plethora.",
+    "mnemonic": "PLETHORA: PLETH = fullness. Overabundance, excess.",
     "usage": "The plethora of choices, rather than liberating the consumer, paralyzed her.",
     "synonyms": [
       "excess",
@@ -11705,9 +11706,9 @@ const GRE_WORDS = [
   {
     "word": "plucky",
     "pronunciation": "/plˈʌki/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Brave, spirited; showing courage in the face of difficulty",
-    "mnemonic": "Picture “brave” vividly; link that image directly to plucky.",
+    "mnemonic": "PLUCKY: full of PLUCK (courage). Brave, spirited.",
     "usage": "The plucky underdog, given no chance by anyone, won the championship in overtime.",
     "synonyms": [
       "brave",
@@ -11722,10 +11723,10 @@ const GRE_WORDS = [
   },
   {
     "word": "plummet",
-    "pronunciation": "/plˈʌmʌt/",
+    "pronunciation": "/plˈʌmɪt/",
     "pos": "Noun",
     "meaning": "Plunge, fall straight down; decrease rapidly",
-    "mnemonic": "Picture “plunge” vividly; link that image directly to plummet.",
+    "mnemonic": "PLUMMET: like a PLUMB line dropping straight down — to plunge.",
     "usage": "The stock plummeted 40 percent within an hour of the announcement.",
     "synonyms": [
       "plunge",
@@ -11743,7 +11744,7 @@ const GRE_WORDS = [
     "pronunciation": "/pluːtˈɑːkɹəsi/",
     "pos": "Noun",
     "meaning": "Rule by the wealthy; government by the rich",
-    "mnemonic": "Picture “oligarchy” vividly; link that image directly to plutocracy.",
+    "mnemonic": "PLUTOCRACY: PLUTO = wealth (Plutus); CRACY = rule. Rule by the wealthy.",
     "usage": "Critics warned that the country was quietly becoming a plutocracy, where policy followed money.",
     "synonyms": [
       "oligarchy",
@@ -11758,10 +11759,10 @@ const GRE_WORDS = [
   },
   {
     "word": "polarized",
-    "pronunciation": "/pˈoʊlɝˌaɪzd/",
+    "pronunciation": "/pˈoʊlɚɹˌaɪzd/",
     "pos": "Noun",
     "meaning": "Divided into sharply opposed groups; separated into opposing extremes",
-    "mnemonic": "Picture “divided” vividly; link that image directly to polarized.",
+    "mnemonic": "POLARIZED: split into POLEs — sharply divided.",
     "usage": "The issue polarized the community so thoroughly that old friendships quietly ended.",
     "synonyms": [
       "divided",
@@ -11776,10 +11777,10 @@ const GRE_WORDS = [
   },
   {
     "word": "polemic",
-    "pronunciation": "/pʌlˈɛmɪk/",
+    "pronunciation": "/pɑːlˈɛmɪk/",
     "pos": "Noun",
     "meaning": "Controversial argument, especially one attacking a specific idea; a strong verbal or written attack",
-    "mnemonic": "Picture “attack” vividly; link that image directly to polemic.",
+    "mnemonic": "POLEMIC: POLEMOS = war. A verbal war — an attack on a specific idea.",
     "usage": "The book was less a history than a polemic, and its fury, though effective, distorted the record.",
     "synonyms": [
       "attack",
@@ -11794,10 +11795,10 @@ const GRE_WORDS = [
   },
   {
     "word": "politic",
-    "pronunciation": "/pˈɑlʌtˌɪk/",
+    "pronunciation": "/pˈɑːlətˌɪk/",
     "pos": "Adjective",
     "meaning": "Shrewd, pragmatic; tactful or diplomatic; prudent",
-    "mnemonic": "Picture “prudent” vividly; link that image directly to politic.",
+    "mnemonic": "POLITIC: what POLITICIANS do well — prudent, tactful.",
     "usage": "It would have been politic to wait before announcing the decision, but he was impatient.",
     "synonyms": [
       "prudent",
@@ -11812,10 +11813,10 @@ const GRE_WORDS = [
   },
   {
     "word": "polyglot",
-    "pronunciation": "/pˌɑlˌiɡlɑt/",
+    "pronunciation": "/pˈɑːlɪɡlˌɑːt/",
     "pos": "Noun",
     "meaning": "Speaking or composed of many languages; a person who knows several languages",
-    "mnemonic": "Picture “multilingual” vividly; link that image directly to polyglot.",
+    "mnemonic": "POLYGLOT: POLY = many; GLOT = tongue. Speaking many languages.",
     "usage": "The polyglot, fluent in seven languages, moved between delegations without ever needing an interpreter.",
     "synonyms": [
       "multilingual",
@@ -11828,10 +11829,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ponderous",
-    "pronunciation": "/pˈɑndɝʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈɑːndɚɹəs/",
+    "pos": "Noun",
     "meaning": "Heavy; bulky and unwieldy; dull, labored",
-    "mnemonic": "Picture “heavy” vividly; link that image directly to ponderous.",
+    "mnemonic": "PONDEROUS: PONDER = weigh. Heavy, labored, dull.",
     "usage": "The ponderous prose, weighed down by every possible qualification, took three pages to make a single point.",
     "synonyms": [
       "heavy",
@@ -11846,10 +11847,10 @@ const GRE_WORDS = [
   },
   {
     "word": "posit",
-    "pronunciation": "/pˈɑzʌt/",
-    "pos": "Noun",
+    "pronunciation": "/pˈɑːsɪt/",
+    "pos": "Verb",
     "meaning": "Presume, suggest, put forward (an idea); to assume as a fact",
-    "mnemonic": "Picture “propose” vividly; link that image directly to posit.",
+    "mnemonic": "POSIT: to PUT forward an idea — to propose.",
     "usage": "The theory posits that language shapes thought, an idea that has fascinated philosophers for centuries.",
     "synonyms": [
       "propose",
@@ -11864,10 +11865,10 @@ const GRE_WORDS = [
   },
   {
     "word": "posthumous",
-    "pronunciation": "/pˈɑstʃʊmʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈoʊsthjuːməs/",
+    "pos": "Noun",
     "meaning": "Happening or continuing after death; published after the author's death",
-    "mnemonic": "Picture “after death” vividly; link that image directly to posthumous.",
+    "mnemonic": "POSTHUMOUS: POST = after; HUMUS = earth. After burial — happening after death.",
     "usage": "The posthumous publication of her final novel, unfinished at her death, revealed the direction she had been moving.",
     "synonyms": [
       "after death",
@@ -11879,10 +11880,10 @@ const GRE_WORDS = [
   },
   {
     "word": "potentate",
-    "pronunciation": "/pˈoʊtʌntˌeɪt/",
-    "pos": "Verb",
+    "pronunciation": "/pˈoʊtəntˌeɪt/",
+    "pos": "Noun",
     "meaning": "Ruler, person of great power; a monarch or dictator",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "POTENTATE: POTENT = powerful. A powerful ruler.",
     "usage": "The aging potentate, once feared across three continents, now rarely left his palace.",
     "synonyms": [
       "ruler",
@@ -11897,10 +11898,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pragmatic",
-    "pronunciation": "/præɡmˈætɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹæɡmˈæɾɪk/",
+    "pos": "Noun",
     "meaning": "Practical; dealing with actual facts and reality; concerned with practical results",
-    "mnemonic": "Picture “practical” vividly; link that image directly to pragmatic.",
+    "mnemonic": "PRAGMATIC: PRAGMA = deed (practice). Practical, deed-oriented.",
     "usage": "Her pragmatic approach, which ignored ideology in favor of what worked, made her indispensable to both parties.",
     "synonyms": [
       "practical",
@@ -11915,10 +11916,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prattle",
-    "pronunciation": "/prˈætʌl/",
+    "pronunciation": "/pɹˈæɾəl/",
     "pos": "Verb",
     "meaning": "Talk in an idle, simple-minded, meaningless, or foolish way; chatter, babble",
-    "mnemonic": "Picture “chatter” vividly; link that image directly to prattle.",
+    "mnemonic": "PRATTLE: like a BABY's BABBLE — idle talk.",
     "usage": "The child prattled on about nothing for an hour, and her grandmother listened to every word.",
     "synonyms": [
       "chatter",
@@ -11931,10 +11932,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pre-empt",
-    "pronunciation": "/prˈiˌɛmpt/",
+    "pronunciation": "/pɹˈiː ˈɛmpt/",
     "pos": "Verb",
     "meaning": "Prevent; take the place of, supplant; take before someone else can",
-    "mnemonic": "Picture “forestall” vividly; link that image directly to pre-empt.",
+    "mnemonic": "PRE-EMPT: EMPT = buy (Latin emere). Buy up BEFORE someone else — to forestall.",
     "usage": "She pre-empted the criticism by admitting the flaw before anyone else could raise it.",
     "synonyms": [
       "forestall",
@@ -11947,10 +11948,10 @@ const GRE_WORDS = [
   },
   {
     "word": "preamble",
-    "pronunciation": "/priˈæmbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹˈiːæmbəl/",
+    "pos": "Noun",
     "meaning": "Introductory statement, preface; an introductory part",
-    "mnemonic": "Picture “introduction” vividly; link that image directly to preamble.",
+    "mnemonic": "PREAMBLE: PRE + AMBLE = walk before. What walks BEFORE the main text — an introduction.",
     "usage": "The preamble to the constitution, read aloud each year, still has the power to move an audience.",
     "synonyms": [
       "introduction",
@@ -11965,10 +11966,10 @@ const GRE_WORDS = [
   },
   {
     "word": "precarious",
-    "pronunciation": "/prikˈɛriʌs/",
+    "pronunciation": "/pɹɪkˈɛɹɪəs/",
     "pos": "Adjective",
     "meaning": "Unstable, insecure, dangerous; dependent on chance",
-    "mnemonic": "Picture “unstable” vividly; link that image directly to precarious.",
+    "mnemonic": "PRECARIOUS: PREX = prayer. Held up only by prayer — unstable, risky.",
     "usage": "The village, clinging to a slope above the river, occupied the most precarious site imaginable.",
     "synonyms": [
       "unstable",
@@ -11983,10 +11984,10 @@ const GRE_WORDS = [
   },
   {
     "word": "precipitate",
-    "pronunciation": "/prɪsˈɪpɪtˌeɪt/",
+    "pronunciation": "/pɹɪsˈɪpᵻtˌeɪt/",
     "pos": "Verb",
     "meaning": "Cause to happen suddenly or prematurely; fling, plunge, or hurl down; to hasten",
-    "mnemonic": "Picture “hasten” vividly; link that image directly to precipitate.",
+    "mnemonic": "PRECIPITATE: PRE + CAPIT = head. Head first, sudden — to cause hastily; also a sudden fall.",
     "usage": "The leak precipitated a crisis that the administration had hoped to avoid until after the election.",
     "synonyms": [
       "hasten",
@@ -12002,9 +12003,9 @@ const GRE_WORDS = [
   {
     "word": "précis",
     "pronunciation": "/pˌiːˈɑːɹsˈɪs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Concise summary, abstract; a summary of the essential points",
-    "mnemonic": "Picture “summary” vividly; link that image directly to précis.",
+    "mnemonic": "PRÉCIS: French for PRECISE — a precise summary.",
     "usage": "The précis compressed a 400-page report into two pages without losing anything essential.",
     "synonyms": [
       "summary",
@@ -12017,10 +12018,10 @@ const GRE_WORDS = [
   },
   {
     "word": "precursor",
-    "pronunciation": "/prikˈɝsɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹɪkˈɜːsɚ/",
+    "pos": "Noun",
     "meaning": "Something that comes before, especially something that also announces or suggests something on its way; a forerunner",
-    "mnemonic": "Picture “forerunner” vividly; link that image directly to precursor.",
+    "mnemonic": "PRECURSOR: PRE + CURSOR = runner. Forerunner, something that runs ahead.",
     "usage": "The pamphlet was a precursor to the revolution that followed within a decade.",
     "synonyms": [
       "forerunner",
@@ -12035,10 +12036,10 @@ const GRE_WORDS = [
   },
   {
     "word": "predilection",
-    "pronunciation": "/prˌɛdʌlˈɛkʃʌn/",
+    "pronunciation": "/pɹˌɛdəlˈɛkʃən/",
     "pos": "Noun",
     "meaning": "Preference, tendency or favorability towards; a special liking",
-    "mnemonic": "Picture “preference” vividly; link that image directly to predilection.",
+    "mnemonic": "PREDILECTION: PRE + DILECT = love (delight). A preferred love — a natural liking.",
     "usage": "His predilection for long, digressive footnotes made his books a delight to some and a torment to others.",
     "synonyms": [
       "preference",
@@ -12053,10 +12054,10 @@ const GRE_WORDS = [
   },
   {
     "word": "predisposed",
-    "pronunciation": "/prˌidɪspˈoʊzd/",
+    "pronunciation": "/pɹiːdɪspˈoʊzd/",
     "pos": "Adjective",
     "meaning": "Having an inclination or tendency beforehand; susceptible; likely to be affected",
-    "mnemonic": "Picture “inclined” vividly; link that image directly to predisposed.",
+    "mnemonic": "PREDISPOSED: PRE + DISPOSED — inclined beforehand.",
     "usage": "Having grown up in poverty, she was predisposed to distrust promises of easy wealth.",
     "synonyms": [
       "inclined",
@@ -12071,10 +12072,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prescient",
-    "pronunciation": "/prˈɛsiʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹˈiːsiənt/",
+    "pos": "Noun",
     "meaning": "Having foreknowledge or foresight; seeing the future; prophetic",
-    "mnemonic": "Picture “foresighted” vividly; link that image directly to prescient.",
+    "mnemonic": "PRESCIENT: PRE + SCI = know (science). Knowing BEFORE — having foresight.",
     "usage": "Her prescient warning about the housing market, dismissed at the time, was vindicated within two years.",
     "synonyms": [
       "foresighted",
@@ -12089,10 +12090,10 @@ const GRE_WORDS = [
   },
   {
     "word": "presumptive",
-    "pronunciation": "/prizˈʌmptɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹɪsˈʌmptɪv/",
+    "pos": "Noun",
     "meaning": "Based on inference or assumption; providing reasonable grounds for belief; probable",
-    "mnemonic": "Picture “probable” vividly; link that image directly to presumptive.",
+    "mnemonic": "PRESUMPTIVE: PRESUME + IVE — based on assumption, probable.",
     "usage": "The presumptive heir, though not yet confirmed, was already being treated as the next leader.",
     "synonyms": [
       "probable",
@@ -12107,10 +12108,10 @@ const GRE_WORDS = [
   },
   {
     "word": "presumptuous",
-    "pronunciation": "/prɪzˈʌmptʃʌwʌs/",
+    "pronunciation": "/pɹɪsˈʌmptʃuːəs/",
     "pos": "Adjective",
     "meaning": "Too bold or forward; going beyond that which is proper; overstepping bounds",
-    "mnemonic": "Picture “bold” vividly; link that image directly to presumptuous.",
+    "mnemonic": "PRESUMPTUOUS: PRESUME + PTOUS — taking too much for granted — bold, overstepping.",
     "usage": "It was presumptuous of him to correct the professor in front of the class, however right he may have been.",
     "synonyms": [
       "bold",
@@ -12125,10 +12126,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pretentious",
-    "pronunciation": "/pritˈɛnʃʌs/",
+    "pronunciation": "/pɹɪtˈɛnʃəs/",
     "pos": "Adjective",
     "meaning": "Claiming or demanding a position of importance or dignity, especially when unjustified; showing off, creating a deceptive, false show of worth",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "PRETENTIOUS: PRETEND + TIOUS — pretending to be more important than you are.",
     "usage": "The film's pretentious voiceover, musing on time and memory, obscured what was essentially a simple romance.",
     "synonyms": [
       "pompous",
@@ -12144,9 +12145,9 @@ const GRE_WORDS = [
   {
     "word": "preternatural",
     "pronunciation": "/pɹɪɾɚnˈætʃɚɹəl/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Supernatural, exceptional; beyond what is normal or natural",
-    "mnemonic": "Picture “supernatural” vividly; link that image directly to preternatural.",
+    "mnemonic": "PRETERNATURAL: PRETER = beyond; NATURAL. Beyond natural — supernatural, extraordinary.",
     "usage": "Her preternatural calm, maintained even as the building burned, unnerved the firefighters.",
     "synonyms": [
       "supernatural",
@@ -12161,10 +12162,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prevaricate",
-    "pronunciation": "/prʌvˈɛrʌkeɪt/",
+    "pronunciation": "/pɹɪvˈæɹᵻkˌeɪt/",
     "pos": "Verb",
     "meaning": "Stray from the truth, mislead, lie; to speak evasively",
-    "mnemonic": "Picture “lie” vividly; link that image directly to prevaricate.",
+    "mnemonic": "PREVARICATE: PRE + VARIC = straddle. To straddle the truth — to lie evasively.",
     "usage": "The witness prevaricated for an hour, and the jury's patience wore thin.",
     "synonyms": [
       "lie",
@@ -12179,10 +12180,10 @@ const GRE_WORDS = [
   },
   {
     "word": "primacy",
-    "pronunciation": "/prˈaɪmʌsi/",
+    "pronunciation": "/pɹˈaɪməsi/",
     "pos": "Noun",
     "meaning": "The state of being first or most important; preeminence",
-    "mnemonic": "Picture “supremacy” vividly; link that image directly to primacy.",
+    "mnemonic": "PRIMACY: PRIME = first. The state of being first or most important.",
     "usage": "The primacy of the constitution over ordinary legislation is not a matter of debate among jurists.",
     "synonyms": [
       "supremacy",
@@ -12197,10 +12198,10 @@ const GRE_WORDS = [
   },
   {
     "word": "principled",
-    "pronunciation": "/prˈɪnsʌpʌld/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹˈɪnsɪpəld/",
+    "pos": "Noun",
     "meaning": "Having high moral standards; acting according to principle",
-    "mnemonic": "Picture “moral” vividly; link that image directly to principled.",
+    "mnemonic": "PRINCIPLED: full of PRINCIPLES — moral, ethical.",
     "usage": "The principled judge refused the bribe, though it would have solved every problem he had.",
     "synonyms": [
       "moral",
@@ -12215,10 +12216,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pristine",
-    "pronunciation": "/prˈɪstin/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹɪstˈiːn/",
+    "pos": "Noun",
     "meaning": "In an original, pure state; uncorrupted; clean and fresh as if new",
-    "mnemonic": "Picture “pure” vividly; link that image directly to pristine.",
+    "mnemonic": "PRISTINE: PRIST = pure (Latin). In original, pure state.",
     "usage": "The pristine forest, untouched by logging for centuries, contained species found nowhere else.",
     "synonyms": [
       "pure",
@@ -12233,10 +12234,10 @@ const GRE_WORDS = [
   },
   {
     "word": "probity",
-    "pronunciation": "/prˈoʊbʌti/",
+    "pronunciation": "/pɹˈɑːbɪɾi/",
     "pos": "Noun",
     "meaning": "Honesty, integrity; uprightness; adherence to the highest principles",
-    "mnemonic": "Picture “honesty” vividly; link that image directly to probity.",
+    "mnemonic": "PROBITY: PROB = prove/test (probation). Proven honesty — integrity.",
     "usage": "Her probity, tested by years of temptation, remained unimpeachable.",
     "synonyms": [
       "honesty",
@@ -12251,10 +12252,10 @@ const GRE_WORDS = [
   },
   {
     "word": "proclivity",
-    "pronunciation": "/proʊklˈɪvʌti/",
+    "pronunciation": "/pɹəklˈɪvɪɾi/",
     "pos": "Noun",
     "meaning": "Inclination, natural tendency; a tendency toward something, often something questionable",
-    "mnemonic": "VIT = life: picture something vividly alive.",
+    "mnemonic": "PROCLIVITY: PRO + CLIV = slope. A leaning/slope toward something — an inclination.",
     "usage": "His proclivity for exaggeration was so well known that his friends halved every figure he quoted.",
     "synonyms": [
       "tendency",
@@ -12269,10 +12270,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prodigal",
-    "pronunciation": "/prˈɑdɪɡʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹˈɑːdɪɡəl/",
+    "pos": "Noun",
     "meaning": "Wasteful, extravagant; giving abundantly, lavish; a spendthrift",
-    "mnemonic": "Picture “wasteful” vividly; link that image directly to prodigal.",
+    "mnemonic": "PRODIGAL: PRO + DIG = drive out. Driving through money — wasteful.",
     "usage": "The prodigal son returned not in rags but in a new suit, having spent the family fortune on racehorses.",
     "synonyms": [
       "wasteful",
@@ -12287,10 +12288,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prodigious",
-    "pronunciation": "/prʌdˈɪdʒʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹədˈɪdʒəs/",
+    "pos": "Noun",
     "meaning": "Extraordinarily large, impressive, etc.; enormous; marvelous",
-    "mnemonic": "Picture “enormous” vividly; link that image directly to prodigious.",
+    "mnemonic": "PRODIGIOUS: PRODIGY — extraordinarily large or impressive.",
     "usage": "The prodigious output of the composer, over six hundred works, was only appreciated after his death.",
     "synonyms": [
       "enormous",
@@ -12305,10 +12306,10 @@ const GRE_WORDS = [
   },
   {
     "word": "profligate",
-    "pronunciation": "/prˈɔflɪɡˌeɪt/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹˈɑːflᵻɡˌeɪt/",
+    "pos": "Noun",
     "meaning": "Completely and shamelessly immoral, or extremely wasteful; recklessly extravagant",
-    "mnemonic": "Picture “wasteful” vividly; link that image directly to profligate.",
+    "mnemonic": "PROFLIGATE: PRO + FLIG = strike down. Morally and financially struck down — wasteful, dissolute.",
     "usage": "The profligate spending of the last administration left the treasury nearly empty.",
     "synonyms": [
       "wasteful",
@@ -12323,10 +12324,10 @@ const GRE_WORDS = [
   },
   {
     "word": "profound",
-    "pronunciation": "/proʊfˈaʊnd/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹəfˈaʊnd/",
+    "pos": "Noun",
     "meaning": "Very insightful, penetrating deeply into a subject; pervasive, intense, \"down to the very bottom\"",
-    "mnemonic": "Picture “deep” vividly; link that image directly to profound.",
+    "mnemonic": "PROFOUND: PRO + FOUND (bottom). Deep down to the FOUNDation — very deep.",
     "usage": "The book had a profound effect on the way an entire generation understood the war.",
     "synonyms": [
       "deep",
@@ -12341,10 +12342,10 @@ const GRE_WORDS = [
   },
   {
     "word": "profuse",
-    "pronunciation": "/prʌfjˈus/",
+    "pronunciation": "/pɹəfjˈuːz/",
     "pos": "Noun",
     "meaning": "Abundant, extravagant, giving or given freely; plentiful",
-    "mnemonic": "Picture “abundant” vividly; link that image directly to profuse.",
+    "mnemonic": "PROFUSE: PRO + FUSE = pour. Poured out freely — abundant.",
     "usage": "He offered profuse apologies, but the damage had already been done.",
     "synonyms": [
       "abundant",
@@ -12359,10 +12360,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prohibitive",
-    "pronunciation": "/proʊhˈɪbʌtɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹəhˈɪbɪtˌɪv/",
+    "pos": "Noun",
     "meaning": "Tending to forbid something, or serving to prevent something; so high as to prevent purchase or use",
-    "mnemonic": "Picture “forbidding” vividly; link that image directly to prohibitive.",
+    "mnemonic": "PROHIBITIVE: PROHIBIT — so high it forbids purchase.",
     "usage": "The prohibitive cost of the medication kept it out of reach of the patients who most needed it.",
     "synonyms": [
       "forbidding",
@@ -12377,10 +12378,10 @@ const GRE_WORDS = [
   },
   {
     "word": "proliferate",
-    "pronunciation": "/proʊlˈɪfɝˌeɪt/",
+    "pronunciation": "/pɹəlˈɪfɚɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Increase or spread rapidly or excessively; to multiply",
-    "mnemonic": "FER = carry: picture something being carried.",
+    "mnemonic": "PROLIFERATE: PRO + LIFER = life. Brings forth life rapidly — multiplies.",
     "usage": "The rumors proliferated faster than anyone could correct them.",
     "synonyms": [
       "multiply",
@@ -12396,9 +12397,9 @@ const GRE_WORDS = [
   {
     "word": "prolix",
     "pronunciation": "/pɹˈɑːlɪks/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Excessively long and wordy (of a person, piece of writing, etc.); tedious",
-    "mnemonic": "Picture “verbose” vividly; link that image directly to prolix.",
+    "mnemonic": "PROLIX: PRO + LIX (like LIQUID). Words flowing everywhere — excessively long.",
     "usage": "His prolix response to a simple question lasted twenty minutes and answered nothing.",
     "synonyms": [
       "verbose",
@@ -12413,10 +12414,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prologue",
-    "pronunciation": "/prˈoʊlɑɡ/",
+    "pronunciation": "/pɹˈoʊlɑːɡ/",
     "pos": "Noun",
     "meaning": "Introductory part to a book, play, etc.; a preface or introduction",
-    "mnemonic": "Picture “introduction” vividly; link that image directly to prologue.",
+    "mnemonic": "PROLOGUE: PRO + LOGOS = word. The word BEFORE — introduction.",
     "usage": "The prologue, set in 1945, explained everything that happened in the novel that followed.",
     "synonyms": [
       "introduction",
@@ -12431,10 +12432,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pronounced",
-    "pronunciation": "/prʌnˈaʊnst/",
+    "pronunciation": "/pɹənˈaʊnst/",
     "pos": "Noun",
     "meaning": "Distinct, strong, clearly indicated; very noticeable",
-    "mnemonic": "Picture “distinct” vividly; link that image directly to pronounced.",
+    "mnemonic": "PRONOUNCED: PRONOUNCE + D. Spoken clearly — distinct, marked.",
     "usage": "The difference between the two candidates was most pronounced on questions of foreign policy.",
     "synonyms": [
       "distinct",
@@ -12449,10 +12450,10 @@ const GRE_WORDS = [
   },
   {
     "word": "propagate",
-    "pronunciation": "/prˈɑpʌɡˌeɪt/",
+    "pronunciation": "/pɹˈɑːpəɡˌeɪt/",
     "pos": "Verb",
     "meaning": "Reproduce, spread, increase; to cause to spread or multiply",
-    "mnemonic": "Picture “spread” vividly; link that image directly to propagate.",
+    "mnemonic": "PROPAGATE: PROPAG + ATE — to spread (like a plant propagates).",
     "usage": "The theory, once confined to a small circle, propagated through the academy within a decade.",
     "synonyms": [
       "spread",
@@ -12466,10 +12467,10 @@ const GRE_WORDS = [
   },
   {
     "word": "propensity",
-    "pronunciation": "/prʌpˈɛnsɪti/",
+    "pronunciation": "/pɹəpˈɛnsɪɾi/",
     "pos": "Noun",
     "meaning": "Natural inclination or tendency; a natural tendency toward something",
-    "mnemonic": "Picture “tendency” vividly; link that image directly to propensity.",
+    "mnemonic": "PROPENSITY: PRO + PENS = hang. Hanging toward — a natural tendency.",
     "usage": "His propensity for risk-taking, thrilling in a young man, was alarming in a treasurer.",
     "synonyms": [
       "tendency",
@@ -12484,10 +12485,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prophetic",
-    "pronunciation": "/prʌfˈɛtɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹɑːfˈɛɾɪk/",
+    "pos": "Noun",
     "meaning": "Relating to prophesy, predicting, ominous; foretelling the future",
-    "mnemonic": "Picture “predictive” vividly; link that image directly to prophetic.",
+    "mnemonic": "PROPHETIC: PROPHET — predicting, foretelling.",
     "usage": "His prophetic warning about the environmental costs of the project was ridiculed at the time and vindicated a decade later.",
     "synonyms": [
       "predictive",
@@ -12503,9 +12504,9 @@ const GRE_WORDS = [
   {
     "word": "propitiate",
     "pronunciation": "/pɹəpˈɪʃɪˌeɪt/",
-    "pos": "Verb",
+    "pos": "Noun",
     "meaning": "Attempt to reconcile with, satisfy, or reduce the animosity of (a person who is angry, offended, etc.); appease",
-    "mnemonic": "Picture “appease” vividly; link that image directly to propitiate.",
+    "mnemonic": "PROPITIATE: PRO + PET = seek. To seek favor — to appease.",
     "usage": "The villagers propitiated the river god with offerings after the second flood.",
     "synonyms": [
       "appease",
@@ -12520,10 +12521,10 @@ const GRE_WORDS = [
   },
   {
     "word": "propitious",
-    "pronunciation": "/prʌpˈɪʃʌs/",
+    "pronunciation": "/pɹəpˈɪʃəs/",
     "pos": "Adjective",
     "meaning": "Favorable, giving good signs for the future, likely to work out; kind or forgiving",
-    "mnemonic": "Picture “favorable” vividly; link that image directly to propitious.",
+    "mnemonic": "PROPITIOUS: PRO + PET = seek. Favorable, giving good signs.",
     "usage": "The timing was propitious: the market, the talent, and the technology had all converged.",
     "synonyms": [
       "favorable",
@@ -12538,10 +12539,10 @@ const GRE_WORDS = [
   },
   {
     "word": "propriety",
-    "pronunciation": "/prʌprˈaɪʌti/",
+    "pronunciation": "/pɹəpɹˈaɪəɾi/",
     "pos": "Adjective",
     "meaning": "Conforming to good manners or appropriate behavior; justness; the quality of being proper",
-    "mnemonic": "Picture “decorum” vividly; link that image directly to propriety.",
+    "mnemonic": "PROPRIETY: PROPRI = proper. Proper behavior — decorum.",
     "usage": "She observed every rule of propriety, which is why her sudden outburst, when it came, was so shocking.",
     "synonyms": [
       "decorum",
@@ -12556,10 +12557,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prosaic",
-    "pronunciation": "/proʊzˈeɪɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹəsˈeɪɪk/",
+    "pos": "Noun",
     "meaning": "Dull, ordinary, commonplace; lacking imagination",
-    "mnemonic": "Picture “dull” vividly; link that image directly to prosaic.",
+    "mnemonic": "PROSAIC: PROSE + AIC — dull as ordinary PROSE (not poetry) — commonplace.",
     "usage": "The prosaic details of the merger, from filing deadlines to parking allocations, consumed more of the meeting than the strategy did.",
     "synonyms": [
       "dull",
@@ -12574,10 +12575,10 @@ const GRE_WORDS = [
   },
   {
     "word": "proscribe",
-    "pronunciation": "/proʊskrˈaɪb/",
+    "pronunciation": "/pɹəskɹˈaɪb/",
     "pos": "Noun",
     "meaning": "Prohibit, outlaw; denounce; exile or banish",
-    "mnemonic": "SCRIB = write: picture the word written down.",
+    "mnemonic": "PROSCRIBE: PRO + SCRIB = write. Write up a ban — to prohibit.",
     "usage": "The regulations proscribe any advertisement of tobacco products on television.",
     "synonyms": [
       "prohibit",
@@ -12592,10 +12593,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prospective",
-    "pronunciation": "/prʌspˈɛktɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹəspˈɛktɪv/",
+    "pos": "Noun",
     "meaning": "Potential, in the future; expected or likely to happen",
-    "mnemonic": "SPECT = see: picture the word through an act of seeing.",
+    "mnemonic": "PROSPECTIVE: PRO + SPECT = look. Looking forward — potential, future.",
     "usage": "The prospective buyer spent three hours inspecting the house and then made an offer below asking price.",
     "synonyms": [
       "potential",
@@ -12610,10 +12611,10 @@ const GRE_WORDS = [
   },
   {
     "word": "providential",
-    "pronunciation": "/prˌɑvʌdˈɛnʃʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹˌɑːvɪdˈɛnʃəl/",
+    "pos": "Noun",
     "meaning": "Lucky, fortunate, or relating to divine care (the idea that a deity has helped or cared for a person)",
-    "mnemonic": "Picture “fortunate” vividly; link that image directly to providential.",
+    "mnemonic": "PROVIDENTIAL: PROVIDENCE — lucky, divinely arranged.",
     "usage": "The providential rain, arriving the day after the planting, saved the entire harvest.",
     "synonyms": [
       "fortunate",
@@ -12628,10 +12629,10 @@ const GRE_WORDS = [
   },
   {
     "word": "proxy",
-    "pronunciation": "/prˈɑksi/",
+    "pronunciation": "/pɹˈɑːksi/",
     "pos": "Adjective",
     "meaning": "Agent, substitute, person authorized to act on behalf of another",
-    "mnemonic": "Picture “substitute” vividly; link that image directly to proxy.",
+    "mnemonic": "PROXY: PROCURE + CY — a substitute authorized to act.",
     "usage": "The shareholders voted by proxy, and the result was decided long before the annual meeting began.",
     "synonyms": [
       "substitute",
@@ -12646,10 +12647,10 @@ const GRE_WORDS = [
   },
   {
     "word": "prudent",
-    "pronunciation": "/prˈudʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/pɹˈuːdənt/",
+    "pos": "Noun",
     "meaning": "Wise in practical matters, carefully providing for the future; cautious and sensible",
-    "mnemonic": "Picture “wise” vividly; link that image directly to prudent.",
+    "mnemonic": "PRUDENT: PRUD = wise (prudence). Wise in practical matters.",
     "usage": "The prudent course, though slow, avoided the risks that destroyed two of his competitors.",
     "synonyms": [
       "wise",
@@ -12664,10 +12665,10 @@ const GRE_WORDS = [
   },
   {
     "word": "puerile",
-    "pronunciation": "/pjurˈil/",
-    "pos": "Adjective",
+    "pronunciation": "/pjˈuːɹəl/",
+    "pos": "Noun",
     "meaning": "Juvenile, immature; childish",
-    "mnemonic": "Picture “childish” vividly; link that image directly to puerile.",
+    "mnemonic": "PUERILE: PUER = boy (puerile). Boyish — childish, immature.",
     "usage": "His puerile jokes, delivered during the most solemn part of the ceremony, embarrassed even his closest friends.",
     "synonyms": [
       "childish",
@@ -12682,10 +12683,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pugilism",
-    "pronunciation": "/pjˈudʒʌlɪzʌm/",
+    "pronunciation": "/pjˈuːdʒɪlˌɪzəm/",
     "pos": "Noun",
     "meaning": "Boxing, fighting with the fists",
-    "mnemonic": "Picture “boxing” vividly; link that image directly to pugilism.",
+    "mnemonic": "PUGILISM: PUG = fist (pug, punch). Boxing with fists.",
     "usage": "Pugilism, long considered a disreputable pursuit, gradually acquired a following among the upper classes in the nineteenth century.",
     "synonyms": [
       "boxing",
@@ -12698,10 +12699,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pugnacious",
-    "pronunciation": "/pʌɡnˈæʃɪs/",
-    "pos": "Adjective",
+    "pronunciation": "/pʌɡnˈeɪʃəs/",
+    "pos": "Noun",
     "meaning": "Inclined to fight, combative; aggressive",
-    "mnemonic": "Picture “combative” vividly; link that image directly to pugnacious.",
+    "mnemonic": "PUGNACIOUS: PUGN = fist. Ready with fists — combative.",
     "usage": "The pugnacious editor attacked every rival publication in print, and his circulation soared.",
     "synonyms": [
       "combative",
@@ -12719,7 +12720,7 @@ const GRE_WORDS = [
     "pronunciation": "/pjˈuːɪsəns/",
     "pos": "Noun",
     "meaning": "Power, might; strength or influence",
-    "mnemonic": "Picture “power” vividly; link that image directly to puissance.",
+    "mnemonic": "PUISSANCE: from French PUISSANT (powerful). Power, might.",
     "usage": "The castle, built to display the king's puissance, took forty years to complete.",
     "synonyms": [
       "power",
@@ -12734,10 +12735,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pulchritude",
-    "pronunciation": "/pʌlkɹɪtˌuːd/",
+    "pronunciation": "/pˈʌlkɹɪtˌuːd/",
     "pos": "Noun",
     "meaning": "Physical beauty; comeliness",
-    "mnemonic": "Picture “beauty” vividly; link that image directly to pulchritude.",
+    "mnemonic": "PULCHRITUDE: PULCHR = beauty. Physical beauty.",
     "usage": "Her pulchritude, celebrated in sonnets and songs, was matched by an intellect that few of her admirers bothered to notice.",
     "synonyms": [
       "beauty",
@@ -12752,10 +12753,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pungent",
-    "pronunciation": "/pˈʌndʒʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/pˈʌndʒənt/",
+    "pos": "Noun",
     "meaning": "Having a sharp taste or smell; biting, stimulating, sharp",
-    "mnemonic": "Picture “sharp” vividly; link that image directly to pungent.",
+    "mnemonic": "PUNGENT: PUNG = prick. Pricking the nose — sharp-smelling.",
     "usage": "The pungent smell of the cheese filled the entire kitchen and lingered for hours.",
     "synonyms": [
       "sharp",
@@ -12770,10 +12771,10 @@ const GRE_WORDS = [
   },
   {
     "word": "pusillanimous",
-    "pronunciation": "/pjusʌlˈænʌmʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/pjˌuːsɪlˈænɪməs/",
+    "pos": "Noun",
     "meaning": "Cowardly, timid; lacking courage and resolution",
-    "mnemonic": "Picture “cowardly” vividly; link that image directly to pusillanimous.",
+    "mnemonic": "PUSILLANIMOUS: PUSILL = tiny; ANIMUS = spirit. Tiny-spirited — cowardly.",
     "usage": "The pusillanimous leader, unwilling to risk his popularity, avoided every difficult decision until events made them for him.",
     "synonyms": [
       "cowardly",
@@ -12788,10 +12789,10 @@ const GRE_WORDS = [
   },
   {
     "word": "qualified",
-    "pronunciation": "/kwˈɑlʌfˌaɪd/",
+    "pronunciation": "/kwˈɑːlᵻfˌaɪd/",
     "pos": "Adjective",
     "meaning": "Modified, limited, conditional on something else; having the necessary qualifications",
-    "mnemonic": "Picture “conditional” vividly; link that image directly to qualified.",
+    "mnemonic": "QUALIFIED: has QUALIFICATIONS — or modified, conditional ('qualified approval').",
     "usage": "Her support was qualified: she endorsed the plan only if the funding were guaranteed.",
     "synonyms": [
       "conditional",
@@ -12806,10 +12807,10 @@ const GRE_WORDS = [
   },
   {
     "word": "quandary",
-    "pronunciation": "/kwˈɑndɝi/",
+    "pronunciation": "/kwˈɑːndɚɹi/",
     "pos": "Noun",
     "meaning": "Uncertainty or confusion about what to do; dilemma; a state of perplexity",
-    "mnemonic": "Picture “dilemma” vividly; link that image directly to quandary.",
+    "mnemonic": "QUANDARY: sounds like CONUNDRUM — a dilemma.",
     "usage": "The editor found herself in a quandary: publish the damaging story or protect her source.",
     "synonyms": [
       "dilemma",
@@ -12824,10 +12825,10 @@ const GRE_WORDS = [
   },
   {
     "word": "querulous",
-    "pronunciation": "/kwˈɛrʌlʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/kwˈɜːjʊləs/",
+    "pos": "Noun",
     "meaning": "Given to complaining, grumbling; peevish",
-    "mnemonic": "Picture “complaining” vividly; link that image directly to querulous.",
+    "mnemonic": "QUERULOUS: QUER = complain (querulous). Complaining, peevish.",
     "usage": "The querulous passenger complained about the delay, the seat, and the meal, all within ten minutes.",
     "synonyms": [
       "complaining",
@@ -12842,10 +12843,10 @@ const GRE_WORDS = [
   },
   {
     "word": "quibble",
-    "pronunciation": "/kwˈɪbʌl/",
+    "pronunciation": "/kwˈɪbəl/",
     "pos": "Verb",
     "meaning": "Make trivial arguments or criticisms, find faults in a petty way, especially to evade something more important",
-    "mnemonic": "Picture “nitpick” vividly; link that image directly to quibble.",
+    "mnemonic": "QUIBBLE: QUIB = quarrel over tiny things — to nitpick.",
     "usage": "The lawyer quibbled over the definition of a single word for an hour, hoping the jury would forget the evidence.",
     "synonyms": [
       "nitpick",
@@ -12860,10 +12861,10 @@ const GRE_WORDS = [
   },
   {
     "word": "quiescent",
-    "pronunciation": "/kwaɪˈɛsʌnt/",
+    "pronunciation": "/kwɪˈɛsənt/",
     "pos": "Adjective",
     "meaning": "Quiet, still; inactive, dormant",
-    "mnemonic": "Picture “quiet” vividly; link that image directly to quiescent.",
+    "mnemonic": "QUIESCENT: QUIES = rest (quiet). Quiet, dormant.",
     "usage": "The volcano, quiescent for two centuries, gave no warning before it erupted.",
     "synonyms": [
       "quiet",
@@ -12878,10 +12879,10 @@ const GRE_WORDS = [
   },
   {
     "word": "quixotic",
-    "pronunciation": "/kwɪksˈɑtɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/kwɪksˈɑːɾɪk/",
+    "pos": "Noun",
     "meaning": "Extremely impractical but very romantic, chivalrous, or idealistic; impulsive",
-    "mnemonic": "Picture “idealistic” vividly; link that image directly to quixotic.",
+    "mnemonic": "QUIXOTIC: from Don QUIXOTE, chasing windmills — impractical, idealistic.",
     "usage": "His quixotic plan to end world hunger by selling his car was touching, useless, and entirely characteristic.",
     "synonyms": [
       "idealistic",
@@ -12897,9 +12898,9 @@ const GRE_WORDS = [
   {
     "word": "quotidian",
     "pronunciation": "/kwɑːtˈɪdiən/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Daily; everyday, ordinary; occurring every day",
-    "mnemonic": "Picture “daily” vividly; link that image directly to quotidian.",
+    "mnemonic": "QUOTIDIAN: QUOT = how many (quota). How many days — DAILY.",
     "usage": "The novel finds its drama in the quotidian details of a marriage, not in grand events.",
     "synonyms": [
       "daily",
@@ -12914,10 +12915,10 @@ const GRE_WORDS = [
   },
   {
     "word": "raconteur",
-    "pronunciation": "/rˌækɑntˈur/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˌækəntˈʊɹ/",
+    "pos": "Noun",
     "meaning": "Witty storyteller; one who tells stories with skill and wit",
-    "mnemonic": "Picture “storyteller” vividly; link that image directly to raconteur.",
+    "mnemonic": "RACONTEUR: from French RACONTER (to tell). A skilled storyteller.",
     "usage": "The raconteur held the table for two hours, and no one looked at a watch.",
     "synonyms": [
       "storyteller",
@@ -12930,10 +12931,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ranks",
-    "pronunciation": "/rˈæŋks/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˈæŋks/",
+    "pos": "Noun",
     "meaning": "Personnel; a group of people considered all together; rows or lines",
-    "mnemonic": "Picture “membership” vividly; link that image directly to ranks.",
+    "mnemonic": "RANKS: rows, levels, or the body of personnel.",
     "usage": "The ranks of the organization swelled by a third in a single year.",
     "synonyms": [
       "membership",
@@ -12946,10 +12947,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rarefied",
-    "pronunciation": "/rˈɛrʌfaɪd/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˈɛɹfaɪd/",
+    "pos": "Noun",
     "meaning": "Lofty, very high up or elevated (in a metaphorical way); exclusive, select; thin, pure, or less dense",
-    "mnemonic": "Picture “exclusive” vividly; link that image directly to rarefied.",
+    "mnemonic": "RAREFIED: RARE + FIED. Made RARE and thin — lofty, exclusive.",
     "usage": "The rarefied atmosphere of the top echelons, where every remark was weighed, exhausted her.",
     "synonyms": [
       "exclusive",
@@ -12965,9 +12966,9 @@ const GRE_WORDS = [
   {
     "word": "reactant",
     "pronunciation": "/ɹɪˈæktənt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Something that reacts; a substance that undergoes a change in a chemical reaction",
-    "mnemonic": "Picture “catalyst” vividly; link that image directly to reactant.",
+    "mnemonic": "REACTANT: something that REACTs in a chemical reaction.",
     "usage": "The reactant was added slowly, and the solution changed color almost immediately.",
     "synonyms": [
       "catalyst"
@@ -12978,10 +12979,10 @@ const GRE_WORDS = [
   },
   {
     "word": "reap",
-    "pronunciation": "/rˈip/",
+    "pronunciation": "/ɹˈiːp/",
     "pos": "Noun",
     "meaning": "Harvest, such as by cutting; gather; get as a result of one's effort",
-    "mnemonic": "Picture “harvest” vividly; link that image directly to reap.",
+    "mnemonic": "REAP: REAP the harvest — gather, obtain.",
     "usage": "She reaped the rewards of a decade of patient investment when the firm was finally sold.",
     "synonyms": [
       "harvest",
@@ -12996,10 +12997,10 @@ const GRE_WORDS = [
   },
   {
     "word": "recalcitrant",
-    "pronunciation": "/rɪkˈælsɪtrʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹɪkˈælsɪtɹənt/",
+    "pos": "Noun",
     "meaning": "Not obedient, resisting authority, hard to manage; stubbornly defiant",
-    "mnemonic": "Picture “defiant” vividly; link that image directly to recalcitrant.",
+    "mnemonic": "RECALCITRANT: RE + CALC = heel (kicking). Kicking back with the heel — defiant, stubborn.",
     "usage": "The recalcitrant student ignored three warnings and was suspended for a week.",
     "synonyms": [
       "defiant",
@@ -13014,10 +13015,10 @@ const GRE_WORDS = [
   },
   {
     "word": "recant",
-    "pronunciation": "/rikˈænt/",
+    "pronunciation": "/ɹɪkˈænt/",
     "pos": "Verb",
     "meaning": "Withdraw, retract, or disavow something one has previously said, especially formally",
-    "mnemonic": "Picture “retract” vividly; link that image directly to recant.",
+    "mnemonic": "RECANT: RE + CANT = sing. Sing back your belief — withdraw, retract.",
     "usage": "Under threat of excommunication, the astronomer was forced to recant his heliocentric views.",
     "synonyms": [
       "retract",
@@ -13032,10 +13033,10 @@ const GRE_WORDS = [
   },
   {
     "word": "recapitulate",
-    "pronunciation": "/rˌikʌpˈɪtʃʌlˌeɪt/",
+    "pronunciation": "/ɹɪkəpˈɪtʃʊlˌeɪt/",
     "pos": "Verb",
     "meaning": "Summarize, repeat in a concise way; to restate briefly",
-    "mnemonic": "Picture “summarize” vividly; link that image directly to recapitulate.",
+    "mnemonic": "RECAPITULATE: RE + CAPIT = head. Summarize the head points again.",
     "usage": "The chair recapitulated the main points of the discussion before calling for a vote.",
     "synonyms": [
       "summarize",
@@ -13048,10 +13049,10 @@ const GRE_WORDS = [
   },
   {
     "word": "recluse",
-    "pronunciation": "/rɪklˈus/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˈɛkluːs/",
+    "pos": "Noun",
     "meaning": "Person who lives in seclusion; a hermit",
-    "mnemonic": "Picture “hermit” vividly; link that image directly to recluse.",
+    "mnemonic": "RECLUSE: RE + CLUS = close (closet). One who closes themself off — a hermit.",
     "usage": "The recluse rarely left his home, and the neighbors had not seen him in years.",
     "synonyms": [
       "hermit",
@@ -13066,10 +13067,10 @@ const GRE_WORDS = [
   },
   {
     "word": "recondite",
-    "pronunciation": "/rˈɛkʌndˌaɪt/",
+    "pronunciation": "/ɹˌiːkəndˈaɪt/",
     "pos": "Noun",
     "meaning": "Not easily understood, hidden, dealing with an obscure topic; profound",
-    "mnemonic": "Picture “obscure” vividly; link that image directly to recondite.",
+    "mnemonic": "RECONDITE: RE + COND = hide (recondite). Hidden away, obscure.",
     "usage": "The lecture, though recondite in its details, offered a few moments of genuine insight.",
     "synonyms": [
       "obscure",
@@ -13085,9 +13086,9 @@ const GRE_WORDS = [
   {
     "word": "recrudescent",
     "pronunciation": "/ɹɪkɹuːdˈɛsənt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Revival, breaking out into renewed activity; returning after a period of dormancy",
-    "mnemonic": "Picture “recurring” vividly; link that image directly to recrudescent.",
+    "mnemonic": "RECRUDESCENT: RE + CRUD = raw. Becoming raw/active again — breaking out anew.",
     "usage": "The recrudescent disease, thought eradicated a decade earlier, returned with renewed force.",
     "synonyms": [
       "recurring",
@@ -13102,10 +13103,10 @@ const GRE_WORDS = [
   },
   {
     "word": "redound",
-    "pronunciation": "/ridˈaʊnd/",
+    "pronunciation": "/ɹɪdˈaʊnd/",
     "pos": "Verb",
     "meaning": "To have a good or bad effect, especially as a result of a person's efforts or actions (usually used with to, on, or upon)",
-    "mnemonic": "Picture “contribute” vividly; link that image directly to redound.",
+    "mnemonic": "REDOUND: RE + UND = wave. A wave rolling back — having an effect, contributing.",
     "usage": "Her patient work redounded to the credit of the entire department.",
     "synonyms": [
       "contribute",
@@ -13118,10 +13119,10 @@ const GRE_WORDS = [
   },
   {
     "word": "redress",
-    "pronunciation": "/rɪdrˈɛs/",
+    "pronunciation": "/ɹiːdɹˈɛs/",
     "pos": "Noun",
     "meaning": "Setting something right after a misdeed, compensation or relief for injury or wrongdoing; to correct, set right, remedy",
-    "mnemonic": "Picture “compensation” vividly; link that image directly to redress.",
+    "mnemonic": "REDRESS: RE + DRESS. Dressing a wound again — to set right, compensate.",
     "usage": "The victims sought redress through the courts, though the process took a decade.",
     "synonyms": [
       "compensation",
@@ -13134,10 +13135,10 @@ const GRE_WORDS = [
   },
   {
     "word": "refractory",
-    "pronunciation": "/rʌfrˈæktɝi/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹɪfɹˈæktɚɹi/",
+    "pos": "Noun",
     "meaning": "Stubbornly disobedient, hard to manage; resistant to treatment",
-    "mnemonic": "Picture “stubborn” vividly; link that image directly to refractory.",
+    "mnemonic": "REFRACTORY: RE + FRACT = break. Refuses to break — stubborn, unmanageable.",
     "usage": "The refractory patient refused every treatment the doctors proposed.",
     "synonyms": [
       "stubborn",
@@ -13152,10 +13153,10 @@ const GRE_WORDS = [
   },
   {
     "word": "refulgent",
-    "pronunciation": "/ɹɪfʌldʒənt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹɪfˈʌldʒənt/",
+    "pos": "Noun",
     "meaning": "Shining, radiant; brilliant",
-    "mnemonic": "Picture “radiant” vividly; link that image directly to refulgent.",
+    "mnemonic": "REFULGENT: RE + FULG = shine (effulgent). Radiant, shining brightly.",
     "usage": "The refulgent dawn, brilliant with every shade of gold, made the entire valley glow.",
     "synonyms": [
       "radiant",
@@ -13170,10 +13171,10 @@ const GRE_WORDS = [
   },
   {
     "word": "refute",
-    "pronunciation": "/rɪfjˈut/",
-    "pos": "Noun",
+    "pronunciation": "/ɹɪfjˈuːt/",
+    "pos": "Verb",
     "meaning": "Prove to be false; to disprove or rebut",
-    "mnemonic": "Picture “disprove” vividly; link that image directly to refute.",
+    "mnemonic": "REFUTE: RE + FUT (like FUTILE). Prove false — disprove.",
     "usage": "The new evidence refuted a theory that had stood for half a century.",
     "synonyms": [
       "disprove",
@@ -13188,10 +13189,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rejoinder",
-    "pronunciation": "/rɪdʒˈɔɪndɝ/",
+    "pronunciation": "/ɹɪdʒˈɔɪndɚ/",
     "pos": "Noun",
     "meaning": "Response or reply, especially a witty comeback; a quick answer",
-    "mnemonic": "Picture “reply” vividly; link that image directly to rejoinder.",
+    "mnemonic": "REJOINDER: RE + JOIN. To JOIN back in a debate — a reply, comeback.",
     "usage": "Her rejoinder, delivered without missing a beat, silenced the critic for the rest of the evening.",
     "synonyms": [
       "reply",
@@ -13204,10 +13205,10 @@ const GRE_WORDS = [
   },
   {
     "word": "relegate",
-    "pronunciation": "/rˈɛlʌɡˌeɪt/",
+    "pronunciation": "/ɹˈɛlɪɡˌeɪt/",
     "pos": "Verb",
     "meaning": "Send or commit to an inferior place, rank, condition, etc.; exile, banish; assign (a task) to someone else",
-    "mnemonic": "Picture “demote” vividly; link that image directly to relegate.",
+    "mnemonic": "RELEGATE: RE + LEG = send (legate). Send away — banish, demote.",
     "usage": "The once-celebrated poet was relegated to a footnote in the anthologies of the next generation.",
     "synonyms": [
       "demote",
@@ -13222,10 +13223,10 @@ const GRE_WORDS = [
   },
   {
     "word": "remedial",
-    "pronunciation": "/rɪmˈidiʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹɪmˈiːdɪəl/",
+    "pos": "Noun",
     "meaning": "Providing a remedy, curative; correcting a deficient skill",
-    "mnemonic": "Picture “corrective” vividly; link that image directly to remedial.",
+    "mnemonic": "REMEDIAL: REMEDY — providing a cure.",
     "usage": "The remedial program, designed for students who had fallen behind, ended up helping the entire class.",
     "synonyms": [
       "corrective",
@@ -13241,7 +13242,7 @@ const GRE_WORDS = [
     "pronunciation": "/ɹˈɛnd/",
     "pos": "Noun",
     "meaning": "Tear violently, especially to tear one's clothing or hair out of grief; pull apart, split, or tear away",
-    "mnemonic": "Picture “tear” vividly; link that image directly to rend.",
+    "mnemonic": "REND: RENT (as in 'rent in two') — to tear violently.",
     "usage": "The grief-stricken widow rent her garments at the funeral, a gesture that silenced the entire congregation.",
     "synonyms": [
       "tear",
@@ -13256,10 +13257,10 @@ const GRE_WORDS = [
   },
   {
     "word": "render",
-    "pronunciation": "/rˈɛndɝ/",
+    "pronunciation": "/ɹˈɛndɚ/",
     "pos": "Verb",
     "meaning": "Give, submit, surrender; translate; declare formally; cause to become",
-    "mnemonic": "Picture “give” vividly; link that image directly to render.",
+    "mnemonic": "RENDER: from French RENDRE (give back). To give, submit, or cause to become.",
     "usage": "The accident rendered him speechless for nearly a week.",
     "synonyms": [
       "give",
@@ -13275,9 +13276,9 @@ const GRE_WORDS = [
   {
     "word": "repast",
     "pronunciation": "/ɹɪpˈæst/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "A meal; the act of eating; to eat or feast",
-    "mnemonic": "Picture “meal” vividly; link that image directly to repast.",
+    "mnemonic": "REPAST: RE + PAST (pasture, food). A meal.",
     "usage": "The evening repast, simple but flawlessly prepared, lasted nearly three hours.",
     "synonyms": [
       "meal",
@@ -13291,9 +13292,9 @@ const GRE_WORDS = [
   {
     "word": "repertorial",
     "pronunciation": "/ɹˌɛpɚtˈoːɹɪəl/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Pertaining to a repertory or repertoire, a stock of available things or a number of theatrical performances presented regularly or in sequence",
-    "mnemonic": "Picture “repertory” vividly; link that image directly to repertorial.",
+    "mnemonic": "REPERTORIAL: REPERTOIRE — relating to a stock of available works.",
     "usage": "The repertorial company, performing five plays in rotation, gave young actors a chance to learn their craft.",
     "synonyms": [
       "repertory"
@@ -13304,10 +13305,10 @@ const GRE_WORDS = [
   },
   {
     "word": "replete",
-    "pronunciation": "/riplˈit/",
+    "pronunciation": "/ɹɪplˈiːt/",
     "pos": "Adjective",
     "meaning": "Supplied in abundance, filled, gorged (used with with); well stocked",
-    "mnemonic": "Picture “full” vividly; link that image directly to replete.",
+    "mnemonic": "REPLETE: RE + PLET = fill (complete). Filled up — well supplied.",
     "usage": "The archive is replete with letters, ledgers, and photographs that no one has examined in decades.",
     "synonyms": [
       "full",
@@ -13322,10 +13323,10 @@ const GRE_WORDS = [
   },
   {
     "word": "repose",
-    "pronunciation": "/ripˈoʊz/",
+    "pronunciation": "/ɹɪpˈoʊz/",
     "pos": "Noun",
     "meaning": "The act or state of resting; peacefulness, tranquility; lying dead in a grave",
-    "mnemonic": "Picture “rest” vividly; link that image directly to repose.",
+    "mnemonic": "REPOSE: RE + POSE. Posing in rest — tranquillity, rest.",
     "usage": "The garden, hidden behind the walls of the old house, was a place of perfect repose.",
     "synonyms": [
       "rest",
@@ -13340,10 +13341,10 @@ const GRE_WORDS = [
   },
   {
     "word": "reproach",
-    "pronunciation": "/riprˈoʊtʃ/",
-    "pos": "Noun",
+    "pronunciation": "/ɹɪpɹˈoʊtʃ/",
+    "pos": "Verb",
     "meaning": "Blame, disgrace; to criticize, express disappointment in",
-    "mnemonic": "Picture “blame” vividly; link that image directly to reproach.",
+    "mnemonic": "REPROACH: RE + PROACH (approach). Approaching with blame — to criticize.",
     "usage": "She reproached him for missing the funeral, and he had no defense.",
     "synonyms": [
       "blame",
@@ -13358,10 +13359,10 @@ const GRE_WORDS = [
   },
   {
     "word": "reprobate",
-    "pronunciation": "/rˈɛprɔbeɪt/",
+    "pronunciation": "/ɹˈɛpɹəbˌeɪt/",
     "pos": "Noun",
     "meaning": "Disreputable, unprincipled, or damned person; shameless, depraved",
-    "mnemonic": "Picture “scoundrel” vividly; link that image directly to reprobate.",
+    "mnemonic": "REPROBATE: RE + PROB = prove. Proven bad — a scoundrel.",
     "usage": "The reprobate, who had cheated every partner he ever had, died alone and unmourned.",
     "synonyms": [
       "scoundrel",
@@ -13376,10 +13377,10 @@ const GRE_WORDS = [
   },
   {
     "word": "repudiate",
-    "pronunciation": "/ripjˈudiˌeɪt/",
+    "pronunciation": "/ɹɪpjˈuːdɪˌeɪt/",
     "pos": "Verb",
     "meaning": "Reject, cast off, deny that something has authority; to refuse to acknowledge",
-    "mnemonic": "Picture “reject” vividly; link that image directly to repudiate.",
+    "mnemonic": "REPUDIATE: RE + PUD = shame (pudendum). Reject with shame — disown.",
     "usage": "The senator repudiated the remarks attributed to him, calling them a fabrication.",
     "synonyms": [
       "reject",
@@ -13395,9 +13396,9 @@ const GRE_WORDS = [
   {
     "word": "requite",
     "pronunciation": "/ɹɪkwˈaɪt/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Reciprocate, repay, or revenge; to return in kind",
-    "mnemonic": "Picture “repay” vividly; link that image directly to requite.",
+    "mnemonic": "REQUITE: RE + QUITE — repay in kind, whether love or vengeance.",
     "usage": "She requited his years of kindness with a single act of betrayal.",
     "synonyms": [
       "repay",
@@ -13410,10 +13411,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rescind",
-    "pronunciation": "/rɪsˈɪnd/",
+    "pronunciation": "/ɹɪsˈɪnd/",
     "pos": "Verb",
     "meaning": "Annul, repeal, make void; to revoke or cancel",
-    "mnemonic": "Picture “cancel” vividly; link that image directly to rescind.",
+    "mnemonic": "RESCIND: RE + SCIND = cut (scissors). Cut off — cancel, repeal.",
     "usage": "The company rescinded the offer after discovering the candidate had lied on his resume.",
     "synonyms": [
       "cancel",
@@ -13428,10 +13429,10 @@ const GRE_WORDS = [
   },
   {
     "word": "resolution",
-    "pronunciation": "/rˌɛzʌlˈuʃʌn/",
+    "pronunciation": "/ɹˌɛzəlˈuːʃən/",
     "pos": "Noun",
     "meaning": "The quality of being firmly determined; resolving to do something; a formal judgment, especially decided by a vote",
-    "mnemonic": "Picture “determination” vividly; link that image directly to resolution.",
+    "mnemonic": "RESOLUTION: RE + SOLUT = loosen (solution). Firm determination; also formal decision.",
     "usage": "Her resolution, though tested many times, never wavered.",
     "synonyms": [
       "determination",
@@ -13446,10 +13447,10 @@ const GRE_WORDS = [
   },
   {
     "word": "resolve",
-    "pronunciation": "/rizˈɑlv/",
+    "pronunciation": "/ɹɪzˈɑːlv/",
     "pos": "Noun",
     "meaning": "Find a solution to; firmly decide to do something; decide by formal vote; firmness of purpose",
-    "mnemonic": "Picture “determine” vividly; link that image directly to resolve.",
+    "mnemonic": "RESOLVE: RE + SOLV = loosen. To loosen a knot — to settle, decide.",
     "usage": "She resolved to leave the city by the end of the year, and she did.",
     "synonyms": [
       "determine",
@@ -13464,10 +13465,10 @@ const GRE_WORDS = [
   },
   {
     "word": "respectively",
-    "pronunciation": "/rɪspˈɛktɪvli/",
+    "pronunciation": "/ɹɪspˈɛktɪvli/",
     "pos": "Adverb",
     "meaning": "In the order given; separately in the order mentioned",
-    "mnemonic": "SPECT = see: picture the word through an act of seeing.",
+    "mnemonic": "RESPECTIVELY: in the RESPECTIVE order given.",
     "usage": "Tom and Jerry are 10 and 12, respectively, and their birthdays fall a week apart.",
     "synonyms": [
       "in order",
@@ -13480,10 +13481,10 @@ const GRE_WORDS = [
   },
   {
     "word": "restive",
-    "pronunciation": "/rˈɛstɪv/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˈɛstɪv/",
+    "pos": "Noun",
     "meaning": "Impatient or uneasy under the control of another; resisting being controlled; restless",
-    "mnemonic": "Picture “restless” vividly; link that image directly to restive.",
+    "mnemonic": "RESTIVE: REST + IVE — restless, impatient under control.",
     "usage": "The restive crowd, kept waiting for over an hour, began to shout.",
     "synonyms": [
       "restless",
@@ -13498,10 +13499,10 @@ const GRE_WORDS = [
   },
   {
     "word": "resurgent",
-    "pronunciation": "/rɪsˈɝdʒʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹɪsˈɜːdʒənt/",
+    "pos": "Noun",
     "meaning": "Having a revival, renewing, rising or surging again",
-    "mnemonic": "Picture “reviving” vividly; link that image directly to resurgent.",
+    "mnemonic": "RESURGENT: RE + SURG = rise. Rising again — reviving.",
     "usage": "The resurgent economy, after a decade of stagnation, surprised even the optimists.",
     "synonyms": [
       "reviving",
@@ -13516,10 +13517,10 @@ const GRE_WORDS = [
   },
   {
     "word": "reticent",
-    "pronunciation": "/rˈɛtɪsʌnt/",
+    "pronunciation": "/ɹˈɛɾɪsənt/",
     "pos": "Adjective",
     "meaning": "Not talking much; private (of a person), restrained, reserved",
-    "mnemonic": "Picture “reserved” vividly; link that image directly to reticent.",
+    "mnemonic": "RETICENT: RE + TAC = silent (taciturn). Silent, reserved.",
     "usage": "He was reticent about his past, and no one in the department knew where he had come from.",
     "synonyms": [
       "reserved",
@@ -13534,10 +13535,10 @@ const GRE_WORDS = [
   },
   {
     "word": "retrospective",
-    "pronunciation": "/rˌɛtrʌspˈɛktɪv/",
+    "pronunciation": "/ɹˌɛtɹoʊspˈɛktɪv/",
     "pos": "Adjective",
     "meaning": "Looking to the past or backward; applying to the past, retroactive; an art exhibit of an artist's work over a long period",
-    "mnemonic": "SPECT = see: picture the word through an act of seeing.",
+    "mnemonic": "RETROSPECTIVE: RETRO = backward; SPECT = look. Looking back.",
     "usage": "The museum's retrospective traced fifty years of her work, revealing a consistency few had noticed.",
     "synonyms": [
       "backward-looking",
@@ -13551,10 +13552,10 @@ const GRE_WORDS = [
   },
   {
     "word": "revamp",
-    "pronunciation": "/rivˈæmp/",
+    "pronunciation": "/ɹɪvˈæmp/",
     "pos": "Noun",
     "meaning": "Renovate, redo, revise; a restructuring or upgrade",
-    "mnemonic": "Picture “renovate” vividly; link that image directly to revamp.",
+    "mnemonic": "REVAMP: RE + VAMP (the front of a shoe). Giving a shoe a new VAMP — to renovate.",
     "usage": "The newspaper revamped its Sunday edition and recovered half the readers it had lost.",
     "synonyms": [
       "renovate",
@@ -13567,10 +13568,10 @@ const GRE_WORDS = [
   },
   {
     "word": "reverent",
-    "pronunciation": "/rˈɛvɝʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˈɛvɚɹənt/",
+    "pos": "Noun",
     "meaning": "Feeling or expressing very deep respect and awe; deeply respectful",
-    "mnemonic": "Picture “respectful” vividly; link that image directly to reverent.",
+    "mnemonic": "REVERENT: REVERE — feeling deep respect and awe.",
     "usage": "The reverent crowd, standing in complete silence, watched the procession pass.",
     "synonyms": [
       "respectful",
@@ -13585,10 +13586,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rhetoric",
-    "pronunciation": "/rˈɛtɝɪk/",
+    "pronunciation": "/ɹˈɛɾɚɹˌɪk/",
     "pos": "Adjective",
     "meaning": "The art or study of persuasion through speaking or writing; language that is elaborate or pretentious but actually empty, meaning little",
-    "mnemonic": "Picture “oratory” vividly; link that image directly to rhetoric.",
+    "mnemonic": "RHETORIC: the art of the RHETOR (public speaker) — persuasive speech, often empty.",
     "usage": "The speech was pure rhetoric, magnificent in its cadences and empty of any concrete proposal.",
     "synonyms": [
       "oratory",
@@ -13603,10 +13604,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ribald",
-    "pronunciation": "/rˈaɪbɑld/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˈɪbɔːld/",
+    "pos": "Noun",
     "meaning": "Using or relating to obscene or vulgar humor; coarsely humorous",
-    "mnemonic": "Picture “vulgar” vividly; link that image directly to ribald.",
+    "mnemonic": "RIBALD: RIB + BALD — coarse, vulgar humor.",
     "usage": "The ribald jokes, harmless in themselves, made the formal dinner uncomfortable.",
     "synonyms": [
       "vulgar",
@@ -13621,10 +13622,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ridden",
-    "pronunciation": "/rˈɪdʌn/",
+    "pronunciation": "/ɹˈɪdən/",
     "pos": "Adjective",
     "meaning": "Dominated or burdened by; afflicted with",
-    "mnemonic": "Picture “burdened” vividly; link that image directly to ridden.",
+    "mnemonic": "RIDDEN: RIDDEN by guilt — burdened, dominated by.",
     "usage": "The project was ridden with delays from the first week and never recovered.",
     "synonyms": [
       "burdened",
@@ -13639,10 +13640,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rife",
-    "pronunciation": "/rˈaɪf/",
+    "pronunciation": "/ɹˈaɪf/",
     "pos": "Noun",
     "meaning": "Happening frequently, abundant, currently being reported; widespread",
-    "mnemonic": "Picture “widespread” vividly; link that image directly to rife.",
+    "mnemonic": "RIFE: RIFE = widespread, abundant.",
     "usage": "Corruption was so rife that even the reformers had to pay bribes to file their complaints.",
     "synonyms": [
       "widespread",
@@ -13657,10 +13658,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rift",
-    "pronunciation": "/rˈɪft/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˈɪft/",
+    "pos": "Noun",
     "meaning": "A gap or fissure (such as in rock), a break in friendly relations",
-    "mnemonic": "Picture “gap” vividly; link that image directly to rift.",
+    "mnemonic": "RIFT: a RIFT in a canyon — a split; also a broken relationship.",
     "usage": "The disagreement over the inheritance created a rift in the family that never fully healed.",
     "synonyms": [
       "gap",
@@ -13675,10 +13676,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rococo",
-    "pronunciation": "/rʌkˈoʊkˌoʊ/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹəkˈoʊkoʊ/",
+    "pos": "Noun",
     "meaning": "Very elaborate and ornate (in decorating or metaphorically, as in speech and writing); relating to a highly ornate style of art and architecture in 18th-century France",
-    "mnemonic": "Picture “ornate” vividly; link that image directly to rococo.",
+    "mnemonic": "ROCOCO: ornate French style full of ROCKS and shells — very elaborate.",
     "usage": "The rococo decoration, magnificent in a palace, seemed absurd in a suburban living room.",
     "synonyms": [
       "ornate",
@@ -13693,10 +13694,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rudimentary",
-    "pronunciation": "/rˌudʌmˈɛntɝi/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˌuːdɪmˈɛntɚɹi/",
+    "pos": "Noun",
     "meaning": "Elementary, relating to the basics; undeveloped, primitive",
-    "mnemonic": "Picture “basic” vividly; link that image directly to rudimentary.",
+    "mnemonic": "RUDIMENTARY: RUDIMENT = basic beginning — elementary, undeveloped.",
     "usage": "His rudimentary grasp of the language was enough to order dinner but not to follow a conversation.",
     "synonyms": [
       "basic",
@@ -13711,10 +13712,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rue",
-    "pronunciation": "/rˈu/",
+    "pronunciation": "/ɹˈuː/",
     "pos": "Verb",
     "meaning": "Regret, remorse; to feel regret or remorse; a bitter herb",
-    "mnemonic": "Picture “regret” vividly; link that image directly to rue.",
+    "mnemonic": "RUE: sounds like RUEful — to regret.",
     "usage": "She rued the day she had agreed to the partnership, though she never said so aloud.",
     "synonyms": [
       "regret",
@@ -13729,10 +13730,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ruminate",
-    "pronunciation": "/rˈumɪnˌeɪt/",
+    "pronunciation": "/ɹˈuːmᵻnˌeɪt/",
     "pos": "Verb",
     "meaning": "Turn over in the mind, reflect on; chew cud (as a cow)",
-    "mnemonic": "Picture “ponder” vividly; link that image directly to ruminate.",
+    "mnemonic": "RUMINATE: cows RUMINATE (chew cud). To chew over ideas — ponder.",
     "usage": "He ruminated on the offer for a week before making up his mind.",
     "synonyms": [
       "ponder",
@@ -13745,10 +13746,10 @@ const GRE_WORDS = [
   },
   {
     "word": "rustic",
-    "pronunciation": "/rˈʌstɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/ɹˈʌstɪk/",
+    "pos": "Noun",
     "meaning": "Relating to country life, unsophisticated; primitive; made of rough wood; a rural or uncultured person",
-    "mnemonic": "Picture “rural” vividly; link that image directly to rustic.",
+    "mnemonic": "RUSTIC: RUST + IC — rough country style, rural.",
     "usage": "The rustic cabin, without electricity or plumbing, was the peaceful retreat he had dreamed of for years.",
     "synonyms": [
       "rural",
@@ -13763,10 +13764,10 @@ const GRE_WORDS = [
   },
   {
     "word": "sacrosanct",
-    "pronunciation": "/sˈækroʊsæŋkt/",
+    "pronunciation": "/sˈækɹəsˌænkt/",
     "pos": "Noun",
     "meaning": "Sacred, inviolable, not to be trespassed on or violated; above any criticism",
-    "mnemonic": "Picture “sacred” vividly; link that image directly to sacrosanct.",
+    "mnemonic": "SACROSANCT: SACRO = sacred; SANCT = holy. Sacred and inviolable.",
     "usage": "The right to free speech is considered sacrosanct, even by those who dislike its consequences.",
     "synonyms": [
       "sacred",
@@ -13782,9 +13783,9 @@ const GRE_WORDS = [
   {
     "word": "sagacious",
     "pronunciation": "/sæɡˈeɪʃəs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Wise; showing good judgment and foresight; keenly perceptive",
-    "mnemonic": "Picture “wise” vividly; link that image directly to sagacious.",
+    "mnemonic": "SAGACIOUS: SAGE — wise, showing good judgment.",
     "usage": "The sagacious investor, having seen two bubbles burst, quietly sold before the third one did.",
     "synonyms": [
       "wise",
@@ -13799,10 +13800,10 @@ const GRE_WORDS = [
   },
   {
     "word": "salient",
-    "pronunciation": "/sˈeɪliʌnt/",
+    "pronunciation": "/sˈeɪliənt/",
     "pos": "Adjective",
     "meaning": "Obvious, standing out; projecting, protruding, jutting out; most important or notable",
-    "mnemonic": "Picture “notable” vividly; link that image directly to salient.",
+    "mnemonic": "SALIENT: SAL = jump (like SALmon jumping out). Leaping out at you — prominent.",
     "usage": "The most salient feature of her argument, buried in the middle of the essay, was that no one had checked the data.",
     "synonyms": [
       "notable",
@@ -13818,9 +13819,9 @@ const GRE_WORDS = [
   {
     "word": "salubrious",
     "pronunciation": "/sælˈuːbɹɪəs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Healthful, promoting health; favorable to well-being",
-    "mnemonic": "Picture “healthy” vividly; link that image directly to salubrious.",
+    "mnemonic": "SALUBRIOUS: SALUS = health (salutary). Healthful, wholesome.",
     "usage": "The salubrious mountain air, dry and cool, was recommended for patients with respiratory illness.",
     "synonyms": [
       "healthy",
@@ -13835,10 +13836,10 @@ const GRE_WORDS = [
   },
   {
     "word": "sanction",
-    "pronunciation": "/sˈæŋkʃʌn/",
-    "pos": "Noun",
+    "pronunciation": "/sˈænkʃən/",
+    "pos": "Verb",
     "meaning": "Permission or approval, something that gives support or authority to something else; to allow, confirm, ratify; OR a legal action by one or more countries against another country to get it to comply",
-    "mnemonic": "Picture “approve” vividly; link that image directly to sanction.",
+    "mnemonic": "SANCTION: SANCT = holy. Officially approve — or impose a penalty.",
     "usage": "The committee sanctioned the pilot program, but only for a single year.",
     "synonyms": [
       "approve",
@@ -13856,7 +13857,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈæŋɡwɪn/",
     "pos": "Noun",
     "meaning": "Cheerfully optimistic, hopeful; reddish, ruddy (as in rosy-red cheeks indicating health or vitality)",
-    "mnemonic": "Picture “optimistic” vividly; link that image directly to sanguine.",
+    "mnemonic": "SANGUINE: SANGUIS = blood. Blood-red and hopeful — optimistic.",
     "usage": "She remained sanguine about the project's prospects even after two of her three funders withdrew.",
     "synonyms": [
       "optimistic",
@@ -13874,7 +13875,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈæp/",
     "pos": "Noun",
     "meaning": "The inner fluid of a plant or any essential body fluid; energy, vitality; a person taken advantage of; to undermine, weaken, tire out",
-    "mnemonic": "Picture “drain” vividly; link that image directly to sap.",
+    "mnemonic": "SAP: tree SAP gives energy — to drain, weaken.",
     "usage": "The long illness sapped his strength, and by spring he could barely climb the stairs.",
     "synonyms": [
       "drain",
@@ -13889,10 +13890,10 @@ const GRE_WORDS = [
   },
   {
     "word": "sardonic",
-    "pronunciation": "/sɑrdˈɑnɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/sɑːɹdˈɑːnɪk/",
+    "pos": "Noun",
     "meaning": "Scornfully or ironically mocking, cynically derisive",
-    "mnemonic": "Picture “mocking” vividly; link that image directly to sardonic.",
+    "mnemonic": "SARDONIC: SARDINIAN plant caused bitter laughing grimaces — mocking, scornful.",
     "usage": "His sardonic smile suggested he had heard the argument before and found it no more convincing the second time.",
     "synonyms": [
       "mocking",
@@ -13910,7 +13911,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈeɪʃɪˌeɪt/",
     "pos": "Verb",
     "meaning": "To fully satisfy; to go beyond satisfying to the point of excess (possibly inducing disgust, tiredness, etc.)",
-    "mnemonic": "Picture “satisfy” vividly; link that image directly to satiate.",
+    "mnemonic": "SATIATE: SAT = enough (satisfy). To fill completely — glut.",
     "usage": "The rich meal satiated him so completely that he could not look at food for a day.",
     "synonyms": [
       "satisfy",
@@ -13925,10 +13926,10 @@ const GRE_WORDS = [
   },
   {
     "word": "saturate",
-    "pronunciation": "/sˈætʃɝˌeɪt/",
-    "pos": "Adjective",
+    "pronunciation": "/sˈætʃɚɹˌeɪt/",
+    "pos": "Verb",
     "meaning": "Soak or imbue thoroughly; cause a substance to unite with the greatest possible amount of another substance",
-    "mnemonic": "Picture “soak” vividly; link that image directly to saturate.",
+    "mnemonic": "SATURATE: SATUR = full. Soak thoroughly.",
     "usage": "The sponge was saturated with water, and every drop left a trail on the floor.",
     "synonyms": [
       "soak",
@@ -13943,10 +13944,10 @@ const GRE_WORDS = [
   },
   {
     "word": "savant",
-    "pronunciation": "/sʌvˈɑnt/",
-    "pos": "Adjective",
+    "pronunciation": "/səvˈɑːnt/",
+    "pos": "Noun",
     "meaning": "Learned person, scholar, someone admitted to membership in a scholarly field; a person with amazing mental abilities despite having a cognitive difference or disability",
-    "mnemonic": "Picture “scholar” vividly; link that image directly to savant.",
+    "mnemonic": "SAVANT: SAVOIR = to know (French). A learned person.",
     "usage": "The savant could multiply six-digit numbers in his head but could not tie his own shoes.",
     "synonyms": [
       "scholar",
@@ -13961,10 +13962,10 @@ const GRE_WORDS = [
   },
   {
     "word": "savor",
-    "pronunciation": "/sˈeɪvɝ/",
-    "pos": "Noun",
+    "pronunciation": "/sˈeɪvɚ/",
+    "pos": "Verb",
     "meaning": "Appreciate fully, taste or smell with pleasure; to enjoy with appreciation",
-    "mnemonic": "Picture “enjoy” vividly; link that image directly to savor.",
+    "mnemonic": "SAVOR: to taste (SAVOR) slowly with pleasure.",
     "usage": "She savored the meal slowly, and by the time she finished, the candles had burned down to their wicks.",
     "synonyms": [
       "enjoy",
@@ -13979,9 +13980,9 @@ const GRE_WORDS = [
   {
     "word": "scant",
     "pronunciation": "/skˈænt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Not enough or barely enough; inadequate in amount",
-    "mnemonic": "Picture “insufficient” vividly; link that image directly to scant.",
+    "mnemonic": "SCANT: SCANTY means barely enough — insufficient.",
     "usage": "The scant evidence, no more than a single ambiguous letter, could not support the charge.",
     "synonyms": [
       "insufficient",
@@ -13997,9 +13998,9 @@ const GRE_WORDS = [
   {
     "word": "scathing",
     "pronunciation": "/skˈeɪðɪŋ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Severe, injurious; bitterly harsh or critical (as a remark); withering",
-    "mnemonic": "Picture “harsh” vividly; link that image directly to scathing.",
+    "mnemonic": "SCATHING: from Old Norse SKATHA = harm. Bitterly critical.",
     "usage": "The scathing review, which accused the novel of dishonesty, ended the young author's career for a decade.",
     "synonyms": [
       "harsh",
@@ -14014,10 +14015,10 @@ const GRE_WORDS = [
   },
   {
     "word": "scintilla",
-    "pronunciation": "/sɪntˈɪlʌ/",
-    "pos": "Adjective",
+    "pronunciation": "/sɪntˈɪlə/",
+    "pos": "Noun",
     "meaning": "A tiny bit or trace; a spark",
-    "mnemonic": "Picture “trace” vividly; link that image directly to scintilla.",
+    "mnemonic": "SCINTILLA: SPARK — a tiny trace.",
     "usage": "There was not a scintilla of evidence to support the accusation, and the case collapsed within a week.",
     "synonyms": [
       "trace",
@@ -14033,9 +14034,9 @@ const GRE_WORDS = [
   {
     "word": "scurvy",
     "pronunciation": "/skˈɜːvi/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Contemptible, mean, despicable; a disease caused by vitamin C deficiency",
-    "mnemonic": "Picture “contemptible” vividly; link that image directly to scurvy.",
+    "mnemonic": "SCURVY: sailors got SCURVY from bad food — contemptible, mean.",
     "usage": "That was a scurvy trick, and even his allies said so.",
     "synonyms": [
       "contemptible",
@@ -14053,7 +14054,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈɜːtʃɪŋli/",
     "pos": "Adverb",
     "meaning": "In a searching or penetrating manner; while examining closely or probing for answers",
-    "mnemonic": "Picture “intently” vividly; link that image directly to searchingly.",
+    "mnemonic": "SEARCHINGLY: with a SEARCHING gaze — probing, penetrating.",
     "usage": "She looked at him searchingly for a long moment, and he looked away.",
     "synonyms": [
       "intently",
@@ -14068,10 +14069,10 @@ const GRE_WORDS = [
   },
   {
     "word": "secrete",
-    "pronunciation": "/sɪkrˈit/",
+    "pronunciation": "/sɪkɹˈiːt/",
     "pos": "Noun",
     "meaning": "Produce and release a substance from a cell or gland of the body for a functional purpose; to hide",
-    "mnemonic": "SEC = cut: picture something being cut.",
+    "mnemonic": "SECRETE: SECRET — to produce and release; also to hide.",
     "usage": "The gland secretes a hormone that regulates the body's response to stress.",
     "synonyms": [
       "emit",
@@ -14086,10 +14087,10 @@ const GRE_WORDS = [
   },
   {
     "word": "secular",
-    "pronunciation": "/sˈɛkjʌlɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/sˈɛkjʊlɚ/",
+    "pos": "Noun",
     "meaning": "Not religious or holy; pertaining to worldly things; not concerned with religion",
-    "mnemonic": "SEC = cut: picture something being cut.",
+    "mnemonic": "SECULAR: SEC = cut. Cut off from the sacred — worldly, non-religious.",
     "usage": "The secular state allowed freedom of religion but drew its laws from civil rather than religious sources.",
     "synonyms": [
       "worldly",
@@ -14104,10 +14105,10 @@ const GRE_WORDS = [
   },
   {
     "word": "sedition",
-    "pronunciation": "/sɪdˈɪʃʌn/",
+    "pronunciation": "/sɪdˈɪʃən/",
     "pos": "Noun",
     "meaning": "Inciting rebellion against a government, especially speech or writing that does this; treasonous behavior",
-    "mnemonic": "Picture “rebellion” vividly; link that image directly to sedition.",
+    "mnemonic": "SEDITION: SED = apart; ITION = go. Going apart from the government — rebellion.",
     "usage": "He was charged with sedition for distributing pamphlets calling for the overthrow of the government.",
     "synonyms": [
       "rebellion",
@@ -14123,9 +14124,9 @@ const GRE_WORDS = [
   {
     "word": "sedulous",
     "pronunciation": "/sˈɛdʒuːləs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Persevering, persistent, diligent in one's efforts; painstaking",
-    "mnemonic": "Picture “diligent” vividly; link that image directly to sedulous.",
+    "mnemonic": "SEDULOUS: SED = sit (sedentary). Sits and works at it — diligent.",
     "usage": "Her sedulous attention to the archival record turned up documents that three historians had missed.",
     "synonyms": [
       "diligent",
@@ -14140,10 +14141,10 @@ const GRE_WORDS = [
   },
   {
     "word": "semantic",
-    "pronunciation": "/sɪmˈæntɪk/",
+    "pronunciation": "/səmˈæntɪk/",
     "pos": "Adjective",
     "meaning": "Relating to the different meanings of words or other symbols; pertaining to meaning in language",
-    "mnemonic": "Picture “linguistic” vividly; link that image directly to semantic.",
+    "mnemonic": "SEMANTIC: SEM = sign (semaphore). Relating to meaning.",
     "usage": "The debate was semantic, not substantive, and after an hour no one could remember what had started it.",
     "synonyms": [
       "linguistic",
@@ -14158,7 +14159,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈɛnʃənt/",
     "pos": "Adjective",
     "meaning": "Conscious; experiencing sensation or perceiving with the senses; capable of feeling",
-    "mnemonic": "Picture “conscious” vividly; link that image directly to sentient.",
+    "mnemonic": "SENTIENT: SENT = feel (sentiment). Capable of feeling.",
     "usage": "The question of whether machines could ever become sentient has moved from philosophy to engineering.",
     "synonyms": [
       "conscious",
@@ -14174,9 +14175,9 @@ const GRE_WORDS = [
   {
     "word": "seraphic",
     "pronunciation": "/sˈɛɹəfˌɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Like an angel; serene, spiritually carried off or transported; blissful",
-    "mnemonic": "Picture “angelic” vividly; link that image directly to seraphic.",
+    "mnemonic": "SERAPHIC: SERAPH = angel. Angelic, blissful.",
     "usage": "The seraphic expression on her face, as if she had glimpsed something the rest of us could not see, unsettled the visitors.",
     "synonyms": [
       "angelic",
@@ -14191,10 +14192,10 @@ const GRE_WORDS = [
   },
   {
     "word": "shard",
-    "pronunciation": "/ʃˈɑrd/",
-    "pos": "Adjective",
+    "pronunciation": "/ʃˈɑːɹd/",
+    "pos": "Noun",
     "meaning": "Fragment of some brittle substance, especially a sharp fragment of pottery, glass, etc.; a broken piece",
-    "mnemonic": "Picture “fragment” vividly; link that image directly to shard.",
+    "mnemonic": "SHARD: a SHARD of glass — a sharp fragment.",
     "usage": "The archaeologist sifted through the shards of pottery, which together told her more than any intact vase could.",
     "synonyms": [
       "fragment",
@@ -14209,10 +14210,10 @@ const GRE_WORDS = [
   },
   {
     "word": "simultaneous",
-    "pronunciation": "/sˌaɪmʌltˈeɪniʌs/",
+    "pronunciation": "/sˌaɪməltˈeɪniəs/",
     "pos": "Adjective",
     "meaning": "At the same time; occurring at the same moment",
-    "mnemonic": "Picture “concurrent” vividly; link that image directly to simultaneous.",
+    "mnemonic": "SIMULTANEOUS: SIMUL = same time. At the same moment.",
     "usage": "The two discoveries, simultaneous and independent, settled the question beyond dispute.",
     "synonyms": [
       "concurrent",
@@ -14230,7 +14231,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈaɪnkjʊɹ/",
     "pos": "Noun",
     "meaning": "A job or position that pays while requiring little or no work; a position with no responsibilities",
-    "mnemonic": "Picture “easy job” vividly; link that image directly to sinecure.",
+    "mnemonic": "SINECURE: SINE = without; CURE = care. A job without care — easy position.",
     "usage": "The professorship, once a demanding post, had become a sinecure that paid well and required almost nothing.",
     "synonyms": [
       "easy job",
@@ -14244,9 +14245,9 @@ const GRE_WORDS = [
   {
     "word": "skeptic",
     "pronunciation": "/skˈɛptɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Person inclined to doubting or questioning generally accepted beliefs; one who doubts",
-    "mnemonic": "Picture “doubter” vividly; link that image directly to skeptic.",
+    "mnemonic": "SKEPTIC: SKEPSIS = inquiry. One who doubts.",
     "usage": "The skeptic demanded evidence for every claim, and by the end of the evening only the evidence remained.",
     "synonyms": [
       "doubter",
@@ -14261,10 +14262,10 @@ const GRE_WORDS = [
   },
   {
     "word": "skirt",
-    "pronunciation": "/skˈɝt/",
+    "pronunciation": "/skˈɜːt/",
     "pos": "Noun",
     "meaning": "Border, lie along the edge of, go around; evade; a piece of clothing",
-    "mnemonic": "Picture “border” vividly; link that image directly to skirt.",
+    "mnemonic": "SKIRT: a SKIRT borders the body — to border, evade.",
     "usage": "The road skirts the edge of the forest for nearly a mile before turning inland.",
     "synonyms": [
       "border",
@@ -14279,10 +14280,10 @@ const GRE_WORDS = [
   },
   {
     "word": "skittish",
-    "pronunciation": "/skˈɪtɪʃ/",
-    "pos": "Adjective",
+    "pronunciation": "/skˈɪɾɪʃ/",
+    "pos": "Noun",
     "meaning": "Shy, fickle, uncertain, or prone to act suddenly due to nervousness; lively in a restless or excessive way",
-    "mnemonic": "Picture “nervous” vividly; link that image directly to skittish.",
+    "mnemonic": "SKITTISH: SKIT + TISH — like a startled horse — jumpy, nervous.",
     "usage": "The skittish horse bolted at the first crack of thunder, and the rider spent an hour catching it.",
     "synonyms": [
       "nervous",
@@ -14300,7 +14301,7 @@ const GRE_WORDS = [
     "pronunciation": "/slˈæk/",
     "pos": "Noun",
     "meaning": "Loose, negligent, lazy, weak; neglect to do one's duties; loosen up, relax; a period of little work",
-    "mnemonic": "Picture “loose” vividly; link that image directly to slack.",
+    "mnemonic": "SLACK: SLACK rope is loose — not tight; negligent.",
     "usage": "The rope went slack, and for a terrifying moment the climber fell freely.",
     "synonyms": [
       "loose",
@@ -14316,9 +14317,9 @@ const GRE_WORDS = [
   {
     "word": "slake",
     "pronunciation": "/slˈeɪk/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Satisfy (especially thirst), cool, or refresh; make less active; to quench",
-    "mnemonic": "Picture “quench” vividly; link that image directly to slake.",
+    "mnemonic": "SLAKE: SLAKE your thirst — to quench.",
     "usage": "The travelers slaked their thirst at the well and rested for an hour before continuing.",
     "synonyms": [
       "quench",
@@ -14331,10 +14332,10 @@ const GRE_WORDS = [
   },
   {
     "word": "slew",
-    "pronunciation": "/slˈu/",
-    "pos": "Adjective",
+    "pronunciation": "/slˈuː/",
+    "pos": "Noun",
     "meaning": "A large number or quantity; a great deal",
-    "mnemonic": "Picture “many” vividly; link that image directly to slew.",
+    "mnemonic": "SLEW: a whole SLEW of things — a large number.",
     "usage": "A slew of new regulations, each reasonable in itself, together threatened to overwhelm small businesses.",
     "synonyms": [
       "many",
@@ -14350,9 +14351,9 @@ const GRE_WORDS = [
   {
     "word": "slight",
     "pronunciation": "/slˈaɪt/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Small, not very important, slender or delicate; to treat as though not very important; snub, ignore; an act of treating in this way, a discourtesy",
-    "mnemonic": "Picture “insult” vividly; link that image directly to slight.",
+    "mnemonic": "SLIGHT: SLIGHT = small, unimportant; also to snub.",
     "usage": "He felt slighted by their failure to invite him, and he never quite forgave them.",
     "synonyms": [
       "insult",
@@ -14367,10 +14368,10 @@ const GRE_WORDS = [
   },
   {
     "word": "sobriquet",
-    "pronunciation": "/sˈoʊbrʌkˌeɪ/",
+    "pronunciation": "/sˈɑːbɹɪkˌeɪ/",
     "pos": "Noun",
     "meaning": "A nickname; an affectionate or humorous name given to someone",
-    "mnemonic": "Picture “nickname” vividly; link that image directly to sobriquet.",
+    "mnemonic": "SOBRIQUET: sounds like SOBRIQUET (soubriquet) — a nickname.",
     "usage": "The sobriquet \"the Iron Duke\" stuck long after the general had retired to a quiet country estate.",
     "synonyms": [
       "nickname",
@@ -14386,7 +14387,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈoʊlsɪzəm/",
     "pos": "Noun",
     "meaning": "Nonstandard use of grammar or words; mistake, especially in etiquette; a breach of good manners",
-    "mnemonic": "Picture “error” vividly; link that image directly to solecism.",
+    "mnemonic": "SOLECISM: from SOLOI, a Greek colony with bad Greek — a grammar mistake.",
     "usage": "The solecism was minor—a misplaced modifier—but it cost her the editorial job.",
     "synonyms": [
       "error",
@@ -14401,10 +14402,10 @@ const GRE_WORDS = [
   },
   {
     "word": "solicitous",
-    "pronunciation": "/sʌlˈɪsʌtʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/səlˈɪsᵻɾəs/",
+    "pos": "Noun",
     "meaning": "Concerned or anxious (about another person), expressing care; eager or desirous; very careful",
-    "mnemonic": "Picture “concerned” vividly; link that image directly to solicitous.",
+    "mnemonic": "SOLICITOUS: SOLICIT — showing anxious care.",
     "usage": "The solicitous host checked on every guest, refilled every glass, and would not sit down himself until the last had gone.",
     "synonyms": [
       "concerned",
@@ -14419,10 +14420,10 @@ const GRE_WORDS = [
   },
   {
     "word": "solidarity",
-    "pronunciation": "/sˌɑlʌdˈɛrʌti/",
+    "pronunciation": "/sˌɑːlɪdˈæɹɪɾi/",
     "pos": "Noun",
     "meaning": "Fellowship in interests, feelings, responsibilities, etc., such as among a group of people or among classes, nations, etc.; unity of purpose",
-    "mnemonic": "Picture “unity” vividly; link that image directly to solidarity.",
+    "mnemonic": "SOLIDARITY: SOLID + ARITY — standing together as one solid front.",
     "usage": "The workers, whatever their differences, showed remarkable solidarity when the company tried to cut benefits.",
     "synonyms": [
       "unity",
@@ -14437,10 +14438,10 @@ const GRE_WORDS = [
   },
   {
     "word": "somatic",
-    "pronunciation": "/sˌoʊmˈɑtɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/səmˈæɾɪk/",
+    "pos": "Noun",
     "meaning": "Of the body; relating to the body, especially as distinct from the mind",
-    "mnemonic": "Picture “bodily” vividly; link that image directly to somatic.",
+    "mnemonic": "SOMATIC: SOMA = body. Relating to the body.",
     "usage": "The somatic symptoms, headaches and fatigue, resolved once the underlying anxiety was treated.",
     "synonyms": [
       "bodily",
@@ -14456,9 +14457,9 @@ const GRE_WORDS = [
   {
     "word": "soporific",
     "pronunciation": "/sˌɑːpoːɹˈɪfɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Causing sleep; sleepy, drowsy; something that causes sleep",
-    "mnemonic": "Picture “sleep-inducing” vividly; link that image directly to soporific.",
+    "mnemonic": "SOPORIFIC: SOPOR = sleep. Causing sleep.",
     "usage": "The soporific lecture, delivered in a monotone in a warm room after lunch, emptied three rows within twenty minutes.",
     "synonyms": [
       "sleep-inducing",
@@ -14476,7 +14477,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈaʊnd/",
     "pos": "Adjective",
     "meaning": "Measure the depth of (usually of water) as with a sounding line; penetrate and discover the meaning of, understand; in good condition; based on valid reasoning",
-    "mnemonic": "Picture “measure” vividly; link that image directly to sound.",
+    "mnemonic": "SOUND: SOUND reasoning is SOLID — also means to measure depth.",
     "usage": "The argument was sound, but the premises on which it rested were not.",
     "synonyms": [
       "measure",
@@ -14489,10 +14490,10 @@ const GRE_WORDS = [
   },
   {
     "word": "spartan",
-    "pronunciation": "/spˈɑrtʌn/",
-    "pos": "Adjective",
+    "pronunciation": "/spˈɑːɹtən/",
+    "pos": "Noun",
     "meaning": "Very disciplined and stern; frugal, living simply, austere; suggestive of the ancient Spartans",
-    "mnemonic": "Picture “austere” vividly; link that image directly to spartan.",
+    "mnemonic": "SPARTAN: like a SPARTAN warrior — austere, strict.",
     "usage": "The spartan training regimen, starting before dawn and ending after dark, broke half the recruits by the second week.",
     "synonyms": [
       "austere",
@@ -14508,9 +14509,9 @@ const GRE_WORDS = [
   {
     "word": "spate",
     "pronunciation": "/spˈeɪt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Sudden outpouring or rush; flood; a large number of similar things coming in quick succession",
-    "mnemonic": "Picture “flood” vividly; link that image directly to spate.",
+    "mnemonic": "SPATE: SPLAT of a flood — a sudden rush.",
     "usage": "A spate of new books on the subject appeared within a year, most of them derivative.",
     "synonyms": [
       "flood",
@@ -14525,10 +14526,10 @@ const GRE_WORDS = [
   },
   {
     "word": "spearhead",
-    "pronunciation": "/spˈɪrhˌɛd/",
-    "pos": "Noun",
+    "pronunciation": "/spˈɪɹhɛd/",
+    "pos": "Verb",
     "meaning": "Be the leader of; to lead or initiate an attack, campaign, etc.",
-    "mnemonic": "Picture “lead” vividly; link that image directly to spearhead.",
+    "mnemonic": "SPEARHEAD: the SPEAR's HEAD leads — to lead, initiate.",
     "usage": "She spearheaded the campaign that eventually brought clean water to every village in the district.",
     "synonyms": [
       "lead",
@@ -14543,10 +14544,10 @@ const GRE_WORDS = [
   },
   {
     "word": "specious",
-    "pronunciation": "/spˈiʃʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/spˈiːʃəs/",
+    "pos": "Noun",
     "meaning": "Seemingly true but actually false; deceptively attractive; based on a fallacy",
-    "mnemonic": "Picture “misleading” vividly; link that image directly to specious.",
+    "mnemonic": "SPECIOUS: SPEC = look. Looks true but isn't — misleading.",
     "usage": "The specious argument, which sounded reasonable at first, collapsed once the assumptions were examined.",
     "synonyms": [
       "misleading",
@@ -14562,9 +14563,9 @@ const GRE_WORDS = [
   {
     "word": "spiculum",
     "pronunciation": "/spˈɪkjʊləm/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "A broad range of nevertheless related qualities; a small, sharp-pointed structure",
-    "mnemonic": "Picture “range” vividly; link that image directly to spiculum.",
+    "mnemonic": "SPICULUM: SPIC = spike. A small sharp point; a range.",
     "usage": "The spiculum of opinion, from mild reservation to outright hostility, made consensus impossible.",
     "synonyms": [
       "range",
@@ -14578,9 +14579,9 @@ const GRE_WORDS = [
   {
     "word": "splenetic",
     "pronunciation": "/splɛnˈɛɾɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Bad-tempered, irritable, spiteful; relating to the spleen",
-    "mnemonic": "Picture “irritable” vividly; link that image directly to splenetic.",
+    "mnemonic": "SPLENETIC: SPLEEN = bad-tempered (in old humors). Bad-tempered.",
     "usage": "The splenetic editor tore through every submission, finding fault with all of them.",
     "synonyms": [
       "irritable",
@@ -14595,10 +14596,10 @@ const GRE_WORDS = [
   },
   {
     "word": "sporadic",
-    "pronunciation": "/spɝˈædɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/spoːɹˈædɪk/",
+    "pos": "Noun",
     "meaning": "Occasional, happening irregularly or in scattered locations; intermittent",
-    "mnemonic": "Picture “occasional” vividly; link that image directly to sporadic.",
+    "mnemonic": "SPORADIC: from SPORADES (scattered Greek islands). Occasional, scattered.",
     "usage": "The sporadic gunfire, never sustained enough to be a battle, kept the village on edge for weeks.",
     "synonyms": [
       "occasional",
@@ -14614,9 +14615,9 @@ const GRE_WORDS = [
   {
     "word": "sportive",
     "pronunciation": "/spˈoːɹɾɪv/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Playful, merry, joking around, done \"in sport\" (rather than intended seriously)",
-    "mnemonic": "PORT = carry: picture something being carried.",
+    "mnemonic": "SPORTIVE: SPORT — playful.",
     "usage": "His sportive banter, always in good humor, kept the office lively.",
     "synonyms": [
       "playful",
@@ -14631,10 +14632,10 @@ const GRE_WORDS = [
   },
   {
     "word": "squalid",
-    "pronunciation": "/skwˈɑlʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/skwˈɑːlɪd/",
+    "pos": "Noun",
     "meaning": "Disgusting, filthy, foul, extremely neglected; morally degraded",
-    "mnemonic": "Picture “filthy” vividly; link that image directly to squalid.",
+    "mnemonic": "SQUALID: SQUAL = filth. Filthy, disgusting.",
     "usage": "The squalid conditions in the tenement, exposed by a single photograph, forced the city to act.",
     "synonyms": [
       "filthy",
@@ -14650,9 +14651,9 @@ const GRE_WORDS = [
   {
     "word": "squelch",
     "pronunciation": "/skwˈɛltʃ/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Crush, squash; suppress or silence; to walk through ooze or in wet shoes, making a smacking or sucking sound",
-    "mnemonic": "Picture “suppress” vividly; link that image directly to squelch.",
+    "mnemonic": "SQUELCH: the SQUELCH of mud — to suppress, crush.",
     "usage": "The government squelched the protest before it could gain momentum.",
     "synonyms": [
       "suppress",
@@ -14668,9 +14669,9 @@ const GRE_WORDS = [
   {
     "word": "standing",
     "pronunciation": "/stˈændɪŋ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Status, rank, reputation; existing indefinitely, not movable; permanent",
-    "mnemonic": "Picture “status” vividly; link that image directly to standing.",
+    "mnemonic": "STANDING: your STANDING = status, reputation.",
     "usage": "Her standing in the profession, built over three decades, survived the scandal intact.",
     "synonyms": [
       "status",
@@ -14683,10 +14684,10 @@ const GRE_WORDS = [
   },
   {
     "word": "stark",
-    "pronunciation": "/stˈɑrk/",
-    "pos": "Adjective",
+    "pronunciation": "/stˈɑːɹk/",
+    "pos": "Noun",
     "meaning": "Complete, total, utter; harsh or grim; extremely simple or bare",
-    "mnemonic": "Picture “harsh” vividly; link that image directly to stark.",
+    "mnemonic": "STARK: STARK naked — complete, bare, harsh.",
     "usage": "The stark contrast between the two neighborhoods, separated by a single street, was impossible to ignore.",
     "synonyms": [
       "harsh",
@@ -14702,9 +14703,9 @@ const GRE_WORDS = [
   {
     "word": "stasis",
     "pronunciation": "/stˈeɪsᵻs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Equilibrium, a state of balance or inactivity, especially caused by equal but opposing forces; stagnation",
-    "mnemonic": "Picture “equilibrium” vividly; link that image directly to stasis.",
+    "mnemonic": "STASIS: STA = stand (static). A standing still — stagnation.",
     "usage": "The negotiations settled into a stasis that neither side knew how to break.",
     "synonyms": [
       "equilibrium",
@@ -14719,10 +14720,10 @@ const GRE_WORDS = [
   },
   {
     "word": "static",
-    "pronunciation": "/stˈætɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/stˈæɾɪk/",
+    "pos": "Noun",
     "meaning": "Fixed, not moving or changing, lacking vitality; interference in electronic signals",
-    "mnemonic": "Picture “unchanging” vividly; link that image directly to static.",
+    "mnemonic": "STATIC: STA = stand. Unmoving, fixed.",
     "usage": "The static portrait of the family, taken in 1952, hung in the hallway for sixty years.",
     "synonyms": [
       "unchanging",
@@ -14738,9 +14739,9 @@ const GRE_WORDS = [
   {
     "word": "status quo",
     "pronunciation": "/stˈæɾəs kwˈoʊ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Existing state or condition; the current situation",
-    "mnemonic": "Picture “existing state” vividly; link that image directly to status quo.",
+    "mnemonic": "STATUS QUO: the STATE in which things currently QUO (are) — the existing state.",
     "usage": "The reformers, after years of struggle, settled for maintaining the status quo rather than risking a backlash.",
     "synonyms": [
       "existing state",
@@ -14754,10 +14755,10 @@ const GRE_WORDS = [
   },
   {
     "word": "steeped",
-    "pronunciation": "/stˈipt/",
+    "pronunciation": "/stˈiːpt/",
     "pos": "Adjective",
     "meaning": "Immersed (in), saturated (with); deeply pervaded by something",
-    "mnemonic": "Picture “soaked” vividly; link that image directly to steeped.",
+    "mnemonic": "STEEPED: tea STEEPED in water — deeply soaked, pervaded.",
     "usage": "The novel is steeped in the folklore of the region, which the author had collected for decades.",
     "synonyms": [
       "soaked",
@@ -14773,9 +14774,9 @@ const GRE_WORDS = [
   {
     "word": "stentorian",
     "pronunciation": "/stɛntˈoːɹiən/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Very loud and powerful (generally of a human voice); extremely loud",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "STENTORIAN: from STENTOR, a Greek herald with a huge voice — very loud.",
     "usage": "The stentorian voice of the sergeant, audible across the parade ground, needed no amplification.",
     "synonyms": [
       "loud",
@@ -14790,10 +14791,10 @@ const GRE_WORDS = [
   },
   {
     "word": "stigma",
-    "pronunciation": "/stˈɪɡmʌ/",
-    "pos": "Adjective",
+    "pronunciation": "/stˈɪɡmə/",
+    "pos": "Noun",
     "meaning": "Mark of disgrace, a figurative stain or mark on someone's reputation; a mark of shame",
-    "mnemonic": "Picture “shame” vividly; link that image directly to stigma.",
+    "mnemonic": "STIGMA: from a brand or mark on a slave — a mark of disgrace.",
     "usage": "The stigma of the arrest, though the charges were dropped, followed him for the rest of his life.",
     "synonyms": [
       "shame",
@@ -14809,9 +14810,9 @@ const GRE_WORDS = [
   {
     "word": "stingy",
     "pronunciation": "/stˈɪndʒi/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Not generous with money, reluctant to spend or give; miserly",
-    "mnemonic": "Picture “miserly” vividly; link that image directly to stingy.",
+    "mnemonic": "STINGY: someone who STINGs you by not sharing — miserly.",
     "usage": "The stingy boss, who had never once bought the office coffee, refused to fund the holiday party.",
     "synonyms": [
       "miserly",
@@ -14829,7 +14830,7 @@ const GRE_WORDS = [
     "pronunciation": "/stˈɪnt/",
     "pos": "Noun",
     "meaning": "Period of time spent doing something, or a specific, limited amount of work; to be frugal, to get by on little",
-    "mnemonic": "Picture “term” vividly; link that image directly to stint.",
+    "mnemonic": "STINT: a STINT is a limited period or amount.",
     "usage": "After a two-year stint in the capital, he returned to the small town he had never stopped thinking of as home.",
     "synonyms": [
       "term",
@@ -14842,10 +14843,10 @@ const GRE_WORDS = [
   },
   {
     "word": "stipulate",
-    "pronunciation": "/stˈɪpjʌlˌeɪt/",
+    "pronunciation": "/stˈɪpjʊlˌeɪt/",
     "pos": "Verb",
     "meaning": "Specify; make an open demand, especially as a condition of agreement; to require as part of an agreement",
-    "mnemonic": "Picture “specify” vividly; link that image directly to stipulate.",
+    "mnemonic": "STIPULATE: STIP = stuff (stipule). To specify a condition.",
     "usage": "The contract stipulates that all disputes be resolved by arbitration in the seller's home state.",
     "synonyms": [
       "specify",
@@ -14859,9 +14860,9 @@ const GRE_WORDS = [
   {
     "word": "stoic",
     "pronunciation": "/stˈoʊɪk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Indifferent to pleasure or pain, enduring without complaint; a person indifferent to pleasure or pain",
-    "mnemonic": "Picture “unemotional” vividly; link that image directly to stoic.",
+    "mnemonic": "STOIC: Stoics bore pain calmly — unemotional, enduring.",
     "usage": "Her stoic acceptance of the diagnosis, delivered without a single complaint, humbled everyone in the room.",
     "synonyms": [
       "unemotional",
@@ -14876,10 +14877,10 @@ const GRE_WORDS = [
   },
   {
     "word": "stolid",
-    "pronunciation": "/stˈɑlʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/stˈɑːlɪd/",
+    "pos": "Noun",
     "meaning": "Not easily moved or excited; unemotional; showing little emotion",
-    "mnemonic": "Picture “impassive” vividly; link that image directly to stolid.",
+    "mnemonic": "STOLID: STOLID = SOLID — emotionally unmovable.",
     "usage": "His stolid expression, unchanged whether the news was good or bad, made him impossible to read.",
     "synonyms": [
       "impassive",
@@ -14894,10 +14895,10 @@ const GRE_WORDS = [
   },
   {
     "word": "stratagem",
-    "pronunciation": "/strˈætʌdʒʌm/",
+    "pronunciation": "/stɹˈæɾeɪdʒəm/",
     "pos": "Noun",
     "meaning": "Military maneuver to deceive or surprise; trick; a clever scheme",
-    "mnemonic": "Picture “trick” vividly; link that image directly to stratagem.",
+    "mnemonic": "STRATAGEM: STRATEGY — a clever trick or scheme.",
     "usage": "The general's stratagem, a feigned retreat, drew the enemy into the trap.",
     "synonyms": [
       "trick",
@@ -14910,10 +14911,10 @@ const GRE_WORDS = [
   },
   {
     "word": "stratum",
-    "pronunciation": "/strˈætʌm/",
-    "pos": "Adjective",
+    "pronunciation": "/stɹˈɑːɾəm/",
+    "pos": "Noun",
     "meaning": "One of many layers (such as in a rock formation or in the classes of a society); a level or class",
-    "mnemonic": "Picture “layer” vividly; link that image directly to stratum.",
+    "mnemonic": "STRATUM: STRATA = layers. One layer or level.",
     "usage": "The archaeologist could date the stratum by the coins it contained, which no one had disturbed in two thousand years.",
     "synonyms": [
       "layer",
@@ -14926,10 +14927,10 @@ const GRE_WORDS = [
   },
   {
     "word": "strut",
-    "pronunciation": "/strˈʌt/",
-    "pos": "Noun",
+    "pronunciation": "/stɹˈʌt/",
+    "pos": "Verb",
     "meaning": "A structural support or brace; to walk in a proud, self-important way",
-    "mnemonic": "Picture “support” vividly; link that image directly to strut.",
+    "mnemonic": "STRUT: STRUT like a rooster — walk proudly; also a support brace.",
     "usage": "The strut, though hidden behind plaster, was all that kept the wall from collapsing.",
     "synonyms": [
       "support",
@@ -14945,7 +14946,7 @@ const GRE_WORDS = [
     "pronunciation": "/stˈaɪmi/",
     "pos": "Noun",
     "meaning": "Block, hinder, or thwart; an obstacle",
-    "mnemonic": "Picture “hinder” vividly; link that image directly to stymie.",
+    "mnemonic": "STYMIE: sounds like STYMIE (STY-me) — to block, hinder.",
     "usage": "The lack of funding stymied the project for years, until a private donor stepped forward.",
     "synonyms": [
       "hinder",
@@ -14963,7 +14964,7 @@ const GRE_WORDS = [
     "pronunciation": "/sʌbdʒˈɛktɪv/",
     "pos": "Adjective",
     "meaning": "Existing in the mind or relating to one's own thoughts, opinions, emotions, etc.; personal, individual, based on feelings",
-    "mnemonic": "JECT = throw: picture something being thrown.",
+    "mnemonic": "SUBJECTIVE: SUB = under; JECT = throw. Thrown under personal opinion — personal, biased.",
     "usage": "Taste in music is subjective, which is why arguments about it are rarely settled and rarely worth having.",
     "synonyms": [
       "personal",
@@ -14979,9 +14980,9 @@ const GRE_WORDS = [
   {
     "word": "sublime",
     "pronunciation": "/sʌblˈaɪm/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Lofty or elevated, inspiring reverence or awe; excellent, majestic; complete, utter",
-    "mnemonic": "Picture “majestic” vividly; link that image directly to sublime.",
+    "mnemonic": "SUBLIME: SUB + LIME (LIM = threshold). Beyond the threshold — lofty, majestic.",
     "usage": "The sublime finale of the symphony, rising to a pitch that seemed to shake the walls, left the audience silent for a full minute.",
     "synonyms": [
       "majestic",
@@ -14996,10 +14997,10 @@ const GRE_WORDS = [
   },
   {
     "word": "subpoena",
-    "pronunciation": "/sʌpˈinʌ/",
-    "pos": "Noun",
+    "pronunciation": "/suːpˈiːnə/",
+    "pos": "Verb",
     "meaning": "A court order requiring a person to appear in court and give testimony; to summon with such an order",
-    "mnemonic": "Picture “summons” vividly; link that image directly to subpoena.",
+    "mnemonic": "SUBPOENA: from SUB POENA = under penalty. A court order requiring appearance.",
     "usage": "The subpoena, delivered at six in the morning, required her to testify within the week.",
     "synonyms": [
       "summons",
@@ -15012,10 +15013,10 @@ const GRE_WORDS = [
   },
   {
     "word": "subside",
-    "pronunciation": "/sʌbsˈaɪd/",
+    "pronunciation": "/səbsˈaɪd/",
     "pos": "Noun",
     "meaning": "Sink, settle down, become less active; return to a normal level",
-    "mnemonic": "Picture “abate” vividly; link that image directly to subside.",
+    "mnemonic": "SUBSIDE: SUB + SIDE. Sinking down — to diminish, settle.",
     "usage": "The storm finally subsided at dawn, leaving the streets littered with branches and glass.",
     "synonyms": [
       "abate",
@@ -15030,10 +15031,10 @@ const GRE_WORDS = [
   },
   {
     "word": "substantiate",
-    "pronunciation": "/sʌbstˈæntʃiˌeɪt/",
+    "pronunciation": "/səbstˈænʃɪˌeɪt/",
     "pos": "Verb",
     "meaning": "Support with evidence or proof; give a material existence to; to verify",
-    "mnemonic": "Picture “verify” vividly; link that image directly to substantiate.",
+    "mnemonic": "SUBSTANTIATE: give SUBSTANCE to — to prove with evidence.",
     "usage": "The report's central claim, dramatic as it was, could not be substantiated by any document the committee examined.",
     "synonyms": [
       "verify",
@@ -15048,10 +15049,10 @@ const GRE_WORDS = [
   },
   {
     "word": "succeeding",
-    "pronunciation": "/sʌksˈidɪŋ/",
+    "pronunciation": "/səksˈiːdɪŋ/",
     "pos": "Noun",
     "meaning": "Coming after or following; subsequent",
-    "mnemonic": "Picture “following” vividly; link that image directly to succeeding.",
+    "mnemonic": "SUCCEEDING: comes AFTER — subsequent.",
     "usage": "In succeeding years, the firm grew from a single office to a multinational corporation.",
     "synonyms": [
       "following",
@@ -15069,7 +15070,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈʌli/",
     "pos": "Verb",
     "meaning": "Make dirty, stain, tarnish, defile; to soil or damage (a reputation)",
-    "mnemonic": "Picture “tarnish” vividly; link that image directly to sully.",
+    "mnemonic": "SULLY: SOIL + LY — to soil, tarnish.",
     "usage": "The scandal sullied the family name, and it took two generations to recover.",
     "synonyms": [
       "tarnish",
@@ -15084,10 +15085,10 @@ const GRE_WORDS = [
   },
   {
     "word": "supersede",
-    "pronunciation": "/sˌupɝsˈid/",
-    "pos": "Noun",
+    "pronunciation": "/sˈuːpɚsˌiːd/",
+    "pos": "Verb",
     "meaning": "Replace, take the position of, cause to be set aside; to supplant",
-    "mnemonic": "Picture “replace” vividly; link that image directly to supersede.",
+    "mnemonic": "SUPERSEDE: SUPER + SED = sit. To SIT ABOVE — to replace.",
     "usage": "The new regulations supersede all previous guidance on the subject.",
     "synonyms": [
       "replace",
@@ -15100,10 +15101,10 @@ const GRE_WORDS = [
   },
   {
     "word": "supplant",
-    "pronunciation": "/sʌplˈænt/",
+    "pronunciation": "/səplˈænt/",
     "pos": "Verb",
     "meaning": "Take the place of, displace, especially through sneaky tactics; to replace",
-    "mnemonic": "Picture “replace” vividly; link that image directly to supplant.",
+    "mnemonic": "SUPPLANT: SUP + PLANT — one PLANT uprooting another — to displace.",
     "usage": "Within a decade, digital photography had supplanted film entirely.",
     "synonyms": [
       "replace",
@@ -15117,10 +15118,10 @@ const GRE_WORDS = [
   },
   {
     "word": "supplicate",
-    "pronunciation": "/sʌplᵻkˌeɪt/",
+    "pronunciation": "/sˈʌplᵻkˌeɪt/",
     "pos": "Verb",
     "meaning": "Pray humbly; ask, beg, or seek in a humble way",
-    "mnemonic": "Picture “beg” vividly; link that image directly to supplicate.",
+    "mnemonic": "SUPPLICATE: SUB + PLIC = fold. Folded in prayer — to beg.",
     "usage": "The condemned man supplicated for mercy, but the governor had already signed the warrant.",
     "synonyms": [
       "beg",
@@ -15135,10 +15136,10 @@ const GRE_WORDS = [
   },
   {
     "word": "supposition",
-    "pronunciation": "/sˌʌpʌzˈɪʃʌn/",
+    "pronunciation": "/sˌʌpəzˈɪʃən/",
     "pos": "Noun",
     "meaning": "Assumption, hypothesis; something that has been supposed",
-    "mnemonic": "Picture “assumption” vividly; link that image directly to supposition.",
+    "mnemonic": "SUPPOSITION: SUPPOSE + ITION — an assumption.",
     "usage": "The entire theory rested on a supposition that no one had thought to test.",
     "synonyms": [
       "assumption",
@@ -15153,10 +15154,10 @@ const GRE_WORDS = [
   },
   {
     "word": "surfeit",
-    "pronunciation": "/sˈɝfʌt/",
-    "pos": "Adjective",
+    "pronunciation": "/sˈɜːfɪt/",
+    "pos": "Noun",
     "meaning": "Excess, excessive amount, overindulgence; an overabundance",
-    "mnemonic": "Picture “excess” vividly; link that image directly to surfeit.",
+    "mnemonic": "SURFEIT: SUR + FEIT = do (as in 'forfeit'). OVERDONE — an excess.",
     "usage": "The surfeit of restaurants on the same block meant that none of them could stay in business for long.",
     "synonyms": [
       "excess",
@@ -15171,10 +15172,10 @@ const GRE_WORDS = [
   },
   {
     "word": "surly",
-    "pronunciation": "/sˈɝli/",
+    "pronunciation": "/sˈɜːli/",
     "pos": "Adverb",
     "meaning": "Bad-tempered, hostile, unfriendly, or rude; churlish",
-    "mnemonic": "Picture “grumpy” vividly; link that image directly to surly.",
+    "mnemonic": "SURLY: sounds like SIR + LY, but acting sour — grumpy.",
     "usage": "The surly waiter made it clear that he would rather be anywhere else.",
     "synonyms": [
       "grumpy",
@@ -15189,10 +15190,10 @@ const GRE_WORDS = [
   },
   {
     "word": "surmise",
-    "pronunciation": "/sɝmˈaɪz/",
+    "pronunciation": "/sɚmˈaɪz/",
     "pos": "Verb",
     "meaning": "Guess, infer, think, or make an opinion with incomplete information",
-    "mnemonic": "Picture “guess” vividly; link that image directly to surmise.",
+    "mnemonic": "SURMISE: SUR + MISE = send. Sending a guess — to infer.",
     "usage": "From a few scattered hints, she surmised that the deal had already fallen through.",
     "synonyms": [
       "guess",
@@ -15207,10 +15208,10 @@ const GRE_WORDS = [
   },
   {
     "word": "surrogate",
-    "pronunciation": "/sˈɝʌɡʌt/",
-    "pos": "Adjective",
+    "pronunciation": "/sˈɜːɹəɡət/",
+    "pos": "Noun",
     "meaning": "Substitute, person who acts for another; acting as a replacement",
-    "mnemonic": "Picture “substitute” vividly; link that image directly to surrogate.",
+    "mnemonic": "SURROGATE: SUBROGATE — a substitute.",
     "usage": "The aunt became a surrogate mother to the orphaned children.",
     "synonyms": [
       "substitute",
@@ -15226,7 +15227,7 @@ const GRE_WORDS = [
     "pronunciation": "/sˈɪbɑːɹɹˌaɪt/",
     "pos": "Noun",
     "meaning": "Person devoted to pleasure and luxury; a voluptuary",
-    "mnemonic": "Picture “hedonist” vividly; link that image directly to sybarite.",
+    "mnemonic": "SYBARITE: from Sybaris, a luxury-loving Greek city — a hedonist.",
     "usage": "The aging sybarite, who had spent his fortune on silk and champagne, died with nothing but his memories.",
     "synonyms": [
       "hedonist",
@@ -15242,9 +15243,9 @@ const GRE_WORDS = [
   {
     "word": "sycophant",
     "pronunciation": "/sˈɪkɑːfənt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Servile flatterer, parasitic person who fawns in order to get ahead",
-    "mnemonic": "Picture “flatterer” vividly; link that image directly to sycophant.",
+    "mnemonic": "SYCOPHANT: originally a fig-informer. A flatterer, toady.",
     "usage": "The sycophant praised every idea the director proposed, however absurd.",
     "synonyms": [
       "flatterer",
@@ -15259,10 +15260,10 @@ const GRE_WORDS = [
   },
   {
     "word": "symbiosis",
-    "pronunciation": "/sˌɪmbaɪˈoʊsʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/sˌɪmbaɪˈoʊsɪs/",
+    "pos": "Noun",
     "meaning": "Mutually dependent relationship between two organisms, people, groups, etc.; a close, mutually beneficial association",
-    "mnemonic": "Picture “mutualism” vividly; link that image directly to symbiosis.",
+    "mnemonic": "SYMBIOSIS: SYM = together; BIOS = life. Living together for mutual benefit.",
     "usage": "The symbiosis between the two departments, each supplying what the other lacked, produced remarkable results.",
     "synonyms": [
       "mutualism",
@@ -15277,10 +15278,10 @@ const GRE_WORDS = [
   },
   {
     "word": "synchronous",
-    "pronunciation": "/sˈɪŋkrʌnʌs/",
+    "pronunciation": "/sˈɪnkɹənəs/",
     "pos": "Adjective",
     "meaning": "Happening at the same time; occurring at the same rate and thus happening together repeatedly",
-    "mnemonic": "Picture “simultaneous” vividly; link that image directly to synchronous.",
+    "mnemonic": "SYNCHRONOUS: SYN = same; CHRON = time. Same time.",
     "usage": "The two clocks were perfectly synchronous, though they stood in different rooms.",
     "synonyms": [
       "simultaneous",
@@ -15295,10 +15296,10 @@ const GRE_WORDS = [
   },
   {
     "word": "synoptic",
-    "pronunciation": "/sɪnˈɑptɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/sɪnˈɑːptɪk/",
+    "pos": "Noun",
     "meaning": "Relating to a synopsis or summary; giving a general view",
-    "mnemonic": "Picture “summary” vividly; link that image directly to synoptic.",
+    "mnemonic": "SYNOPTIC: SYN = together; OPT = see. Seeing all together — a summary.",
     "usage": "The synoptic chart, updated every six hours, gave pilots a full picture of the weather over the continent.",
     "synonyms": [
       "summary",
@@ -15313,10 +15314,10 @@ const GRE_WORDS = [
   },
   {
     "word": "syntax",
-    "pronunciation": "/sˈɪntˌæks/",
-    "pos": "Adjective",
+    "pronunciation": "/sˈɪntæks/",
+    "pos": "Noun",
     "meaning": "The rules governing grammar and how words join to make sentences; orderly arrangement",
-    "mnemonic": "Picture “grammar” vividly; link that image directly to syntax.",
+    "mnemonic": "SYNTAX: SYN = together; TAX = arrange. Arranged together — word order rules.",
     "usage": "The syntax of the sentence, tangled and broken, suggested that the author had written it in great haste.",
     "synonyms": [
       "grammar",
@@ -15329,10 +15330,10 @@ const GRE_WORDS = [
   },
   {
     "word": "table",
-    "pronunciation": "/tˈeɪbʌl/",
+    "pronunciation": "/tˈeɪbəl/",
     "pos": "Adjective",
     "meaning": "Lay aside to discuss later, often as a way to postpone discussion indefinitely; a piece of furniture",
-    "mnemonic": "Picture “postpone” vividly; link that image directly to table.",
+    "mnemonic": "TABLE: put a motion on the TABLE — to postpone.",
     "usage": "The committee tabled the motion, and everyone understood that it would never come up again.",
     "synonyms": [
       "postpone",
@@ -15348,9 +15349,9 @@ const GRE_WORDS = [
   {
     "word": "tacit",
     "pronunciation": "/tˈæsɪt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Understood without being said; implied, not stated directly; silent",
-    "mnemonic": "Picture “implied” vividly; link that image directly to tacit.",
+    "mnemonic": "TACIT: TAC = silent (taciturn). Silent, implied.",
     "usage": "There was a tacit agreement between them that the subject would never be raised.",
     "synonyms": [
       "implied",
@@ -15365,10 +15366,10 @@ const GRE_WORDS = [
   },
   {
     "word": "taciturn",
-    "pronunciation": "/tˈæsɪtˌɝn/",
-    "pos": "Adjective",
+    "pronunciation": "/tˈæsɪtˌɜːn/",
+    "pos": "Noun",
     "meaning": "Not talking much, reserved; silent, holding back in conversation",
-    "mnemonic": "Picture “quiet” vividly; link that image directly to taciturn.",
+    "mnemonic": "TACITURN: TAC = silent. Not talking — reserved.",
     "usage": "The taciturn farmer answered every question with a nod or a shrug.",
     "synonyms": [
       "quiet",
@@ -15383,10 +15384,10 @@ const GRE_WORDS = [
   },
   {
     "word": "tangential",
-    "pronunciation": "/tændʒˈɛnʃʌl/",
+    "pronunciation": "/tændʒˈɛnʃəl/",
     "pos": "Adjective",
     "meaning": "Only slightly relevant, going off-topic; touching lightly",
-    "mnemonic": "Picture “irrelevant” vividly; link that image directly to tangential.",
+    "mnemonic": "TANGENTIAL: TANGENT — touching briefly, off-topic.",
     "usage": "The remark, tangential to the argument, nevertheless sparked a twenty-minute digression.",
     "synonyms": [
       "irrelevant",
@@ -15401,10 +15402,10 @@ const GRE_WORDS = [
   },
   {
     "word": "tawdry",
-    "pronunciation": "/tˈɔdri/",
-    "pos": "Adjective",
+    "pronunciation": "/tˈɔːdɹi/",
+    "pos": "Noun",
     "meaning": "Gaudy, cheap or cheap-looking; indecent; showy but worthless",
-    "mnemonic": "Picture “gaudy” vividly; link that image directly to tawdry.",
+    "mnemonic": "TAWDRY: from St. Audrey's lace (cheap trinkets) — gaudy, cheap.",
     "usage": "The tawdry decorations, all glitter and no taste, embarrassed the bride's family.",
     "synonyms": [
       "gaudy",
@@ -15419,10 +15420,10 @@ const GRE_WORDS = [
   },
   {
     "word": "temperance",
-    "pronunciation": "/tˈɛmpɝʌns/",
+    "pronunciation": "/tˈɛmpɚɹəns/",
     "pos": "Noun",
     "meaning": "Moderation, self-control, especially regarding alcohol or other desires or pleasures; total abstinence from alcohol",
-    "mnemonic": "Picture “moderation” vividly; link that image directly to temperance.",
+    "mnemonic": "TEMPERANCE: TEMPER = moderate. Moderation, self-control.",
     "usage": "The temperance movement, whatever its excesses, did reduce alcohol consumption dramatically.",
     "synonyms": [
       "moderation",
@@ -15437,10 +15438,10 @@ const GRE_WORDS = [
   },
   {
     "word": "tendentious",
-    "pronunciation": "/tˌɛndˈɛnʃʌs/",
+    "pronunciation": "/tɛndˈɛnʃəs/",
     "pos": "Adjective",
     "meaning": "Marked by a strong point of view, biased; promoting a particular cause",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "TENDENTIOUS: TENDENCY — pushing a biased view.",
     "usage": "The article was tendentious from the first sentence, and the editor should have caught it.",
     "synonyms": [
       "biased",
@@ -15455,10 +15456,10 @@ const GRE_WORDS = [
   },
   {
     "word": "tenuous",
-    "pronunciation": "/tˈɛnjʌwʌs/",
+    "pronunciation": "/tˈɛnjuːəs/",
     "pos": "Adjective",
     "meaning": "Long and thin, slender; flimsy, having little substance; weak",
-    "mnemonic": "TEN = hold: picture someone holding something.",
+    "mnemonic": "TENUOUS: TENU = thin. Thin, flimsy.",
     "usage": "The connection between the two events, though often asserted, was tenuous at best.",
     "synonyms": [
       "flimsy",
@@ -15473,10 +15474,10 @@ const GRE_WORDS = [
   },
   {
     "word": "terrestrial",
-    "pronunciation": "/tɝˈɛstriʌl/",
+    "pronunciation": "/tɚɹˈɛstɹɪəl/",
     "pos": "Adjective",
     "meaning": "Relating to the Earth or to land; worldly; earthly",
-    "mnemonic": "Picture “earthly” vividly; link that image directly to terrestrial.",
+    "mnemonic": "TERRESTRIAL: TERRA = earth. Earthly.",
     "usage": "The telescope, designed for terrestrial observation, was useless for studying the stars.",
     "synonyms": [
       "earthly",
@@ -15491,10 +15492,10 @@ const GRE_WORDS = [
   },
   {
     "word": "terse",
-    "pronunciation": "/tˈɝs/",
-    "pos": "Adjective",
+    "pronunciation": "/tˈɜːs/",
+    "pos": "Noun",
     "meaning": "Concise, brief and to the point (sometimes to the point of rudeness); curt",
-    "mnemonic": "Picture “concise” vividly; link that image directly to terse.",
+    "mnemonic": "TERSE: TERSE = brief, to the point.",
     "usage": "His terse reply, a single sentence, ended the discussion before it had begun.",
     "synonyms": [
       "concise",
@@ -15512,7 +15513,7 @@ const GRE_WORDS = [
     "pronunciation": "/tˈaɪmli/",
     "pos": "Adverb",
     "meaning": "Well-timed, happening at a suitable time; opportune",
-    "mnemonic": "Picture “punctual” vividly; link that image directly to timely.",
+    "mnemonic": "TIMELY: in TIME — opportune, well-timed.",
     "usage": "Her timely intervention, arriving just as the argument was about to turn ugly, saved the evening.",
     "synonyms": [
       "punctual",
@@ -15527,10 +15528,10 @@ const GRE_WORDS = [
   },
   {
     "word": "timorous",
-    "pronunciation": "/tˈɪmɝʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/tˈɪmɚɹəs/",
+    "pos": "Noun",
     "meaning": "Fearful, timid; lacking courage",
-    "mnemonic": "Picture “fearful” vividly; link that image directly to timorous.",
+    "mnemonic": "TIMOROUS: TIMOR = fear. Fearful, timid.",
     "usage": "The timorous witness, visibly shaking, struggled to give a coherent account.",
     "synonyms": [
       "fearful",
@@ -15545,10 +15546,10 @@ const GRE_WORDS = [
   },
   {
     "word": "tirade",
-    "pronunciation": "/taɪrˈeɪd/",
-    "pos": "Adjective",
+    "pronunciation": "/taɪɹˈeɪd/",
+    "pos": "Noun",
     "meaning": "Bitter, abusive criticism or verbal attack; a long, angry speech",
-    "mnemonic": "Picture “diatribe” vividly; link that image directly to tirade.",
+    "mnemonic": "TIRADE: sounds like TIRED + AID — a long, tiring verbal attack.",
     "usage": "His tirade against the critic lasted twenty minutes and said more about him than about the review.",
     "synonyms": [
       "diatribe",
@@ -15564,9 +15565,9 @@ const GRE_WORDS = [
   {
     "word": "toady",
     "pronunciation": "/tˈoʊdi/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Someone who flatters or acts in a servile manner for self-serving reasons; a sycophant",
-    "mnemonic": "Picture “sycophant” vividly; link that image directly to toady.",
+    "mnemonic": "TOADY: a TOAD-like follower — a sycophant.",
     "usage": "The toady agreed with everything the director said, and the director, to his credit, saw through him.",
     "synonyms": [
       "sycophant",
@@ -15581,10 +15582,10 @@ const GRE_WORDS = [
   },
   {
     "word": "token",
-    "pronunciation": "/tˈoʊkʌn/",
-    "pos": "Adjective",
+    "pronunciation": "/tˈoʊkən/",
+    "pos": "Noun",
     "meaning": "Sign, symbol, mark, badge; souvenir, memento; sample; a person or thing taken to represent an entire group; of very little or merely symbolic value",
-    "mnemonic": "Picture “symbol” vividly; link that image directly to token.",
+    "mnemonic": "TOKEN: a small sign or symbol — token gesture.",
     "usage": "The reform was a token gesture that changed nothing but allowed the government to claim progress.",
     "synonyms": [
       "symbol",
@@ -15598,9 +15599,9 @@ const GRE_WORDS = [
   {
     "word": "tome",
     "pronunciation": "/tˈoʊm/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Large or scholarly book; one of the volumes in a set of several books",
-    "mnemonic": "Picture “volume” vividly; link that image directly to tome.",
+    "mnemonic": "TOME: a big scholarly BOOK.",
     "usage": "The tome on the table, six inches thick and bound in leather, had not been opened in years.",
     "synonyms": [
       "volume",
@@ -15613,10 +15614,10 @@ const GRE_WORDS = [
   },
   {
     "word": "torpor",
-    "pronunciation": "/tˈɔrpɝ/",
+    "pronunciation": "/tˈoːɹpɚ/",
     "pos": "Noun",
     "meaning": "Sluggishness, lethargy, or apathy; a period of inactivity; dormancy",
-    "mnemonic": "Picture “lethargy” vividly; link that image directly to torpor.",
+    "mnemonic": "TORPOR: TORPID — sluggishness, inactivity.",
     "usage": "A deep torpor settled over the office in the long, hot days of August.",
     "synonyms": [
       "lethargy",
@@ -15631,10 +15632,10 @@ const GRE_WORDS = [
   },
   {
     "word": "torrid",
-    "pronunciation": "/tˈɔrʌd/",
-    "pos": "Adjective",
+    "pronunciation": "/tˈɔːɹɪd/",
+    "pos": "Noun",
     "meaning": "Very hot, parching, burning; passionate; rapid and intense",
-    "mnemonic": "Picture “hot” vividly; link that image directly to torrid.",
+    "mnemonic": "TORRID: TORRID = hot, burning.",
     "usage": "The torrid summer, the hottest in a century, emptied the city of everyone who could leave.",
     "synonyms": [
       "hot",
@@ -15649,10 +15650,10 @@ const GRE_WORDS = [
   },
   {
     "word": "tortuous",
-    "pronunciation": "/tˈɔrtʃʌwʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/tˈɔːɹtʃuːəs/",
+    "pos": "Noun",
     "meaning": "Twisting, winding, complex; devious, not straightforward; full of bends",
-    "mnemonic": "Picture “winding” vividly; link that image directly to tortuous.",
+    "mnemonic": "TORTUOUS: TORT = twist (torture). Winding, twisted.",
     "usage": "The tortuous path up the mountain took twice as long as the map had suggested.",
     "synonyms": [
       "winding",
@@ -15667,10 +15668,10 @@ const GRE_WORDS = [
   },
   {
     "word": "tractable",
-    "pronunciation": "/trˈæktʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/tɹˈæktəbəl/",
+    "pos": "Noun",
     "meaning": "Easily controlled or managed, docile; easily shaped or molded",
-    "mnemonic": "TRACT = pull: picture something being pulled.",
+    "mnemonic": "TRACTABLE: TRACT = pull (tractor). Easily pulled — docile.",
     "usage": "The tractable student followed every instruction without question.",
     "synonyms": [
       "docile",
@@ -15685,10 +15686,10 @@ const GRE_WORDS = [
   },
   {
     "word": "transgression",
-    "pronunciation": "/trænzɡrˈɛʃʌn/",
+    "pronunciation": "/tɹænsɡɹˈɛʃən/",
     "pos": "Noun",
     "meaning": "Violation of a law, moral rule, order, etc.; sin; the act of going beyond a limit",
-    "mnemonic": "GRESS = go/step: picture movement along a path.",
+    "mnemonic": "TRANSGRESSION: TRANS = across; GRESS = step. Stepping ACROSS the line — a violation.",
     "usage": "The transgression, minor in itself, ended his career because it violated the one rule no one broke.",
     "synonyms": [
       "violation",
@@ -15703,10 +15704,10 @@ const GRE_WORDS = [
   },
   {
     "word": "transitory",
-    "pronunciation": "/trˈænzʌtˌɔri/",
-    "pos": "Adjective",
+    "pronunciation": "/tɹˈænsɪtˌoːɹi/",
+    "pos": "Noun",
     "meaning": "Temporary, short-lived, not lasting; passing",
-    "mnemonic": "Picture “temporary” vividly; link that image directly to transitory.",
+    "mnemonic": "TRANSITORY: TRANSIT — passing through — temporary.",
     "usage": "The transitory pleasures of youth, he wrote, are not to be despised, only recognized for what they are.",
     "synonyms": [
       "temporary",
@@ -15721,10 +15722,10 @@ const GRE_WORDS = [
   },
   {
     "word": "travesty",
-    "pronunciation": "/trˈævʌsti/",
-    "pos": "Adjective",
+    "pronunciation": "/tɹˈævəsti/",
+    "pos": "Noun",
     "meaning": "Exaggerated, debased, or grotesque imitation; a mockery; a false or absurd representation",
-    "mnemonic": "Picture “mockery” vividly; link that image directly to travesty.",
+    "mnemonic": "TRAVESTY: TRANS + VEST = dress. Dressed up as something it's not — a mockery.",
     "usage": "The trial, whatever the verdict, was a travesty of justice and everyone in the courtroom knew it.",
     "synonyms": [
       "mockery",
@@ -15737,10 +15738,10 @@ const GRE_WORDS = [
   },
   {
     "word": "treacherous",
-    "pronunciation": "/trˈɛtʃɝʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/tɹˈɛtʃɚɹəs/",
+    "pos": "Noun",
     "meaning": "Betraying trust, not faithful or trustworthy; not dependable; dangerous or deceptive",
-    "mnemonic": "Picture “disloyal” vividly; link that image directly to treacherous.",
+    "mnemonic": "TREACHEROUS: TRICK + EROUS — betraying trust.",
     "usage": "The treacherous path, slick with ice, claimed the lives of two experienced climbers that winter.",
     "synonyms": [
       "disloyal",
@@ -15755,10 +15756,10 @@ const GRE_WORDS = [
   },
   {
     "word": "trenchant",
-    "pronunciation": "/trˈɛntʃʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/tɹˈɛntʃənt/",
+    "pos": "Noun",
     "meaning": "Forceful or vigorous, effective, keen; caustic, sharp; incisive",
-    "mnemonic": "Picture “incisive” vividly; link that image directly to trenchant.",
+    "mnemonic": "TRENCHANT: TRENCH + ANT — cutting a trench in the argument — incisive.",
     "usage": "Her trenchant analysis of the merger, delivered in a single paragraph, cut through months of hedging.",
     "synonyms": [
       "incisive",
@@ -15773,10 +15774,10 @@ const GRE_WORDS = [
   },
   {
     "word": "trifling",
-    "pronunciation": "/trˈaɪflɪŋ/",
+    "pronunciation": "/tɹˈaɪflɪŋ/",
     "pos": "Adjective",
     "meaning": "Trivial, not very important; so small as to be unimportant; frivolous, shallow",
-    "mnemonic": "Picture “trivial” vividly; link that image directly to trifling.",
+    "mnemonic": "TRIFLING: TRIFLE = small thing — trivial.",
     "usage": "The difference in cost was trifling, but the difference in quality was enormous.",
     "synonyms": [
       "trivial",
@@ -15791,10 +15792,10 @@ const GRE_WORDS = [
   },
   {
     "word": "trite",
-    "pronunciation": "/trˈaɪt/",
+    "pronunciation": "/tɹˈaɪt/",
     "pos": "Noun",
     "meaning": "Lacking freshness and originality, lacking effectiveness due to overuse, cliché",
-    "mnemonic": "Picture “hackneyed” vividly; link that image directly to trite.",
+    "mnemonic": "TRITE: worn THREAD — stale, overused.",
     "usage": "The advice, though trite, turned out to be correct.",
     "synonyms": [
       "hackneyed",
@@ -15809,10 +15810,10 @@ const GRE_WORDS = [
   },
   {
     "word": "truculent",
-    "pronunciation": "/trˈʌkjʌlʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/tɹˈʌkjʊlənt/",
+    "pos": "Noun",
     "meaning": "Fierce, cruel, savage; belligerent; aggressively defiant",
-    "mnemonic": "Picture “aggressive” vividly; link that image directly to truculent.",
+    "mnemonic": "TRUCULENT: TRUCK + LENT — fierce, savage, aggressive.",
     "usage": "The truculent warrior refused every offer of surrender and fought to the last man.",
     "synonyms": [
       "aggressive",
@@ -15827,10 +15828,10 @@ const GRE_WORDS = [
   },
   {
     "word": "tumultuous",
-    "pronunciation": "/tˌumˈʌltʃˌuʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/tuːmˈʌltʃuːəs/",
+    "pos": "Noun",
     "meaning": "Riotous, violently agitated, marked by disturbance or uproar; noisy, chaotic",
-    "mnemonic": "Picture “chaotic” vividly; link that image directly to tumultuous.",
+    "mnemonic": "TUMULTUOUS: TUMULT — chaotic, riotous.",
     "usage": "The tumultuous decade, marked by protest and upheaval, reshaped the country's politics for a generation.",
     "synonyms": [
       "chaotic",
@@ -15845,10 +15846,10 @@ const GRE_WORDS = [
   },
   {
     "word": "turgid",
-    "pronunciation": "/tˈɝdʒɪd/",
-    "pos": "Adjective",
+    "pronunciation": "/tˈɜːdʒɪd/",
+    "pos": "Noun",
     "meaning": "Swollen, inflated; or, metaphorically \"inflated,\" such as in overblown, pompous speech; excessively ornate",
-    "mnemonic": "Picture “pompous” vividly; link that image directly to turgid.",
+    "mnemonic": "TURGID: TURG = swollen. Inflated, pompous.",
     "usage": "The turgid prose, full of clauses within clauses, defeated every reader who tried to follow it.",
     "synonyms": [
       "pompous",
@@ -15863,10 +15864,10 @@ const GRE_WORDS = [
   },
   {
     "word": "turpitude",
-    "pronunciation": "/tˈɝpɪtˌud/",
+    "pronunciation": "/tˈɜːpɪtˌuːd/",
     "pos": "Noun",
     "meaning": "Depravity, baseness of character, corrupt or depraved acts; wickedness",
-    "mnemonic": "Picture “depravity” vividly; link that image directly to turpitude.",
+    "mnemonic": "TURPITUDE: TURPIS = base. Depravity.",
     "usage": "The judge, citing the moral turpitude of the offense, imposed the maximum sentence.",
     "synonyms": [
       "depravity",
@@ -15884,7 +15885,7 @@ const GRE_WORDS = [
     "pronunciation": "/tˈaɪɹoʊ/",
     "pos": "Noun",
     "meaning": "Beginner; novice; a person learning a trade",
-    "mnemonic": "Picture “beginner” vividly; link that image directly to tyro.",
+    "mnemonic": "TYRO: TIRE + O — a beginner tire-s out — a novice.",
     "usage": "The tyro, though eager, had not yet learned to hold the brush correctly.",
     "synonyms": [
       "beginner",
@@ -15899,10 +15900,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ubiquitous",
-    "pronunciation": "/jubˈɪkwɪtʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/juːbˈɪkwᵻɾəs/",
+    "pos": "Noun",
     "meaning": "Existing everywhere at the same time; omnipresent",
-    "mnemonic": "Picture “omnipresent” vividly; link that image directly to ubiquitous.",
+    "mnemonic": "UBIQUITOUS: UBIQUE = everywhere (Latin). Everywhere at once.",
     "usage": "The ubiquitous coffee chain, with a branch on every corner, had become almost invisible.",
     "synonyms": [
       "omnipresent",
@@ -15917,10 +15918,10 @@ const GRE_WORDS = [
   },
   {
     "word": "umbrage",
-    "pronunciation": "/ˈʌmbrɪdʒ/",
+    "pronunciation": "/ˈʌmbɹɪdʒ/",
     "pos": "Noun",
     "meaning": "Offense or annoyance (usually as take umbrage, meaning become offended or annoyed); shade, shadow",
-    "mnemonic": "Picture “offense” vividly; link that image directly to umbrage.",
+    "mnemonic": "UMBRAGE: UMBRA = shadow. Taking something as a slight — offense.",
     "usage": "She took umbrage at the suggestion that her work had been derivative.",
     "synonyms": [
       "offense",
@@ -15935,10 +15936,10 @@ const GRE_WORDS = [
   },
   {
     "word": "unconscionable",
-    "pronunciation": "/ʌnkˈɑnʃʌnʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/ʌnkˈɑːnʃənəbəl/",
+    "pos": "Noun",
     "meaning": "Not guided by conscience; morally wrong, unjust, unreasonable; excessive",
-    "mnemonic": "Picture “unscrupulous” vividly; link that image directly to unconscionable.",
+    "mnemonic": "UNCONSCIONABLE: NOT guided by CONSCIENCE — morally wrong.",
     "usage": "The unconscionable delay in delivering aid cost lives that could have been saved.",
     "synonyms": [
       "unscrupulous",
@@ -15953,10 +15954,10 @@ const GRE_WORDS = [
   },
   {
     "word": "undermine",
-    "pronunciation": "/ˈʌndɝmˌaɪn/",
+    "pronunciation": "/ˌʌndɚmˈaɪn/",
     "pos": "Verb",
     "meaning": "Weaken, cause to collapse by digging away at the foundation (of a building or an argument); injure or attack in a secretive or underhanded way",
-    "mnemonic": "Picture “weaken” vividly; link that image directly to undermine.",
+    "mnemonic": "UNDERMINE: dig UNDER a wall to MINE it — to weaken.",
     "usage": "The leaks undermined the administration's authority at precisely the moment it needed it most.",
     "synonyms": [
       "weaken",
@@ -15971,10 +15972,10 @@ const GRE_WORDS = [
   },
   {
     "word": "underscore",
-    "pronunciation": "/ˌʌndɝskˈɔr/",
-    "pos": "Noun",
+    "pronunciation": "/ˌʌndɚskˈoːɹ/",
+    "pos": "Verb",
     "meaning": "Emphasize (or, literally, to underline text); to make evident the importance of",
-    "mnemonic": "Picture “emphasize” vividly; link that image directly to underscore.",
+    "mnemonic": "UNDERSCORE: to UNDERLINE — to emphasize.",
     "usage": "The report underscores the need for reform by documenting failure after failure.",
     "synonyms": [
       "emphasize",
@@ -15989,10 +15990,10 @@ const GRE_WORDS = [
   },
   {
     "word": "unearth",
-    "pronunciation": "/ʌnˈɝθ/",
-    "pos": "Noun",
+    "pronunciation": "/ʌnˈɜːθ/",
+    "pos": "Verb",
     "meaning": "Dig up, uncover, expose; to find by digging or searching",
-    "mnemonic": "Picture “excavate” vividly; link that image directly to unearth.",
+    "mnemonic": "UNEARTH: dig out of the EARTH — to discover.",
     "usage": "The investigation unearthed a pattern of abuse that had gone unnoticed for decades.",
     "synonyms": [
       "excavate",
@@ -16007,10 +16008,10 @@ const GRE_WORDS = [
   },
   {
     "word": "unequivocal",
-    "pronunciation": "/ˌʌnɪkwˈɪvʌkʌl/",
+    "pronunciation": "/ʌnɪkwˈɪvəkəl/",
     "pos": "Adjective",
     "meaning": "Unambiguous, clear, absolute; having only one possible meaning",
-    "mnemonic": "VOC = call/voice: picture someone calling out.",
+    "mnemonic": "UNEQUIVOCAL: UN + EQUIVOCAL. NOT ambiguous — clear.",
     "usage": "Her answer was unequivocal: she would not run for office under any circumstances.",
     "synonyms": [
       "unambiguous",
@@ -16025,10 +16026,10 @@ const GRE_WORDS = [
   },
   {
     "word": "unprecedented",
-    "pronunciation": "/ʌnprˈɛsɪdˌɛntɪd/",
+    "pronunciation": "/ʌnpɹˈɛsɪdəntᵻd/",
     "pos": "Adjective",
     "meaning": "Never before known or seen, without having happened previously; novel",
-    "mnemonic": "Picture “unparalleled” vividly; link that image directly to unprecedented.",
+    "mnemonic": "UNPRECEDENTED: UN + PRECEDENT. Never happened before.",
     "usage": "The verdict was unprecedented: no court had ever ruled on the question before.",
     "synonyms": [
       "unparalleled",
@@ -16043,10 +16044,10 @@ const GRE_WORDS = [
   },
   {
     "word": "unseemly",
-    "pronunciation": "/ʌnsˈimli/",
+    "pronunciation": "/ʌnsˈiːmli/",
     "pos": "Adverb",
     "meaning": "Improper, inappropriate, against the rules of taste or politeness; indecorous",
-    "mnemonic": "Picture “improper” vividly; link that image directly to unseemly.",
+    "mnemonic": "UNSEEMLY: NOT SEEMLY (proper) — improper.",
     "usage": "The unseemly scramble for the late senator's seat began before the funeral was over.",
     "synonyms": [
       "improper",
@@ -16061,10 +16062,10 @@ const GRE_WORDS = [
   },
   {
     "word": "unsparing",
-    "pronunciation": "/ʌnspˈɛrɪŋ/",
-    "pos": "Adjective",
+    "pronunciation": "/ʌnspˈɛɹɪŋ/",
+    "pos": "Noun",
     "meaning": "Generous, lavish (as in not sparing any help or gifts to others); unmerciful, harsh (as in not sparing any criticism)",
-    "mnemonic": "Picture “generous” vividly; link that image directly to unsparing.",
+    "mnemonic": "UNSPARING: does not SPARE — very generous or very harsh.",
     "usage": "His unsparing criticism of the manuscript, though painful, made the final book far stronger.",
     "synonyms": [
       "generous",
@@ -16079,10 +16080,10 @@ const GRE_WORDS = [
   },
   {
     "word": "untempered",
-    "pronunciation": "/əntˈɛmpɚd/",
-    "pos": "Adjective",
+    "pronunciation": "/ʌntˈɛmpɚd/",
+    "pos": "Noun",
     "meaning": "Not toned down; not moderated, controlled, or counterbalanced; not tempered",
-    "mnemonic": "Picture “unmoderated” vividly; link that image directly to untempered.",
+    "mnemonic": "UNTEMPERED: NOT TEMPERED — not moderated.",
     "usage": "The untempered enthusiasm of the young recruit, though admirable, wore down everyone around him.",
     "synonyms": [
       "unmoderated",
@@ -16097,10 +16098,10 @@ const GRE_WORDS = [
   },
   {
     "word": "upbraid",
-    "pronunciation": "/ˈʌpbrˌeɪd/",
-    "pos": "Noun",
+    "pronunciation": "/ʌpbɹˈeɪd/",
+    "pos": "Verb",
     "meaning": "Find fault with, criticize or scold severely; to reproach",
-    "mnemonic": "Picture “scold” vividly; link that image directly to upbraid.",
+    "mnemonic": "UPBRAID: UP + BRAID — twisting someone's words UP — to scold.",
     "usage": "The coach upbraided the team for their lack of effort, and the team deserved it.",
     "synonyms": [
       "scold",
@@ -16115,10 +16116,10 @@ const GRE_WORDS = [
   },
   {
     "word": "usury",
-    "pronunciation": "/jˈuʒɝi/",
-    "pos": "Adjective",
+    "pronunciation": "/jˈuːzjʊɹi/",
+    "pos": "Noun",
     "meaning": "Charging interest on a loan, especially charging illegally high or excessive interest; the practice of lending money at excessive rates",
-    "mnemonic": "Picture “excessive interest” vividly; link that image directly to usury.",
+    "mnemonic": "USURY: USE + URY — using money to extort interest.",
     "usage": "The usury laws, passed after the crash, capped interest rates at thirty percent.",
     "synonyms": [
       "excessive interest",
@@ -16130,10 +16131,10 @@ const GRE_WORDS = [
   },
   {
     "word": "vacillate",
-    "pronunciation": "/vˈæsʌlˌeɪt/",
+    "pronunciation": "/vˈæsɪlˌeɪt/",
     "pos": "Verb",
     "meaning": "Waver in one's mind or opinions, be indecisive; to oscillate",
-    "mnemonic": "Picture “waver” vividly; link that image directly to vacillate.",
+    "mnemonic": "VACILLATE: VAC = empty. Wavering, unsteady.",
     "usage": "He vacillated for weeks between the two offers, and by the time he decided, both had been filled.",
     "synonyms": [
       "waver",
@@ -16148,10 +16149,10 @@ const GRE_WORDS = [
   },
   {
     "word": "vanguard",
-    "pronunciation": "/vˈænɡˌɑrd/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈæŋɡɑːɹd/",
+    "pos": "Noun",
     "meaning": "Leading units at the front of an army; leaders in a trend or movement, people on the \"cutting edge\"; the forefront of a trend or movement",
-    "mnemonic": "Picture “forefront” vividly; link that image directly to vanguard.",
+    "mnemonic": "VANGUARD: the FRONT GUARD — the leading edge.",
     "usage": "She was in the vanguard of the movement for prison reform, and the reforms she proposed eventually became law.",
     "synonyms": [
       "forefront",
@@ -16166,10 +16167,10 @@ const GRE_WORDS = [
   },
   {
     "word": "variegated",
-    "pronunciation": "/vˈɛrɪɡeɪtɪd/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɛɹɪɡˌeɪɾᵻd/",
+    "pos": "Noun",
     "meaning": "Varied in color, having multicolored patches or spots; diverse",
-    "mnemonic": "Picture “multicolored” vividly; link that image directly to variegated.",
+    "mnemonic": "VARIEGATED: VARIOUS + GATED — of different colors, diverse.",
     "usage": "The variegated leaves of the tropical plant drew the eye from across the greenhouse.",
     "synonyms": [
       "multicolored",
@@ -16184,10 +16185,10 @@ const GRE_WORDS = [
   },
   {
     "word": "venerate",
-    "pronunciation": "/vˈɛnɝˌeɪt/",
+    "pronunciation": "/vˈɛnɚɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Revere, regard with deep respect and awe; to honor with great respect",
-    "mnemonic": "Picture “revere” vividly; link that image directly to venerate.",
+    "mnemonic": "VENERATE: from VENUS/VENIA = love. To revere.",
     "usage": "The students venerated their old teacher, whose lectures they still quoted decades later.",
     "synonyms": [
       "revere",
@@ -16202,10 +16203,10 @@ const GRE_WORDS = [
   },
   {
     "word": "veracity",
-    "pronunciation": "/vɝˈæsɪti/",
+    "pronunciation": "/vəɹˈæsɪɾi/",
     "pos": "Noun",
     "meaning": "Truthfulness, accuracy; habitual adherence to the truth",
-    "mnemonic": "Picture “truthfulness” vividly; link that image directly to veracity.",
+    "mnemonic": "VERACITY: VER = truth (verify). Truthfulness.",
     "usage": "The veracity of his account, questioned at first, was eventually confirmed by three independent witnesses.",
     "synonyms": [
       "truthfulness",
@@ -16221,9 +16222,9 @@ const GRE_WORDS = [
   {
     "word": "verbose",
     "pronunciation": "/vɜːbˈoʊs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Wordy; using more words than necessary",
-    "mnemonic": "Picture “wordy” vividly; link that image directly to verbose.",
+    "mnemonic": "VERBOSE: VERB + OSE. Full of WORDS — wordy.",
     "usage": "The verbose report, forty pages for what should have been a paragraph, consumed a week of the committee's time.",
     "synonyms": [
       "wordy",
@@ -16238,10 +16239,10 @@ const GRE_WORDS = [
   },
   {
     "word": "verdant",
-    "pronunciation": "/vˈɝdʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɜːdənt/",
+    "pos": "Noun",
     "meaning": "Green, such as with vegetation, plants, grass, etc.; young and inexperienced",
-    "mnemonic": "Picture “lush” vividly; link that image directly to verdant.",
+    "mnemonic": "VERDANT: VERD = green (verdure). Green with vegetation.",
     "usage": "The verdant valley, green in every direction, seemed to belong to another world.",
     "synonyms": [
       "lush",
@@ -16259,7 +16260,7 @@ const GRE_WORDS = [
     "pronunciation": "/vˈɛɹɪsˌɪmɪlɚ/",
     "pos": "Adjective",
     "meaning": "Having the appearance of truth, probable; likely to be true",
-    "mnemonic": "Picture “plausible” vividly; link that image directly to verisimilar.",
+    "mnemonic": "VERISIMILAR: VERI = true; SIMILAR — appearing true.",
     "usage": "The novelist's details, however invented, were so verisimilar that readers wrote to ask where the town was.",
     "synonyms": [
       "plausible",
@@ -16274,10 +16275,10 @@ const GRE_WORDS = [
   },
   {
     "word": "vernal",
-    "pronunciation": "/vˈɝnʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɜːnəl/",
+    "pos": "Noun",
     "meaning": "Relating to the spring; fresh, youthful; occurring in spring",
-    "mnemonic": "Picture “springlike” vividly; link that image directly to vernal.",
+    "mnemonic": "VERNAL: VERN = spring (like the vernal equinox). Spring-like.",
     "usage": "The vernal equinox, when day and night are equal, has been celebrated in every culture that keeps a calendar.",
     "synonyms": [
       "springlike",
@@ -16293,9 +16294,9 @@ const GRE_WORDS = [
   {
     "word": "vestige",
     "pronunciation": "/vˈɛstɪdʒ/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Trace or sign of something that once existed; a remnant",
-    "mnemonic": "Picture “trace” vividly; link that image directly to vestige.",
+    "mnemonic": "VESTIGE: VESTIGIUM = footprint. A trace of what once existed.",
     "usage": "The vestiges of the old wall, barely visible beneath the ivy, were all that remained of the fortress.",
     "synonyms": [
       "trace",
@@ -16309,9 +16310,9 @@ const GRE_WORDS = [
   {
     "word": "vex",
     "pronunciation": "/vˈɛks/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Annoy or bother; puzzle or distress; to trouble",
-    "mnemonic": "Picture “annoy” vividly; link that image directly to vex.",
+    "mnemonic": "VEX: VEX = to annoy.",
     "usage": "The problem vexed him for weeks, and even in his sleep he turned it over.",
     "synonyms": [
       "annoy",
@@ -16326,10 +16327,10 @@ const GRE_WORDS = [
   },
   {
     "word": "via",
-    "pronunciation": "/vˈaɪʌ/",
+    "pronunciation": "/vˈaɪə/",
     "pos": "Noun",
     "meaning": "Through, by means of, by way of (by a route that goes through or touches)",
-    "mnemonic": "Picture “through” vividly; link that image directly to via.",
+    "mnemonic": "VIA: VIA = by way of.",
     "usage": "The message reached him via three intermediaries, each of whom added a detail of their own.",
     "synonyms": [
       "through",
@@ -16342,10 +16343,10 @@ const GRE_WORDS = [
   },
   {
     "word": "viable",
-    "pronunciation": "/vˈaɪʌbʌl/",
+    "pronunciation": "/vˈaɪəbəl/",
     "pos": "Adjective",
     "meaning": "Capable of living (or growing, developing, etc.); practical, workable; capable of success",
-    "mnemonic": "Picture “feasible” vividly; link that image directly to viable.",
+    "mnemonic": "VIABLE: VIA + ABLE. Able to live/work — feasible.",
     "usage": "The proposal was elegant in theory but not viable in practice.",
     "synonyms": [
       "feasible",
@@ -16360,10 +16361,10 @@ const GRE_WORDS = [
   },
   {
     "word": "vicissitude",
-    "pronunciation": "/vˌɪsˈɪsɪtud/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɪsɪsˌɪɾuːd/",
+    "pos": "Noun",
     "meaning": "Changes or variations over time, especially regular changes from one thing to another; the ups and downs of life",
-    "mnemonic": "Picture “change” vividly; link that image directly to vicissitude.",
+    "mnemonic": "VICISSITUDE: VICE + ISS + ITUDE — the ups and downs (vices) of life.",
     "usage": "The vicissitudes of the market, from boom to bust and back, taught the young trader humility.",
     "synonyms": [
       "change",
@@ -16381,7 +16382,7 @@ const GRE_WORDS = [
     "pronunciation": "/vˈɪm/",
     "pos": "Noun",
     "meaning": "Pep, enthusiasm, vitality, lively spirit; energy",
-    "mnemonic": "Picture “energy” vividly; link that image directly to vim.",
+    "mnemonic": "VIM: VIM = energy, pep.",
     "usage": "The eighty-year-old conductor, full of vim, rehearsed the orchestra for four hours without sitting down.",
     "synonyms": [
       "energy",
@@ -16399,7 +16400,7 @@ const GRE_WORDS = [
     "pronunciation": "/vˈɪntɪdʒ/",
     "pos": "Noun",
     "meaning": "Related to items of high quality from a previous era, old-fashioned, antique; the wine of a particular year",
-    "mnemonic": "Picture “classic” vividly; link that image directly to vintage.",
+    "mnemonic": "VINTAGE: from VINTNER (winemaker). Wine of a year — classic, old.",
     "usage": "The vintage car, restored over twenty years, drew a crowd wherever it was parked.",
     "synonyms": [
       "classic",
@@ -16414,10 +16415,10 @@ const GRE_WORDS = [
   },
   {
     "word": "virtual",
-    "pronunciation": "/vˈɝtʃuʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɜːtʃuːəl/",
+    "pos": "Noun",
     "meaning": "Existing only in the mind or by means of a computer network; existing in results or in essence but not officially or in name; nearly, almost",
-    "mnemonic": "Picture “digital” vividly; link that image directly to virtual.",
+    "mnemonic": "VIRTUAL: in essence but not in fact — digital, nearly.",
     "usage": "The virtual meeting, despite the distance, felt almost as intimate as a conversation in the same room.",
     "synonyms": [
       "digital",
@@ -16432,10 +16433,10 @@ const GRE_WORDS = [
   },
   {
     "word": "virulent",
-    "pronunciation": "/vˈɪrʌlʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɪɹələnt/",
+    "pos": "Noun",
     "meaning": "Extremely infectious, poisonous, etc.; hateful, bitterly hostile; extremely severe or harmful",
-    "mnemonic": "Picture “deadly” vividly; link that image directly to virulent.",
+    "mnemonic": "VIRULENT: VIRUS + LENT. Full of virus — extremely infectious or hostile.",
     "usage": "The virulent strain spread through the hospital within days, and the staff worked around the clock to contain it.",
     "synonyms": [
       "deadly",
@@ -16451,9 +16452,9 @@ const GRE_WORDS = [
   {
     "word": "viscid",
     "pronunciation": "/vˈɪsɪd/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Thick, adhesive, or covered in something sticky; having a glutinous consistency",
-    "mnemonic": "Picture “sticky” vividly; link that image directly to viscid.",
+    "mnemonic": "VISCID: VISCOUS — sticky.",
     "usage": "The viscid sap stuck to his fingers and would not wash off.",
     "synonyms": [
       "sticky",
@@ -16468,10 +16469,10 @@ const GRE_WORDS = [
   },
   {
     "word": "viscous",
-    "pronunciation": "/vˈɪskʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɪskəs/",
+    "pos": "Noun",
     "meaning": "Thick, sticky, having a gluey consistency; resistant to flow",
-    "mnemonic": "Picture “thick” vividly; link that image directly to viscous.",
+    "mnemonic": "VISCOUS: like VISCOSE — thick, sticky.",
     "usage": "The viscous liquid poured slowly from the container, and it took nearly a minute to empty.",
     "synonyms": [
       "thick",
@@ -16486,10 +16487,10 @@ const GRE_WORDS = [
   },
   {
     "word": "vitriol",
-    "pronunciation": "/vˈɪtriʌl/",
+    "pronunciation": "/vˈɪtɹiːəl/",
     "pos": "Noun",
     "meaning": "Something highly caustic, such as criticism; bitter, abusive language; sulfuric acid",
-    "mnemonic": "VIT = life: picture something vividly alive.",
+    "mnemonic": "VITRIOL: VITREOUS (glass) — caustic acid that burns like glass — bitter criticism.",
     "usage": "The review was pure vitriol, and it made the young author want to abandon writing altogether.",
     "synonyms": [
       "caustic criticism",
@@ -16507,7 +16508,7 @@ const GRE_WORDS = [
     "pronunciation": "/vˈɪɾuːpɚɹˌeɪt/",
     "pos": "Verb",
     "meaning": "Verbally abuse, rebuke or criticize harshly; to berate",
-    "mnemonic": "VIT = life: picture something vividly alive.",
+    "mnemonic": "VITUPERATE: VIT = vice; UPER = blame. To scold with vices — to berate.",
     "usage": "The senator vituperated against the press for twenty minutes, and the press, predictably, loved it.",
     "synonyms": [
       "abuse",
@@ -16522,10 +16523,10 @@ const GRE_WORDS = [
   },
   {
     "word": "vociferous",
-    "pronunciation": "/voʊsˈɪfɝʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/voʊsˈɪfɚɹəs/",
+    "pos": "Noun",
     "meaning": "Noisily crying out, as in protest; clamorous; loud and insistent",
-    "mnemonic": "VOC = call/voice: picture someone calling out.",
+    "mnemonic": "VOCIFEROUS: VOC = voice; FER = carry. Carrying a loud voice — clamorous.",
     "usage": "The vociferous minority, though small, dominated every meeting until the majority learned to speak up.",
     "synonyms": [
       "loud",
@@ -16540,10 +16541,10 @@ const GRE_WORDS = [
   },
   {
     "word": "volatile",
-    "pronunciation": "/vˈɑlʌtʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɑːləɾəl/",
+    "pos": "Noun",
     "meaning": "Varying, inconstant, fleeting; tending to violence, explosive; easily evaporated",
-    "mnemonic": "Picture “unstable” vividly; link that image directly to volatile.",
+    "mnemonic": "VOLATILE: VOL = fly (volatile). Flies away quickly — unstable.",
     "usage": "The volatile situation in the region could erupt at any moment, and the diplomats knew it.",
     "synonyms": [
       "unstable",
@@ -16558,10 +16559,10 @@ const GRE_WORDS = [
   },
   {
     "word": "voluble",
-    "pronunciation": "/vˈɑljʌbʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/vˈɑːlʌbəl/",
+    "pos": "Noun",
     "meaning": "Easily fluent in regards to speech; talkative; characterized by a ready flow of words",
-    "mnemonic": "Picture “talkative” vividly; link that image directly to voluble.",
+    "mnemonic": "VOLUBLE: VOLV = roll. Words rolling out easily — fluent, talkative.",
     "usage": "The voluble host talked all night, and by dawn the guests knew his entire life story.",
     "synonyms": [
       "talkative",
@@ -16576,10 +16577,10 @@ const GRE_WORDS = [
   },
   {
     "word": "wan",
-    "pronunciation": "/wˈɑn/",
-    "pos": "Adjective",
+    "pronunciation": "/wˈæn/",
+    "pos": "Noun",
     "meaning": "Unnaturally pale, or showing some other indication of sickness, unhappiness, etc.; weak, lacking forcefulness",
-    "mnemonic": "Picture “pale” vividly; link that image directly to wan.",
+    "mnemonic": "WAN: WAN = pale, weak.",
     "usage": "Her wan face, drained of color, worried everyone who saw her.",
     "synonyms": [
       "pale",
@@ -16594,10 +16595,10 @@ const GRE_WORDS = [
   },
   {
     "word": "wanton",
-    "pronunciation": "/wˈɔntʌn/",
-    "pos": "Adjective",
+    "pronunciation": "/wˈɑːntən/",
+    "pos": "Noun",
     "meaning": "Reckless, vicious, without regard for what is right; unjustifiable, deliberately done for no reason at all; sexually unrestrained",
-    "mnemonic": "Picture “reckless” vividly; link that image directly to wanton.",
+    "mnemonic": "WANTON: WANT + ON. Wanting nothing but pleasure — reckless, immoral.",
     "usage": "The wanton destruction of the ancient forest, carried out for no purpose anyone could name, outraged the entire country.",
     "synonyms": [
       "reckless",
@@ -16612,10 +16613,10 @@ const GRE_WORDS = [
   },
   {
     "word": "warranted",
-    "pronunciation": "/wˈɔrʌntɪd/",
+    "pronunciation": "/wˈɔːɹəntᵻd/",
     "pos": "Adjective",
     "meaning": "Justified, authorized (warrant can mean to justify or a justification, but can also mean to vouch for or guarantee)",
-    "mnemonic": "Picture “justified” vividly; link that image directly to warranted.",
+    "mnemonic": "WARRANTED: has a WARRANT — justified.",
     "usage": "The criticism was warranted: the report was careless and everyone knew it.",
     "synonyms": [
       "justified",
@@ -16630,10 +16631,10 @@ const GRE_WORDS = [
   },
   {
     "word": "wary",
-    "pronunciation": "/wˈɛri/",
+    "pronunciation": "/wˈɛɹi/",
     "pos": "Adjective",
     "meaning": "Watchful, motivated by caution, on guard against danger; suspicious",
-    "mnemonic": "Picture “cautious” vividly; link that image directly to wary.",
+    "mnemonic": "WARY: WARE (as in beWARE) — cautious.",
     "usage": "She was wary of any offer that promised a guaranteed return, having been burned before.",
     "synonyms": [
       "cautious",
@@ -16648,10 +16649,10 @@ const GRE_WORDS = [
   },
   {
     "word": "welter",
-    "pronunciation": "/wˈɛltɝ/",
-    "pos": "Adjective",
+    "pronunciation": "/wˈɛltɚ/",
+    "pos": "Verb",
     "meaning": "Confused mass or pile, jumble; confusion or turmoil; to roll around, wallow, toss about, writhe",
-    "mnemonic": "Picture “jumble” vividly; link that image directly to welter.",
+    "mnemonic": "WELTER: WELT + ER — jumble, turmoil.",
     "usage": "A welter of emotions, joy and grief and relief all at once, overwhelmed her at the reunion.",
     "synonyms": [
       "jumble",
@@ -16666,10 +16667,10 @@ const GRE_WORDS = [
   },
   {
     "word": "whereas",
-    "pronunciation": "/wɛrˈæz/",
+    "pronunciation": "/wˈɛɹæz/",
     "pos": "Noun",
     "meaning": "While on the contrary, considering that; in contrast to the fact that",
-    "mnemonic": "Picture “while” vividly; link that image directly to whereas.",
+    "mnemonic": "WHEREAS: WHERE + AS — while on the contrary.",
     "usage": "He is tall, whereas his brother is short.",
     "synonyms": [
       "while",
@@ -16683,9 +16684,9 @@ const GRE_WORDS = [
   {
     "word": "whet",
     "pronunciation": "/wˈɛt/",
-    "pos": "Noun",
+    "pos": "Verb",
     "meaning": "Stimulate, make keen or eager (especially of an appetite); to sharpen",
-    "mnemonic": "Picture “stimulate” vividly; link that image directly to whet.",
+    "mnemonic": "WHET: WHET a knife — to sharpen; also to stimulate.",
     "usage": "The first chapter whetted his appetite for the rest of the novel, which he finished that night.",
     "synonyms": [
       "stimulate",
@@ -16700,10 +16701,10 @@ const GRE_WORDS = [
   },
   {
     "word": "whimsical",
-    "pronunciation": "/wˈɪmzɪkʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/wˈɪmzɪkəl/",
+    "pos": "Noun",
     "meaning": "Marked or motivated by whims (odd, fanciful ideas); erratic, unpredictable; playfully quaint",
-    "mnemonic": "Picture “fanciful” vividly; link that image directly to whimsical.",
+    "mnemonic": "WHIMSICAL: WHIM — full of whims, fanciful.",
     "usage": "The whimsical design, full of spirals and unexpected colors, charmed everyone who saw it.",
     "synonyms": [
       "fanciful",
@@ -16718,10 +16719,10 @@ const GRE_WORDS = [
   },
   {
     "word": "whitewash",
-    "pronunciation": "/wˈaɪtwˌɑʃ/",
-    "pos": "Adjective",
+    "pronunciation": "/wˈaɪtwɑːʃ/",
+    "pos": "Verb",
     "meaning": "A substance used to whiten walls, wood, etc.; deception, covering up of wrongs, errors, misdeeds, etc.; to cover up or gloss over",
-    "mnemonic": "Picture “cover-up” vividly; link that image directly to whitewash.",
+    "mnemonic": "WHITEWASH: paint WHITE to hide — to cover up.",
     "usage": "The report was a whitewash: it cleared everyone involved and blamed no one.",
     "synonyms": [
       "cover-up",
@@ -16739,7 +16740,7 @@ const GRE_WORDS = [
     "pronunciation": "/wˈaɪli/",
     "pos": "Adverb",
     "meaning": "Crafty, cunning, characterized by tricks or artifice; sly",
-    "mnemonic": "Picture “cunning” vividly; link that image directly to wily.",
+    "mnemonic": "WILY: WILE = a trick. Full of tricks — cunning.",
     "usage": "The wily negotiator extracted every concession he wanted without ever appearing to ask for one.",
     "synonyms": [
       "cunning",
@@ -16754,10 +16755,10 @@ const GRE_WORDS = [
   },
   {
     "word": "winnow",
-    "pronunciation": "/wˈɪnˌoʊ/",
-    "pos": "Noun",
+    "pronunciation": "/wˈɪnoʊ/",
+    "pos": "Verb",
     "meaning": "Sift, analyze critically, separate the useful part from the worthless part; to separate grain from chaff",
-    "mnemonic": "Picture “sift” vividly; link that image directly to winnow.",
+    "mnemonic": "WINNOW: sift GRAIN from chaff — to separate the useful.",
     "usage": "The editor winnowed four hundred submissions down to twelve, and of those only three were published.",
     "synonyms": [
       "sift",
@@ -16773,9 +16774,9 @@ const GRE_WORDS = [
   {
     "word": "winsome",
     "pronunciation": "/wˈɪnsʌm/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Charming, engaging, especially in a sweet and innocent way; winning",
-    "mnemonic": "Picture “charming” vividly; link that image directly to winsome.",
+    "mnemonic": "WINSOME: WIN + SOME. Able to WIN hearts — charming.",
     "usage": "Her winsome smile, which had disarmed interviewers for a decade, opened doors that no résumé could have.",
     "synonyms": [
       "charming",
@@ -16790,10 +16791,10 @@ const GRE_WORDS = [
   },
   {
     "word": "wizened",
-    "pronunciation": "/wˈaɪzʌnd/",
-    "pos": "Adjective",
+    "pronunciation": "/wˈɪzənd/",
+    "pos": "Noun",
     "meaning": "Withered, shriveled; dried up, especially with age",
-    "mnemonic": "Picture “withered” vividly; link that image directly to wizened.",
+    "mnemonic": "WIZENED: WISE + OLD — withered like a wizard.",
     "usage": "The wizened old man, his face a map of every year he had lived, sat by the fire and told stories.",
     "synonyms": [
       "withered",
@@ -16808,10 +16809,10 @@ const GRE_WORDS = [
   },
   {
     "word": "xenophobia",
-    "pronunciation": "/zˌɛnʌfˈoʊbiʌ/",
-    "pos": "Adjective",
+    "pronunciation": "/zˌɛnoʊfˈoʊbiə/",
+    "pos": "Noun",
     "meaning": "Fear or hatred of foreigners or that which is foreign; dislike of outsiders",
-    "mnemonic": "Picture “bigotry” vividly; link that image directly to xenophobia.",
+    "mnemonic": "XENOPHOBIA: XENOS = stranger; PHOBIA = fear. Fear of foreigners.",
     "usage": "The xenophobia that followed the attacks, however understandable, did lasting damage to the country's reputation.",
     "synonyms": [
       "bigotry",
@@ -16827,9 +16828,9 @@ const GRE_WORDS = [
   {
     "word": "yoke",
     "pronunciation": "/jˈoʊk/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "A burden or something that oppresses; a frame for attaching animals (such as oxen) to each other and to a plow or other equipment; to unite together or to burden",
-    "mnemonic": "Picture “burden” vividly; link that image directly to yoke.",
+    "mnemonic": "YOKE: a wooden bar YOKES animals together — a burden.",
     "usage": "The yoke of debt, accumulated over a decade, weighed on the family long after the crisis had passed.",
     "synonyms": [
       "burden",
@@ -16844,10 +16845,10 @@ const GRE_WORDS = [
   },
   {
     "word": "zeal",
-    "pronunciation": "/zˈil/",
-    "pos": "Adjective",
+    "pronunciation": "/zˈiːl/",
+    "pos": "Noun",
     "meaning": "Great fervor or enthusiasm for a cause, person, etc.; tireless diligence in furthering that cause; passion, ardor",
-    "mnemonic": "Picture “enthusiasm” vividly; link that image directly to zeal.",
+    "mnemonic": "ZEAL: from Greek ZELOS = ardor. Passion, enthusiasm.",
     "usage": "Her zeal for the cause, evident in every speech she gave, inspired a generation of volunteers.",
     "synonyms": [
       "enthusiasm",
@@ -16862,10 +16863,10 @@ const GRE_WORDS = [
   },
   {
     "word": "zenith",
-    "pronunciation": "/zˈinʌθ/",
-    "pos": "Adjective",
+    "pronunciation": "/zˈiːnᵻθ/",
+    "pos": "Noun",
     "meaning": "High point, culmination (literally, the point in the sky directly overhead); the peak",
-    "mnemonic": "Picture “peak” vividly; link that image directly to zenith.",
+    "mnemonic": "ZENITH: the highest point overhead (opposite of nadir).",
     "usage": "Her career reached its zenith in 1995, and though she worked for two more decades, nothing quite matched that year.",
     "synonyms": [
       "peak",
@@ -16880,10 +16881,10 @@ const GRE_WORDS = [
   },
   {
     "word": "abdicate",
-    "pronunciation": "/ˈæbdʌkˌeɪt/",
+    "pronunciation": "/ˈæbdᵻkˌeɪt/",
     "pos": "Verb",
     "meaning": "To renounce or give up a throne, right, power, or responsibility; to fail to fulfill a duty",
-    "mnemonic": "Picture “renounce” vividly; link that image directly to abdicate.",
+    "mnemonic": "ABDICATE: AB = away; DIC = say. Say away your throne — to renounce.",
     "usage": "The king abdicated in favor of his son, and the country, unprepared for the transition, spent a year in political limbo.",
     "synonyms": [
       "renounce",
@@ -16898,10 +16899,10 @@ const GRE_WORDS = [
   },
   {
     "word": "anathema",
-    "pronunciation": "/ʌnˈæθʌmʌ/",
+    "pronunciation": "/ənˈæθəmə/",
     "pos": "Adjective",
     "meaning": "A person or thing detested or loathed; a curse or formal excommunication",
-    "mnemonic": "Picture “curse” vividly; link that image directly to anathema.",
+    "mnemonic": "ANATHEMA: set apart to the gods as a curse — something detested.",
     "usage": "The very word 'compromise' was anathema to the young radicals, who saw it as betrayal.",
     "synonyms": [
       "curse",
@@ -16915,10 +16916,10 @@ const GRE_WORDS = [
   },
   {
     "word": "animus",
-    "pronunciation": "/ˈænɪmʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈænɪməs/",
+    "pos": "Noun",
     "meaning": "Hostility, ill will; a strong dislike or animosity",
-    "mnemonic": "Picture “hostility” vividly; link that image directly to animus.",
+    "mnemonic": "ANIMUS: ANIM = spirit. Hostile spirit — animosity.",
     "usage": "The animus between the two departments, though rarely spoken aloud, shaped every decision.",
     "synonyms": [
       "hostility",
@@ -16932,10 +16933,10 @@ const GRE_WORDS = [
   },
   {
     "word": "anomalous",
-    "pronunciation": "/ʌnˈɑmʌlʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ənˈɑːmələs/",
+    "pos": "Noun",
     "meaning": "Deviating from the normal or common order, form, or rule; irregular",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "ANOMALOUS: AN = not; HOMALOS = even (homogeneous). Not uniform — irregular.",
     "usage": "The anomalous reading, so far outside the expected range, prompted a full review of the equipment.",
     "synonyms": [
       "aberrant",
@@ -16950,10 +16951,10 @@ const GRE_WORDS = [
   },
   {
     "word": "anomaly",
-    "pronunciation": "/ʌnˈɑmʌli/",
+    "pronunciation": "/ənˈɑːməli/",
     "pos": "Adverb",
     "meaning": "A deviation from the common rule, type, arrangement, or form; something irregular or unusual",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "ANOMALY: an irregular deviation.",
     "usage": "The discovery was considered an anomaly until three more examples turned up in the same week.",
     "synonyms": [
       "abnormality",
@@ -16967,10 +16968,10 @@ const GRE_WORDS = [
   },
   {
     "word": "antecedent",
-    "pronunciation": "/ˌæntˈɛsʌdʌnt/",
+    "pronunciation": "/ˌæntɪsˈiːdənt/",
     "pos": "Adjective",
     "meaning": "A preceding circumstance, event, or object; one's ancestors or previous life; going before",
-    "mnemonic": "Picture “predecessor” vividly; link that image directly to antecedent.",
+    "mnemonic": "ANTECEDENT: ANTE = before; CED = go. Going before — a predecessor.",
     "usage": "The antecedents of the crisis, though easy to identify in hindsight, were invisible to the participants at the time.",
     "synonyms": [
       "predecessor",
@@ -16985,9 +16986,9 @@ const GRE_WORDS = [
   {
     "word": "antediluvian",
     "pronunciation": "/ˌæntɪdɪlˈuːviən/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Extremely old or old-fashioned; belonging to the time before the biblical Flood",
-    "mnemonic": "Picture “archaic” vividly; link that image directly to antediluvian.",
+    "mnemonic": "ANTEDILUVIAN: ANTE = before; DILUVIUM = flood. Before the Flood — ancient.",
     "usage": "His antediluvian views on women in the workplace embarrassed even his fellow partners.",
     "synonyms": [
       "archaic",
@@ -17002,10 +17003,10 @@ const GRE_WORDS = [
   },
   {
     "word": "antipathy",
-    "pronunciation": "/æntˈɪpʌθi/",
-    "pos": "Adjective",
+    "pronunciation": "/æntˈɪpəθi/",
+    "pos": "Noun",
     "meaning": "A strong feeling of dislike, opposition, or hostility; a natural aversion",
-    "mnemonic": "Picture “aversion” vividly; link that image directly to antipathy.",
+    "mnemonic": "ANTIPATHY: ANTI = against; PATHY = feeling. Against-feeling — dislike.",
     "usage": "His antipathy to the very idea of compromise had made him, in a long career, few friends and no allies.",
     "synonyms": [
       "aversion",
@@ -17020,10 +17021,10 @@ const GRE_WORDS = [
   },
   {
     "word": "apathy",
-    "pronunciation": "/ˈæpʌθi/",
+    "pronunciation": "/ˈæpəθi/",
     "pos": "Adjective",
     "meaning": "Absence or suppression of passion, emotion, or excitement; lack of interest or concern",
-    "mnemonic": "Picture “indifference” vividly; link that image directly to apathy.",
+    "mnemonic": "APATHY: A = without; PATHY = feeling. Without feeling — indifference.",
     "usage": "Voter apathy, not any single issue, decided the election: the candidate who inspired the fewest people to stay home lost.",
     "synonyms": [
       "indifference",
@@ -17038,10 +17039,10 @@ const GRE_WORDS = [
   },
   {
     "word": "apex",
-    "pronunciation": "/ˈeɪpˌɛks/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈeɪpɛks/",
+    "pos": "Noun",
     "meaning": "The highest point; the tip, summit, or climax",
-    "mnemonic": "Picture “peak” vividly; link that image directly to apex.",
+    "mnemonic": "APEX: APEX = the top point.",
     "usage": "The apex of her career came in her fifties, when the institution she had built was finally recognized internationally.",
     "synonyms": [
       "peak",
@@ -17056,10 +17057,10 @@ const GRE_WORDS = [
   },
   {
     "word": "aphorism",
-    "pronunciation": "/ˈæfɝˌɪzʌm/",
+    "pronunciation": "/ˈæfɚɹˌɪzəm/",
     "pos": "Noun",
     "meaning": "A terse saying embodying a general truth, or astute observation; a maxim",
-    "mnemonic": "Picture “maxim” vividly; link that image directly to aphorism.",
+    "mnemonic": "APHORISM: APO = away; HORIZEIN = define. A short defining saying — a maxim.",
     "usage": "The aphorism that 'history repeats itself' is true only in the loosest sense, as the century has repeatedly shown.",
     "synonyms": [
       "maxim",
@@ -17072,10 +17073,10 @@ const GRE_WORDS = [
   },
   {
     "word": "apocryphal",
-    "pronunciation": "/ʌpˈɑkrʌfʌl/",
+    "pronunciation": "/əpˈɑːkɹɪfəl/",
     "pos": "Adjective",
     "meaning": "Of doubtful authenticity, although widely circulated as being true; spurious",
-    "mnemonic": "Picture “spurious” vividly; link that image directly to apocryphal.",
+    "mnemonic": "APOCRYPHAL: APO = away; CRYPH = hide. Hidden away — of doubtful authenticity.",
     "usage": "The story of the general's famous last words is almost certainly apocryphal, though it has been repeated in a dozen biographies.",
     "synonyms": [
       "spurious",
@@ -17090,10 +17091,10 @@ const GRE_WORDS = [
   },
   {
     "word": "apogee",
-    "pronunciation": "/ˈæpʌdʒˌi/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈæpoʊdʒˌiː/",
+    "pos": "Noun",
     "meaning": "The highest or most distant point; the climax or culmination",
-    "mnemonic": "Picture “climax” vividly; link that image directly to apogee.",
+    "mnemonic": "APOGEE: APO = away; GEE = earth. Farthest point from earth — the peak.",
     "usage": "The apogee of the empire, when its ships reached every ocean, lasted less than a century.",
     "synonyms": [
       "climax",
@@ -17107,10 +17108,10 @@ const GRE_WORDS = [
   },
   {
     "word": "apotheosis",
-    "pronunciation": "/ʌpˌɑθiˈoʊsʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/əpˈɑːθiːəsiz/",
+    "pos": "Noun",
     "meaning": "The elevation of someone to divine status; the perfect example or highest point of something",
-    "mnemonic": "Picture “culmination” vividly; link that image directly to apotheosis.",
+    "mnemonic": "APOTHEOSIS: APO = change; THEOS = god. Changing into a god — elevation to divine status.",
     "usage": "The cathedral is considered the apotheosis of Gothic architecture, the point toward which every earlier experiment had been building.",
     "synonyms": [
       "culmination",
@@ -17123,10 +17124,10 @@ const GRE_WORDS = [
   },
   {
     "word": "appease",
-    "pronunciation": "/ʌpˈiz/",
+    "pronunciation": "/əpˈiːz/",
     "pos": "Verb",
     "meaning": "To bring to a state of peace, quiet, ease, or contentment; to pacify, especially by giving in to demands",
-    "mnemonic": "Picture “pacify” vividly; link that image directly to appease.",
+    "mnemonic": "APPEASE: AP = to; PEACE. Bring to peace — pacify.",
     "usage": "The government, hoping to appease the protesters, offered a handful of reforms that satisfied no one.",
     "synonyms": [
       "pacify",
@@ -17142,9 +17143,9 @@ const GRE_WORDS = [
   {
     "word": "apposite",
     "pronunciation": "/əpˈɑːsɪt/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Suitable, pertinent, or appropriate; strikingly appropriate",
-    "mnemonic": "Picture “apt” vividly; link that image directly to apposite.",
+    "mnemonic": "APPOSITE: AP + POSITE (positioned). Positioned just right — apt.",
     "usage": "Her apposite quotation from Shakespeare, delivered at exactly the right moment, turned the meeting around.",
     "synonyms": [
       "apt",
@@ -17158,10 +17159,10 @@ const GRE_WORDS = [
   },
   {
     "word": "apprehensive",
-    "pronunciation": "/ˌæprɪhˈɛnsɪv/",
+    "pronunciation": "/ˌæpɹɪhˈɛnsɪv/",
     "pos": "Adjective",
     "meaning": "Anxious or fearful about the future; uneasy; capable of understanding",
-    "mnemonic": "Picture “anxious” vividly; link that image directly to apprehensive.",
+    "mnemonic": "APPREHENSIVE: AP + PREHEND = seize. Seized with fear — anxious.",
     "usage": "She was apprehensive about the interview, though she had prepared for weeks.",
     "synonyms": [
       "anxious",
@@ -17175,10 +17176,10 @@ const GRE_WORDS = [
   },
   {
     "word": "approbation",
-    "pronunciation": "/ˌæprʌbˈeɪʃʌn/",
+    "pronunciation": "/əpɹəbˈeɪʃən/",
     "pos": "Noun",
     "meaning": "Approval, commendation, or praise; official sanction",
-    "mnemonic": "Picture “approval” vividly; link that image directly to approbation.",
+    "mnemonic": "APPROBATION: APPROVE + ATION — approval, praise.",
     "usage": "Her novel received the approbation of critics who had dismissed her first three books.",
     "synonyms": [
       "approval",
@@ -17193,10 +17194,10 @@ const GRE_WORDS = [
   },
   {
     "word": "arcane",
-    "pronunciation": "/ˌɑrkˈeɪn/",
-    "pos": "Adjective",
+    "pronunciation": "/ɑːɹkˈeɪn/",
+    "pos": "Noun",
     "meaning": "Known or understood by very few; mysterious, secret, or esoteric",
-    "mnemonic": "Picture “esoteric” vividly; link that image directly to arcane.",
+    "mnemonic": "ARCANE: ARC + ANE — hidden knowledge in an ARK — mysterious.",
     "usage": "The arcane rules of the society, written in a language no member still spoke, governed every decision.",
     "synonyms": [
       "esoteric",
@@ -17211,10 +17212,10 @@ const GRE_WORDS = [
   },
   {
     "word": "archaic",
-    "pronunciation": "/ɑrkˈeɪɪk/",
+    "pronunciation": "/ɑːɹkˈeɪɪk/",
     "pos": "Adjective",
     "meaning": "Marked by the characteristics of an earlier period; old-fashioned; no longer in use",
-    "mnemonic": "Picture “ancient” vividly; link that image directly to archaic.",
+    "mnemonic": "ARCHAIC: ARCHAE = ancient. Old-fashioned.",
     "usage": "The contract's archaic language, full of 'heretofores' and 'whereases,' made it nearly unreadable.",
     "synonyms": [
       "ancient",
@@ -17229,10 +17230,10 @@ const GRE_WORDS = [
   },
   {
     "word": "archetype",
-    "pronunciation": "/ˈɑrkɪtˌaɪp/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɑːɹkɪtˌaɪp/",
+    "pos": "Noun",
     "meaning": "The original pattern or model from which all things of the same kind are copied; a prototype; a universal symbol or character type",
-    "mnemonic": "Picture “prototype” vividly; link that image directly to archetype.",
+    "mnemonic": "ARCHETYPE: ARCH = chief; TYPE = model. The original model — prototype.",
     "usage": "The story of the reluctant hero is an archetype that appears in every culture that has ever told stories.",
     "synonyms": [
       "prototype",
@@ -17246,10 +17247,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ardent",
-    "pronunciation": "/ˈɑrdʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɑːɹdənt/",
+    "pos": "Noun",
     "meaning": "Having or showing intense feeling; passionate; fervent; burning, glowing",
-    "mnemonic": "Picture “passionate” vividly; link that image directly to ardent.",
+    "mnemonic": "ARDENT: ARD = burn (arson, ardent). Passionate, burning.",
     "usage": "An ardent defender of the underdog, she took on cases that no one else would touch.",
     "synonyms": [
       "passionate",
@@ -17264,10 +17265,10 @@ const GRE_WORDS = [
   },
   {
     "word": "arduous",
-    "pronunciation": "/ˈɑrdʒuʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/ˈɑːɹdjuːəs/",
+    "pos": "Noun",
     "meaning": "Requiring great exertion; laborious; difficult to accomplish",
-    "mnemonic": "Picture “difficult” vividly; link that image directly to arduous.",
+    "mnemonic": "ARDUOUS: ARDU = steep (arduous hill). Difficult, laborious.",
     "usage": "The arduous climb, taking three days in perfect weather, had killed four experienced mountaineers the previous season.",
     "synonyms": [
       "difficult",
@@ -17283,9 +17284,9 @@ const GRE_WORDS = [
   {
     "word": "artless",
     "pronunciation": "/ˈɑːɹtləs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Free from guile or craft; sincere and ingenuous; lacking art, skill, or knowledge",
-    "mnemonic": "Picture “naive” vividly; link that image directly to artless.",
+    "mnemonic": "ARTLESS: WITHOUT ART (guile) — naive, sincere.",
     "usage": "Her artless question, free of any hidden agenda, revealed more about the situation than a hundred careful ones would have.",
     "synonyms": [
       "naive",
@@ -17300,10 +17301,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ascetic",
-    "pronunciation": "/ʌsˈɛtɪk/",
-    "pos": "Adjective",
+    "pronunciation": "/əsˈɛɾɪk/",
+    "pos": "Noun",
     "meaning": "A person who practices severe self-discipline and abstention from all forms of indulgence; austere; rigorously abstinent",
-    "mnemonic": "Picture “austere” vividly; link that image directly to ascetic.",
+    "mnemonic": "ASCETIC: ASKETES = monk (Greek). Austere, self-denying.",
     "usage": "The ascetic lived on bread and water, slept on a wooden board, and claimed to have never been happier.",
     "synonyms": [
       "austere",
@@ -17318,10 +17319,10 @@ const GRE_WORDS = [
   },
   {
     "word": "ascribe",
-    "pronunciation": "/ʌskrˈaɪb/",
+    "pronunciation": "/əskɹˈaɪb/",
     "pos": "Verb",
     "meaning": "To credit or assign, as to a cause or source; to attribute",
-    "mnemonic": "SCRIB = write: picture the word written down.",
+    "mnemonic": "ASCRIBE: AD + SCRIB = write. Write TO someone — to attribute.",
     "usage": "The painting was long ascribed to Rembrandt, until a laboratory analysis revealed it as the work of a student.",
     "synonyms": [
       "attribute",
@@ -17335,10 +17336,10 @@ const GRE_WORDS = [
   },
   {
     "word": "macabre",
-    "pronunciation": "/mʌkˈɑbrʌ/",
-    "pos": "Adjective",
+    "pronunciation": "/məkˈɑːbɹə/",
+    "pos": "Noun",
     "meaning": "Gruesome and horrifying; ghastly; dealing with death in a grimly humorous way",
-    "mnemonic": "Picture “gruesome” vividly; link that image directly to macabre.",
+    "mnemonic": "MACABRE: from the Dance of Death (danse macabre) — gruesome.",
     "usage": "The macabre humor of the funeral, which would have seemed callous in any other setting, was precisely what the family needed.",
     "synonyms": [
       "gruesome",
@@ -17353,10 +17354,10 @@ const GRE_WORDS = [
   },
   {
     "word": "magnanimous",
-    "pronunciation": "/mæɡnˈænʌmʌs/",
+    "pronunciation": "/mæɡnˈænɪməs/",
     "pos": "Adjective",
     "meaning": "Generous in forgiving an insult or injury; noble and generous in spirit; high-minded",
-    "mnemonic": "Picture “generous” vividly; link that image directly to magnanimous.",
+    "mnemonic": "MAGNANIMOUS: MAGNA = great; ANIMUS = soul. Great-souled — generous.",
     "usage": "In victory, she was magnanimous, praising her opponent's campaign and offering to work with him on the reforms they both supported.",
     "synonyms": [
       "generous",
@@ -17372,9 +17373,9 @@ const GRE_WORDS = [
   {
     "word": "malaise",
     "pronunciation": "/mælˈeɪz/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "A vague feeling of physical discomfort or uneasiness, often the first sign of illness; a general feeling of depression or unease",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "MALAISE: MAL = bad; AISE = ease. Bad ease — vague uneasiness.",
     "usage": "A malaise settled over the office in the months before the merger, as everyone waited for news that never quite came.",
     "synonyms": [
       "unease",
@@ -17388,10 +17389,10 @@ const GRE_WORDS = [
   },
   {
     "word": "malcontent",
-    "pronunciation": "/mˌælkʌntˈɛnt/",
+    "pronunciation": "/mˈælkəntˌɛnt/",
     "pos": "Adjective",
     "meaning": "A person who is dissatisfied and rebellious; discontented and inclined to complain",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "MALCONTENT: MAL = bad; CONTENT. Bad content — a dissatisfied person.",
     "usage": "The malcontents in the department, once a small minority, had grown into a majority by the time the director retired.",
     "synonyms": [
       "dissatisfied",
@@ -17405,10 +17406,10 @@ const GRE_WORDS = [
   },
   {
     "word": "malevolent",
-    "pronunciation": "/mʌlˈɛvʌlʌnt/",
-    "pos": "Adjective",
+    "pronunciation": "/məlˈɛvələnt/",
+    "pos": "Noun",
     "meaning": "Wishing evil or harm to others; showing ill will; malicious",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "MALEVOLENT: MAL = bad; VOL = wish. Wishing bad — malicious.",
     "usage": "The malevolent stare of the stranger, fixed on the child, made the mother gather her things and leave.",
     "synonyms": [
       "malicious",
@@ -17423,10 +17424,10 @@ const GRE_WORDS = [
   },
   {
     "word": "malfeasance",
-    "pronunciation": "/mˌælfˈizʌns/",
+    "pronunciation": "/mˌælfˈiːzəns/",
     "pos": "Noun",
     "meaning": "Wrongdoing or misconduct, especially by a public official; the commission of an unlawful act",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "MALFEASANCE: MAL = bad; FEAS = do. Doing bad — misconduct.",
     "usage": "The investigation found no evidence of malfeasance, only of incompetence, which is not a crime.",
     "synonyms": [
       "misconduct",
@@ -17443,7 +17444,7 @@ const GRE_WORDS = [
     "pronunciation": "/məlˈɪŋɡɚ/",
     "pos": "Verb",
     "meaning": "To pretend illness, especially in order to avoid work or duty; to shirk",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "MALINGER: MAL = bad; LINGER. Lingering badly — to fake illness.",
     "usage": "The supervisor suspected that two of the workers were malingering, and the surveillance footage confirmed it.",
     "synonyms": [
       "shirk",
@@ -17457,10 +17458,10 @@ const GRE_WORDS = [
   },
   {
     "word": "malleable",
-    "pronunciation": "/mˈæliʌbʌl/",
+    "pronunciation": "/mˈæləbəl/",
     "pos": "Adjective",
     "meaning": "Easily shaped or influenced; adaptable; capable of being shaped by hammering or pressure",
-    "mnemonic": "MAL = bad: picture something harmful or wrong.",
+    "mnemonic": "MALLEABLE: MALLET. Can be hammered by a MALLET — shapeable.",
     "usage": "The young recruits, malleable and eager, absorbed every lesson the sergeant taught.",
     "synonyms": [
       "pliable",
@@ -17475,10 +17476,10 @@ const GRE_WORDS = [
   },
   {
     "word": "manifest",
-    "pronunciation": "/mˈænʌfˌɛst/",
-    "pos": "Noun",
+    "pronunciation": "/mˈænɪfˌɛst/",
+    "pos": "Verb",
     "meaning": "Readily perceived by the eye or the understanding; evident; obvious; to show or demonstrate plainly",
-    "mnemonic": "Picture “evident” vividly; link that image directly to manifest.",
+    "mnemonic": "MANIFEST: MANI = hand; FEST = strike. Struck by hand — evident.",
     "usage": "The symptoms of the disease, at first subtle, became manifest only when the damage was irreversible.",
     "synonyms": [
       "evident",
@@ -17493,10 +17494,10 @@ const GRE_WORDS = [
   },
   {
     "word": "martial",
-    "pronunciation": "/mˈɑrʃʌl/",
+    "pronunciation": "/mˈɑːɹʃəl/",
     "pos": "Adjective",
     "meaning": "Of or relating to war or the military; warlike; brave",
-    "mnemonic": "Picture “military” vividly; link that image directly to martial.",
+    "mnemonic": "MARTIAL: MARS = god of war. Warlike.",
     "usage": "The government, facing unrest in three provinces, declared martial law and suspended the constitution.",
     "synonyms": [
       "military",
@@ -17510,10 +17511,10 @@ const GRE_WORDS = [
   },
   {
     "word": "maudlin",
-    "pronunciation": "/mˈɔdlɪn/",
-    "pos": "Adjective",
+    "pronunciation": "/mˈɔːdlɪn/",
+    "pos": "Noun",
     "meaning": "Tearfully or weakly emotional; foolishly sentimental, especially when drunk",
-    "mnemonic": "AUD = hear: picture the word connected to sound.",
+    "mnemonic": "MAUDLIN: from Mary MAGDALENE (tearful weeping). Tearfully sentimental.",
     "usage": "The maudlin speech, full of tears and recollections, embarrassed the very people it was meant to honor.",
     "synonyms": [
       "sentimental",
@@ -17527,10 +17528,10 @@ const GRE_WORDS = [
   },
   {
     "word": "maverick",
-    "pronunciation": "/mˈævɝɪk/",
+    "pronunciation": "/mˈævɚɹˌɪk/",
     "pos": "Noun",
     "meaning": "A person who refuses to conform to the accepted rules or standards of a group; an independent, nonconformist individual",
-    "mnemonic": "Picture “nonconformist” vividly; link that image directly to maverick.",
+    "mnemonic": "MAVERICK: from Samuel Maverick, who didn't brand his cattle — an independent nonconformist.",
     "usage": "The senator, long regarded as a maverick, had voted against his own party so often that no one could predict his position on anything.",
     "synonyms": [
       "nonconformist",
@@ -17544,10 +17545,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mawkish",
-    "pronunciation": "/mˈɔkɪʃ/",
+    "pronunciation": "/mˈɔːkɪʃ/",
     "pos": "Adjective",
     "meaning": "Characterized by sickly sentimentality; weakly emotional; insipid",
-    "mnemonic": "Picture “saccharine” vividly; link that image directly to mawkish.",
+    "mnemonic": "MAWKISH: MAWK = maggot. Sickening — weakly sentimental.",
     "usage": "The film's mawkish ending, with its slow-motion reunions and swelling strings, undid two hours of genuinely interesting work.",
     "synonyms": [
       "saccharine",
@@ -17561,10 +17562,10 @@ const GRE_WORDS = [
   },
   {
     "word": "meander",
-    "pronunciation": "/miˈændɝ/",
+    "pronunciation": "/miːˈændɚ/",
     "pos": "Verb",
     "meaning": "To proceed by or take a winding or indirect course; to wander aimlessly; to speak or write in a rambling way",
-    "mnemonic": "Picture “wander” vividly; link that image directly to meander.",
+    "mnemonic": "MEANDER: the MEANDER river in Turkey winds — to wander.",
     "usage": "The essay meanders through half a dozen subjects before finally, in its last paragraph, arriving at its point.",
     "synonyms": [
       "wander",
@@ -17579,9 +17580,9 @@ const GRE_WORDS = [
   {
     "word": "mellifluous",
     "pronunciation": "/mɛlˈɪfluːəs/",
-    "pos": "Adjective",
+    "pos": "Noun",
     "meaning": "Sweetly or smoothly flowing; sweet-sounding; pleasing to the ear",
-    "mnemonic": "Picture “sweet-sounding” vividly; link that image directly to mellifluous.",
+    "mnemonic": "MELLIFLUOUS: MELLI = honey; FLU = flow. Flowing like honey — sweet-sounding.",
     "usage": "The mellifluous voice of the announcer, rich and unhurried, made even the weather report sound like poetry.",
     "synonyms": [
       "sweet-sounding",
@@ -17596,10 +17597,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mendacious",
-    "pronunciation": "/mɛndˈeɪʃʌs/",
+    "pronunciation": "/mɛndˈeɪʃəs/",
     "pos": "Adjective",
     "meaning": "Telling lies, especially habitually; false or untrue",
-    "mnemonic": "Picture “dishonest” vividly; link that image directly to mendacious.",
+    "mnemonic": "MENDACIOUS: MEND = fault (Latin mendax = liar). Lying.",
     "usage": "The witness was so thoroughly mendacious that even his own lawyer seemed uncertain what to believe.",
     "synonyms": [
       "dishonest",
@@ -17614,10 +17615,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mercurial",
-    "pronunciation": "/mɝkjˈʊriʌl/",
-    "pos": "Adjective",
+    "pronunciation": "/mɜːkjˈʊɹɪəl/",
+    "pos": "Noun",
     "meaning": "Changeable; volatile; having a lively, unpredictable temperament; relating to the god Mercury or the element mercury",
-    "mnemonic": "Picture “volatile” vividly; link that image directly to mercurial.",
+    "mnemonic": "MERCURIAL: like the god MERCURY — quick-changing, volatile.",
     "usage": "His mercurial moods, which could swing from elation to despair within an hour, exhausted everyone around him.",
     "synonyms": [
       "volatile",
@@ -17632,10 +17633,10 @@ const GRE_WORDS = [
   },
   {
     "word": "meticulous",
-    "pronunciation": "/mʌtˈɪkjʌlʌs/",
-    "pos": "Adjective",
+    "pronunciation": "/mɛtˈɪkjʊləs/",
+    "pos": "Noun",
     "meaning": "Taking or showing extreme care about minute details; precise; painstaking",
-    "mnemonic": "Picture “painstaking” vividly; link that image directly to meticulous.",
+    "mnemonic": "METICULOUS: METUS = fear. Fearful of small errors — painstaking.",
     "usage": "Her meticulous records, kept for thirty years without a single gap, proved essential to the investigation.",
     "synonyms": [
       "painstaking",
@@ -17650,10 +17651,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mettle",
-    "pronunciation": "/mˈɛtʌl/",
+    "pronunciation": "/mˈɛɾəl/",
     "pos": "Noun",
     "meaning": "Courage and fortitude; spirit; temperament; the quality of a person's character",
-    "mnemonic": "Picture “courage” vividly; link that image directly to mettle.",
+    "mnemonic": "METTLE: a METAL METTLE — strength of spirit, courage.",
     "usage": "The crisis, whatever else it did, showed what mettle the young staff was made of.",
     "synonyms": [
       "courage",
@@ -17667,10 +17668,10 @@ const GRE_WORDS = [
   },
   {
     "word": "mettlesome",
-    "pronunciation": "/mˈɛɾəlsʌm/",
-    "pos": "Adjective",
+    "pronunciation": "/mˈɛɾəlsˌʌm/",
+    "pos": "Noun",
     "meaning": "Full of spirit and courage; spirited; vigorous; high-spirited",
-    "mnemonic": "Picture “spirited” vividly; link that image directly to mettlesome.",
+    "mnemonic": "METTLESOME: full of METTLE — spirited.",
     "usage": "The mettlesome young colt, refusing every attempt to tame him, eventually became the fastest horse on the track.",
     "synonyms": [
       "spirited",
@@ -17683,4 +17684,6 @@ const GRE_WORDS = [
       "listless"
     ]
   }
+]
+  
 ]
