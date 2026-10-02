@@ -248,8 +248,11 @@ let syncBusy = false;
 // and shuffles, and persisted in session state.
 let allWordsOrder = [];
 
+// Saved position per filter so switching tabs remembers where you were.
+let currentByFilter = { all: 0, known: 0, unknown: 0 };
+
 const GIST_FILE = 'gre-status.json';
-const SESSION_VERSION = 1;
+const SESSION_VERSION = 2;
 const SYNC_DEBOUNCE_MS = 400;
 
 let session = loadSessionState();
@@ -258,7 +261,7 @@ const BAKED_GIST_URL = 'PASTE_YOUR_GIST_URL_HERE';
 function defaultSessionState() {
   return {
     version: SESSION_VERSION,
-    current: 0,
+    currentByFilter: { all: 0, known: 0, unknown: 0 },
     filter: 'all',
     flipped: false,
     queue: [],
@@ -269,10 +272,32 @@ function defaultSessionState() {
 function loadSessionState() {
   try {
     const saved = JSON.parse(localStorage.getItem('gre-session') || 'null');
-    if (!saved || saved.version !== SESSION_VERSION) return defaultSessionState();
+    if (!saved) return defaultSessionState();
+
+    // Migrate from v1 (single shared `current`) to v2 (per-filter positions).
+    if (saved.version === 1 || saved.version === undefined) {
+      const c = Number(saved.current) || 0;
+      return {
+        version: SESSION_VERSION,
+        currentByFilter: { all: c, known: c, unknown: c },
+        filter: ['all', 'known', 'unknown'].includes(saved.filter) ? saved.filter : 'all',
+        flipped: Boolean(saved.flipped),
+        queue: Array.isArray(saved.queue) ? saved.queue : [],
+        allOrder: Array.isArray(saved.allOrder) ? saved.allOrder : []
+      };
+    }
+
+    if (saved.version !== SESSION_VERSION) return defaultSessionState();
+
     return {
-      ...defaultSessionState(),
-      ...saved,
+      version: SESSION_VERSION,
+      currentByFilter: {
+        all: Number(saved.currentByFilter?.all) || 0,
+        known: Number(saved.currentByFilter?.known) || 0,
+        unknown: Number(saved.currentByFilter?.unknown) || 0
+      },
+      filter: ['all', 'known', 'unknown'].includes(saved.filter) ? saved.filter : 'all',
+      flipped: Boolean(saved.flipped),
       queue: Array.isArray(saved.queue) ? saved.queue : [],
       allOrder: Array.isArray(saved.allOrder) ? saved.allOrder : []
     };
@@ -309,9 +334,12 @@ function initializeAllOrder(savedOrder) {
 }
 
 function saveSessionState() {
+  // Snapshot the current position into the right per-filter slot.
+  currentByFilter[filter] = current;
+
   session = {
     version: SESSION_VERSION,
-    current,
+    currentByFilter,
     filter,
     flipped,
     queue: queue.map(e => e.word),
@@ -325,6 +353,12 @@ function applySessionState(saved) {
 
   initializeAllOrder(saved.allOrder);
 
+  currentByFilter = {
+    all: Number(saved.currentByFilter?.all) || 0,
+    known: Number(saved.currentByFilter?.known) || 0,
+    unknown: Number(saved.currentByFilter?.unknown) || 0
+  };
+
   const byWord = new Map(GRE_WORDS.map(e => [e.word, e]));
   const restoredQueue = Array.isArray(saved.queue)
     ? saved.queue.map(word => byWord.get(word)).filter(Boolean)
@@ -333,8 +367,14 @@ function applySessionState(saved) {
   if (restoredQueue.length > 0) {
     queue = restoredQueue;
     filter = ['all', 'known', 'unknown'].includes(saved.filter) ? saved.filter : 'all';
-    current = Math.min(Math.max(Number(saved.current) || 0, 0), queue.length - 1);
     flipped = Boolean(saved.flipped);
+
+    // Use the per-filter position for the restored filter.
+    current = Math.min(
+      Math.max(currentByFilter[filter] || 0, 0),
+      queue.length - 1
+    );
+    currentByFilter[filter] = current;
 
     document.querySelectorAll('.filters button').forEach(b =>
       b.classList.toggle('active', b.dataset.filter === filter)
@@ -344,7 +384,6 @@ function applySessionState(saved) {
     return true;
   }
 
-  initializeAllOrder(saved.allOrder);
   return false;
 }
 
@@ -421,7 +460,10 @@ async function loadFromGist(silent = false) {
     saveLocalStatus();
 
     if (remote.session) {
-      const restored = applySessionState(remote.session);
+      // Normalize the remote session through the same migration path
+      // used for localStorage.
+      const normalized = normalizeSession(remote.session);
+      const restored = applySessionState(normalized);
       if (restored) {
         setSyncStatus(`Loaded ${Object.keys(status).length} statuses and session from Gist.`, 'ok');
         return true;
@@ -436,6 +478,39 @@ async function loadFromGist(silent = false) {
     setSyncStatus(`Load failed: ${error.message}`, 'err');
     return false;
   }
+}
+
+// Normalize an arbitrary session object (from Gist, potentially an older
+// schema) into the current SESSION_VERSION shape.
+function normalizeSession(saved) {
+  if (!saved || typeof saved !== 'object') return defaultSessionState();
+
+  if (saved.version === 1 || saved.version === undefined) {
+    const c = Number(saved.current) || 0;
+    return {
+      version: SESSION_VERSION,
+      currentByFilter: { all: c, known: c, unknown: c },
+      filter: ['all', 'known', 'unknown'].includes(saved.filter) ? saved.filter : 'all',
+      flipped: Boolean(saved.flipped),
+      queue: Array.isArray(saved.queue) ? saved.queue : [],
+      allOrder: Array.isArray(saved.allOrder) ? saved.allOrder : []
+    };
+  }
+
+  if (saved.version !== SESSION_VERSION) return defaultSessionState();
+
+  return {
+    version: SESSION_VERSION,
+    currentByFilter: {
+      all: Number(saved.currentByFilter?.all) || 0,
+      known: Number(saved.currentByFilter?.known) || 0,
+      unknown: Number(saved.currentByFilter?.unknown) || 0
+    },
+    filter: ['all', 'known', 'unknown'].includes(saved.filter) ? saved.filter : 'all',
+    flipped: Boolean(saved.flipped),
+    queue: Array.isArray(saved.queue) ? saved.queue : [],
+    allOrder: Array.isArray(saved.allOrder) ? saved.allOrder : []
+  };
 }
 
 async function saveToGist(silent = false) {
@@ -530,7 +605,13 @@ function buildQueue() {
     queue = allWordsOrder.map(w => byWord.get(w)).filter(Boolean);
   }
 
-  current = Math.min(current, Math.max(queue.length - 1, 0));
+  // Restore the saved position for this filter, clamped to current length.
+  current = Math.min(
+    Math.max(currentByFilter[filter] || 0, 0),
+    Math.max(queue.length - 1, 0)
+  );
+  currentByFilter[filter] = current;
+
   flipped = false;
   render();
   persistState();
@@ -589,6 +670,7 @@ function flip() {
 function next() {
   if (!queue.length) return;
   current = (current + 1) % queue.length;
+  currentByFilter[filter] = current;
   flipped = false;
   persistState();
   render();
@@ -597,6 +679,7 @@ function next() {
 function prev() {
   if (!queue.length) return;
   current = (current - 1 + queue.length) % queue.length;
+  currentByFilter[filter] = current;
   flipped = false;
   persistState();
   render();
@@ -635,6 +718,7 @@ function shuffle() {
   }
 
   current = 0;
+  currentByFilter[filter] = 0;
   flipped = false;
   persistState();
   render();
@@ -647,6 +731,7 @@ function reset() {
   saveLocalStatus();
 
   initializeAllOrder([]);
+  currentByFilter = { all: 0, known: 0, unknown: 0 };
   filter = 'all';
   current = 0;
   flipped = false;
@@ -655,6 +740,11 @@ function reset() {
 }
 
 function setFilter(f) {
+  if (f === filter) return;
+
+  // Remember where we were on the outgoing filter before switching.
+  currentByFilter[filter] = current;
+
   filter = f;
 
   document.querySelectorAll('.filters button').forEach(b =>
