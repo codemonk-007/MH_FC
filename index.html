@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<title>GRE 1000 Flashcards v2</title>
+<title>GRE 1000 Flashcards v3</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { overscroll-behavior-x: none; }
@@ -32,8 +32,8 @@
   .progress-fill { height: 100%; background: linear-gradient(90deg, #6366f1, #8b5cf6); width: 0%; transition: width 0.3s ease; }
   .card {
     position: relative;
-    background: #1e293b; border-radius: 16px; padding: 28px 24px;
-    min-height: 400px; display: flex; flex-direction: column; justify-content: center;
+    background: #1e293b; border-radius: 16px; padding: 32px 28px;
+    min-height: 440px; display: flex; flex-direction: column;
     cursor: pointer; box-shadow: 0 4px 24px rgba(0,0,0,0.3);
     transition: transform 0.15s ease; user-select: none; overflow-y: auto;
     touch-action: pan-y;
@@ -51,21 +51,101 @@
     will-change: opacity;
   }
   .swipe-icon svg { width: 100%; height: 100%; display: block; }
-  .front { text-align: center; position: relative; z-index: 1; }
-  .word { font-size: 40px; font-weight: 700; color: #f8fafc; letter-spacing: -0.5px; line-height: 1.2; }
-  .hint { font-size: 13px; color: #64748b; margin-top: 20px; }
-  .back { text-align: left; width: 100%; position: relative; z-index: 1; }
-  .back .word-sm { font-size: 26px; font-weight: 700; color: #a5b4fc; margin-bottom: 18px; text-align: center; }
-  .section { margin-bottom: 16px; }
-  .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px; color: #64748b; margin-bottom: 6px; font-weight: 600; }
-  .value { font-size: 15px; line-height: 1.55; color: #e2e8f0; }
-  .value.meaning { font-size: 16px; color: #f1f5f9; }
-  .value.usage { font-style: italic; color: #cbd5e1; padding-left: 8px; border-left: 2px solid #475569; }
-  .rel-item { margin-bottom: 8px; padding-left: 10px; border-left: 2px solid #334155; }
-  .rel-word { font-weight: 600; font-size: 14px; }
-  .rel-word.syn { color: #86efac; }
-  .rel-word.ant { color: #fca5a5; }
-  .rel-sentence { font-size: 13px; color: #94a3b8; font-style: italic; margin-top: 2px; line-height: 1.45; }
+
+  /* ---------- CARD CONTENT ---------- */
+  .card-body {
+    position: relative; z-index: 1;
+    display: flex; flex-direction: column;
+    flex: 1; justify-content: center;
+  }
+
+  /* FRONT */
+  .front {
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center; gap: 14px;
+  }
+  .front .word {
+    font-size: 44px; font-weight: 700; color: #f8fafc;
+    letter-spacing: -0.8px; line-height: 1.15;
+  }
+  .front .word-meta {
+    font-size: 15px; color: #94a3b8; letter-spacing: 0.2px;
+  }
+  .front .word-meta .pron {
+    color: #a5b4fc; font-family: 'Charis SIL', 'Doulos SIL', 'Times New Roman', serif;
+  }
+  .front .word-meta .sep { color: #475569; margin: 0 8px; }
+  .front .hint {
+    font-size: 12px; color: #64748b; margin-top: 24px;
+  }
+
+  /* BACK */
+  .back {
+    display: flex; flex-direction: column;
+    align-items: flex-start; text-align: left;
+    width: 100%; gap: 18px;
+  }
+  .back .word-header {
+    width: 100%; text-align: center;
+    padding-bottom: 16px; border-bottom: 1px solid #334155;
+  }
+  .back .word {
+    font-size: 30px; font-weight: 700; color: #f8fafc;
+    letter-spacing: -0.4px; line-height: 1.15;
+  }
+  .back .word-meta {
+    margin-top: 6px; font-size: 14px; color: #94a3b8;
+  }
+  .back .word-meta .pron {
+    color: #a5b4fc; font-family: 'Charis SIL', 'Doulos SIL', 'Times New Roman', serif;
+  }
+  .back .word-meta .sep { color: #475569; margin: 0 6px; }
+
+  .section { width: 100%; }
+  .section-label {
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 1.6px; text-transform: uppercase;
+    color: #64748b; margin-bottom: 6px;
+  }
+  .section-value {
+    font-size: 15px; line-height: 1.55; color: #e2e8f0;
+  }
+  .section-value.meaning { color: #f1f5f9; font-size: 16px; }
+  .section-value.usage {
+    color: #cbd5e1; font-style: italic;
+    padding-left: 12px; border-left: 3px solid #6366f1;
+  }
+  .section-value.mnemonic {
+    color: #e2e8f0;
+    background: rgba(99, 102, 241, 0.10);
+    border-left: 3px solid #8b5cf6;
+    padding: 10px 14px; border-radius: 6px;
+    font-size: 15px; line-height: 1.55;
+  }
+  .chip-row {
+    display: flex; flex-wrap: wrap; gap: 6px 8px;
+    align-items: baseline;
+  }
+  .chip {
+    display: inline-block;
+    font-size: 14px; font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 12px;
+    line-height: 1.5;
+  }
+  .chip.syn {
+    color: #86efac;
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.25);
+  }
+  .chip.ant {
+    color: #fca5a5;
+    background: rgba(220, 38, 38, 0.12);
+    border: 1px solid rgba(220, 38, 38, 0.25);
+  }
+
+  /* controls */
   nav { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
   button {
     background: #334155; color: #e2e8f0; border: none; padding: 10px 16px;
@@ -147,17 +227,20 @@
     pointer-events: none;
   }
   @media (max-width: 480px) {
-    .word { font-size: 30px; }
-    .card { padding: 20px 16px; min-height: 340px; }
+    .front .word { font-size: 34px; }
+    .back .word { font-size: 24px; }
+    .card { padding: 24px 18px; min-height: 380px; }
     button { font-size: 13px; padding: 9px 12px; }
     .swipe-icon { width: 130px; height: 130px; }
+    .section-value { font-size: 14px; }
+    .section-value.meaning { font-size: 15px; }
   }
 </style>
 </head>
 <body>
 <div class="app">
   <header>
-    <h1>GRE 1000 <span class="version-badge">v2</span></h1>
+    <h1>GRE 1000 <span class="version-badge">v3</span></h1>
     <div class="header-right">
       <div class="stats" id="stats">loading…</div>
       <button class="settings-btn" onclick="openSettings()" title="GitHub sync settings">⚙ Sync</button>
@@ -179,7 +262,9 @@
         </svg>
       </div>
     </div>
-    <div id="cardContent"><div class="front"><div class="word">Loading…</div></div></div>
+    <div class="card-body" id="cardContent">
+      <div class="front"><div class="word">Loading…</div></div>
+    </div>
   </div>
 
   <div class="filters">
@@ -233,11 +318,11 @@
   </div>
 </div>
 
-<div class="debug-badge" id="debugBadge">v2 · loading</div>
+<div class="debug-badge" id="debugBadge">v3 · loading</div>
 
 <script src="data.js"></script>
 <script>
-const CODE_VERSION = 2;
+const CODE_VERSION = 3;
 
 let queue = [];
 let current = 0;
@@ -611,6 +696,99 @@ function buildQueue() {
   persistState();
 }
 
+// ---------- Rendering ----------
+
+// Escape HTML in user-supplied strings (meaning, usage, etc.)
+function esc(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// Normalize synonym/antonym entries: accept either plain strings
+// or { word, sentence } objects. We only render the word.
+function relWords(list) {
+  if (!Array.isArray(list)) return [];
+  return list
+    .map(item => {
+      if (typeof item === 'string') return item.trim();
+      if (item && typeof item === 'object' && item.word) return String(item.word).trim();
+      return '';
+    })
+    .filter(Boolean);
+}
+
+function renderWordMeta(e) {
+  const parts = [];
+  if (e.pronunciation) {
+    parts.push(`<span class="pron">${esc(e.pronunciation)}</span>`);
+  }
+  if (e.pos) {
+    parts.push(`<span class="pos">${esc(e.pos)}</span>`);
+  }
+  if (!parts.length) return '';
+  return parts.join('<span class="sep">•</span>');
+}
+
+function renderFront(e) {
+  const meta = renderWordMeta(e);
+  return `
+    <div class="front">
+      <div class="word">${esc(e.word)}</div>
+      ${meta ? `<div class="word-meta">${meta}</div>` : ''}
+      <div class="hint">tap to flip • swipe right = known • swipe left = unknown</div>
+    </div>`;
+}
+
+function renderBack(e) {
+  const meta = renderWordMeta(e);
+  const syns = relWords(e.synonyms);
+  const ants = relWords(e.antonyms);
+
+  const synChips = syns.map(w => `<span class="chip syn">${esc(w)}</span>`).join('');
+  const antChips = ants.map(w => `<span class="chip ant">${esc(w)}</span>`).join('');
+
+  return `
+    <div class="back">
+      <div class="word-header">
+        <div class="word">${esc(e.word)}</div>
+        ${meta ? `<div class="word-meta">${meta}</div>` : ''}
+      </div>
+
+      <div class="section">
+        <div class="section-label">Meaning</div>
+        <div class="section-value meaning">${esc(e.meaning)}</div>
+      </div>
+
+      ${e.mnemonic ? `
+        <div class="section">
+          <div class="section-label">🧠 Memory trick</div>
+          <div class="section-value mnemonic">${esc(e.mnemonic)}</div>
+        </div>` : ''}
+
+      ${e.usage ? `
+        <div class="section">
+          <div class="section-label">Usage</div>
+          <div class="section-value usage">"${esc(e.usage)}"</div>
+        </div>` : ''}
+
+      ${synChips ? `
+        <div class="section">
+          <div class="section-label">Synonyms</div>
+          <div class="chip-row">${synChips}</div>
+        </div>` : ''}
+
+      ${antChips ? `
+        <div class="section">
+          <div class="section-label">${ants.length > 1 ? 'Antonyms' : 'Antonym'}</div>
+          <div class="chip-row">${antChips}</div>
+        </div>` : ''}
+    </div>`;
+}
+
 function render() {
   const cardContent = document.getElementById('cardContent');
   const knownCount = Object.values(status).filter(v => v === 'known').length;
@@ -629,32 +807,14 @@ function render() {
   }
 
   const e = queue[current];
-
-  if (!flipped) {
-    cardContent.innerHTML = `<div class="front"><div class="word">${e.word}</div><div class="hint">tap to flip • swipe right = known • swipe left = unknown</div></div>`;
-  } else {
-    const syns = e.synonyms.map(s =>
-      `<div class="rel-item"><div class="rel-word syn">${s.word}</div><div class="rel-sentence">${s.sentence}</div></div>`
-    ).join('');
-
-    const ants = e.antonyms.map(a =>
-      `<div class="rel-item"><div class="rel-word ant">${a.word}</div><div class="rel-sentence">${a.sentence}</div></div>`
-    ).join('');
-
-    cardContent.innerHTML = `
-      <div class="back">
-        <div class="word-sm">${e.word}</div>
-        <div class="section"><div class="label">Meaning</div><div class="value meaning">${e.meaning}</div></div>
-        <div class="section"><div class="label">Usage</div><div class="value usage">"${e.usage}"</div></div>
-        <div class="section"><div class="label">Synonyms</div>${syns}</div>
-        <div class="section"><div class="label">Antonyms</div>${ants}</div>
-      </div>`;
-  }
+  cardContent.innerHTML = flipped ? renderBack(e) : renderFront(e);
 
   document.getElementById('knownBtn').classList.toggle('active', status[e.word] === 'known');
   document.getElementById('unknownBtn').classList.toggle('active', status[e.word] === 'unknown');
   updateDebugBadge();
 }
+
+// ---------- Navigation ----------
 
 function flip() {
   if (!queue.length || swipeCommitting) return;
@@ -745,7 +905,7 @@ function setFilter(f) {
   buildQueue();
 }
 
-// --- Swipe visual feedback ---
+// ---------- Swipe visual feedback ----------
 const TOUCH_THRESHOLD = 60;
 const TOUCH_MAX = 110;
 const WHEEL_THRESHOLD = 90;
@@ -1015,7 +1175,7 @@ function closeSettingsOnBackdrop(event) {
   if (event.target.id === 'settingsModal') closeSettings();
 }
 
-// --- Initialization LAST ---
+// ---------- Initialization ----------
 console.info('[GRE 1000] Loading code version', CODE_VERSION);
 
 if (typeof GRE_WORDS === 'undefined' || !Array.isArray(GRE_WORDS)) {
