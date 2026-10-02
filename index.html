@@ -244,8 +244,13 @@ let status = JSON.parse(localStorage.getItem('gre-status') || '{}');
 let syncTimer = null;
 let syncBusy = false;
 
+// Order of words for the "All" filter. Preserved across filter switches
+// and shuffles, and persisted in session state.
+let allWordsOrder = [];
+
 const GIST_FILE = 'gre-status.json';
 const SESSION_VERSION = 1;
+const SYNC_DEBOUNCE_MS = 400;
 
 let session = loadSessionState();
 const BAKED_GIST_URL = 'PASTE_YOUR_GIST_URL_HERE';
@@ -256,7 +261,8 @@ function defaultSessionState() {
     current: 0,
     filter: 'all',
     flipped: false,
-    queue: []
+    queue: [],
+    allOrder: []
   };
 }
 
@@ -267,11 +273,39 @@ function loadSessionState() {
     return {
       ...defaultSessionState(),
       ...saved,
-      queue: Array.isArray(saved.queue) ? saved.queue : []
+      queue: Array.isArray(saved.queue) ? saved.queue : [],
+      allOrder: Array.isArray(saved.allOrder) ? saved.allOrder : []
     };
   } catch {
     return defaultSessionState();
   }
+}
+
+// Rebuild the canonical "All" order. Uses the saved order when valid,
+// appends any new words that were added to data.js since, and falls back
+// to the data.js order when nothing is saved.
+function initializeAllOrder(savedOrder) {
+  const byWord = new Map(GRE_WORDS.map(e => [e.word, e]));
+  const result = [];
+  const seen = new Set();
+
+  if (Array.isArray(savedOrder)) {
+    for (const w of savedOrder) {
+      if (byWord.has(w) && !seen.has(w)) {
+        result.push(w);
+        seen.add(w);
+      }
+    }
+  }
+
+  for (const e of GRE_WORDS) {
+    if (!seen.has(e.word)) {
+      result.push(e.word);
+      seen.add(e.word);
+    }
+  }
+
+  allWordsOrder = result;
 }
 
 function saveSessionState() {
@@ -280,13 +314,16 @@ function saveSessionState() {
     current,
     filter,
     flipped,
-    queue: queue.map(e => e.word)
+    queue: queue.map(e => e.word),
+    allOrder: allWordsOrder
   };
   localStorage.setItem('gre-session', JSON.stringify(session));
 }
 
 function applySessionState(saved) {
   if (!saved || saved.version !== SESSION_VERSION) return false;
+
+  initializeAllOrder(saved.allOrder);
 
   const byWord = new Map(GRE_WORDS.map(e => [e.word, e]));
   const restoredQueue = Array.isArray(saved.queue)
@@ -307,6 +344,7 @@ function applySessionState(saved) {
     return true;
   }
 
+  initializeAllOrder(saved.allOrder);
   return false;
 }
 
@@ -459,7 +497,7 @@ function queueGistSave() {
   syncTimer = setTimeout(() => {
     const { url, token } = getSyncConfig();
     if (url && token) saveToGist(true);
-  }, 1200);
+  }, SYNC_DEBOUNCE_MS);
 }
 
 function persistState() {
@@ -482,9 +520,15 @@ function saveStatus() {
 }
 
 function buildQueue() {
-  if (filter === 'known') queue = GRE_WORDS.filter(e => status[e.word] === 'known');
-  else if (filter === 'unknown') queue = GRE_WORDS.filter(e => status[e.word] === 'unknown');
-  else queue = GRE_WORDS.slice();
+  if (filter === 'known') {
+    queue = GRE_WORDS.filter(e => status[e.word] === 'known');
+  } else if (filter === 'unknown') {
+    queue = GRE_WORDS.filter(e => status[e.word] === 'unknown');
+  } else {
+    // Preserve the user's "All" order (may be shuffled).
+    const byWord = new Map(GRE_WORDS.map(e => [e.word, e]));
+    queue = allWordsOrder.map(w => byWord.get(w)).filter(Boolean);
+  }
 
   current = Math.min(current, Math.max(queue.length - 1, 0));
   flipped = false;
@@ -569,10 +613,25 @@ function mark(s) {
   next();
 }
 
-function shuffle() {
-  for (let i = queue.length - 1; i > 0; i--) {
+function shuffleArray(arr) {
+  const out = arr.slice();
+  for (let i = out.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [queue[i], queue[j]] = [queue[j], queue[i]];
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+function shuffle() {
+  if (filter === 'all') {
+    // Shuffle the canonical "All" order so it persists across filter switches.
+    allWordsOrder = shuffleArray(allWordsOrder);
+
+    const byWord = new Map(GRE_WORDS.map(e => [e.word, e]));
+    queue = allWordsOrder.map(w => byWord.get(w)).filter(Boolean);
+  } else {
+    // Shuffle the current filtered view in place.
+    queue = shuffleArray(queue);
   }
 
   current = 0;
@@ -585,15 +644,14 @@ function reset() {
   if (!confirm('Reset all progress?')) return;
 
   status = {};
-  saveStatus();
+  saveLocalStatus();
 
+  initializeAllOrder([]);
   filter = 'all';
-  queue = GRE_WORDS.slice();
   current = 0;
   flipped = false;
 
-  persistState();
-  render();
+  buildQueue();
 }
 
 function setFilter(f) {
@@ -608,7 +666,7 @@ function setFilter(f) {
 
 // --- Swipe visual feedback ---
 const TOUCH_THRESHOLD = 60;    // px on touchscreens
-const TOUCH_MAX = 110;         // px for full color on touch — smaller = faster
+const TOUCH_MAX = 110;         // px for full color on touch
 
 const WHEEL_THRESHOLD = 90;    // accumulated deltaX from trackpad
 const WHEEL_MAX = 220;         // accumulated deltaX for full color
@@ -641,14 +699,10 @@ function updateSwipeVisual(dx, max) {
     return;
   }
 
-  // Saturate faster so short flicks still show real color.
   const raw = Math.min(1, absDx / max);
   const intensity = Math.pow(raw, 0.7);
 
-  // Background goes fully opaque at max intensity.
   const bgAlpha = intensity;
-
-  // Icon fades in almost immediately so it's visible even on flicks.
   const iconAlpha = Math.min(1, intensity * 1.5);
 
   if (dx > 0) {
@@ -685,12 +739,9 @@ function commitSwipe(direction) {
   }
   icon.style.opacity = '1';
 
-  // Force a repaint so the flash is actually visible before we advance.
-  // Reading layout properties flushes pending style + paint on all engines.
   void overlay.offsetHeight;
   void icon.offsetHeight;
 
-  // Double rAF: guarantees at least one full paint frame with the flash.
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
       setTimeout(() => {
